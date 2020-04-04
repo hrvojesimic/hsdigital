@@ -1,0 +1,158 @@
+body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+
+main {
+  max-width: 45em;
+  margin-left: 250px;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media only screen and (max-width : 992px) {
+  main {
+    margin-left: auto;
+  }
+}
+
+.sidenav {
+  width: 250px;
+  box-shadow: none;
+}
+.sidenav li>a {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+blockquote {
+  font-size: 1.35rem;
+  font-style: italic;
+}
+
+li {
+  line-height: 1.5em;
+  font-size: 1.2rem;
+}
+
+em {
+  color: maroon;
+}
+
+figure {
+  margin-top: 0;
+}
+figure > img {
+  width: 100%;
+  object-fit: cover;
+  height: 25em;
+  object-position: bottom;
+}
+
+figcaption {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.progress {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .progress {
+    flex-direction: column;
+  }
+}
+
+.progress > * {
+  border: 1px solid lightgray;
+  padding: 0.5em 0.75em 0.5em 0.75em;
+  margin: 5px;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.vly {
+  text-align: center;
+}
+
+del {
+  opacity: 50%;
+}
+
+.low-key {
+  font-family: "Open Sans";
+  font-size: 90%;
+}
+
+footer {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.dropcap {
+  float: left;
+  margin-left: 0;
+  margin-right: 0.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 330%;
+  line-height: 85%;
+  font-weight: 700;
+}
+
+/*--- RESPONSIVENESS ---*/
+.onlyMob {
+  display: inherit !important;
+}
+.exceptMob {
+  display: none !important;
+}
+
+@media screen and (min-width: 600px) {
+  .onlyMob {
+    display: none !important; 
+  }
+  .exceptMob {
+    display: inherit !important;
+  }
+}

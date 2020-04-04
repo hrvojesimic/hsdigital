@@ -1,0 +1,7282 @@
+CountryName,CountryCode,Date,StringencyIndex
+Afghanistan,AFG,2020-01-01,0
+Angola,AGO,2020-01-01,0
+Argentina,ARG,2020-01-01,0
+Australia,AUS,2020-01-01,7
+Austria,AUT,2020-01-01,0
+Belgium,BEL,2020-01-01,0
+Bulgaria,BGR,2020-01-01,0
+Belize,BLZ,2020-01-01,0
+Bermuda,BMU,2020-01-01,0
+Bolivia,BOL,2020-01-01,0
+Brazil,BRA,2020-01-01,0
+Barbados,BRB,2020-01-01,0
+Botswana,BWA,2020-01-01,19
+Canada,CAN,2020-01-01,0
+Switzerland,CHE,2020-01-01,0
+Chile,CHL,2020-01-01,0
+China,CHN,2020-01-01,0
+Colombia,COL,2020-01-01,0
+Costa Rica,CRI,2020-01-01,0
+Czech Republic,CZE,2020-01-01,0
+Germany,DEU,2020-01-01,0
+Dominican Republic,DOM,2020-01-01,0
+Algeria,DZA,2020-01-01,0
+Ecuador,ECU,2020-01-01,0
+Spain,ESP,2020-01-01,0
+Finland,FIN,2020-01-01,0
+France,FRA,2020-01-01,0
+United Kingdom,GBR,2020-01-01,0
+Greece,GRC,2020-01-01,0
+Guatemala,GTM,2020-01-01,0
+Guyana,GUY,2020-01-01,0
+Hong Kong,HKG,2020-01-01,14
+Honduras,HND,2020-01-01,0
+Croatia,HRV,2020-01-01,0
+Hungary,HUN,2020-01-01,0
+Indonesia,IDN,2020-01-01,0
+India,IND,2020-01-01,0
+Ireland,IRL,2020-01-01,0
+Iran,IRN,2020-01-01,0
+Iraq,IRQ,2020-01-01,0
+Iceland,ISL,2020-01-01,5
+Israel,ISR,2020-01-01,0
+Italy,ITA,2020-01-01,0
+Jordan,JOR,2020-01-01,0
+Japan,JPN,2020-01-01,0
+Kazakhstan,KAZ,2020-01-01,0
+Kenya,KEN,2020-01-01,0
+South Korea,KOR,2020-01-01,0
+Sri Lanka,LKA,2020-01-01,0
+Macao,MAC,2020-01-01,14
+Mexico,MEX,2020-01-01,0
+Myanmar,MMR,2020-01-01,0
+Malaysia,MYS,2020-01-01,0
+Nigeria,NGA,2020-01-01,5
+Nicaragua,NIC,2020-01-01,0
+Netherlands,NLD,2020-01-01,0
+Norway,NOR,2020-01-01,0
+New Zealand,NZL,2020-01-01,0
+Pakistan,PAK,2020-01-01,0
+Panama,PAN,2020-01-01,0
+Papua New Guinea,PNG,2020-01-01,0
+Poland,POL,2020-01-01,0
+Portugal,PRT,2020-01-01,0
+Qatar,QAT,2020-01-01,0
+Romania,ROU,2020-01-01,0
+Russia,RUS,2020-01-01,0
+Singapore,SGP,2020-01-01,0
+El Salvador,SLV,2020-01-01,0
+Serbia,SRB,2020-01-01,0
+Slovak Republic,SVK,2020-01-01,0
+Slovenia,SVN,2020-01-01,0
+Sweden,SWE,2020-01-01,0
+Syria,SYR,2020-01-01,0
+Thailand,THA,2020-01-01,0
+Tanzania,TZA,2020-01-01,0
+Uganda,UGA,2020-01-01,0
+United States,USA,2020-01-01,0
+Venezuela,VEN,2020-01-01,0
+South Africa,ZAF,2020-01-01,0
+Zimbabwe,ZWE,2020-01-01,0
+Taiwan,TWN,2020-01-01,0
+Afghanistan,AFG,2020-01-02,0
+Angola,AGO,2020-01-02,0
+Argentina,ARG,2020-01-02,0
+Australia,AUS,2020-01-02,7
+Austria,AUT,2020-01-02,0
+Belgium,BEL,2020-01-02,0
+Bulgaria,BGR,2020-01-02,0
+Belize,BLZ,2020-01-02,0
+Bermuda,BMU,2020-01-02,0
+Bolivia,BOL,2020-01-02,0
+Brazil,BRA,2020-01-02,0
+Barbados,BRB,2020-01-02,0
+Botswana,BWA,2020-01-02,19
+Canada,CAN,2020-01-02,0
+Switzerland,CHE,2020-01-02,0
+Chile,CHL,2020-01-02,0
+China,CHN,2020-01-02,0
+Colombia,COL,2020-01-02,0
+Costa Rica,CRI,2020-01-02,0
+Czech Republic,CZE,2020-01-02,0
+Germany,DEU,2020-01-02,0
+Dominican Republic,DOM,2020-01-02,0
+Algeria,DZA,2020-01-02,0
+Ecuador,ECU,2020-01-02,0
+Spain,ESP,2020-01-02,0
+Finland,FIN,2020-01-02,0
+France,FRA,2020-01-02,0
+United Kingdom,GBR,2020-01-02,0
+Greece,GRC,2020-01-02,0
+Guatemala,GTM,2020-01-02,0
+Guyana,GUY,2020-01-02,0
+Hong Kong,HKG,2020-01-02,14
+Honduras,HND,2020-01-02,0
+Croatia,HRV,2020-01-02,0
+Hungary,HUN,2020-01-02,0
+Indonesia,IDN,2020-01-02,0
+India,IND,2020-01-02,0
+Ireland,IRL,2020-01-02,0
+Iran,IRN,2020-01-02,0
+Iraq,IRQ,2020-01-02,0
+Iceland,ISL,2020-01-02,5
+Israel,ISR,2020-01-02,0
+Italy,ITA,2020-01-02,0
+Jordan,JOR,2020-01-02,0
+Japan,JPN,2020-01-02,0
+Kazakhstan,KAZ,2020-01-02,0
+Kenya,KEN,2020-01-02,0
+South Korea,KOR,2020-01-02,0
+Sri Lanka,LKA,2020-01-02,0
+Macao,MAC,2020-01-02,14
+Mexico,MEX,2020-01-02,0
+Myanmar,MMR,2020-01-02,0
+Malaysia,MYS,2020-01-02,0
+Nigeria,NGA,2020-01-02,5
+Nicaragua,NIC,2020-01-02,0
+Netherlands,NLD,2020-01-02,0
+Norway,NOR,2020-01-02,0
+New Zealand,NZL,2020-01-02,0
+Pakistan,PAK,2020-01-02,0
+Panama,PAN,2020-01-02,0
+Papua New Guinea,PNG,2020-01-02,0
+Poland,POL,2020-01-02,0
+Portugal,PRT,2020-01-02,0
+Qatar,QAT,2020-01-02,0
+Romania,ROU,2020-01-02,0
+Russia,RUS,2020-01-02,0
+Singapore,SGP,2020-01-02,24
+El Salvador,SLV,2020-01-02,0
+Serbia,SRB,2020-01-02,0
+Slovak Republic,SVK,2020-01-02,0
+Slovenia,SVN,2020-01-02,0
+Sweden,SWE,2020-01-02,0
+Syria,SYR,2020-01-02,0
+Thailand,THA,2020-01-02,0
+Tanzania,TZA,2020-01-02,0
+Uganda,UGA,2020-01-02,0
+United States,USA,2020-01-02,0
+Venezuela,VEN,2020-01-02,0
+Vietnam,VNM,2020-01-02,0
+South Africa,ZAF,2020-01-02,0
+Zimbabwe,ZWE,2020-01-02,0
+Taiwan,TWN,2020-01-02,0
+Afghanistan,AFG,2020-01-03,0
+Angola,AGO,2020-01-03,0
+Argentina,ARG,2020-01-03,0
+Australia,AUS,2020-01-03,7
+Austria,AUT,2020-01-03,0
+Belgium,BEL,2020-01-03,0
+Bulgaria,BGR,2020-01-03,0
+Belize,BLZ,2020-01-03,0
+Bermuda,BMU,2020-01-03,0
+Bolivia,BOL,2020-01-03,0
+Brazil,BRA,2020-01-03,0
+Barbados,BRB,2020-01-03,0
+Botswana,BWA,2020-01-03,19
+Canada,CAN,2020-01-03,0
+Switzerland,CHE,2020-01-03,0
+Chile,CHL,2020-01-03,0
+China,CHN,2020-01-03,0
+Colombia,COL,2020-01-03,0
+Costa Rica,CRI,2020-01-03,0
+Czech Republic,CZE,2020-01-03,0
+Germany,DEU,2020-01-03,0
+Dominican Republic,DOM,2020-01-03,0
+Algeria,DZA,2020-01-03,0
+Ecuador,ECU,2020-01-03,0
+Spain,ESP,2020-01-03,0
+Finland,FIN,2020-01-03,0
+France,FRA,2020-01-03,0
+United Kingdom,GBR,2020-01-03,0
+Greece,GRC,2020-01-03,0
+Guatemala,GTM,2020-01-03,0
+Guyana,GUY,2020-01-03,0
+Hong Kong,HKG,2020-01-03,19
+Honduras,HND,2020-01-03,0
+Croatia,HRV,2020-01-03,0
+Hungary,HUN,2020-01-03,0
+Indonesia,IDN,2020-01-03,0
+India,IND,2020-01-03,0
+Ireland,IRL,2020-01-03,0
+Iran,IRN,2020-01-03,0
+Iraq,IRQ,2020-01-03,0
+Iceland,ISL,2020-01-03,5
+Israel,ISR,2020-01-03,0
+Italy,ITA,2020-01-03,0
+Jordan,JOR,2020-01-03,0
+Japan,JPN,2020-01-03,0
+Kazakhstan,KAZ,2020-01-03,0
+Kenya,KEN,2020-01-03,0
+South Korea,KOR,2020-01-03,0
+Sri Lanka,LKA,2020-01-03,0
+Macao,MAC,2020-01-03,14
+Mexico,MEX,2020-01-03,0
+Myanmar,MMR,2020-01-03,0
+Malaysia,MYS,2020-01-03,0
+Nigeria,NGA,2020-01-03,5
+Nicaragua,NIC,2020-01-03,0
+Netherlands,NLD,2020-01-03,0
+Norway,NOR,2020-01-03,0
+New Zealand,NZL,2020-01-03,0
+Pakistan,PAK,2020-01-03,0
+Panama,PAN,2020-01-03,0
+Papua New Guinea,PNG,2020-01-03,0
+Poland,POL,2020-01-03,0
+Portugal,PRT,2020-01-03,0
+Qatar,QAT,2020-01-03,0
+Romania,ROU,2020-01-03,0
+Russia,RUS,2020-01-03,0
+Singapore,SGP,2020-01-03,19
+El Salvador,SLV,2020-01-03,0
+Serbia,SRB,2020-01-03,0
+Slovak Republic,SVK,2020-01-03,0
+Slovenia,SVN,2020-01-03,0
+Sweden,SWE,2020-01-03,0
+Syria,SYR,2020-01-03,0
+Thailand,THA,2020-01-03,0
+Tanzania,TZA,2020-01-03,0
+Uganda,UGA,2020-01-03,0
+United States,USA,2020-01-03,0
+Venezuela,VEN,2020-01-03,0
+Vietnam,VNM,2020-01-03,0
+South Africa,ZAF,2020-01-03,0
+Zimbabwe,ZWE,2020-01-03,0
+Taiwan,TWN,2020-01-03,0
+Afghanistan,AFG,2020-01-04,0
+Angola,AGO,2020-01-04,0
+Argentina,ARG,2020-01-04,0
+Australia,AUS,2020-01-04,7
+Austria,AUT,2020-01-04,0
+Belgium,BEL,2020-01-04,0
+Bulgaria,BGR,2020-01-04,0
+Belize,BLZ,2020-01-04,0
+Bermuda,BMU,2020-01-04,0
+Bolivia,BOL,2020-01-04,0
+Brazil,BRA,2020-01-04,0
+Barbados,BRB,2020-01-04,0
+Botswana,BWA,2020-01-04,19
+Canada,CAN,2020-01-04,0
+Switzerland,CHE,2020-01-04,0
+Chile,CHL,2020-01-04,0
+China,CHN,2020-01-04,0
+Colombia,COL,2020-01-04,0
+Costa Rica,CRI,2020-01-04,0
+Czech Republic,CZE,2020-01-04,0
+Germany,DEU,2020-01-04,0
+Dominican Republic,DOM,2020-01-04,0
+Algeria,DZA,2020-01-04,0
+Ecuador,ECU,2020-01-04,0
+Spain,ESP,2020-01-04,0
+Finland,FIN,2020-01-04,0
+France,FRA,2020-01-04,0
+United Kingdom,GBR,2020-01-04,0
+Greece,GRC,2020-01-04,0
+Guatemala,GTM,2020-01-04,0
+Guyana,GUY,2020-01-04,0
+Hong Kong,HKG,2020-01-04,19
+Honduras,HND,2020-01-04,0
+Croatia,HRV,2020-01-04,0
+Hungary,HUN,2020-01-04,0
+Indonesia,IDN,2020-01-04,0
+India,IND,2020-01-04,0
+Ireland,IRL,2020-01-04,0
+Iran,IRN,2020-01-04,0
+Iraq,IRQ,2020-01-04,0
+Iceland,ISL,2020-01-04,5
+Israel,ISR,2020-01-04,0
+Italy,ITA,2020-01-04,0
+Jordan,JOR,2020-01-04,0
+Japan,JPN,2020-01-04,0
+Kazakhstan,KAZ,2020-01-04,0
+Kenya,KEN,2020-01-04,0
+South Korea,KOR,2020-01-04,0
+Sri Lanka,LKA,2020-01-04,0
+Macao,MAC,2020-01-04,14
+Mexico,MEX,2020-01-04,0
+Myanmar,MMR,2020-01-04,0
+Malaysia,MYS,2020-01-04,0
+Nigeria,NGA,2020-01-04,5
+Nicaragua,NIC,2020-01-04,0
+Netherlands,NLD,2020-01-04,0
+Norway,NOR,2020-01-04,0
+New Zealand,NZL,2020-01-04,0
+Pakistan,PAK,2020-01-04,0
+Panama,PAN,2020-01-04,0
+Papua New Guinea,PNG,2020-01-04,0
+Poland,POL,2020-01-04,0
+Portugal,PRT,2020-01-04,0
+Qatar,QAT,2020-01-04,0
+Romania,ROU,2020-01-04,0
+Russia,RUS,2020-01-04,0
+Singapore,SGP,2020-01-04,24
+El Salvador,SLV,2020-01-04,0
+Serbia,SRB,2020-01-04,0
+Slovak Republic,SVK,2020-01-04,0
+Slovenia,SVN,2020-01-04,0
+Sweden,SWE,2020-01-04,0
+Syria,SYR,2020-01-04,0
+Thailand,THA,2020-01-04,0
+Tanzania,TZA,2020-01-04,0
+Uganda,UGA,2020-01-04,0
+United States,USA,2020-01-04,0
+Venezuela,VEN,2020-01-04,0
+Vietnam,VNM,2020-01-04,0
+South Africa,ZAF,2020-01-04,0
+Zimbabwe,ZWE,2020-01-04,0
+Taiwan,TWN,2020-01-04,0
+Afghanistan,AFG,2020-01-05,0
+Angola,AGO,2020-01-05,0
+Argentina,ARG,2020-01-05,0
+Australia,AUS,2020-01-05,7
+Austria,AUT,2020-01-05,0
+Belgium,BEL,2020-01-05,0
+Bulgaria,BGR,2020-01-05,0
+Belize,BLZ,2020-01-05,0
+Bermuda,BMU,2020-01-05,0
+Bolivia,BOL,2020-01-05,0
+Brazil,BRA,2020-01-05,0
+Barbados,BRB,2020-01-05,0
+Botswana,BWA,2020-01-05,19
+Canada,CAN,2020-01-05,0
+Switzerland,CHE,2020-01-05,0
+Chile,CHL,2020-01-05,0
+China,CHN,2020-01-05,0
+Colombia,COL,2020-01-05,0
+Costa Rica,CRI,2020-01-05,0
+Czech Republic,CZE,2020-01-05,0
+Germany,DEU,2020-01-05,0
+Dominican Republic,DOM,2020-01-05,0
+Algeria,DZA,2020-01-05,0
+Ecuador,ECU,2020-01-05,0
+Spain,ESP,2020-01-05,0
+Finland,FIN,2020-01-05,0
+France,FRA,2020-01-05,0
+United Kingdom,GBR,2020-01-05,0
+Greece,GRC,2020-01-05,0
+Guatemala,GTM,2020-01-05,0
+Guyana,GUY,2020-01-05,0
+Hong Kong,HKG,2020-01-05,19
+Honduras,HND,2020-01-05,0
+Croatia,HRV,2020-01-05,0
+Hungary,HUN,2020-01-05,0
+Indonesia,IDN,2020-01-05,0
+India,IND,2020-01-05,0
+Ireland,IRL,2020-01-05,0
+Iran,IRN,2020-01-05,0
+Iraq,IRQ,2020-01-05,0
+Iceland,ISL,2020-01-05,5
+Israel,ISR,2020-01-05,0
+Italy,ITA,2020-01-05,0
+Jordan,JOR,2020-01-05,0
+Japan,JPN,2020-01-05,0
+Kazakhstan,KAZ,2020-01-05,0
+Kenya,KEN,2020-01-05,0
+South Korea,KOR,2020-01-05,0
+Sri Lanka,LKA,2020-01-05,0
+Macao,MAC,2020-01-05,14
+Mexico,MEX,2020-01-05,0
+Myanmar,MMR,2020-01-05,0
+Malaysia,MYS,2020-01-05,0
+Nigeria,NGA,2020-01-05,5
+Nicaragua,NIC,2020-01-05,0
+Netherlands,NLD,2020-01-05,0
+Norway,NOR,2020-01-05,0
+New Zealand,NZL,2020-01-05,0
+Pakistan,PAK,2020-01-05,0
+Panama,PAN,2020-01-05,0
+Papua New Guinea,PNG,2020-01-05,0
+Poland,POL,2020-01-05,0
+Portugal,PRT,2020-01-05,0
+Qatar,QAT,2020-01-05,0
+Romania,ROU,2020-01-05,0
+Russia,RUS,2020-01-05,0
+Singapore,SGP,2020-01-05,24
+El Salvador,SLV,2020-01-05,0
+Serbia,SRB,2020-01-05,0
+Slovak Republic,SVK,2020-01-05,0
+Slovenia,SVN,2020-01-05,0
+Sweden,SWE,2020-01-05,0
+Syria,SYR,2020-01-05,0
+Thailand,THA,2020-01-05,0
+Tanzania,TZA,2020-01-05,0
+Uganda,UGA,2020-01-05,0
+United States,USA,2020-01-05,0
+Venezuela,VEN,2020-01-05,0
+Vietnam,VNM,2020-01-05,0
+South Africa,ZAF,2020-01-05,0
+Zimbabwe,ZWE,2020-01-05,0
+Taiwan,TWN,2020-01-05,0
+Afghanistan,AFG,2020-01-06,0
+Angola,AGO,2020-01-06,0
+Argentina,ARG,2020-01-06,0
+Australia,AUS,2020-01-06,7
+Austria,AUT,2020-01-06,0
+Belgium,BEL,2020-01-06,0
+Bulgaria,BGR,2020-01-06,0
+Belize,BLZ,2020-01-06,0
+Bermuda,BMU,2020-01-06,0
+Bolivia,BOL,2020-01-06,0
+Brazil,BRA,2020-01-06,0
+Barbados,BRB,2020-01-06,0
+Botswana,BWA,2020-01-06,19
+Canada,CAN,2020-01-06,0
+Switzerland,CHE,2020-01-06,0
+Chile,CHL,2020-01-06,0
+China,CHN,2020-01-06,0
+Colombia,COL,2020-01-06,0
+Costa Rica,CRI,2020-01-06,0
+Czech Republic,CZE,2020-01-06,0
+Germany,DEU,2020-01-06,0
+Dominican Republic,DOM,2020-01-06,0
+Algeria,DZA,2020-01-06,0
+Ecuador,ECU,2020-01-06,0
+Spain,ESP,2020-01-06,0
+Finland,FIN,2020-01-06,0
+France,FRA,2020-01-06,0
+United Kingdom,GBR,2020-01-06,0
+Greece,GRC,2020-01-06,0
+Guatemala,GTM,2020-01-06,0
+Guyana,GUY,2020-01-06,0
+Hong Kong,HKG,2020-01-06,19
+Honduras,HND,2020-01-06,0
+Croatia,HRV,2020-01-06,0
+Hungary,HUN,2020-01-06,0
+Indonesia,IDN,2020-01-06,0
+India,IND,2020-01-06,0
+Ireland,IRL,2020-01-06,0
+Iran,IRN,2020-01-06,0
+Iraq,IRQ,2020-01-06,0
+Iceland,ISL,2020-01-06,5
+Israel,ISR,2020-01-06,0
+Italy,ITA,2020-01-06,0
+Jordan,JOR,2020-01-06,0
+Japan,JPN,2020-01-06,0
+Kazakhstan,KAZ,2020-01-06,0
+Kenya,KEN,2020-01-06,0
+South Korea,KOR,2020-01-06,0
+Sri Lanka,LKA,2020-01-06,0
+Macao,MAC,2020-01-06,19
+Mexico,MEX,2020-01-06,0
+Myanmar,MMR,2020-01-06,7
+Malaysia,MYS,2020-01-06,0
+Nigeria,NGA,2020-01-06,5
+Nicaragua,NIC,2020-01-06,0
+Netherlands,NLD,2020-01-06,0
+Norway,NOR,2020-01-06,0
+New Zealand,NZL,2020-01-06,0
+Pakistan,PAK,2020-01-06,0
+Panama,PAN,2020-01-06,0
+Papua New Guinea,PNG,2020-01-06,0
+Poland,POL,2020-01-06,0
+Portugal,PRT,2020-01-06,0
+Qatar,QAT,2020-01-06,0
+Romania,ROU,2020-01-06,0
+Russia,RUS,2020-01-06,0
+Singapore,SGP,2020-01-06,24
+El Salvador,SLV,2020-01-06,0
+Serbia,SRB,2020-01-06,0
+Slovak Republic,SVK,2020-01-06,0
+Slovenia,SVN,2020-01-06,0
+Sweden,SWE,2020-01-06,0
+Syria,SYR,2020-01-06,0
+Thailand,THA,2020-01-06,0
+Tanzania,TZA,2020-01-06,0
+Uganda,UGA,2020-01-06,0
+United States,USA,2020-01-06,10
+Venezuela,VEN,2020-01-06,0
+Vietnam,VNM,2020-01-06,0
+South Africa,ZAF,2020-01-06,0
+Zimbabwe,ZWE,2020-01-06,0
+Taiwan,TWN,2020-01-06,0
+Afghanistan,AFG,2020-01-07,0
+Angola,AGO,2020-01-07,0
+Argentina,ARG,2020-01-07,0
+Australia,AUS,2020-01-07,7
+Austria,AUT,2020-01-07,0
+Belgium,BEL,2020-01-07,0
+Bulgaria,BGR,2020-01-07,0
+Belize,BLZ,2020-01-07,0
+Bermuda,BMU,2020-01-07,0
+Bolivia,BOL,2020-01-07,0
+Brazil,BRA,2020-01-07,0
+Barbados,BRB,2020-01-07,0
+Botswana,BWA,2020-01-07,19
+Canada,CAN,2020-01-07,0
+Switzerland,CHE,2020-01-07,0
+Chile,CHL,2020-01-07,0
+China,CHN,2020-01-07,0
+Colombia,COL,2020-01-07,0
+Costa Rica,CRI,2020-01-07,0
+Czech Republic,CZE,2020-01-07,0
+Germany,DEU,2020-01-07,0
+Dominican Republic,DOM,2020-01-07,0
+Algeria,DZA,2020-01-07,0
+Ecuador,ECU,2020-01-07,0
+Spain,ESP,2020-01-07,0
+Finland,FIN,2020-01-07,0
+France,FRA,2020-01-07,0
+United Kingdom,GBR,2020-01-07,0
+Greece,GRC,2020-01-07,0
+Guatemala,GTM,2020-01-07,0
+Guyana,GUY,2020-01-07,0
+Hong Kong,HKG,2020-01-07,19
+Honduras,HND,2020-01-07,0
+Croatia,HRV,2020-01-07,0
+Hungary,HUN,2020-01-07,0
+Indonesia,IDN,2020-01-07,0
+India,IND,2020-01-07,0
+Ireland,IRL,2020-01-07,0
+Iran,IRN,2020-01-07,0
+Iraq,IRQ,2020-01-07,0
+Iceland,ISL,2020-01-07,5
+Israel,ISR,2020-01-07,0
+Italy,ITA,2020-01-07,0
+Jordan,JOR,2020-01-07,0
+Japan,JPN,2020-01-07,5
+Kazakhstan,KAZ,2020-01-07,0
+Kenya,KEN,2020-01-07,0
+South Korea,KOR,2020-01-07,0
+Sri Lanka,LKA,2020-01-07,0
+Macao,MAC,2020-01-07,19
+Mexico,MEX,2020-01-07,0
+Myanmar,MMR,2020-01-07,7
+Malaysia,MYS,2020-01-07,0
+Nigeria,NGA,2020-01-07,5
+Nicaragua,NIC,2020-01-07,0
+Netherlands,NLD,2020-01-07,0
+Norway,NOR,2020-01-07,0
+New Zealand,NZL,2020-01-07,0
+Pakistan,PAK,2020-01-07,0
+Panama,PAN,2020-01-07,0
+Papua New Guinea,PNG,2020-01-07,0
+Poland,POL,2020-01-07,0
+Portugal,PRT,2020-01-07,0
+Qatar,QAT,2020-01-07,0
+Romania,ROU,2020-01-07,0
+Russia,RUS,2020-01-07,0
+Singapore,SGP,2020-01-07,24
+El Salvador,SLV,2020-01-07,0
+Serbia,SRB,2020-01-07,0
+Slovak Republic,SVK,2020-01-07,0
+Slovenia,SVN,2020-01-07,0
+Sweden,SWE,2020-01-07,0
+Syria,SYR,2020-01-07,0
+Thailand,THA,2020-01-07,0
+Tanzania,TZA,2020-01-07,0
+Uganda,UGA,2020-01-07,0
+United States,USA,2020-01-07,10
+Venezuela,VEN,2020-01-07,0
+Vietnam,VNM,2020-01-07,0
+South Africa,ZAF,2020-01-07,0
+Zimbabwe,ZWE,2020-01-07,0
+Taiwan,TWN,2020-01-07,0
+Afghanistan,AFG,2020-01-08,0
+Angola,AGO,2020-01-08,0
+Argentina,ARG,2020-01-08,0
+Australia,AUS,2020-01-08,7
+Austria,AUT,2020-01-08,0
+Belgium,BEL,2020-01-08,0
+Bulgaria,BGR,2020-01-08,0
+Belize,BLZ,2020-01-08,0
+Bermuda,BMU,2020-01-08,0
+Bolivia,BOL,2020-01-08,0
+Brazil,BRA,2020-01-08,0
+Barbados,BRB,2020-01-08,0
+Botswana,BWA,2020-01-08,19
+Canada,CAN,2020-01-08,0
+Switzerland,CHE,2020-01-08,0
+Chile,CHL,2020-01-08,0
+China,CHN,2020-01-08,0
+Colombia,COL,2020-01-08,0
+Costa Rica,CRI,2020-01-08,0
+Czech Republic,CZE,2020-01-08,0
+Germany,DEU,2020-01-08,0
+Dominican Republic,DOM,2020-01-08,0
+Algeria,DZA,2020-01-08,0
+Ecuador,ECU,2020-01-08,0
+Spain,ESP,2020-01-08,0
+Finland,FIN,2020-01-08,0
+France,FRA,2020-01-08,0
+United Kingdom,GBR,2020-01-08,0
+Greece,GRC,2020-01-08,0
+Guatemala,GTM,2020-01-08,0
+Guyana,GUY,2020-01-08,0
+Hong Kong,HKG,2020-01-08,19
+Honduras,HND,2020-01-08,0
+Croatia,HRV,2020-01-08,0
+Hungary,HUN,2020-01-08,0
+Indonesia,IDN,2020-01-08,0
+India,IND,2020-01-08,0
+Ireland,IRL,2020-01-08,0
+Iran,IRN,2020-01-08,0
+Iraq,IRQ,2020-01-08,0
+Iceland,ISL,2020-01-08,5
+Israel,ISR,2020-01-08,0
+Italy,ITA,2020-01-08,0
+Jordan,JOR,2020-01-08,0
+Japan,JPN,2020-01-08,5
+Kazakhstan,KAZ,2020-01-08,0
+Kenya,KEN,2020-01-08,0
+South Korea,KOR,2020-01-08,0
+Sri Lanka,LKA,2020-01-08,0
+Macao,MAC,2020-01-08,19
+Mexico,MEX,2020-01-08,0
+Myanmar,MMR,2020-01-08,7
+Malaysia,MYS,2020-01-08,0
+Nigeria,NGA,2020-01-08,5
+Nicaragua,NIC,2020-01-08,0
+Netherlands,NLD,2020-01-08,0
+Norway,NOR,2020-01-08,0
+New Zealand,NZL,2020-01-08,0
+Pakistan,PAK,2020-01-08,0
+Panama,PAN,2020-01-08,0
+Papua New Guinea,PNG,2020-01-08,0
+Poland,POL,2020-01-08,0
+Portugal,PRT,2020-01-08,0
+Qatar,QAT,2020-01-08,0
+Romania,ROU,2020-01-08,0
+Russia,RUS,2020-01-08,0
+Singapore,SGP,2020-01-08,24
+El Salvador,SLV,2020-01-08,0
+Serbia,SRB,2020-01-08,0
+Slovak Republic,SVK,2020-01-08,0
+Slovenia,SVN,2020-01-08,0
+Sweden,SWE,2020-01-08,0
+Syria,SYR,2020-01-08,0
+Thailand,THA,2020-01-08,0
+Tanzania,TZA,2020-01-08,0
+Uganda,UGA,2020-01-08,0
+United States,USA,2020-01-08,10
+Venezuela,VEN,2020-01-08,0
+Vietnam,VNM,2020-01-08,0
+South Africa,ZAF,2020-01-08,0
+Zimbabwe,ZWE,2020-01-08,0
+Taiwan,TWN,2020-01-08,0
+Afghanistan,AFG,2020-01-09,0
+Angola,AGO,2020-01-09,0
+Argentina,ARG,2020-01-09,0
+Australia,AUS,2020-01-09,7
+Austria,AUT,2020-01-09,0
+Belgium,BEL,2020-01-09,0
+Bulgaria,BGR,2020-01-09,0
+Belize,BLZ,2020-01-09,0
+Bermuda,BMU,2020-01-09,0
+Bolivia,BOL,2020-01-09,0
+Brazil,BRA,2020-01-09,0
+Barbados,BRB,2020-01-09,0
+Botswana,BWA,2020-01-09,19
+Canada,CAN,2020-01-09,0
+Switzerland,CHE,2020-01-09,0
+Chile,CHL,2020-01-09,0
+China,CHN,2020-01-09,0
+Colombia,COL,2020-01-09,0
+Costa Rica,CRI,2020-01-09,0
+Czech Republic,CZE,2020-01-09,0
+Germany,DEU,2020-01-09,0
+Dominican Republic,DOM,2020-01-09,0
+Algeria,DZA,2020-01-09,0
+Ecuador,ECU,2020-01-09,0
+Spain,ESP,2020-01-09,0
+Finland,FIN,2020-01-09,0
+France,FRA,2020-01-09,0
+United Kingdom,GBR,2020-01-09,0
+Greece,GRC,2020-01-09,0
+Guatemala,GTM,2020-01-09,0
+Guyana,GUY,2020-01-09,0
+Hong Kong,HKG,2020-01-09,19
+Honduras,HND,2020-01-09,0
+Croatia,HRV,2020-01-09,0
+Hungary,HUN,2020-01-09,0
+Indonesia,IDN,2020-01-09,0
+India,IND,2020-01-09,0
+Ireland,IRL,2020-01-09,0
+Iran,IRN,2020-01-09,0
+Iraq,IRQ,2020-01-09,0
+Iceland,ISL,2020-01-09,5
+Israel,ISR,2020-01-09,0
+Italy,ITA,2020-01-09,0
+Jordan,JOR,2020-01-09,0
+Japan,JPN,2020-01-09,5
+Kazakhstan,KAZ,2020-01-09,0
+Kenya,KEN,2020-01-09,0
+South Korea,KOR,2020-01-09,0
+Sri Lanka,LKA,2020-01-09,0
+Macao,MAC,2020-01-09,19
+Mexico,MEX,2020-01-09,5
+Myanmar,MMR,2020-01-09,7
+Malaysia,MYS,2020-01-09,0
+Nigeria,NGA,2020-01-09,5
+Nicaragua,NIC,2020-01-09,0
+Netherlands,NLD,2020-01-09,0
+Norway,NOR,2020-01-09,0
+New Zealand,NZL,2020-01-09,0
+Pakistan,PAK,2020-01-09,0
+Panama,PAN,2020-01-09,0
+Papua New Guinea,PNG,2020-01-09,0
+Poland,POL,2020-01-09,0
+Portugal,PRT,2020-01-09,0
+Qatar,QAT,2020-01-09,0
+Romania,ROU,2020-01-09,0
+Russia,RUS,2020-01-09,0
+Singapore,SGP,2020-01-09,24
+El Salvador,SLV,2020-01-09,0
+Serbia,SRB,2020-01-09,0
+Slovak Republic,SVK,2020-01-09,0
+Slovenia,SVN,2020-01-09,0
+Sweden,SWE,2020-01-09,0
+Syria,SYR,2020-01-09,0
+Thailand,THA,2020-01-09,0
+Tanzania,TZA,2020-01-09,0
+Uganda,UGA,2020-01-09,0
+United States,USA,2020-01-09,10
+Venezuela,VEN,2020-01-09,0
+Vietnam,VNM,2020-01-09,0
+South Africa,ZAF,2020-01-09,0
+Zimbabwe,ZWE,2020-01-09,0
+Taiwan,TWN,2020-01-09,0
+Afghanistan,AFG,2020-01-10,0
+Angola,AGO,2020-01-10,0
+Argentina,ARG,2020-01-10,0
+Australia,AUS,2020-01-10,7
+Austria,AUT,2020-01-10,0
+Belgium,BEL,2020-01-10,0
+Bulgaria,BGR,2020-01-10,0
+Belize,BLZ,2020-01-10,0
+Bermuda,BMU,2020-01-10,0
+Bolivia,BOL,2020-01-10,0
+Brazil,BRA,2020-01-10,0
+Barbados,BRB,2020-01-10,0
+Botswana,BWA,2020-01-10,19
+Canada,CAN,2020-01-10,0
+Switzerland,CHE,2020-01-10,0
+Chile,CHL,2020-01-10,0
+China,CHN,2020-01-10,0
+Colombia,COL,2020-01-10,0
+Costa Rica,CRI,2020-01-10,0
+Czech Republic,CZE,2020-01-10,0
+Germany,DEU,2020-01-10,0
+Dominican Republic,DOM,2020-01-10,0
+Algeria,DZA,2020-01-10,0
+Ecuador,ECU,2020-01-10,0
+Spain,ESP,2020-01-10,0
+Finland,FIN,2020-01-10,0
+France,FRA,2020-01-10,0
+United Kingdom,GBR,2020-01-10,0
+Greece,GRC,2020-01-10,0
+Guatemala,GTM,2020-01-10,0
+Guyana,GUY,2020-01-10,0
+Hong Kong,HKG,2020-01-10,19
+Honduras,HND,2020-01-10,0
+Croatia,HRV,2020-01-10,0
+Hungary,HUN,2020-01-10,0
+Indonesia,IDN,2020-01-10,0
+India,IND,2020-01-10,0
+Ireland,IRL,2020-01-10,0
+Iran,IRN,2020-01-10,0
+Iraq,IRQ,2020-01-10,0
+Iceland,ISL,2020-01-10,5
+Israel,ISR,2020-01-10,0
+Italy,ITA,2020-01-10,0
+Jordan,JOR,2020-01-10,0
+Japan,JPN,2020-01-10,5
+Kazakhstan,KAZ,2020-01-10,0
+Kenya,KEN,2020-01-10,0
+South Korea,KOR,2020-01-10,0
+Sri Lanka,LKA,2020-01-10,0
+Macao,MAC,2020-01-10,19
+Mexico,MEX,2020-01-10,5
+Myanmar,MMR,2020-01-10,7
+Malaysia,MYS,2020-01-10,0
+Nigeria,NGA,2020-01-10,5
+Nicaragua,NIC,2020-01-10,0
+Netherlands,NLD,2020-01-10,0
+Norway,NOR,2020-01-10,0
+New Zealand,NZL,2020-01-10,0
+Pakistan,PAK,2020-01-10,0
+Panama,PAN,2020-01-10,0
+Papua New Guinea,PNG,2020-01-10,0
+Poland,POL,2020-01-10,0
+Portugal,PRT,2020-01-10,0
+Qatar,QAT,2020-01-10,0
+Romania,ROU,2020-01-10,0
+Russia,RUS,2020-01-10,0
+Singapore,SGP,2020-01-10,24
+El Salvador,SLV,2020-01-10,0
+Serbia,SRB,2020-01-10,0
+Slovak Republic,SVK,2020-01-10,0
+Slovenia,SVN,2020-01-10,0
+Sweden,SWE,2020-01-10,0
+Syria,SYR,2020-01-10,0
+Thailand,THA,2020-01-10,0
+Tanzania,TZA,2020-01-10,0
+Uganda,UGA,2020-01-10,0
+United States,USA,2020-01-10,10
+Venezuela,VEN,2020-01-10,0
+Vietnam,VNM,2020-01-10,0
+South Africa,ZAF,2020-01-10,0
+Zimbabwe,ZWE,2020-01-10,0
+Taiwan,TWN,2020-01-10,0
+Afghanistan,AFG,2020-01-11,0
+Angola,AGO,2020-01-11,0
+Argentina,ARG,2020-01-11,0
+Australia,AUS,2020-01-11,7
+Austria,AUT,2020-01-11,0
+Belgium,BEL,2020-01-11,0
+Bulgaria,BGR,2020-01-11,0
+Belize,BLZ,2020-01-11,0
+Bermuda,BMU,2020-01-11,0
+Bolivia,BOL,2020-01-11,0
+Brazil,BRA,2020-01-11,0
+Barbados,BRB,2020-01-11,0
+Botswana,BWA,2020-01-11,19
+Canada,CAN,2020-01-11,0
+Switzerland,CHE,2020-01-11,0
+Chile,CHL,2020-01-11,0
+China,CHN,2020-01-11,0
+Colombia,COL,2020-01-11,0
+Costa Rica,CRI,2020-01-11,0
+Czech Republic,CZE,2020-01-11,0
+Germany,DEU,2020-01-11,0
+Dominican Republic,DOM,2020-01-11,0
+Algeria,DZA,2020-01-11,0
+Ecuador,ECU,2020-01-11,0
+Spain,ESP,2020-01-11,0
+Finland,FIN,2020-01-11,0
+France,FRA,2020-01-11,0
+United Kingdom,GBR,2020-01-11,0
+Greece,GRC,2020-01-11,0
+Guatemala,GTM,2020-01-11,0
+Guyana,GUY,2020-01-11,0
+Hong Kong,HKG,2020-01-11,19
+Honduras,HND,2020-01-11,0
+Croatia,HRV,2020-01-11,0
+Hungary,HUN,2020-01-11,0
+Indonesia,IDN,2020-01-11,0
+India,IND,2020-01-11,0
+Ireland,IRL,2020-01-11,0
+Iran,IRN,2020-01-11,0
+Iraq,IRQ,2020-01-11,0
+Iceland,ISL,2020-01-11,5
+Israel,ISR,2020-01-11,0
+Italy,ITA,2020-01-11,0
+Jordan,JOR,2020-01-11,0
+Japan,JPN,2020-01-11,5
+Kazakhstan,KAZ,2020-01-11,0
+Kenya,KEN,2020-01-11,0
+South Korea,KOR,2020-01-11,0
+Sri Lanka,LKA,2020-01-11,0
+Macao,MAC,2020-01-11,19
+Mexico,MEX,2020-01-11,5
+Myanmar,MMR,2020-01-11,7
+Malaysia,MYS,2020-01-11,0
+Nigeria,NGA,2020-01-11,5
+Nicaragua,NIC,2020-01-11,0
+Netherlands,NLD,2020-01-11,0
+Norway,NOR,2020-01-11,0
+New Zealand,NZL,2020-01-11,0
+Pakistan,PAK,2020-01-11,0
+Panama,PAN,2020-01-11,0
+Papua New Guinea,PNG,2020-01-11,0
+Poland,POL,2020-01-11,0
+Portugal,PRT,2020-01-11,0
+Qatar,QAT,2020-01-11,0
+Romania,ROU,2020-01-11,0
+Russia,RUS,2020-01-11,0
+Singapore,SGP,2020-01-11,24
+El Salvador,SLV,2020-01-11,0
+Serbia,SRB,2020-01-11,0
+Slovak Republic,SVK,2020-01-11,0
+Slovenia,SVN,2020-01-11,0
+Sweden,SWE,2020-01-11,0
+Syria,SYR,2020-01-11,0
+Thailand,THA,2020-01-11,0
+Tanzania,TZA,2020-01-11,0
+Uganda,UGA,2020-01-11,0
+United States,USA,2020-01-11,10
+Venezuela,VEN,2020-01-11,0
+Vietnam,VNM,2020-01-11,0
+South Africa,ZAF,2020-01-11,0
+Zimbabwe,ZWE,2020-01-11,0
+Taiwan,TWN,2020-01-11,0
+Afghanistan,AFG,2020-01-12,0
+Angola,AGO,2020-01-12,0
+Argentina,ARG,2020-01-12,0
+Australia,AUS,2020-01-12,7
+Austria,AUT,2020-01-12,0
+Belgium,BEL,2020-01-12,0
+Bulgaria,BGR,2020-01-12,0
+Belize,BLZ,2020-01-12,0
+Bermuda,BMU,2020-01-12,0
+Bolivia,BOL,2020-01-12,0
+Brazil,BRA,2020-01-12,0
+Barbados,BRB,2020-01-12,0
+Botswana,BWA,2020-01-12,19
+Canada,CAN,2020-01-12,0
+Switzerland,CHE,2020-01-12,0
+Chile,CHL,2020-01-12,0
+China,CHN,2020-01-12,0
+Colombia,COL,2020-01-12,0
+Costa Rica,CRI,2020-01-12,0
+Czech Republic,CZE,2020-01-12,0
+Germany,DEU,2020-01-12,0
+Dominican Republic,DOM,2020-01-12,0
+Algeria,DZA,2020-01-12,0
+Ecuador,ECU,2020-01-12,0
+Spain,ESP,2020-01-12,0
+Finland,FIN,2020-01-12,0
+France,FRA,2020-01-12,0
+United Kingdom,GBR,2020-01-12,0
+Greece,GRC,2020-01-12,0
+Guatemala,GTM,2020-01-12,0
+Guyana,GUY,2020-01-12,0
+Hong Kong,HKG,2020-01-12,19
+Honduras,HND,2020-01-12,0
+Croatia,HRV,2020-01-12,0
+Hungary,HUN,2020-01-12,0
+Indonesia,IDN,2020-01-12,0
+India,IND,2020-01-12,0
+Ireland,IRL,2020-01-12,0
+Iran,IRN,2020-01-12,0
+Iraq,IRQ,2020-01-12,0
+Iceland,ISL,2020-01-12,5
+Israel,ISR,2020-01-12,0
+Italy,ITA,2020-01-12,0
+Jordan,JOR,2020-01-12,0
+Japan,JPN,2020-01-12,5
+Kazakhstan,KAZ,2020-01-12,0
+Kenya,KEN,2020-01-12,0
+South Korea,KOR,2020-01-12,0
+Sri Lanka,LKA,2020-01-12,0
+Macao,MAC,2020-01-12,19
+Mexico,MEX,2020-01-12,5
+Myanmar,MMR,2020-01-12,7
+Malaysia,MYS,2020-01-12,0
+Nigeria,NGA,2020-01-12,5
+Nicaragua,NIC,2020-01-12,0
+Netherlands,NLD,2020-01-12,0
+Norway,NOR,2020-01-12,0
+New Zealand,NZL,2020-01-12,0
+Pakistan,PAK,2020-01-12,0
+Panama,PAN,2020-01-12,0
+Papua New Guinea,PNG,2020-01-12,0
+Poland,POL,2020-01-12,0
+Portugal,PRT,2020-01-12,0
+Qatar,QAT,2020-01-12,0
+Romania,ROU,2020-01-12,0
+Russia,RUS,2020-01-12,0
+Singapore,SGP,2020-01-12,24
+El Salvador,SLV,2020-01-12,0
+Serbia,SRB,2020-01-12,0
+Slovak Republic,SVK,2020-01-12,0
+Slovenia,SVN,2020-01-12,0
+Sweden,SWE,2020-01-12,0
+Syria,SYR,2020-01-12,0
+Thailand,THA,2020-01-12,0
+Tanzania,TZA,2020-01-12,0
+Uganda,UGA,2020-01-12,0
+United States,USA,2020-01-12,10
+Venezuela,VEN,2020-01-12,0
+Vietnam,VNM,2020-01-12,0
+South Africa,ZAF,2020-01-12,0
+Zimbabwe,ZWE,2020-01-12,0
+Taiwan,TWN,2020-01-12,0
+Afghanistan,AFG,2020-01-13,0
+Angola,AGO,2020-01-13,0
+Argentina,ARG,2020-01-13,0
+Australia,AUS,2020-01-13,7
+Austria,AUT,2020-01-13,0
+Belgium,BEL,2020-01-13,0
+Bulgaria,BGR,2020-01-13,0
+Belize,BLZ,2020-01-13,0
+Bermuda,BMU,2020-01-13,0
+Bolivia,BOL,2020-01-13,0
+Brazil,BRA,2020-01-13,0
+Barbados,BRB,2020-01-13,0
+Botswana,BWA,2020-01-13,19
+Canada,CAN,2020-01-13,0
+Switzerland,CHE,2020-01-13,0
+Chile,CHL,2020-01-13,0
+China,CHN,2020-01-13,0
+Colombia,COL,2020-01-13,0
+Costa Rica,CRI,2020-01-13,0
+Czech Republic,CZE,2020-01-13,0
+Germany,DEU,2020-01-13,0
+Dominican Republic,DOM,2020-01-13,0
+Algeria,DZA,2020-01-13,0
+Ecuador,ECU,2020-01-13,0
+Spain,ESP,2020-01-13,0
+Finland,FIN,2020-01-13,0
+France,FRA,2020-01-13,0
+United Kingdom,GBR,2020-01-13,0
+Greece,GRC,2020-01-13,0
+Guatemala,GTM,2020-01-13,0
+Guyana,GUY,2020-01-13,0
+Hong Kong,HKG,2020-01-13,19
+Honduras,HND,2020-01-13,0
+Croatia,HRV,2020-01-13,0
+Hungary,HUN,2020-01-13,0
+Indonesia,IDN,2020-01-13,0
+India,IND,2020-01-13,0
+Ireland,IRL,2020-01-13,0
+Iran,IRN,2020-01-13,0
+Iraq,IRQ,2020-01-13,0
+Iceland,ISL,2020-01-13,5
+Israel,ISR,2020-01-13,0
+Italy,ITA,2020-01-13,0
+Jordan,JOR,2020-01-13,0
+Japan,JPN,2020-01-13,5
+Kazakhstan,KAZ,2020-01-13,0
+Kenya,KEN,2020-01-13,0
+South Korea,KOR,2020-01-13,0
+Sri Lanka,LKA,2020-01-13,0
+Macao,MAC,2020-01-13,19
+Mexico,MEX,2020-01-13,5
+Myanmar,MMR,2020-01-13,7
+Malaysia,MYS,2020-01-13,0
+Nigeria,NGA,2020-01-13,5
+Nicaragua,NIC,2020-01-13,0
+Netherlands,NLD,2020-01-13,0
+Norway,NOR,2020-01-13,0
+New Zealand,NZL,2020-01-13,0
+Pakistan,PAK,2020-01-13,0
+Panama,PAN,2020-01-13,0
+Papua New Guinea,PNG,2020-01-13,0
+Poland,POL,2020-01-13,0
+Portugal,PRT,2020-01-13,0
+Qatar,QAT,2020-01-13,0
+Romania,ROU,2020-01-13,0
+Russia,RUS,2020-01-13,0
+Singapore,SGP,2020-01-13,24
+El Salvador,SLV,2020-01-13,0
+Serbia,SRB,2020-01-13,0
+Slovak Republic,SVK,2020-01-13,0
+Slovenia,SVN,2020-01-13,0
+Sweden,SWE,2020-01-13,0
+Syria,SYR,2020-01-13,0
+Thailand,THA,2020-01-13,0
+Tanzania,TZA,2020-01-13,0
+Uganda,UGA,2020-01-13,0
+United States,USA,2020-01-13,10
+Venezuela,VEN,2020-01-13,0
+Vietnam,VNM,2020-01-13,0
+South Africa,ZAF,2020-01-13,0
+Zimbabwe,ZWE,2020-01-13,0
+Taiwan,TWN,2020-01-13,0
+Afghanistan,AFG,2020-01-14,0
+Angola,AGO,2020-01-14,0
+Argentina,ARG,2020-01-14,0
+Australia,AUS,2020-01-14,7
+Austria,AUT,2020-01-14,0
+Belgium,BEL,2020-01-14,0
+Bulgaria,BGR,2020-01-14,0
+Belize,BLZ,2020-01-14,0
+Bermuda,BMU,2020-01-14,0
+Bolivia,BOL,2020-01-14,0
+Brazil,BRA,2020-01-14,0
+Barbados,BRB,2020-01-14,0
+Botswana,BWA,2020-01-14,19
+Canada,CAN,2020-01-14,0
+Switzerland,CHE,2020-01-14,0
+Chile,CHL,2020-01-14,0
+China,CHN,2020-01-14,0
+Colombia,COL,2020-01-14,0
+Costa Rica,CRI,2020-01-14,0
+Czech Republic,CZE,2020-01-14,0
+Germany,DEU,2020-01-14,0
+Dominican Republic,DOM,2020-01-14,0
+Algeria,DZA,2020-01-14,0
+Ecuador,ECU,2020-01-14,0
+Spain,ESP,2020-01-14,0
+Finland,FIN,2020-01-14,0
+France,FRA,2020-01-14,0
+United Kingdom,GBR,2020-01-14,0
+Greece,GRC,2020-01-14,0
+Guatemala,GTM,2020-01-14,0
+Guyana,GUY,2020-01-14,0
+Hong Kong,HKG,2020-01-14,19
+Honduras,HND,2020-01-14,0
+Croatia,HRV,2020-01-14,0
+Hungary,HUN,2020-01-14,0
+Indonesia,IDN,2020-01-14,0
+India,IND,2020-01-14,0
+Ireland,IRL,2020-01-14,0
+Iran,IRN,2020-01-14,0
+Iraq,IRQ,2020-01-14,0
+Iceland,ISL,2020-01-14,5
+Israel,ISR,2020-01-14,0
+Italy,ITA,2020-01-14,0
+Jordan,JOR,2020-01-14,0
+Japan,JPN,2020-01-14,5
+Kazakhstan,KAZ,2020-01-14,0
+Kenya,KEN,2020-01-14,0
+South Korea,KOR,2020-01-14,0
+Sri Lanka,LKA,2020-01-14,0
+Macao,MAC,2020-01-14,19
+Mexico,MEX,2020-01-14,5
+Myanmar,MMR,2020-01-14,7
+Malaysia,MYS,2020-01-14,0
+Nigeria,NGA,2020-01-14,5
+Nicaragua,NIC,2020-01-14,0
+Netherlands,NLD,2020-01-14,0
+Norway,NOR,2020-01-14,0
+New Zealand,NZL,2020-01-14,0
+Pakistan,PAK,2020-01-14,0
+Panama,PAN,2020-01-14,0
+Papua New Guinea,PNG,2020-01-14,0
+Poland,POL,2020-01-14,0
+Portugal,PRT,2020-01-14,0
+Qatar,QAT,2020-01-14,0
+Romania,ROU,2020-01-14,0
+Russia,RUS,2020-01-14,0
+Singapore,SGP,2020-01-14,24
+El Salvador,SLV,2020-01-14,0
+Serbia,SRB,2020-01-14,0
+Slovak Republic,SVK,2020-01-14,0
+Slovenia,SVN,2020-01-14,0
+Sweden,SWE,2020-01-14,0
+Syria,SYR,2020-01-14,0
+Thailand,THA,2020-01-14,0
+Tanzania,TZA,2020-01-14,0
+Uganda,UGA,2020-01-14,0
+United States,USA,2020-01-14,10
+Venezuela,VEN,2020-01-14,0
+Vietnam,VNM,2020-01-14,0
+South Africa,ZAF,2020-01-14,0
+Zimbabwe,ZWE,2020-01-14,0
+Taiwan,TWN,2020-01-14,0
+Afghanistan,AFG,2020-01-15,0
+Angola,AGO,2020-01-15,0
+Argentina,ARG,2020-01-15,0
+Australia,AUS,2020-01-15,7
+Austria,AUT,2020-01-15,0
+Belgium,BEL,2020-01-15,0
+Bulgaria,BGR,2020-01-15,0
+Belize,BLZ,2020-01-15,0
+Bermuda,BMU,2020-01-15,0
+Bolivia,BOL,2020-01-15,0
+Brazil,BRA,2020-01-15,0
+Barbados,BRB,2020-01-15,0
+Botswana,BWA,2020-01-15,19
+Canada,CAN,2020-01-15,0
+Switzerland,CHE,2020-01-15,0
+Chile,CHL,2020-01-15,0
+China,CHN,2020-01-15,0
+Colombia,COL,2020-01-15,0
+Costa Rica,CRI,2020-01-15,0
+Czech Republic,CZE,2020-01-15,0
+Germany,DEU,2020-01-15,0
+Dominican Republic,DOM,2020-01-15,0
+Algeria,DZA,2020-01-15,0
+Ecuador,ECU,2020-01-15,0
+Spain,ESP,2020-01-15,0
+Finland,FIN,2020-01-15,0
+France,FRA,2020-01-15,0
+United Kingdom,GBR,2020-01-15,0
+Greece,GRC,2020-01-15,0
+Guatemala,GTM,2020-01-15,0
+Guyana,GUY,2020-01-15,0
+Hong Kong,HKG,2020-01-15,19
+Honduras,HND,2020-01-15,0
+Croatia,HRV,2020-01-15,0
+Hungary,HUN,2020-01-15,0
+Indonesia,IDN,2020-01-15,5
+India,IND,2020-01-15,0
+Ireland,IRL,2020-01-15,0
+Iran,IRN,2020-01-15,0
+Iraq,IRQ,2020-01-15,0
+Iceland,ISL,2020-01-15,5
+Israel,ISR,2020-01-15,0
+Italy,ITA,2020-01-15,0
+Jordan,JOR,2020-01-15,0
+Japan,JPN,2020-01-15,5
+Kazakhstan,KAZ,2020-01-15,0
+Kenya,KEN,2020-01-15,0
+South Korea,KOR,2020-01-15,0
+Sri Lanka,LKA,2020-01-15,0
+Macao,MAC,2020-01-15,19
+Mexico,MEX,2020-01-15,5
+Myanmar,MMR,2020-01-15,7
+Malaysia,MYS,2020-01-15,0
+Nigeria,NGA,2020-01-15,5
+Nicaragua,NIC,2020-01-15,0
+Netherlands,NLD,2020-01-15,0
+Norway,NOR,2020-01-15,0
+New Zealand,NZL,2020-01-15,0
+Pakistan,PAK,2020-01-15,0
+Panama,PAN,2020-01-15,0
+Papua New Guinea,PNG,2020-01-15,0
+Poland,POL,2020-01-15,0
+Portugal,PRT,2020-01-15,0
+Qatar,QAT,2020-01-15,0
+Romania,ROU,2020-01-15,0
+Russia,RUS,2020-01-15,0
+Singapore,SGP,2020-01-15,24
+El Salvador,SLV,2020-01-15,0
+Serbia,SRB,2020-01-15,0
+Slovak Republic,SVK,2020-01-15,0
+Slovenia,SVN,2020-01-15,0
+Sweden,SWE,2020-01-15,0
+Syria,SYR,2020-01-15,0
+Thailand,THA,2020-01-15,0
+Tanzania,TZA,2020-01-15,0
+Uganda,UGA,2020-01-15,0
+United States,USA,2020-01-15,10
+Venezuela,VEN,2020-01-15,0
+Vietnam,VNM,2020-01-15,0
+South Africa,ZAF,2020-01-15,0
+Zimbabwe,ZWE,2020-01-15,0
+Taiwan,TWN,2020-01-15,0
+Afghanistan,AFG,2020-01-16,0
+Angola,AGO,2020-01-16,0
+Argentina,ARG,2020-01-16,0
+Australia,AUS,2020-01-16,7
+Austria,AUT,2020-01-16,0
+Belgium,BEL,2020-01-16,0
+Bulgaria,BGR,2020-01-16,0
+Belize,BLZ,2020-01-16,0
+Bermuda,BMU,2020-01-16,0
+Bolivia,BOL,2020-01-16,0
+Brazil,BRA,2020-01-16,0
+Barbados,BRB,2020-01-16,0
+Botswana,BWA,2020-01-16,19
+Canada,CAN,2020-01-16,0
+Switzerland,CHE,2020-01-16,0
+Chile,CHL,2020-01-16,0
+China,CHN,2020-01-16,0
+Colombia,COL,2020-01-16,0
+Costa Rica,CRI,2020-01-16,0
+Czech Republic,CZE,2020-01-16,0
+Germany,DEU,2020-01-16,0
+Dominican Republic,DOM,2020-01-16,0
+Algeria,DZA,2020-01-16,0
+Ecuador,ECU,2020-01-16,0
+Spain,ESP,2020-01-16,0
+Finland,FIN,2020-01-16,0
+France,FRA,2020-01-16,0
+United Kingdom,GBR,2020-01-16,0
+Greece,GRC,2020-01-16,0
+Guatemala,GTM,2020-01-16,0
+Guyana,GUY,2020-01-16,0
+Hong Kong,HKG,2020-01-16,29
+Honduras,HND,2020-01-16,0
+Croatia,HRV,2020-01-16,0
+Hungary,HUN,2020-01-16,0
+Indonesia,IDN,2020-01-16,5
+India,IND,2020-01-16,0
+Ireland,IRL,2020-01-16,0
+Iran,IRN,2020-01-16,0
+Iraq,IRQ,2020-01-16,0
+Iceland,ISL,2020-01-16,5
+Israel,ISR,2020-01-16,0
+Italy,ITA,2020-01-16,0
+Jordan,JOR,2020-01-16,0
+Japan,JPN,2020-01-16,5
+Kazakhstan,KAZ,2020-01-16,0
+Kenya,KEN,2020-01-16,0
+South Korea,KOR,2020-01-16,0
+Sri Lanka,LKA,2020-01-16,0
+Macao,MAC,2020-01-16,19
+Mexico,MEX,2020-01-16,5
+Myanmar,MMR,2020-01-16,7
+Malaysia,MYS,2020-01-16,0
+Nigeria,NGA,2020-01-16,5
+Nicaragua,NIC,2020-01-16,0
+Netherlands,NLD,2020-01-16,0
+Norway,NOR,2020-01-16,0
+New Zealand,NZL,2020-01-16,0
+Pakistan,PAK,2020-01-16,0
+Panama,PAN,2020-01-16,0
+Papua New Guinea,PNG,2020-01-16,0
+Poland,POL,2020-01-16,0
+Portugal,PRT,2020-01-16,0
+Qatar,QAT,2020-01-16,0
+Romania,ROU,2020-01-16,0
+Russia,RUS,2020-01-16,0
+Singapore,SGP,2020-01-16,24
+El Salvador,SLV,2020-01-16,0
+Serbia,SRB,2020-01-16,0
+Slovak Republic,SVK,2020-01-16,0
+Slovenia,SVN,2020-01-16,0
+Sweden,SWE,2020-01-16,0
+Syria,SYR,2020-01-16,0
+Thailand,THA,2020-01-16,0
+Tanzania,TZA,2020-01-16,0
+Uganda,UGA,2020-01-16,0
+United States,USA,2020-01-16,10
+Venezuela,VEN,2020-01-16,0
+Vietnam,VNM,2020-01-16,0
+South Africa,ZAF,2020-01-16,0
+Zimbabwe,ZWE,2020-01-16,0
+Taiwan,TWN,2020-01-16,0
+Afghanistan,AFG,2020-01-17,0
+Angola,AGO,2020-01-17,0
+Argentina,ARG,2020-01-17,0
+Australia,AUS,2020-01-17,7
+Austria,AUT,2020-01-17,0
+Belgium,BEL,2020-01-17,0
+Bulgaria,BGR,2020-01-17,0
+Belize,BLZ,2020-01-17,0
+Bermuda,BMU,2020-01-17,0
+Bolivia,BOL,2020-01-17,0
+Brazil,BRA,2020-01-17,0
+Barbados,BRB,2020-01-17,0
+Botswana,BWA,2020-01-17,19
+Canada,CAN,2020-01-17,0
+Switzerland,CHE,2020-01-17,0
+Chile,CHL,2020-01-17,0
+China,CHN,2020-01-17,0
+Colombia,COL,2020-01-17,0
+Costa Rica,CRI,2020-01-17,0
+Czech Republic,CZE,2020-01-17,0
+Germany,DEU,2020-01-17,0
+Dominican Republic,DOM,2020-01-17,0
+Algeria,DZA,2020-01-17,0
+Ecuador,ECU,2020-01-17,0
+Spain,ESP,2020-01-17,0
+Finland,FIN,2020-01-17,0
+France,FRA,2020-01-17,0
+United Kingdom,GBR,2020-01-17,0
+Greece,GRC,2020-01-17,0
+Guatemala,GTM,2020-01-17,0
+Guyana,GUY,2020-01-17,0
+Hong Kong,HKG,2020-01-17,29
+Honduras,HND,2020-01-17,0
+Croatia,HRV,2020-01-17,0
+Hungary,HUN,2020-01-17,0
+Indonesia,IDN,2020-01-17,5
+India,IND,2020-01-17,0
+Ireland,IRL,2020-01-17,0
+Iran,IRN,2020-01-17,0
+Iraq,IRQ,2020-01-17,0
+Iceland,ISL,2020-01-17,5
+Israel,ISR,2020-01-17,0
+Italy,ITA,2020-01-17,0
+Jordan,JOR,2020-01-17,0
+Japan,JPN,2020-01-17,5
+Kazakhstan,KAZ,2020-01-17,0
+Kenya,KEN,2020-01-17,0
+South Korea,KOR,2020-01-17,0
+Sri Lanka,LKA,2020-01-17,0
+Macao,MAC,2020-01-17,19
+Mexico,MEX,2020-01-17,5
+Myanmar,MMR,2020-01-17,7
+Malaysia,MYS,2020-01-17,0
+Nigeria,NGA,2020-01-17,5
+Nicaragua,NIC,2020-01-17,0
+Netherlands,NLD,2020-01-17,0
+Norway,NOR,2020-01-17,0
+New Zealand,NZL,2020-01-17,0
+Pakistan,PAK,2020-01-17,0
+Panama,PAN,2020-01-17,0
+Papua New Guinea,PNG,2020-01-17,0
+Poland,POL,2020-01-17,0
+Portugal,PRT,2020-01-17,0
+Qatar,QAT,2020-01-17,0
+Romania,ROU,2020-01-17,0
+Russia,RUS,2020-01-17,0
+Singapore,SGP,2020-01-17,24
+El Salvador,SLV,2020-01-17,0
+Serbia,SRB,2020-01-17,0
+Slovak Republic,SVK,2020-01-17,0
+Slovenia,SVN,2020-01-17,0
+Sweden,SWE,2020-01-17,0
+Syria,SYR,2020-01-17,0
+Thailand,THA,2020-01-17,0
+Tanzania,TZA,2020-01-17,0
+Uganda,UGA,2020-01-17,0
+United States,USA,2020-01-17,10
+Venezuela,VEN,2020-01-17,0
+Vietnam,VNM,2020-01-17,0
+South Africa,ZAF,2020-01-17,0
+Zimbabwe,ZWE,2020-01-17,0
+Taiwan,TWN,2020-01-17,0
+Afghanistan,AFG,2020-01-18,0
+Angola,AGO,2020-01-18,0
+Argentina,ARG,2020-01-18,0
+Australia,AUS,2020-01-18,7
+Austria,AUT,2020-01-18,0
+Belgium,BEL,2020-01-18,0
+Bulgaria,BGR,2020-01-18,0
+Belize,BLZ,2020-01-18,0
+Bermuda,BMU,2020-01-18,0
+Bolivia,BOL,2020-01-18,0
+Brazil,BRA,2020-01-18,0
+Barbados,BRB,2020-01-18,0
+Botswana,BWA,2020-01-18,19
+Canada,CAN,2020-01-18,0
+Switzerland,CHE,2020-01-18,0
+Chile,CHL,2020-01-18,0
+China,CHN,2020-01-18,0
+Colombia,COL,2020-01-18,0
+Costa Rica,CRI,2020-01-18,0
+Czech Republic,CZE,2020-01-18,0
+Germany,DEU,2020-01-18,0
+Dominican Republic,DOM,2020-01-18,0
+Algeria,DZA,2020-01-18,0
+Ecuador,ECU,2020-01-18,0
+Spain,ESP,2020-01-18,0
+Finland,FIN,2020-01-18,0
+France,FRA,2020-01-18,0
+United Kingdom,GBR,2020-01-18,0
+Greece,GRC,2020-01-18,0
+Guatemala,GTM,2020-01-18,0
+Guyana,GUY,2020-01-18,0
+Hong Kong,HKG,2020-01-18,29
+Honduras,HND,2020-01-18,0
+Croatia,HRV,2020-01-18,0
+Hungary,HUN,2020-01-18,0
+Indonesia,IDN,2020-01-18,19
+India,IND,2020-01-18,0
+Ireland,IRL,2020-01-18,0
+Iran,IRN,2020-01-18,0
+Iraq,IRQ,2020-01-18,0
+Iceland,ISL,2020-01-18,5
+Israel,ISR,2020-01-18,0
+Italy,ITA,2020-01-18,0
+Jordan,JOR,2020-01-18,0
+Japan,JPN,2020-01-18,5
+Kazakhstan,KAZ,2020-01-18,0
+Kenya,KEN,2020-01-18,0
+South Korea,KOR,2020-01-18,0
+Sri Lanka,LKA,2020-01-18,0
+Macao,MAC,2020-01-18,19
+Mexico,MEX,2020-01-18,5
+Myanmar,MMR,2020-01-18,7
+Malaysia,MYS,2020-01-18,0
+Nigeria,NGA,2020-01-18,5
+Nicaragua,NIC,2020-01-18,0
+Netherlands,NLD,2020-01-18,0
+Norway,NOR,2020-01-18,0
+New Zealand,NZL,2020-01-18,0
+Pakistan,PAK,2020-01-18,0
+Panama,PAN,2020-01-18,0
+Papua New Guinea,PNG,2020-01-18,0
+Poland,POL,2020-01-18,0
+Portugal,PRT,2020-01-18,0
+Qatar,QAT,2020-01-18,0
+Romania,ROU,2020-01-18,0
+Russia,RUS,2020-01-18,0
+Singapore,SGP,2020-01-18,24
+El Salvador,SLV,2020-01-18,0
+Serbia,SRB,2020-01-18,0
+Slovak Republic,SVK,2020-01-18,0
+Slovenia,SVN,2020-01-18,0
+Sweden,SWE,2020-01-18,0
+Syria,SYR,2020-01-18,0
+Thailand,THA,2020-01-18,0
+Tanzania,TZA,2020-01-18,0
+Uganda,UGA,2020-01-18,0
+United States,USA,2020-01-18,10
+Venezuela,VEN,2020-01-18,0
+Vietnam,VNM,2020-01-18,0
+South Africa,ZAF,2020-01-18,0
+Zimbabwe,ZWE,2020-01-18,0
+Taiwan,TWN,2020-01-18,0
+Afghanistan,AFG,2020-01-19,0
+Angola,AGO,2020-01-19,0
+Argentina,ARG,2020-01-19,0
+Australia,AUS,2020-01-19,7
+Austria,AUT,2020-01-19,0
+Belgium,BEL,2020-01-19,0
+Bulgaria,BGR,2020-01-19,0
+Belize,BLZ,2020-01-19,0
+Bermuda,BMU,2020-01-19,0
+Bolivia,BOL,2020-01-19,0
+Brazil,BRA,2020-01-19,0
+Barbados,BRB,2020-01-19,0
+Botswana,BWA,2020-01-19,19
+Canada,CAN,2020-01-19,0
+Switzerland,CHE,2020-01-19,0
+Chile,CHL,2020-01-19,0
+China,CHN,2020-01-19,0
+Colombia,COL,2020-01-19,0
+Costa Rica,CRI,2020-01-19,0
+Czech Republic,CZE,2020-01-19,0
+Germany,DEU,2020-01-19,0
+Dominican Republic,DOM,2020-01-19,0
+Algeria,DZA,2020-01-19,0
+Ecuador,ECU,2020-01-19,0
+Spain,ESP,2020-01-19,0
+Finland,FIN,2020-01-19,0
+France,FRA,2020-01-19,0
+United Kingdom,GBR,2020-01-19,0
+Greece,GRC,2020-01-19,0
+Guatemala,GTM,2020-01-19,0
+Guyana,GUY,2020-01-19,0
+Hong Kong,HKG,2020-01-19,29
+Honduras,HND,2020-01-19,0
+Croatia,HRV,2020-01-19,0
+Hungary,HUN,2020-01-19,0
+Indonesia,IDN,2020-01-19,19
+India,IND,2020-01-19,0
+Ireland,IRL,2020-01-19,0
+Iran,IRN,2020-01-19,0
+Iraq,IRQ,2020-01-19,0
+Iceland,ISL,2020-01-19,5
+Israel,ISR,2020-01-19,0
+Italy,ITA,2020-01-19,0
+Jordan,JOR,2020-01-19,0
+Japan,JPN,2020-01-19,5
+Kazakhstan,KAZ,2020-01-19,0
+Kenya,KEN,2020-01-19,0
+South Korea,KOR,2020-01-19,0
+Sri Lanka,LKA,2020-01-19,0
+Macao,MAC,2020-01-19,19
+Mexico,MEX,2020-01-19,5
+Myanmar,MMR,2020-01-19,7
+Malaysia,MYS,2020-01-19,0
+Nigeria,NGA,2020-01-19,5
+Nicaragua,NIC,2020-01-19,0
+Netherlands,NLD,2020-01-19,0
+Norway,NOR,2020-01-19,0
+New Zealand,NZL,2020-01-19,0
+Pakistan,PAK,2020-01-19,0
+Panama,PAN,2020-01-19,0
+Papua New Guinea,PNG,2020-01-19,0
+Poland,POL,2020-01-19,0
+Portugal,PRT,2020-01-19,0
+Qatar,QAT,2020-01-19,0
+Romania,ROU,2020-01-19,0
+Russia,RUS,2020-01-19,0
+Singapore,SGP,2020-01-19,24
+El Salvador,SLV,2020-01-19,0
+Serbia,SRB,2020-01-19,0
+Slovak Republic,SVK,2020-01-19,0
+Slovenia,SVN,2020-01-19,0
+Sweden,SWE,2020-01-19,0
+Syria,SYR,2020-01-19,0
+Thailand,THA,2020-01-19,0
+Tanzania,TZA,2020-01-19,0
+Uganda,UGA,2020-01-19,0
+United States,USA,2020-01-19,10
+Venezuela,VEN,2020-01-19,0
+Vietnam,VNM,2020-01-19,0
+South Africa,ZAF,2020-01-19,0
+Zimbabwe,ZWE,2020-01-19,0
+Taiwan,TWN,2020-01-19,0
+Afghanistan,AFG,2020-01-20,0
+Angola,AGO,2020-01-20,0
+Argentina,ARG,2020-01-20,0
+Australia,AUS,2020-01-20,7
+Austria,AUT,2020-01-20,0
+Belgium,BEL,2020-01-20,0
+Bulgaria,BGR,2020-01-20,0
+Belize,BLZ,2020-01-20,0
+Bermuda,BMU,2020-01-20,0
+Bolivia,BOL,2020-01-20,0
+Brazil,BRA,2020-01-20,0
+Barbados,BRB,2020-01-20,0
+Botswana,BWA,2020-01-20,19
+Canada,CAN,2020-01-20,0
+Switzerland,CHE,2020-01-20,0
+Chile,CHL,2020-01-20,0
+China,CHN,2020-01-20,12
+Colombia,COL,2020-01-20,0
+Costa Rica,CRI,2020-01-20,0
+Czech Republic,CZE,2020-01-20,0
+Germany,DEU,2020-01-20,0
+Dominican Republic,DOM,2020-01-20,0
+Algeria,DZA,2020-01-20,0
+Ecuador,ECU,2020-01-20,0
+Spain,ESP,2020-01-20,0
+Finland,FIN,2020-01-20,0
+France,FRA,2020-01-20,0
+United Kingdom,GBR,2020-01-20,0
+Greece,GRC,2020-01-20,0
+Guatemala,GTM,2020-01-20,0
+Guyana,GUY,2020-01-20,0
+Hong Kong,HKG,2020-01-20,29
+Honduras,HND,2020-01-20,0
+Croatia,HRV,2020-01-20,0
+Hungary,HUN,2020-01-20,0
+Indonesia,IDN,2020-01-20,19
+India,IND,2020-01-20,0
+Ireland,IRL,2020-01-20,0
+Iran,IRN,2020-01-20,0
+Iraq,IRQ,2020-01-20,0
+Iceland,ISL,2020-01-20,5
+Israel,ISR,2020-01-20,0
+Italy,ITA,2020-01-20,0
+Jordan,JOR,2020-01-20,0
+Japan,JPN,2020-01-20,5
+Kazakhstan,KAZ,2020-01-20,0
+Kenya,KEN,2020-01-20,5
+South Korea,KOR,2020-01-20,14
+Sri Lanka,LKA,2020-01-20,0
+Macao,MAC,2020-01-20,19
+Mexico,MEX,2020-01-20,5
+Myanmar,MMR,2020-01-20,7
+Malaysia,MYS,2020-01-20,0
+Nigeria,NGA,2020-01-20,5
+Nicaragua,NIC,2020-01-20,0
+Netherlands,NLD,2020-01-20,0
+Norway,NOR,2020-01-20,0
+New Zealand,NZL,2020-01-20,0
+Pakistan,PAK,2020-01-20,0
+Panama,PAN,2020-01-20,0
+Papua New Guinea,PNG,2020-01-20,0
+Poland,POL,2020-01-20,0
+Portugal,PRT,2020-01-20,0
+Qatar,QAT,2020-01-20,0
+Romania,ROU,2020-01-20,0
+Russia,RUS,2020-01-20,0
+Singapore,SGP,2020-01-20,24
+El Salvador,SLV,2020-01-20,0
+Serbia,SRB,2020-01-20,0
+Slovak Republic,SVK,2020-01-20,0
+Slovenia,SVN,2020-01-20,0
+Sweden,SWE,2020-01-20,0
+Syria,SYR,2020-01-20,0
+Thailand,THA,2020-01-20,0
+Tanzania,TZA,2020-01-20,0
+Uganda,UGA,2020-01-20,5
+United States,USA,2020-01-20,10
+Venezuela,VEN,2020-01-20,0
+Vietnam,VNM,2020-01-20,0
+South Africa,ZAF,2020-01-20,0
+Zimbabwe,ZWE,2020-01-20,0
+Taiwan,TWN,2020-01-20,14
+Afghanistan,AFG,2020-01-21,0
+Angola,AGO,2020-01-21,0
+Argentina,ARG,2020-01-21,0
+Australia,AUS,2020-01-21,7
+Austria,AUT,2020-01-21,0
+Belgium,BEL,2020-01-21,0
+Bulgaria,BGR,2020-01-21,0
+Belize,BLZ,2020-01-21,0
+Bermuda,BMU,2020-01-21,0
+Bolivia,BOL,2020-01-21,0
+Brazil,BRA,2020-01-21,0
+Barbados,BRB,2020-01-21,0
+Botswana,BWA,2020-01-21,19
+Canada,CAN,2020-01-21,0
+Switzerland,CHE,2020-01-21,0
+Chile,CHL,2020-01-21,0
+China,CHN,2020-01-21,12
+Colombia,COL,2020-01-21,0
+Costa Rica,CRI,2020-01-21,0
+Czech Republic,CZE,2020-01-21,0
+Germany,DEU,2020-01-21,0
+Dominican Republic,DOM,2020-01-21,0
+Algeria,DZA,2020-01-21,0
+Ecuador,ECU,2020-01-21,0
+Spain,ESP,2020-01-21,0
+Finland,FIN,2020-01-21,0
+France,FRA,2020-01-21,0
+United Kingdom,GBR,2020-01-21,0
+Greece,GRC,2020-01-21,0
+Guatemala,GTM,2020-01-21,5
+Guyana,GUY,2020-01-21,0
+Hong Kong,HKG,2020-01-21,29
+Honduras,HND,2020-01-21,0
+Croatia,HRV,2020-01-21,0
+Hungary,HUN,2020-01-21,0
+Indonesia,IDN,2020-01-21,19
+India,IND,2020-01-21,0
+Ireland,IRL,2020-01-21,0
+Iran,IRN,2020-01-21,0
+Iraq,IRQ,2020-01-21,0
+Iceland,ISL,2020-01-21,5
+Israel,ISR,2020-01-21,0
+Italy,ITA,2020-01-21,0
+Jordan,JOR,2020-01-21,0
+Japan,JPN,2020-01-21,5
+Kazakhstan,KAZ,2020-01-21,0
+Kenya,KEN,2020-01-21,5
+South Korea,KOR,2020-01-21,14
+Sri Lanka,LKA,2020-01-21,0
+Macao,MAC,2020-01-21,19
+Mexico,MEX,2020-01-21,5
+Myanmar,MMR,2020-01-21,7
+Malaysia,MYS,2020-01-21,0
+Nigeria,NGA,2020-01-21,5
+Nicaragua,NIC,2020-01-21,0
+Netherlands,NLD,2020-01-21,0
+Norway,NOR,2020-01-21,0
+New Zealand,NZL,2020-01-21,0
+Pakistan,PAK,2020-01-21,0
+Panama,PAN,2020-01-21,0
+Papua New Guinea,PNG,2020-01-21,0
+Poland,POL,2020-01-21,0
+Portugal,PRT,2020-01-21,0
+Qatar,QAT,2020-01-21,0
+Romania,ROU,2020-01-21,0
+Russia,RUS,2020-01-21,0
+Singapore,SGP,2020-01-21,24
+El Salvador,SLV,2020-01-21,0
+Serbia,SRB,2020-01-21,5
+Slovak Republic,SVK,2020-01-21,0
+Slovenia,SVN,2020-01-21,0
+Sweden,SWE,2020-01-21,0
+Syria,SYR,2020-01-21,0
+Thailand,THA,2020-01-21,0
+Tanzania,TZA,2020-01-21,0
+Uganda,UGA,2020-01-21,5
+United States,USA,2020-01-21,10
+Venezuela,VEN,2020-01-21,0
+Vietnam,VNM,2020-01-21,0
+South Africa,ZAF,2020-01-21,0
+Zimbabwe,ZWE,2020-01-21,0
+Taiwan,TWN,2020-01-21,14
+Afghanistan,AFG,2020-01-22,0
+Angola,AGO,2020-01-22,0
+Argentina,ARG,2020-01-22,0
+Australia,AUS,2020-01-22,7
+Austria,AUT,2020-01-22,0
+Belgium,BEL,2020-01-22,0
+Bulgaria,BGR,2020-01-22,0
+Belize,BLZ,2020-01-22,0
+Bermuda,BMU,2020-01-22,0
+Bolivia,BOL,2020-01-22,0
+Brazil,BRA,2020-01-22,0
+Barbados,BRB,2020-01-22,0
+Botswana,BWA,2020-01-22,19
+Canada,CAN,2020-01-22,5
+Switzerland,CHE,2020-01-22,0
+Chile,CHL,2020-01-22,0
+China,CHN,2020-01-22,19
+Colombia,COL,2020-01-22,14
+Costa Rica,CRI,2020-01-22,0
+Czech Republic,CZE,2020-01-22,0
+Germany,DEU,2020-01-22,0
+Dominican Republic,DOM,2020-01-22,0
+Algeria,DZA,2020-01-22,0
+Ecuador,ECU,2020-01-22,0
+Spain,ESP,2020-01-22,0
+Finland,FIN,2020-01-22,0
+France,FRA,2020-01-22,0
+United Kingdom,GBR,2020-01-22,0
+Greece,GRC,2020-01-22,0
+Guatemala,GTM,2020-01-22,5
+Guyana,GUY,2020-01-22,0
+Hong Kong,HKG,2020-01-22,29
+Honduras,HND,2020-01-22,0
+Croatia,HRV,2020-01-22,0
+Hungary,HUN,2020-01-22,0
+Indonesia,IDN,2020-01-22,19
+India,IND,2020-01-22,0
+Ireland,IRL,2020-01-22,0
+Iran,IRN,2020-01-22,0
+Iraq,IRQ,2020-01-22,0
+Iceland,ISL,2020-01-22,5
+Israel,ISR,2020-01-22,0
+Italy,ITA,2020-01-22,0
+Jordan,JOR,2020-01-22,0
+Japan,JPN,2020-01-22,5
+Kazakhstan,KAZ,2020-01-22,0
+Kenya,KEN,2020-01-22,5
+South Korea,KOR,2020-01-22,14
+Sri Lanka,LKA,2020-01-22,0
+Macao,MAC,2020-01-22,19
+Mexico,MEX,2020-01-22,5
+Myanmar,MMR,2020-01-22,7
+Malaysia,MYS,2020-01-22,0
+Nigeria,NGA,2020-01-22,5
+Nicaragua,NIC,2020-01-22,0
+Netherlands,NLD,2020-01-22,0
+Norway,NOR,2020-01-22,0
+New Zealand,NZL,2020-01-22,0
+Pakistan,PAK,2020-01-22,0
+Panama,PAN,2020-01-22,14
+Papua New Guinea,PNG,2020-01-22,0
+Poland,POL,2020-01-22,0
+Portugal,PRT,2020-01-22,0
+Qatar,QAT,2020-01-22,14
+Romania,ROU,2020-01-22,0
+Russia,RUS,2020-01-22,0
+Singapore,SGP,2020-01-22,24
+El Salvador,SLV,2020-01-22,0
+Serbia,SRB,2020-01-22,5
+Slovak Republic,SVK,2020-01-22,0
+Slovenia,SVN,2020-01-22,0
+Sweden,SWE,2020-01-22,0
+Syria,SYR,2020-01-22,0
+Thailand,THA,2020-01-22,0
+Tanzania,TZA,2020-01-22,0
+Uganda,UGA,2020-01-22,5
+United States,USA,2020-01-22,10
+Venezuela,VEN,2020-01-22,0
+Vietnam,VNM,2020-01-22,0
+South Africa,ZAF,2020-01-22,0
+Zimbabwe,ZWE,2020-01-22,0
+Taiwan,TWN,2020-01-22,14
+Afghanistan,AFG,2020-01-23,0
+Angola,AGO,2020-01-23,0
+Argentina,ARG,2020-01-23,0
+Australia,AUS,2020-01-23,7
+Austria,AUT,2020-01-23,0
+Belgium,BEL,2020-01-23,0
+Bulgaria,BGR,2020-01-23,0
+Belize,BLZ,2020-01-23,0
+Bermuda,BMU,2020-01-23,0
+Bolivia,BOL,2020-01-23,0
+Brazil,BRA,2020-01-23,0
+Barbados,BRB,2020-01-23,0
+Botswana,BWA,2020-01-23,19
+Canada,CAN,2020-01-23,5
+Switzerland,CHE,2020-01-23,0
+Chile,CHL,2020-01-23,0
+China,CHN,2020-01-23,43
+Colombia,COL,2020-01-23,14
+Costa Rica,CRI,2020-01-23,0
+Czech Republic,CZE,2020-01-23,0
+Germany,DEU,2020-01-23,0
+Dominican Republic,DOM,2020-01-23,0
+Algeria,DZA,2020-01-23,0
+Ecuador,ECU,2020-01-23,0
+Spain,ESP,2020-01-23,0
+Finland,FIN,2020-01-23,0
+France,FRA,2020-01-23,5
+United Kingdom,GBR,2020-01-23,0
+Greece,GRC,2020-01-23,0
+Guatemala,GTM,2020-01-23,5
+Guyana,GUY,2020-01-23,0
+Hong Kong,HKG,2020-01-23,29
+Honduras,HND,2020-01-23,0
+Croatia,HRV,2020-01-23,0
+Hungary,HUN,2020-01-23,0
+Indonesia,IDN,2020-01-23,19
+India,IND,2020-01-23,0
+Ireland,IRL,2020-01-23,0
+Iran,IRN,2020-01-23,0
+Iraq,IRQ,2020-01-23,0
+Iceland,ISL,2020-01-23,5
+Israel,ISR,2020-01-23,0
+Italy,ITA,2020-01-23,5
+Jordan,JOR,2020-01-23,0
+Japan,JPN,2020-01-23,5
+Kazakhstan,KAZ,2020-01-23,0
+Kenya,KEN,2020-01-23,5
+South Korea,KOR,2020-01-23,14
+Sri Lanka,LKA,2020-01-23,0
+Macao,MAC,2020-01-23,33
+Mexico,MEX,2020-01-23,19
+Myanmar,MMR,2020-01-23,7
+Malaysia,MYS,2020-01-23,14
+Nigeria,NGA,2020-01-23,5
+Nicaragua,NIC,2020-01-23,0
+Netherlands,NLD,2020-01-23,0
+Norway,NOR,2020-01-23,0
+New Zealand,NZL,2020-01-23,0
+Pakistan,PAK,2020-01-23,0
+Panama,PAN,2020-01-23,0
+Papua New Guinea,PNG,2020-01-23,0
+Poland,POL,2020-01-23,7
+Portugal,PRT,2020-01-23,0
+Qatar,QAT,2020-01-23,14
+Romania,ROU,2020-01-23,0
+Russia,RUS,2020-01-23,0
+Singapore,SGP,2020-01-23,29
+El Salvador,SLV,2020-01-23,14
+Serbia,SRB,2020-01-23,5
+Slovak Republic,SVK,2020-01-23,0
+Slovenia,SVN,2020-01-23,0
+Sweden,SWE,2020-01-23,0
+Syria,SYR,2020-01-23,0
+Thailand,THA,2020-01-23,0
+Tanzania,TZA,2020-01-23,0
+Uganda,UGA,2020-01-23,5
+United States,USA,2020-01-23,10
+Venezuela,VEN,2020-01-23,0
+Vietnam,VNM,2020-01-23,0
+South Africa,ZAF,2020-01-23,0
+Zimbabwe,ZWE,2020-01-23,0
+Taiwan,TWN,2020-01-23,14
+Afghanistan,AFG,2020-01-24,0
+Angola,AGO,2020-01-24,0
+Argentina,ARG,2020-01-24,0
+Australia,AUS,2020-01-24,7
+Austria,AUT,2020-01-24,0
+Belgium,BEL,2020-01-24,0
+Bulgaria,BGR,2020-01-24,0
+Belize,BLZ,2020-01-24,0
+Bermuda,BMU,2020-01-24,0
+Bolivia,BOL,2020-01-24,0
+Brazil,BRA,2020-01-24,0
+Barbados,BRB,2020-01-24,0
+Botswana,BWA,2020-01-24,19
+Canada,CAN,2020-01-24,5
+Switzerland,CHE,2020-01-24,0
+Chile,CHL,2020-01-24,0
+China,CHN,2020-01-24,43
+Colombia,COL,2020-01-24,14
+Costa Rica,CRI,2020-01-24,0
+Czech Republic,CZE,2020-01-24,0
+Germany,DEU,2020-01-24,14
+Dominican Republic,DOM,2020-01-24,0
+Algeria,DZA,2020-01-24,0
+Ecuador,ECU,2020-01-24,0
+Spain,ESP,2020-01-24,0
+Finland,FIN,2020-01-24,0
+France,FRA,2020-01-24,12
+United Kingdom,GBR,2020-01-24,0
+Greece,GRC,2020-01-24,0
+Guatemala,GTM,2020-01-24,5
+Guyana,GUY,2020-01-24,0
+Hong Kong,HKG,2020-01-24,29
+Honduras,HND,2020-01-24,0
+Croatia,HRV,2020-01-24,0
+Hungary,HUN,2020-01-24,0
+Indonesia,IDN,2020-01-24,19
+India,IND,2020-01-24,0
+Ireland,IRL,2020-01-24,0
+Iran,IRN,2020-01-24,0
+Iraq,IRQ,2020-01-24,0
+Iceland,ISL,2020-01-24,5
+Israel,ISR,2020-01-24,0
+Italy,ITA,2020-01-24,5
+Jordan,JOR,2020-01-24,0
+Japan,JPN,2020-01-24,5
+Kazakhstan,KAZ,2020-01-24,0
+Kenya,KEN,2020-01-24,5
+South Korea,KOR,2020-01-24,14
+Sri Lanka,LKA,2020-01-24,14
+Macao,MAC,2020-01-24,43
+Mexico,MEX,2020-01-24,19
+Myanmar,MMR,2020-01-24,7
+Malaysia,MYS,2020-01-24,14
+Nigeria,NGA,2020-01-24,5
+Nicaragua,NIC,2020-01-24,0
+Netherlands,NLD,2020-01-24,0
+Norway,NOR,2020-01-24,0
+New Zealand,NZL,2020-01-24,0
+Pakistan,PAK,2020-01-24,0
+Panama,PAN,2020-01-24,0
+Papua New Guinea,PNG,2020-01-24,0
+Poland,POL,2020-01-24,7
+Portugal,PRT,2020-01-24,0
+Qatar,QAT,2020-01-24,19
+Romania,ROU,2020-01-24,0
+Russia,RUS,2020-01-24,0
+Singapore,SGP,2020-01-24,29
+El Salvador,SLV,2020-01-24,14
+Serbia,SRB,2020-01-24,5
+Slovak Republic,SVK,2020-01-24,0
+Slovenia,SVN,2020-01-24,0
+Sweden,SWE,2020-01-24,0
+Syria,SYR,2020-01-24,0
+Thailand,THA,2020-01-24,0
+Tanzania,TZA,2020-01-24,0
+Uganda,UGA,2020-01-24,5
+United States,USA,2020-01-24,10
+Venezuela,VEN,2020-01-24,0
+Vietnam,VNM,2020-01-24,0
+South Africa,ZAF,2020-01-24,5
+Zimbabwe,ZWE,2020-01-24,0
+Taiwan,TWN,2020-01-24,14
+Afghanistan,AFG,2020-01-25,0
+Angola,AGO,2020-01-25,0
+Argentina,ARG,2020-01-25,0
+Australia,AUS,2020-01-25,7
+Austria,AUT,2020-01-25,0
+Belgium,BEL,2020-01-25,0
+Bulgaria,BGR,2020-01-25,0
+Belize,BLZ,2020-01-25,0
+Bermuda,BMU,2020-01-25,0
+Bolivia,BOL,2020-01-25,0
+Brazil,BRA,2020-01-25,0
+Barbados,BRB,2020-01-25,0
+Botswana,BWA,2020-01-25,19
+Canada,CAN,2020-01-25,5
+Switzerland,CHE,2020-01-25,0
+Chile,CHL,2020-01-25,0
+China,CHN,2020-01-25,43
+Colombia,COL,2020-01-25,14
+Costa Rica,CRI,2020-01-25,0
+Czech Republic,CZE,2020-01-25,0
+Germany,DEU,2020-01-25,14
+Dominican Republic,DOM,2020-01-25,0
+Algeria,DZA,2020-01-25,0
+Ecuador,ECU,2020-01-25,0
+Spain,ESP,2020-01-25,0
+Finland,FIN,2020-01-25,0
+France,FRA,2020-01-25,12
+United Kingdom,GBR,2020-01-25,0
+Greece,GRC,2020-01-25,0
+Guatemala,GTM,2020-01-25,5
+Guyana,GUY,2020-01-25,0
+Hong Kong,HKG,2020-01-25,33
+Honduras,HND,2020-01-25,0
+Croatia,HRV,2020-01-25,0
+Hungary,HUN,2020-01-25,0
+Indonesia,IDN,2020-01-25,19
+India,IND,2020-01-25,0
+Ireland,IRL,2020-01-25,0
+Iran,IRN,2020-01-25,0
+Iraq,IRQ,2020-01-25,0
+Iceland,ISL,2020-01-25,5
+Israel,ISR,2020-01-25,0
+Italy,ITA,2020-01-25,5
+Jordan,JOR,2020-01-25,0
+Japan,JPN,2020-01-25,5
+Kazakhstan,KAZ,2020-01-25,0
+Kenya,KEN,2020-01-25,5
+South Korea,KOR,2020-01-25,14
+Sri Lanka,LKA,2020-01-25,0
+Macao,MAC,2020-01-25,43
+Mexico,MEX,2020-01-25,19
+Myanmar,MMR,2020-01-25,7
+Malaysia,MYS,2020-01-25,14
+Nigeria,NGA,2020-01-25,5
+Nicaragua,NIC,2020-01-25,0
+Netherlands,NLD,2020-01-25,0
+Norway,NOR,2020-01-25,0
+New Zealand,NZL,2020-01-25,0
+Pakistan,PAK,2020-01-25,0
+Panama,PAN,2020-01-25,0
+Papua New Guinea,PNG,2020-01-25,0
+Poland,POL,2020-01-25,7
+Portugal,PRT,2020-01-25,0
+Qatar,QAT,2020-01-25,19
+Romania,ROU,2020-01-25,0
+Russia,RUS,2020-01-25,0
+Singapore,SGP,2020-01-25,29
+El Salvador,SLV,2020-01-25,14
+Serbia,SRB,2020-01-25,5
+Slovak Republic,SVK,2020-01-25,0
+Slovenia,SVN,2020-01-25,0
+Sweden,SWE,2020-01-25,0
+Syria,SYR,2020-01-25,0
+Thailand,THA,2020-01-25,0
+Tanzania,TZA,2020-01-25,0
+Uganda,UGA,2020-01-25,5
+United States,USA,2020-01-25,10
+Venezuela,VEN,2020-01-25,0
+Vietnam,VNM,2020-01-25,0
+South Africa,ZAF,2020-01-25,5
+Zimbabwe,ZWE,2020-01-25,0
+Taiwan,TWN,2020-01-25,14
+Afghanistan,AFG,2020-01-26,0
+Angola,AGO,2020-01-26,0
+Argentina,ARG,2020-01-26,0
+Australia,AUS,2020-01-26,7
+Austria,AUT,2020-01-26,0
+Belgium,BEL,2020-01-26,0
+Bulgaria,BGR,2020-01-26,0
+Belize,BLZ,2020-01-26,0
+Bermuda,BMU,2020-01-26,0
+Bolivia,BOL,2020-01-26,0
+Brazil,BRA,2020-01-26,0
+Barbados,BRB,2020-01-26,0
+Botswana,BWA,2020-01-26,19
+Canada,CAN,2020-01-26,5
+Switzerland,CHE,2020-01-26,0
+Chile,CHL,2020-01-26,0
+China,CHN,2020-01-26,71
+Colombia,COL,2020-01-26,14
+Costa Rica,CRI,2020-01-26,0
+Czech Republic,CZE,2020-01-26,0
+Germany,DEU,2020-01-26,14
+Dominican Republic,DOM,2020-01-26,0
+Algeria,DZA,2020-01-26,0
+Ecuador,ECU,2020-01-26,14
+Spain,ESP,2020-01-26,0
+Finland,FIN,2020-01-26,0
+France,FRA,2020-01-26,12
+United Kingdom,GBR,2020-01-26,0
+Greece,GRC,2020-01-26,0
+Guatemala,GTM,2020-01-26,5
+Guyana,GUY,2020-01-26,0
+Hong Kong,HKG,2020-01-26,48
+Honduras,HND,2020-01-26,0
+Croatia,HRV,2020-01-26,0
+Hungary,HUN,2020-01-26,0
+Indonesia,IDN,2020-01-26,19
+India,IND,2020-01-26,5
+Ireland,IRL,2020-01-26,0
+Iran,IRN,2020-01-26,0
+Iraq,IRQ,2020-01-26,0
+Iceland,ISL,2020-01-26,5
+Israel,ISR,2020-01-26,0
+Italy,ITA,2020-01-26,5
+Jordan,JOR,2020-01-26,0
+Japan,JPN,2020-01-26,5
+Kazakhstan,KAZ,2020-01-26,0
+Kenya,KEN,2020-01-26,5
+South Korea,KOR,2020-01-26,14
+Sri Lanka,LKA,2020-01-26,29
+Macao,MAC,2020-01-26,43
+Mexico,MEX,2020-01-26,19
+Myanmar,MMR,2020-01-26,7
+Malaysia,MYS,2020-01-26,14
+Nigeria,NGA,2020-01-26,5
+Nicaragua,NIC,2020-01-26,0
+Netherlands,NLD,2020-01-26,0
+Norway,NOR,2020-01-26,0
+New Zealand,NZL,2020-01-26,0
+Pakistan,PAK,2020-01-26,0
+Panama,PAN,2020-01-26,0
+Papua New Guinea,PNG,2020-01-26,0
+Poland,POL,2020-01-26,7
+Portugal,PRT,2020-01-26,0
+Qatar,QAT,2020-01-26,19
+Romania,ROU,2020-01-26,0
+Russia,RUS,2020-01-26,0
+Singapore,SGP,2020-01-26,29
+El Salvador,SLV,2020-01-26,14
+Serbia,SRB,2020-01-26,5
+Slovak Republic,SVK,2020-01-26,0
+Slovenia,SVN,2020-01-26,0
+Sweden,SWE,2020-01-26,0
+Syria,SYR,2020-01-26,0
+Thailand,THA,2020-01-26,0
+Tanzania,TZA,2020-01-26,0
+Uganda,UGA,2020-01-26,5
+United States,USA,2020-01-26,10
+Venezuela,VEN,2020-01-26,0
+Vietnam,VNM,2020-01-26,0
+South Africa,ZAF,2020-01-26,5
+Zimbabwe,ZWE,2020-01-26,0
+Taiwan,TWN,2020-01-26,14
+Afghanistan,AFG,2020-01-27,0
+Angola,AGO,2020-01-27,0
+Argentina,ARG,2020-01-27,0
+Australia,AUS,2020-01-27,7
+Austria,AUT,2020-01-27,0
+Belgium,BEL,2020-01-27,0
+Bulgaria,BGR,2020-01-27,0
+Belize,BLZ,2020-01-27,0
+Bermuda,BMU,2020-01-27,0
+Bolivia,BOL,2020-01-27,0
+Brazil,BRA,2020-01-27,0
+Barbados,BRB,2020-01-27,0
+Botswana,BWA,2020-01-27,19
+Canada,CAN,2020-01-27,5
+Switzerland,CHE,2020-01-27,0
+Chile,CHL,2020-01-27,0
+China,CHN,2020-01-27,71
+Colombia,COL,2020-01-27,14
+Costa Rica,CRI,2020-01-27,0
+Czech Republic,CZE,2020-01-27,0
+Germany,DEU,2020-01-27,14
+Dominican Republic,DOM,2020-01-27,0
+Algeria,DZA,2020-01-27,0
+Ecuador,ECU,2020-01-27,14
+Spain,ESP,2020-01-27,0
+Finland,FIN,2020-01-27,0
+France,FRA,2020-01-27,12
+United Kingdom,GBR,2020-01-27,0
+Greece,GRC,2020-01-27,0
+Guatemala,GTM,2020-01-27,5
+Guyana,GUY,2020-01-27,0
+Hong Kong,HKG,2020-01-27,57
+Honduras,HND,2020-01-27,0
+Croatia,HRV,2020-01-27,0
+Hungary,HUN,2020-01-27,0
+Indonesia,IDN,2020-01-27,19
+India,IND,2020-01-27,5
+Ireland,IRL,2020-01-27,0
+Iran,IRN,2020-01-27,0
+Iraq,IRQ,2020-01-27,0
+Iceland,ISL,2020-01-27,5
+Israel,ISR,2020-01-27,0
+Italy,ITA,2020-01-27,5
+Jordan,JOR,2020-01-27,0
+Japan,JPN,2020-01-27,5
+Kazakhstan,KAZ,2020-01-27,0
+Kenya,KEN,2020-01-27,5
+South Korea,KOR,2020-01-27,14
+Sri Lanka,LKA,2020-01-27,29
+Macao,MAC,2020-01-27,43
+Mexico,MEX,2020-01-27,19
+Myanmar,MMR,2020-01-27,7
+Malaysia,MYS,2020-01-27,14
+Nigeria,NGA,2020-01-27,5
+Nicaragua,NIC,2020-01-27,0
+Netherlands,NLD,2020-01-27,0
+Norway,NOR,2020-01-27,0
+New Zealand,NZL,2020-01-27,0
+Pakistan,PAK,2020-01-27,0
+Panama,PAN,2020-01-27,0
+Papua New Guinea,PNG,2020-01-27,14
+Poland,POL,2020-01-27,7
+Portugal,PRT,2020-01-27,0
+Qatar,QAT,2020-01-27,19
+Romania,ROU,2020-01-27,5
+Russia,RUS,2020-01-27,0
+Singapore,SGP,2020-01-27,29
+El Salvador,SLV,2020-01-27,14
+Serbia,SRB,2020-01-27,5
+Slovak Republic,SVK,2020-01-27,0
+Slovenia,SVN,2020-01-27,0
+Sweden,SWE,2020-01-27,0
+Syria,SYR,2020-01-27,0
+Thailand,THA,2020-01-27,0
+Tanzania,TZA,2020-01-27,0
+Uganda,UGA,2020-01-27,5
+Ukraine,UKR,2020-01-27,52
+United States,USA,2020-01-27,10
+Venezuela,VEN,2020-01-27,0
+Vietnam,VNM,2020-01-27,0
+South Africa,ZAF,2020-01-27,5
+Zimbabwe,ZWE,2020-01-27,0
+Taiwan,TWN,2020-01-27,14
+Afghanistan,AFG,2020-01-28,0
+Angola,AGO,2020-01-28,0
+Argentina,ARG,2020-01-28,0
+Australia,AUS,2020-01-28,7
+Austria,AUT,2020-01-28,0
+Belgium,BEL,2020-01-28,0
+Bulgaria,BGR,2020-01-28,0
+Belize,BLZ,2020-01-28,0
+Bermuda,BMU,2020-01-28,0
+Bolivia,BOL,2020-01-28,0
+Brazil,BRA,2020-01-28,0
+Barbados,BRB,2020-01-28,0
+Botswana,BWA,2020-01-28,19
+Canada,CAN,2020-01-28,5
+Switzerland,CHE,2020-01-28,0
+Chile,CHL,2020-01-28,0
+China,CHN,2020-01-28,71
+Colombia,COL,2020-01-28,14
+Costa Rica,CRI,2020-01-28,0
+Czech Republic,CZE,2020-01-28,0
+Germany,DEU,2020-01-28,14
+Dominican Republic,DOM,2020-01-28,0
+Algeria,DZA,2020-01-28,0
+Ecuador,ECU,2020-01-28,14
+Spain,ESP,2020-01-28,0
+Finland,FIN,2020-01-28,0
+France,FRA,2020-01-28,12
+United Kingdom,GBR,2020-01-28,0
+Greece,GRC,2020-01-28,0
+Guatemala,GTM,2020-01-28,5
+Guyana,GUY,2020-01-28,5
+Hong Kong,HKG,2020-01-28,67
+Honduras,HND,2020-01-28,0
+Croatia,HRV,2020-01-28,0
+Hungary,HUN,2020-01-28,0
+Indonesia,IDN,2020-01-28,19
+India,IND,2020-01-28,5
+Ireland,IRL,2020-01-28,0
+Iran,IRN,2020-01-28,0
+Iraq,IRQ,2020-01-28,0
+Iceland,ISL,2020-01-28,5
+Israel,ISR,2020-01-28,0
+Italy,ITA,2020-01-28,5
+Jordan,JOR,2020-01-28,0
+Japan,JPN,2020-01-28,5
+Kazakhstan,KAZ,2020-01-28,0
+Kenya,KEN,2020-01-28,5
+South Korea,KOR,2020-01-28,14
+Sri Lanka,LKA,2020-01-28,29
+Macao,MAC,2020-01-28,43
+Mexico,MEX,2020-01-28,19
+Myanmar,MMR,2020-01-28,7
+Malaysia,MYS,2020-01-28,14
+Nigeria,NGA,2020-01-28,5
+Nicaragua,NIC,2020-01-28,0
+Netherlands,NLD,2020-01-28,0
+Norway,NOR,2020-01-28,0
+New Zealand,NZL,2020-01-28,0
+Pakistan,PAK,2020-01-28,0
+Panama,PAN,2020-01-28,19
+Papua New Guinea,PNG,2020-01-28,19
+Poland,POL,2020-01-28,7
+Portugal,PRT,2020-01-28,0
+Qatar,QAT,2020-01-28,19
+Romania,ROU,2020-01-28,5
+Russia,RUS,2020-01-28,0
+Singapore,SGP,2020-01-28,29
+El Salvador,SLV,2020-01-28,14
+Serbia,SRB,2020-01-28,5
+Slovak Republic,SVK,2020-01-28,0
+Slovenia,SVN,2020-01-28,0
+Sweden,SWE,2020-01-28,0
+Syria,SYR,2020-01-28,0
+Thailand,THA,2020-01-28,0
+Tanzania,TZA,2020-01-28,0
+Uganda,UGA,2020-01-28,5
+Ukraine,UKR,2020-01-28,52
+United States,USA,2020-01-28,10
+Venezuela,VEN,2020-01-28,0
+Vietnam,VNM,2020-01-28,0
+South Africa,ZAF,2020-01-28,5
+Zimbabwe,ZWE,2020-01-28,0
+Taiwan,TWN,2020-01-28,14
+Afghanistan,AFG,2020-01-29,0
+Angola,AGO,2020-01-29,0
+Argentina,ARG,2020-01-29,0
+Australia,AUS,2020-01-29,7
+Austria,AUT,2020-01-29,0
+Belgium,BEL,2020-01-29,0
+Bulgaria,BGR,2020-01-29,0
+Belize,BLZ,2020-01-29,0
+Bermuda,BMU,2020-01-29,0
+Bolivia,BOL,2020-01-29,0
+Brazil,BRA,2020-01-29,0
+Barbados,BRB,2020-01-29,0
+Botswana,BWA,2020-01-29,19
+Canada,CAN,2020-01-29,5
+Switzerland,CHE,2020-01-29,0
+Chile,CHL,2020-01-29,0
+China,CHN,2020-01-29,71
+Colombia,COL,2020-01-29,14
+Costa Rica,CRI,2020-01-29,0
+Czech Republic,CZE,2020-01-29,0
+Germany,DEU,2020-01-29,14
+Dominican Republic,DOM,2020-01-29,0
+Algeria,DZA,2020-01-29,0
+Ecuador,ECU,2020-01-29,14
+Spain,ESP,2020-01-29,0
+Finland,FIN,2020-01-29,0
+France,FRA,2020-01-29,12
+United Kingdom,GBR,2020-01-29,0
+Greece,GRC,2020-01-29,0
+Guatemala,GTM,2020-01-29,5
+Guyana,GUY,2020-01-29,5
+Hong Kong,HKG,2020-01-29,71
+Honduras,HND,2020-01-29,0
+Croatia,HRV,2020-01-29,0
+Hungary,HUN,2020-01-29,0
+Indonesia,IDN,2020-01-29,19
+India,IND,2020-01-29,5
+Ireland,IRL,2020-01-29,0
+Iran,IRN,2020-01-29,0
+Iraq,IRQ,2020-01-29,0
+Iceland,ISL,2020-01-29,5
+Israel,ISR,2020-01-29,0
+Italy,ITA,2020-01-29,5
+Jordan,JOR,2020-01-29,0
+Japan,JPN,2020-01-29,5
+Kazakhstan,KAZ,2020-01-29,0
+Kenya,KEN,2020-01-29,5
+South Korea,KOR,2020-01-29,14
+Sri Lanka,LKA,2020-01-29,29
+Macao,MAC,2020-01-29,48
+Mexico,MEX,2020-01-29,19
+Myanmar,MMR,2020-01-29,7
+Malaysia,MYS,2020-01-29,14
+Nigeria,NGA,2020-01-29,5
+Nicaragua,NIC,2020-01-29,0
+Netherlands,NLD,2020-01-29,0
+Norway,NOR,2020-01-29,0
+New Zealand,NZL,2020-01-29,0
+Pakistan,PAK,2020-01-29,0
+Panama,PAN,2020-01-29,19
+Papua New Guinea,PNG,2020-01-29,29
+Poland,POL,2020-01-29,7
+Portugal,PRT,2020-01-29,0
+Qatar,QAT,2020-01-29,19
+Romania,ROU,2020-01-29,5
+Russia,RUS,2020-01-29,0
+Singapore,SGP,2020-01-29,29
+El Salvador,SLV,2020-01-29,14
+Serbia,SRB,2020-01-29,5
+Slovak Republic,SVK,2020-01-29,0
+Slovenia,SVN,2020-01-29,0
+Sweden,SWE,2020-01-29,0
+Syria,SYR,2020-01-29,0
+Thailand,THA,2020-01-29,0
+Tanzania,TZA,2020-01-29,0
+Uganda,UGA,2020-01-29,19
+Ukraine,UKR,2020-01-29,52
+United States,USA,2020-01-29,10
+Venezuela,VEN,2020-01-29,0
+Vietnam,VNM,2020-01-29,14
+South Africa,ZAF,2020-01-29,5
+Zimbabwe,ZWE,2020-01-29,0
+Taiwan,TWN,2020-01-29,14
+Afghanistan,AFG,2020-01-30,0
+Angola,AGO,2020-01-30,0
+Argentina,ARG,2020-01-30,0
+Australia,AUS,2020-01-30,7
+Austria,AUT,2020-01-30,0
+Belgium,BEL,2020-01-30,0
+Bulgaria,BGR,2020-01-30,0
+Belize,BLZ,2020-01-30,0
+Bermuda,BMU,2020-01-30,0
+Bolivia,BOL,2020-01-30,0
+Brazil,BRA,2020-01-30,0
+Barbados,BRB,2020-01-30,0
+Botswana,BWA,2020-01-30,19
+Canada,CAN,2020-01-30,5
+Switzerland,CHE,2020-01-30,0
+Chile,CHL,2020-01-30,0
+China,CHN,2020-01-30,71
+Colombia,COL,2020-01-30,14
+Costa Rica,CRI,2020-01-30,0
+Czech Republic,CZE,2020-01-30,0
+Germany,DEU,2020-01-30,14
+Dominican Republic,DOM,2020-01-30,0
+Algeria,DZA,2020-01-30,0
+Ecuador,ECU,2020-01-30,14
+Spain,ESP,2020-01-30,0
+Finland,FIN,2020-01-30,0
+France,FRA,2020-01-30,12
+United Kingdom,GBR,2020-01-30,0
+Greece,GRC,2020-01-30,0
+Guatemala,GTM,2020-01-30,5
+Guyana,GUY,2020-01-30,5
+Hong Kong,HKG,2020-01-30,71
+Honduras,HND,2020-01-30,0
+Croatia,HRV,2020-01-30,0
+Hungary,HUN,2020-01-30,14
+Indonesia,IDN,2020-01-30,19
+India,IND,2020-01-30,5
+Ireland,IRL,2020-01-30,0
+Iran,IRN,2020-01-30,0
+Iraq,IRQ,2020-01-30,0
+Iceland,ISL,2020-01-30,5
+Israel,ISR,2020-01-30,0
+Italy,ITA,2020-01-30,14
+Jordan,JOR,2020-01-30,0
+Japan,JPN,2020-01-30,5
+Kazakhstan,KAZ,2020-01-30,0
+Kenya,KEN,2020-01-30,5
+South Korea,KOR,2020-01-30,14
+Sri Lanka,LKA,2020-01-30,29
+Macao,MAC,2020-01-30,48
+Mexico,MEX,2020-01-30,19
+Myanmar,MMR,2020-01-30,7
+Malaysia,MYS,2020-01-30,29
+Nigeria,NGA,2020-01-30,5
+Nicaragua,NIC,2020-01-30,0
+Netherlands,NLD,2020-01-30,0
+Norway,NOR,2020-01-30,0
+New Zealand,NZL,2020-01-30,0
+Pakistan,PAK,2020-01-30,0
+Panama,PAN,2020-01-30,19
+Papua New Guinea,PNG,2020-01-30,29
+Poland,POL,2020-01-30,7
+Portugal,PRT,2020-01-30,0
+Qatar,QAT,2020-01-30,19
+Romania,ROU,2020-01-30,5
+Russia,RUS,2020-01-30,14
+Singapore,SGP,2020-01-30,29
+El Salvador,SLV,2020-01-30,14
+Serbia,SRB,2020-01-30,5
+Slovak Republic,SVK,2020-01-30,0
+Slovenia,SVN,2020-01-30,0
+Sweden,SWE,2020-01-30,0
+Syria,SYR,2020-01-30,0
+Thailand,THA,2020-01-30,0
+Tanzania,TZA,2020-01-30,0
+Uganda,UGA,2020-01-30,19
+Ukraine,UKR,2020-01-30,52
+United States,USA,2020-01-30,10
+Venezuela,VEN,2020-01-30,0
+Vietnam,VNM,2020-01-30,14
+South Africa,ZAF,2020-01-30,5
+Zimbabwe,ZWE,2020-01-30,0
+Taiwan,TWN,2020-01-30,14
+Afghanistan,AFG,2020-01-31,0
+Angola,AGO,2020-01-31,0
+Argentina,ARG,2020-01-31,0
+Australia,AUS,2020-01-31,7
+Austria,AUT,2020-01-31,0
+Belgium,BEL,2020-01-31,0
+Bulgaria,BGR,2020-01-31,0
+Belize,BLZ,2020-01-31,0
+Bermuda,BMU,2020-01-31,0
+Bolivia,BOL,2020-01-31,0
+Brazil,BRA,2020-01-31,0
+Barbados,BRB,2020-01-31,0
+Botswana,BWA,2020-01-31,19
+Canada,CAN,2020-01-31,5
+Switzerland,CHE,2020-01-31,0
+Chile,CHL,2020-01-31,0
+China,CHN,2020-01-31,71
+Colombia,COL,2020-01-31,14
+Costa Rica,CRI,2020-01-31,0
+Czech Republic,CZE,2020-01-31,0
+Germany,DEU,2020-01-31,14
+Dominican Republic,DOM,2020-01-31,0
+Algeria,DZA,2020-01-31,0
+Ecuador,ECU,2020-01-31,14
+Spain,ESP,2020-01-31,14
+Finland,FIN,2020-01-31,0
+France,FRA,2020-01-31,17
+United Kingdom,GBR,2020-01-31,14
+Greece,GRC,2020-01-31,0
+Guatemala,GTM,2020-01-31,24
+Guyana,GUY,2020-01-31,5
+Hong Kong,HKG,2020-01-31,71
+Honduras,HND,2020-01-31,0
+Croatia,HRV,2020-01-31,0
+Hungary,HUN,2020-01-31,14
+Indonesia,IDN,2020-01-31,19
+India,IND,2020-01-31,12
+Ireland,IRL,2020-01-31,0
+Iran,IRN,2020-01-31,0
+Iraq,IRQ,2020-01-31,0
+Iceland,ISL,2020-01-31,5
+Israel,ISR,2020-01-31,0
+Italy,ITA,2020-01-31,29
+Jordan,JOR,2020-01-31,0
+Japan,JPN,2020-01-31,5
+Kazakhstan,KAZ,2020-01-31,0
+Kenya,KEN,2020-01-31,5
+South Korea,KOR,2020-01-31,24
+Sri Lanka,LKA,2020-01-31,29
+Macao,MAC,2020-01-31,48
+Mexico,MEX,2020-01-31,19
+Myanmar,MMR,2020-01-31,7
+Malaysia,MYS,2020-01-31,29
+Nigeria,NGA,2020-01-31,5
+Nicaragua,NIC,2020-01-31,0
+Netherlands,NLD,2020-01-31,0
+Norway,NOR,2020-01-31,0
+New Zealand,NZL,2020-01-31,0
+Pakistan,PAK,2020-01-31,0
+Panama,PAN,2020-01-31,19
+Papua New Guinea,PNG,2020-01-31,29
+Poland,POL,2020-01-31,7
+Portugal,PRT,2020-01-31,0
+Qatar,QAT,2020-01-31,19
+Romania,ROU,2020-01-31,5
+Russia,RUS,2020-01-31,14
+Singapore,SGP,2020-01-31,29
+El Salvador,SLV,2020-01-31,29
+Serbia,SRB,2020-01-31,5
+Slovak Republic,SVK,2020-01-31,0
+Slovenia,SVN,2020-01-31,0
+Sweden,SWE,2020-01-31,0
+Syria,SYR,2020-01-31,0
+Thailand,THA,2020-01-31,0
+Tanzania,TZA,2020-01-31,0
+Uganda,UGA,2020-01-31,19
+Ukraine,UKR,2020-01-31,52
+United States,USA,2020-01-31,10
+Venezuela,VEN,2020-01-31,0
+Vietnam,VNM,2020-01-31,14
+South Africa,ZAF,2020-01-31,5
+Zimbabwe,ZWE,2020-01-31,0
+Taiwan,TWN,2020-01-31,14
+Afghanistan,AFG,2020-02-01,0
+Angola,AGO,2020-02-01,0
+Argentina,ARG,2020-02-01,0
+Australia,AUS,2020-02-01,21
+Austria,AUT,2020-02-01,0
+Belgium,BEL,2020-02-01,0
+Bulgaria,BGR,2020-02-01,0
+Belize,BLZ,2020-02-01,0
+Bermuda,BMU,2020-02-01,0
+Bolivia,BOL,2020-02-01,0
+Brazil,BRA,2020-02-01,0
+Barbados,BRB,2020-02-01,0
+Botswana,BWA,2020-02-01,19
+Canada,CAN,2020-02-01,5
+Switzerland,CHE,2020-02-01,0
+Chile,CHL,2020-02-01,0
+China,CHN,2020-02-01,71
+Democratic Republic of Congo,COD,2020-02-01,0
+Colombia,COL,2020-02-01,14
+Costa Rica,CRI,2020-02-01,0
+Czech Republic,CZE,2020-02-01,0
+Germany,DEU,2020-02-01,14
+Dominican Republic,DOM,2020-02-01,0
+Algeria,DZA,2020-02-01,0
+Ecuador,ECU,2020-02-01,14
+Spain,ESP,2020-02-01,14
+Finland,FIN,2020-02-01,0
+France,FRA,2020-02-01,17
+United Kingdom,GBR,2020-02-01,14
+Greece,GRC,2020-02-01,0
+Guatemala,GTM,2020-02-01,24
+Guyana,GUY,2020-02-01,5
+Hong Kong,HKG,2020-02-01,71
+Honduras,HND,2020-02-01,0
+Croatia,HRV,2020-02-01,0
+Hungary,HUN,2020-02-01,14
+Indonesia,IDN,2020-02-01,19
+India,IND,2020-02-01,12
+Ireland,IRL,2020-02-01,0
+Iran,IRN,2020-02-01,0
+Iraq,IRQ,2020-02-01,0
+Iceland,ISL,2020-02-01,5
+Israel,ISR,2020-02-01,0
+Italy,ITA,2020-02-01,29
+Jordan,JOR,2020-02-01,0
+Japan,JPN,2020-02-01,5
+Kazakhstan,KAZ,2020-02-01,0
+Kenya,KEN,2020-02-01,5
+South Korea,KOR,2020-02-01,24
+Sri Lanka,LKA,2020-02-01,29
+Macao,MAC,2020-02-01,48
+Mexico,MEX,2020-02-01,19
+Myanmar,MMR,2020-02-01,12
+Malaysia,MYS,2020-02-01,29
+Nigeria,NGA,2020-02-01,5
+Nicaragua,NIC,2020-02-01,0
+Netherlands,NLD,2020-02-01,0
+Norway,NOR,2020-02-01,0
+New Zealand,NZL,2020-02-01,0
+Pakistan,PAK,2020-02-01,0
+Panama,PAN,2020-02-01,19
+Papua New Guinea,PNG,2020-02-01,29
+Poland,POL,2020-02-01,7
+Portugal,PRT,2020-02-01,0
+Qatar,QAT,2020-02-01,19
+Romania,ROU,2020-02-01,5
+Russia,RUS,2020-02-01,14
+Singapore,SGP,2020-02-01,29
+El Salvador,SLV,2020-02-01,29
+Serbia,SRB,2020-02-01,5
+Slovak Republic,SVK,2020-02-01,0
+Slovenia,SVN,2020-02-01,0
+Sweden,SWE,2020-02-01,0
+Syria,SYR,2020-02-01,5
+Thailand,THA,2020-02-01,0
+Tanzania,TZA,2020-02-01,14
+Uganda,UGA,2020-02-01,19
+Ukraine,UKR,2020-02-01,52
+United States,USA,2020-02-01,10
+Venezuela,VEN,2020-02-01,0
+Vietnam,VNM,2020-02-01,43
+South Africa,ZAF,2020-02-01,5
+Zimbabwe,ZWE,2020-02-01,0
+Taiwan,TWN,2020-02-01,14
+Afghanistan,AFG,2020-02-02,0
+Angola,AGO,2020-02-02,0
+Argentina,ARG,2020-02-02,0
+Australia,AUS,2020-02-02,21
+Austria,AUT,2020-02-02,0
+Belgium,BEL,2020-02-02,0
+Bulgaria,BGR,2020-02-02,0
+Belize,BLZ,2020-02-02,0
+Bermuda,BMU,2020-02-02,0
+Bolivia,BOL,2020-02-02,0
+Brazil,BRA,2020-02-02,0
+Barbados,BRB,2020-02-02,0
+Botswana,BWA,2020-02-02,19
+Canada,CAN,2020-02-02,5
+Switzerland,CHE,2020-02-02,0
+Chile,CHL,2020-02-02,0
+China,CHN,2020-02-02,71
+Democratic Republic of Congo,COD,2020-02-02,0
+Colombia,COL,2020-02-02,14
+Costa Rica,CRI,2020-02-02,0
+Czech Republic,CZE,2020-02-02,0
+Germany,DEU,2020-02-02,14
+Dominican Republic,DOM,2020-02-02,0
+Algeria,DZA,2020-02-02,0
+Ecuador,ECU,2020-02-02,14
+Spain,ESP,2020-02-02,14
+Finland,FIN,2020-02-02,0
+France,FRA,2020-02-02,17
+United Kingdom,GBR,2020-02-02,14
+Greece,GRC,2020-02-02,0
+Guatemala,GTM,2020-02-02,24
+Guyana,GUY,2020-02-02,5
+Hong Kong,HKG,2020-02-02,71
+Honduras,HND,2020-02-02,0
+Croatia,HRV,2020-02-02,0
+Hungary,HUN,2020-02-02,14
+Indonesia,IDN,2020-02-02,24
+India,IND,2020-02-02,12
+Ireland,IRL,2020-02-02,0
+Iran,IRN,2020-02-02,0
+Iraq,IRQ,2020-02-02,0
+Iceland,ISL,2020-02-02,5
+Israel,ISR,2020-02-02,14
+Italy,ITA,2020-02-02,14
+Jordan,JOR,2020-02-02,0
+Japan,JPN,2020-02-02,5
+Kazakhstan,KAZ,2020-02-02,0
+Kenya,KEN,2020-02-02,5
+South Korea,KOR,2020-02-02,24
+Sri Lanka,LKA,2020-02-02,29
+Macao,MAC,2020-02-02,57
+Mexico,MEX,2020-02-02,19
+Myanmar,MMR,2020-02-02,12
+Malaysia,MYS,2020-02-02,29
+Nigeria,NGA,2020-02-02,5
+Nicaragua,NIC,2020-02-02,0
+Netherlands,NLD,2020-02-02,0
+Norway,NOR,2020-02-02,0
+New Zealand,NZL,2020-02-02,14
+Pakistan,PAK,2020-02-02,0
+Panama,PAN,2020-02-02,19
+Papua New Guinea,PNG,2020-02-02,29
+Poland,POL,2020-02-02,7
+Portugal,PRT,2020-02-02,0
+Qatar,QAT,2020-02-02,29
+Romania,ROU,2020-02-02,5
+Russia,RUS,2020-02-02,14
+Singapore,SGP,2020-02-02,29
+El Salvador,SLV,2020-02-02,29
+Serbia,SRB,2020-02-02,5
+Slovak Republic,SVK,2020-02-02,0
+Slovenia,SVN,2020-02-02,0
+Sweden,SWE,2020-02-02,0
+Syria,SYR,2020-02-02,5
+Thailand,THA,2020-02-02,0
+Tanzania,TZA,2020-02-02,0
+Uganda,UGA,2020-02-02,19
+Ukraine,UKR,2020-02-02,52
+United States,USA,2020-02-02,10
+Venezuela,VEN,2020-02-02,0
+Vietnam,VNM,2020-02-02,43
+South Africa,ZAF,2020-02-02,5
+Zimbabwe,ZWE,2020-02-02,0
+Taiwan,TWN,2020-02-02,29
+Afghanistan,AFG,2020-02-03,0
+Angola,AGO,2020-02-03,0
+Argentina,ARG,2020-02-03,0
+Australia,AUS,2020-02-03,29
+Austria,AUT,2020-02-03,0
+Belgium,BEL,2020-02-03,0
+Bulgaria,BGR,2020-02-03,0
+Belize,BLZ,2020-02-03,0
+Bermuda,BMU,2020-02-03,0
+Bolivia,BOL,2020-02-03,0
+Brazil,BRA,2020-02-03,0
+Barbados,BRB,2020-02-03,0
+Botswana,BWA,2020-02-03,19
+Canada,CAN,2020-02-03,5
+Switzerland,CHE,2020-02-03,0
+Chile,CHL,2020-02-03,0
+China,CHN,2020-02-03,71
+Democratic Republic of Congo,COD,2020-02-03,0
+Colombia,COL,2020-02-03,14
+Costa Rica,CRI,2020-02-03,0
+Czech Republic,CZE,2020-02-03,0
+Germany,DEU,2020-02-03,14
+Dominican Republic,DOM,2020-02-03,0
+Algeria,DZA,2020-02-03,0
+Ecuador,ECU,2020-02-03,14
+Spain,ESP,2020-02-03,14
+Finland,FIN,2020-02-03,0
+France,FRA,2020-02-03,17
+United Kingdom,GBR,2020-02-03,14
+Greece,GRC,2020-02-03,0
+Guatemala,GTM,2020-02-03,24
+Guyana,GUY,2020-02-03,5
+Hong Kong,HKG,2020-02-03,71
+Honduras,HND,2020-02-03,0
+Croatia,HRV,2020-02-03,0
+Hungary,HUN,2020-02-03,14
+Indonesia,IDN,2020-02-03,24
+India,IND,2020-02-03,12
+Ireland,IRL,2020-02-03,0
+Iran,IRN,2020-02-03,0
+Iraq,IRQ,2020-02-03,0
+Iceland,ISL,2020-02-03,5
+Israel,ISR,2020-02-03,14
+Italy,ITA,2020-02-03,14
+Jordan,JOR,2020-02-03,0
+Japan,JPN,2020-02-03,5
+Kazakhstan,KAZ,2020-02-03,0
+Kenya,KEN,2020-02-03,5
+South Korea,KOR,2020-02-03,48
+Sri Lanka,LKA,2020-02-03,29
+Macao,MAC,2020-02-03,71
+Mexico,MEX,2020-02-03,19
+Myanmar,MMR,2020-02-03,12
+Malaysia,MYS,2020-02-03,29
+Nigeria,NGA,2020-02-03,5
+Nicaragua,NIC,2020-02-03,0
+Netherlands,NLD,2020-02-03,0
+Norway,NOR,2020-02-03,0
+New Zealand,NZL,2020-02-03,14
+Pakistan,PAK,2020-02-03,0
+Panama,PAN,2020-02-03,19
+Papua New Guinea,PNG,2020-02-03,29
+Poland,POL,2020-02-03,7
+Portugal,PRT,2020-02-03,0
+Qatar,QAT,2020-02-03,29
+Romania,ROU,2020-02-03,5
+Russia,RUS,2020-02-03,14
+Singapore,SGP,2020-02-03,29
+El Salvador,SLV,2020-02-03,29
+Serbia,SRB,2020-02-03,5
+Slovak Republic,SVK,2020-02-03,0
+Slovenia,SVN,2020-02-03,0
+Sweden,SWE,2020-02-03,0
+Syria,SYR,2020-02-03,5
+Thailand,THA,2020-02-03,0
+Tanzania,TZA,2020-02-03,0
+Uganda,UGA,2020-02-03,19
+Ukraine,UKR,2020-02-03,52
+United States,USA,2020-02-03,10
+Venezuela,VEN,2020-02-03,0
+Vietnam,VNM,2020-02-03,43
+South Africa,ZAF,2020-02-03,5
+Zimbabwe,ZWE,2020-02-03,0
+Taiwan,TWN,2020-02-03,29
+Afghanistan,AFG,2020-02-04,0
+Angola,AGO,2020-02-04,0
+Argentina,ARG,2020-02-04,0
+Australia,AUS,2020-02-04,29
+Austria,AUT,2020-02-04,0
+Belgium,BEL,2020-02-04,0
+Bulgaria,BGR,2020-02-04,0
+Belize,BLZ,2020-02-04,0
+Bermuda,BMU,2020-02-04,0
+Bolivia,BOL,2020-02-04,0
+Brazil,BRA,2020-02-04,0
+Barbados,BRB,2020-02-04,0
+Botswana,BWA,2020-02-04,19
+Canada,CAN,2020-02-04,5
+Switzerland,CHE,2020-02-04,0
+Chile,CHL,2020-02-04,0
+China,CHN,2020-02-04,71
+Democratic Republic of Congo,COD,2020-02-04,0
+Colombia,COL,2020-02-04,14
+Costa Rica,CRI,2020-02-04,0
+Czech Republic,CZE,2020-02-04,0
+Germany,DEU,2020-02-04,14
+Dominican Republic,DOM,2020-02-04,0
+Algeria,DZA,2020-02-04,0
+Ecuador,ECU,2020-02-04,14
+Spain,ESP,2020-02-04,14
+Finland,FIN,2020-02-04,0
+France,FRA,2020-02-04,17
+United Kingdom,GBR,2020-02-04,14
+Greece,GRC,2020-02-04,0
+Guatemala,GTM,2020-02-04,24
+Guyana,GUY,2020-02-04,5
+Hong Kong,HKG,2020-02-04,71
+Honduras,HND,2020-02-04,0
+Croatia,HRV,2020-02-04,5
+Hungary,HUN,2020-02-04,14
+Indonesia,IDN,2020-02-04,19
+India,IND,2020-02-04,12
+Ireland,IRL,2020-02-04,0
+Iran,IRN,2020-02-04,0
+Iraq,IRQ,2020-02-04,0
+Iceland,ISL,2020-02-04,5
+Israel,ISR,2020-02-04,14
+Italy,ITA,2020-02-04,14
+Jordan,JOR,2020-02-04,0
+Japan,JPN,2020-02-04,19
+Kazakhstan,KAZ,2020-02-04,0
+Kenya,KEN,2020-02-04,5
+South Korea,KOR,2020-02-04,48
+Sri Lanka,LKA,2020-02-04,29
+Macao,MAC,2020-02-04,71
+Mexico,MEX,2020-02-04,19
+Myanmar,MMR,2020-02-04,12
+Malaysia,MYS,2020-02-04,29
+Nigeria,NGA,2020-02-04,5
+Nicaragua,NIC,2020-02-04,0
+Netherlands,NLD,2020-02-04,0
+Norway,NOR,2020-02-04,0
+New Zealand,NZL,2020-02-04,14
+Pakistan,PAK,2020-02-04,0
+Panama,PAN,2020-02-04,19
+Papua New Guinea,PNG,2020-02-04,29
+Poland,POL,2020-02-04,7
+Portugal,PRT,2020-02-04,0
+Qatar,QAT,2020-02-04,29
+Romania,ROU,2020-02-04,5
+Russia,RUS,2020-02-04,14
+Singapore,SGP,2020-02-04,29
+El Salvador,SLV,2020-02-04,29
+Serbia,SRB,2020-02-04,5
+Slovak Republic,SVK,2020-02-04,0
+Slovenia,SVN,2020-02-04,0
+Sweden,SWE,2020-02-04,0
+Syria,SYR,2020-02-04,5
+Thailand,THA,2020-02-04,0
+Tanzania,TZA,2020-02-04,0
+Uganda,UGA,2020-02-04,19
+Ukraine,UKR,2020-02-04,52
+United States,USA,2020-02-04,10
+Venezuela,VEN,2020-02-04,0
+Vietnam,VNM,2020-02-04,43
+South Africa,ZAF,2020-02-04,5
+Zimbabwe,ZWE,2020-02-04,0
+Taiwan,TWN,2020-02-04,29
+Afghanistan,AFG,2020-02-05,0
+Angola,AGO,2020-02-05,0
+Argentina,ARG,2020-02-05,0
+Australia,AUS,2020-02-05,29
+Austria,AUT,2020-02-05,0
+Belgium,BEL,2020-02-05,0
+Bulgaria,BGR,2020-02-05,0
+Belize,BLZ,2020-02-05,0
+Bermuda,BMU,2020-02-05,0
+Bolivia,BOL,2020-02-05,0
+Brazil,BRA,2020-02-05,0
+Barbados,BRB,2020-02-05,0
+Botswana,BWA,2020-02-05,19
+Canada,CAN,2020-02-05,5
+Switzerland,CHE,2020-02-05,0
+Chile,CHL,2020-02-05,0
+China,CHN,2020-02-05,71
+Democratic Republic of Congo,COD,2020-02-05,0
+Colombia,COL,2020-02-05,14
+Costa Rica,CRI,2020-02-05,0
+Czech Republic,CZE,2020-02-05,0
+Germany,DEU,2020-02-05,14
+Dominican Republic,DOM,2020-02-05,0
+Algeria,DZA,2020-02-05,0
+Ecuador,ECU,2020-02-05,14
+Spain,ESP,2020-02-05,14
+Finland,FIN,2020-02-05,0
+France,FRA,2020-02-05,17
+United Kingdom,GBR,2020-02-05,14
+Greece,GRC,2020-02-05,0
+Guatemala,GTM,2020-02-05,24
+Guyana,GUY,2020-02-05,5
+Hong Kong,HKG,2020-02-05,71
+Honduras,HND,2020-02-05,0
+Croatia,HRV,2020-02-05,5
+Hungary,HUN,2020-02-05,14
+Indonesia,IDN,2020-02-05,29
+India,IND,2020-02-05,21
+Ireland,IRL,2020-02-05,0
+Iran,IRN,2020-02-05,0
+Iraq,IRQ,2020-02-05,0
+Iceland,ISL,2020-02-05,5
+Israel,ISR,2020-02-05,14
+Italy,ITA,2020-02-05,14
+Jordan,JOR,2020-02-05,0
+Japan,JPN,2020-02-05,19
+Kazakhstan,KAZ,2020-02-05,0
+Kenya,KEN,2020-02-05,5
+South Korea,KOR,2020-02-05,48
+Sri Lanka,LKA,2020-02-05,29
+Macao,MAC,2020-02-05,71
+Mexico,MEX,2020-02-05,19
+Myanmar,MMR,2020-02-05,12
+Malaysia,MYS,2020-02-05,29
+Nigeria,NGA,2020-02-05,5
+Nicaragua,NIC,2020-02-05,0
+Netherlands,NLD,2020-02-05,0
+Norway,NOR,2020-02-05,0
+New Zealand,NZL,2020-02-05,14
+Pakistan,PAK,2020-02-05,0
+Panama,PAN,2020-02-05,19
+Papua New Guinea,PNG,2020-02-05,29
+Poland,POL,2020-02-05,7
+Portugal,PRT,2020-02-05,0
+Qatar,QAT,2020-02-05,29
+Romania,ROU,2020-02-05,5
+Russia,RUS,2020-02-05,14
+Singapore,SGP,2020-02-05,29
+El Salvador,SLV,2020-02-05,29
+Serbia,SRB,2020-02-05,5
+Slovak Republic,SVK,2020-02-05,0
+Slovenia,SVN,2020-02-05,0
+Sweden,SWE,2020-02-05,0
+Syria,SYR,2020-02-05,5
+Thailand,THA,2020-02-05,0
+Tanzania,TZA,2020-02-05,0
+Uganda,UGA,2020-02-05,19
+Ukraine,UKR,2020-02-05,52
+United States,USA,2020-02-05,10
+Venezuela,VEN,2020-02-05,0
+Vietnam,VNM,2020-02-05,43
+South Africa,ZAF,2020-02-05,5
+Zimbabwe,ZWE,2020-02-05,0
+Taiwan,TWN,2020-02-05,29
+Afghanistan,AFG,2020-02-06,0
+Angola,AGO,2020-02-06,10
+Argentina,ARG,2020-02-06,0
+Australia,AUS,2020-02-06,29
+Austria,AUT,2020-02-06,0
+Belgium,BEL,2020-02-06,14
+Bulgaria,BGR,2020-02-06,0
+Belize,BLZ,2020-02-06,0
+Bermuda,BMU,2020-02-06,0
+Bolivia,BOL,2020-02-06,0
+Brazil,BRA,2020-02-06,0
+Barbados,BRB,2020-02-06,0
+Botswana,BWA,2020-02-06,19
+Canada,CAN,2020-02-06,5
+Switzerland,CHE,2020-02-06,0
+Chile,CHL,2020-02-06,0
+China,CHN,2020-02-06,71
+Democratic Republic of Congo,COD,2020-02-06,0
+Colombia,COL,2020-02-06,14
+Costa Rica,CRI,2020-02-06,0
+Czech Republic,CZE,2020-02-06,0
+Germany,DEU,2020-02-06,14
+Dominican Republic,DOM,2020-02-06,0
+Algeria,DZA,2020-02-06,0
+Ecuador,ECU,2020-02-06,14
+Spain,ESP,2020-02-06,14
+Finland,FIN,2020-02-06,0
+France,FRA,2020-02-06,17
+United Kingdom,GBR,2020-02-06,14
+Greece,GRC,2020-02-06,0
+Guatemala,GTM,2020-02-06,24
+Guyana,GUY,2020-02-06,5
+Hong Kong,HKG,2020-02-06,71
+Honduras,HND,2020-02-06,0
+Croatia,HRV,2020-02-06,5
+Hungary,HUN,2020-02-06,14
+Indonesia,IDN,2020-02-06,29
+India,IND,2020-02-06,21
+Ireland,IRL,2020-02-06,0
+Iran,IRN,2020-02-06,0
+Iraq,IRQ,2020-02-06,0
+Iceland,ISL,2020-02-06,5
+Israel,ISR,2020-02-06,14
+Italy,ITA,2020-02-06,14
+Jordan,JOR,2020-02-06,0
+Japan,JPN,2020-02-06,19
+Kazakhstan,KAZ,2020-02-06,0
+Kenya,KEN,2020-02-06,5
+South Korea,KOR,2020-02-06,48
+Sri Lanka,LKA,2020-02-06,29
+Macao,MAC,2020-02-06,71
+Mexico,MEX,2020-02-06,29
+Myanmar,MMR,2020-02-06,12
+Malaysia,MYS,2020-02-06,29
+Nigeria,NGA,2020-02-06,5
+Nicaragua,NIC,2020-02-06,0
+Netherlands,NLD,2020-02-06,0
+Norway,NOR,2020-02-06,0
+New Zealand,NZL,2020-02-06,14
+Pakistan,PAK,2020-02-06,0
+Panama,PAN,2020-02-06,19
+Papua New Guinea,PNG,2020-02-06,29
+Poland,POL,2020-02-06,7
+Portugal,PRT,2020-02-06,0
+Qatar,QAT,2020-02-06,29
+Romania,ROU,2020-02-06,5
+Russia,RUS,2020-02-06,14
+Singapore,SGP,2020-02-06,29
+El Salvador,SLV,2020-02-06,29
+Serbia,SRB,2020-02-06,5
+Slovak Republic,SVK,2020-02-06,0
+Slovenia,SVN,2020-02-06,0
+Sweden,SWE,2020-02-06,0
+Syria,SYR,2020-02-06,5
+Thailand,THA,2020-02-06,0
+Tanzania,TZA,2020-02-06,0
+Uganda,UGA,2020-02-06,24
+Ukraine,UKR,2020-02-06,52
+United States,USA,2020-02-06,10
+Venezuela,VEN,2020-02-06,0
+Vietnam,VNM,2020-02-06,43
+South Africa,ZAF,2020-02-06,5
+Zimbabwe,ZWE,2020-02-06,0
+Taiwan,TWN,2020-02-06,29
+Afghanistan,AFG,2020-02-07,0
+Angola,AGO,2020-02-07,10
+Argentina,ARG,2020-02-07,0
+Australia,AUS,2020-02-07,29
+Austria,AUT,2020-02-07,0
+Belgium,BEL,2020-02-07,14
+Bulgaria,BGR,2020-02-07,0
+Belize,BLZ,2020-02-07,0
+Bermuda,BMU,2020-02-07,0
+Bolivia,BOL,2020-02-07,0
+Brazil,BRA,2020-02-07,0
+Barbados,BRB,2020-02-07,0
+Botswana,BWA,2020-02-07,19
+Canada,CAN,2020-02-07,5
+Switzerland,CHE,2020-02-07,0
+Chile,CHL,2020-02-07,0
+China,CHN,2020-02-07,71
+Democratic Republic of Congo,COD,2020-02-07,0
+Colombia,COL,2020-02-07,14
+Costa Rica,CRI,2020-02-07,0
+Czech Republic,CZE,2020-02-07,0
+Germany,DEU,2020-02-07,14
+Dominican Republic,DOM,2020-02-07,0
+Algeria,DZA,2020-02-07,0
+Ecuador,ECU,2020-02-07,14
+Spain,ESP,2020-02-07,14
+Finland,FIN,2020-02-07,0
+France,FRA,2020-02-07,17
+United Kingdom,GBR,2020-02-07,14
+Greece,GRC,2020-02-07,0
+Guatemala,GTM,2020-02-07,24
+Guyana,GUY,2020-02-07,5
+Hong Kong,HKG,2020-02-07,71
+Honduras,HND,2020-02-07,0
+Croatia,HRV,2020-02-07,5
+Hungary,HUN,2020-02-07,14
+Indonesia,IDN,2020-02-07,29
+India,IND,2020-02-07,21
+Ireland,IRL,2020-02-07,0
+Iran,IRN,2020-02-07,0
+Iraq,IRQ,2020-02-07,0
+Iceland,ISL,2020-02-07,5
+Israel,ISR,2020-02-07,14
+Italy,ITA,2020-02-07,14
+Jordan,JOR,2020-02-07,0
+Japan,JPN,2020-02-07,19
+Kazakhstan,KAZ,2020-02-07,0
+Kenya,KEN,2020-02-07,5
+South Korea,KOR,2020-02-07,48
+Sri Lanka,LKA,2020-02-07,29
+Macao,MAC,2020-02-07,71
+Mexico,MEX,2020-02-07,29
+Myanmar,MMR,2020-02-07,12
+Malaysia,MYS,2020-02-07,29
+Nigeria,NGA,2020-02-07,5
+Nicaragua,NIC,2020-02-07,0
+Netherlands,NLD,2020-02-07,0
+Norway,NOR,2020-02-07,0
+New Zealand,NZL,2020-02-07,14
+Pakistan,PAK,2020-02-07,0
+Panama,PAN,2020-02-07,19
+Papua New Guinea,PNG,2020-02-07,29
+Poland,POL,2020-02-07,7
+Portugal,PRT,2020-02-07,0
+Qatar,QAT,2020-02-07,29
+Romania,ROU,2020-02-07,5
+Russia,RUS,2020-02-07,14
+Singapore,SGP,2020-02-07,33
+El Salvador,SLV,2020-02-07,29
+Serbia,SRB,2020-02-07,5
+Slovak Republic,SVK,2020-02-07,0
+Slovenia,SVN,2020-02-07,0
+Sweden,SWE,2020-02-07,0
+Syria,SYR,2020-02-07,5
+Thailand,THA,2020-02-07,0
+Tanzania,TZA,2020-02-07,0
+Uganda,UGA,2020-02-07,24
+Ukraine,UKR,2020-02-07,52
+United States,USA,2020-02-07,10
+Venezuela,VEN,2020-02-07,0
+Vietnam,VNM,2020-02-07,43
+South Africa,ZAF,2020-02-07,5
+Zimbabwe,ZWE,2020-02-07,0
+Taiwan,TWN,2020-02-07,33
+Afghanistan,AFG,2020-02-08,0
+Angola,AGO,2020-02-08,10
+Argentina,ARG,2020-02-08,0
+Australia,AUS,2020-02-08,29
+Austria,AUT,2020-02-08,0
+Belgium,BEL,2020-02-08,14
+Bulgaria,BGR,2020-02-08,0
+Belize,BLZ,2020-02-08,0
+Bermuda,BMU,2020-02-08,0
+Bolivia,BOL,2020-02-08,0
+Brazil,BRA,2020-02-08,0
+Barbados,BRB,2020-02-08,0
+Botswana,BWA,2020-02-08,19
+Canada,CAN,2020-02-08,5
+Switzerland,CHE,2020-02-08,0
+Chile,CHL,2020-02-08,0
+China,CHN,2020-02-08,71
+Democratic Republic of Congo,COD,2020-02-08,0
+Colombia,COL,2020-02-08,14
+Costa Rica,CRI,2020-02-08,0
+Czech Republic,CZE,2020-02-08,0
+Germany,DEU,2020-02-08,14
+Dominican Republic,DOM,2020-02-08,0
+Algeria,DZA,2020-02-08,0
+Ecuador,ECU,2020-02-08,14
+Spain,ESP,2020-02-08,14
+Finland,FIN,2020-02-08,0
+France,FRA,2020-02-08,17
+United Kingdom,GBR,2020-02-08,14
+Greece,GRC,2020-02-08,0
+Guatemala,GTM,2020-02-08,24
+Guyana,GUY,2020-02-08,5
+Hong Kong,HKG,2020-02-08,81
+Honduras,HND,2020-02-08,0
+Croatia,HRV,2020-02-08,5
+Hungary,HUN,2020-02-08,14
+Indonesia,IDN,2020-02-08,29
+India,IND,2020-02-08,21
+Ireland,IRL,2020-02-08,0
+Iran,IRN,2020-02-08,0
+Iraq,IRQ,2020-02-08,0
+Iceland,ISL,2020-02-08,5
+Israel,ISR,2020-02-08,14
+Italy,ITA,2020-02-08,14
+Jordan,JOR,2020-02-08,0
+Japan,JPN,2020-02-08,19
+Kazakhstan,KAZ,2020-02-08,0
+Kenya,KEN,2020-02-08,5
+South Korea,KOR,2020-02-08,48
+Sri Lanka,LKA,2020-02-08,29
+Macao,MAC,2020-02-08,71
+Mexico,MEX,2020-02-08,29
+Myanmar,MMR,2020-02-08,12
+Malaysia,MYS,2020-02-08,29
+Nigeria,NGA,2020-02-08,5
+Nicaragua,NIC,2020-02-08,0
+Netherlands,NLD,2020-02-08,0
+Norway,NOR,2020-02-08,0
+New Zealand,NZL,2020-02-08,14
+Pakistan,PAK,2020-02-08,0
+Panama,PAN,2020-02-08,19
+Papua New Guinea,PNG,2020-02-08,29
+Poland,POL,2020-02-08,7
+Portugal,PRT,2020-02-08,0
+Qatar,QAT,2020-02-08,29
+Romania,ROU,2020-02-08,5
+Russia,RUS,2020-02-08,14
+Singapore,SGP,2020-02-08,33
+El Salvador,SLV,2020-02-08,29
+Serbia,SRB,2020-02-08,5
+Slovak Republic,SVK,2020-02-08,0
+Slovenia,SVN,2020-02-08,0
+Sweden,SWE,2020-02-08,0
+Syria,SYR,2020-02-08,5
+Thailand,THA,2020-02-08,0
+Tanzania,TZA,2020-02-08,0
+Uganda,UGA,2020-02-08,24
+Ukraine,UKR,2020-02-08,52
+United States,USA,2020-02-08,10
+Venezuela,VEN,2020-02-08,0
+Vietnam,VNM,2020-02-08,43
+South Africa,ZAF,2020-02-08,5
+Zimbabwe,ZWE,2020-02-08,0
+Taiwan,TWN,2020-02-08,33
+Afghanistan,AFG,2020-02-09,0
+Angola,AGO,2020-02-09,10
+Argentina,ARG,2020-02-09,0
+Australia,AUS,2020-02-09,29
+Austria,AUT,2020-02-09,0
+Belgium,BEL,2020-02-09,14
+Bulgaria,BGR,2020-02-09,0
+Belize,BLZ,2020-02-09,0
+Bermuda,BMU,2020-02-09,0
+Bolivia,BOL,2020-02-09,0
+Brazil,BRA,2020-02-09,0
+Barbados,BRB,2020-02-09,0
+Botswana,BWA,2020-02-09,19
+Canada,CAN,2020-02-09,5
+Switzerland,CHE,2020-02-09,0
+Chile,CHL,2020-02-09,0
+China,CHN,2020-02-09,62
+Democratic Republic of Congo,COD,2020-02-09,0
+Colombia,COL,2020-02-09,14
+Costa Rica,CRI,2020-02-09,0
+Czech Republic,CZE,2020-02-09,0
+Germany,DEU,2020-02-09,14
+Dominican Republic,DOM,2020-02-09,0
+Algeria,DZA,2020-02-09,0
+Ecuador,ECU,2020-02-09,14
+Spain,ESP,2020-02-09,14
+Finland,FIN,2020-02-09,0
+France,FRA,2020-02-09,17
+United Kingdom,GBR,2020-02-09,14
+Greece,GRC,2020-02-09,0
+Guatemala,GTM,2020-02-09,24
+Guyana,GUY,2020-02-09,5
+Hong Kong,HKG,2020-02-09,81
+Honduras,HND,2020-02-09,0
+Croatia,HRV,2020-02-09,5
+Hungary,HUN,2020-02-09,14
+Indonesia,IDN,2020-02-09,29
+India,IND,2020-02-09,21
+Ireland,IRL,2020-02-09,0
+Iran,IRN,2020-02-09,0
+Iraq,IRQ,2020-02-09,0
+Iceland,ISL,2020-02-09,5
+Israel,ISR,2020-02-09,29
+Italy,ITA,2020-02-09,14
+Jordan,JOR,2020-02-09,0
+Japan,JPN,2020-02-09,19
+Kazakhstan,KAZ,2020-02-09,0
+Kenya,KEN,2020-02-09,5
+South Korea,KOR,2020-02-09,48
+Sri Lanka,LKA,2020-02-09,29
+Macao,MAC,2020-02-09,71
+Mexico,MEX,2020-02-09,29
+Myanmar,MMR,2020-02-09,12
+Malaysia,MYS,2020-02-09,29
+Nigeria,NGA,2020-02-09,5
+Nicaragua,NIC,2020-02-09,0
+Netherlands,NLD,2020-02-09,0
+Norway,NOR,2020-02-09,0
+New Zealand,NZL,2020-02-09,14
+Pakistan,PAK,2020-02-09,0
+Panama,PAN,2020-02-09,19
+Papua New Guinea,PNG,2020-02-09,29
+Poland,POL,2020-02-09,7
+Portugal,PRT,2020-02-09,0
+Qatar,QAT,2020-02-09,29
+Romania,ROU,2020-02-09,5
+Russia,RUS,2020-02-09,14
+Singapore,SGP,2020-02-09,33
+El Salvador,SLV,2020-02-09,29
+Serbia,SRB,2020-02-09,5
+Slovak Republic,SVK,2020-02-09,0
+Slovenia,SVN,2020-02-09,0
+Sweden,SWE,2020-02-09,0
+Syria,SYR,2020-02-09,5
+Thailand,THA,2020-02-09,0
+Tanzania,TZA,2020-02-09,0
+Uganda,UGA,2020-02-09,24
+Ukraine,UKR,2020-02-09,52
+United States,USA,2020-02-09,10
+Venezuela,VEN,2020-02-09,0
+Vietnam,VNM,2020-02-09,43
+South Africa,ZAF,2020-02-09,5
+Zimbabwe,ZWE,2020-02-09,0
+Taiwan,TWN,2020-02-09,33
+Afghanistan,AFG,2020-02-10,0
+Angola,AGO,2020-02-10,10
+Argentina,ARG,2020-02-10,0
+Australia,AUS,2020-02-10,29
+Austria,AUT,2020-02-10,0
+Belgium,BEL,2020-02-10,14
+Bulgaria,BGR,2020-02-10,0
+Belize,BLZ,2020-02-10,0
+Bermuda,BMU,2020-02-10,0
+Bolivia,BOL,2020-02-10,0
+Brazil,BRA,2020-02-10,0
+Barbados,BRB,2020-02-10,0
+Botswana,BWA,2020-02-10,19
+Canada,CAN,2020-02-10,5
+Switzerland,CHE,2020-02-10,0
+Chile,CHL,2020-02-10,0
+China,CHN,2020-02-10,62
+Democratic Republic of Congo,COD,2020-02-10,0
+Colombia,COL,2020-02-10,14
+Costa Rica,CRI,2020-02-10,0
+Czech Republic,CZE,2020-02-10,0
+Germany,DEU,2020-02-10,14
+Dominican Republic,DOM,2020-02-10,0
+Algeria,DZA,2020-02-10,0
+Ecuador,ECU,2020-02-10,14
+Spain,ESP,2020-02-10,14
+Finland,FIN,2020-02-10,0
+France,FRA,2020-02-10,17
+United Kingdom,GBR,2020-02-10,14
+Greece,GRC,2020-02-10,0
+Guatemala,GTM,2020-02-10,24
+Guyana,GUY,2020-02-10,5
+Hong Kong,HKG,2020-02-10,81
+Honduras,HND,2020-02-10,0
+Croatia,HRV,2020-02-10,5
+Hungary,HUN,2020-02-10,14
+Indonesia,IDN,2020-02-10,29
+India,IND,2020-02-10,21
+Ireland,IRL,2020-02-10,0
+Iran,IRN,2020-02-10,0
+Iraq,IRQ,2020-02-10,0
+Iceland,ISL,2020-02-10,5
+Israel,ISR,2020-02-10,29
+Italy,ITA,2020-02-10,14
+Jordan,JOR,2020-02-10,0
+Japan,JPN,2020-02-10,19
+Kazakhstan,KAZ,2020-02-10,0
+Kenya,KEN,2020-02-10,5
+South Korea,KOR,2020-02-10,48
+Sri Lanka,LKA,2020-02-10,29
+Macao,MAC,2020-02-10,71
+Mexico,MEX,2020-02-10,29
+Myanmar,MMR,2020-02-10,12
+Malaysia,MYS,2020-02-10,29
+Nigeria,NGA,2020-02-10,5
+Nicaragua,NIC,2020-02-10,0
+Netherlands,NLD,2020-02-10,0
+Norway,NOR,2020-02-10,0
+New Zealand,NZL,2020-02-10,14
+Pakistan,PAK,2020-02-10,0
+Panama,PAN,2020-02-10,19
+Papua New Guinea,PNG,2020-02-10,29
+Poland,POL,2020-02-10,7
+Portugal,PRT,2020-02-10,0
+Qatar,QAT,2020-02-10,29
+Romania,ROU,2020-02-10,5
+Russia,RUS,2020-02-10,14
+Singapore,SGP,2020-02-10,33
+El Salvador,SLV,2020-02-10,29
+Serbia,SRB,2020-02-10,5
+Slovak Republic,SVK,2020-02-10,0
+Slovenia,SVN,2020-02-10,0
+Sweden,SWE,2020-02-10,0
+Syria,SYR,2020-02-10,5
+Thailand,THA,2020-02-10,0
+Tanzania,TZA,2020-02-10,0
+Uganda,UGA,2020-02-10,24
+Ukraine,UKR,2020-02-10,52
+United States,USA,2020-02-10,10
+Venezuela,VEN,2020-02-10,0
+Vietnam,VNM,2020-02-10,43
+South Africa,ZAF,2020-02-10,5
+Zimbabwe,ZWE,2020-02-10,0
+Taiwan,TWN,2020-02-10,33
+Afghanistan,AFG,2020-02-11,0
+Angola,AGO,2020-02-11,10
+Argentina,ARG,2020-02-11,0
+Australia,AUS,2020-02-11,29
+Austria,AUT,2020-02-11,0
+Belgium,BEL,2020-02-11,14
+Bulgaria,BGR,2020-02-11,14
+Belize,BLZ,2020-02-11,0
+Bermuda,BMU,2020-02-11,0
+Bolivia,BOL,2020-02-11,0
+Brazil,BRA,2020-02-11,0
+Barbados,BRB,2020-02-11,0
+Botswana,BWA,2020-02-11,19
+Canada,CAN,2020-02-11,5
+Switzerland,CHE,2020-02-11,0
+Chile,CHL,2020-02-11,0
+China,CHN,2020-02-11,62
+Democratic Republic of Congo,COD,2020-02-11,0
+Colombia,COL,2020-02-11,14
+Costa Rica,CRI,2020-02-11,0
+Czech Republic,CZE,2020-02-11,0
+Germany,DEU,2020-02-11,14
+Dominican Republic,DOM,2020-02-11,0
+Algeria,DZA,2020-02-11,0
+Ecuador,ECU,2020-02-11,14
+Spain,ESP,2020-02-11,14
+Finland,FIN,2020-02-11,0
+France,FRA,2020-02-11,17
+United Kingdom,GBR,2020-02-11,14
+Greece,GRC,2020-02-11,0
+Guatemala,GTM,2020-02-11,24
+Guyana,GUY,2020-02-11,5
+Hong Kong,HKG,2020-02-11,81
+Honduras,HND,2020-02-11,0
+Croatia,HRV,2020-02-11,5
+Hungary,HUN,2020-02-11,14
+Indonesia,IDN,2020-02-11,29
+India,IND,2020-02-11,21
+Ireland,IRL,2020-02-11,0
+Iran,IRN,2020-02-11,0
+Iraq,IRQ,2020-02-11,0
+Iceland,ISL,2020-02-11,5
+Israel,ISR,2020-02-11,29
+Italy,ITA,2020-02-11,14
+Jordan,JOR,2020-02-11,0
+Japan,JPN,2020-02-11,19
+Kazakhstan,KAZ,2020-02-11,0
+Kenya,KEN,2020-02-11,5
+South Korea,KOR,2020-02-11,40
+Sri Lanka,LKA,2020-02-11,29
+Macao,MAC,2020-02-11,71
+Mexico,MEX,2020-02-11,29
+Myanmar,MMR,2020-02-11,12
+Malaysia,MYS,2020-02-11,29
+Nigeria,NGA,2020-02-11,5
+Nicaragua,NIC,2020-02-11,0
+Netherlands,NLD,2020-02-11,0
+Norway,NOR,2020-02-11,0
+New Zealand,NZL,2020-02-11,14
+Pakistan,PAK,2020-02-11,0
+Panama,PAN,2020-02-11,19
+Papua New Guinea,PNG,2020-02-11,29
+Poland,POL,2020-02-11,7
+Portugal,PRT,2020-02-11,0
+Qatar,QAT,2020-02-11,29
+Romania,ROU,2020-02-11,5
+Russia,RUS,2020-02-11,14
+Singapore,SGP,2020-02-11,33
+El Salvador,SLV,2020-02-11,29
+Serbia,SRB,2020-02-11,5
+Slovak Republic,SVK,2020-02-11,0
+Slovenia,SVN,2020-02-11,0
+Sweden,SWE,2020-02-11,0
+Syria,SYR,2020-02-11,5
+Thailand,THA,2020-02-11,0
+Tanzania,TZA,2020-02-11,0
+Uganda,UGA,2020-02-11,24
+Ukraine,UKR,2020-02-11,52
+United States,USA,2020-02-11,10
+Venezuela,VEN,2020-02-11,0
+Vietnam,VNM,2020-02-11,43
+South Africa,ZAF,2020-02-11,5
+Zimbabwe,ZWE,2020-02-11,0
+Taiwan,TWN,2020-02-11,33
+Afghanistan,AFG,2020-02-12,0
+Angola,AGO,2020-02-12,10
+Argentina,ARG,2020-02-12,0
+Australia,AUS,2020-02-12,29
+Austria,AUT,2020-02-12,0
+Belgium,BEL,2020-02-12,14
+Bulgaria,BGR,2020-02-12,14
+Belize,BLZ,2020-02-12,0
+Bermuda,BMU,2020-02-12,0
+Bolivia,BOL,2020-02-12,0
+Brazil,BRA,2020-02-12,0
+Barbados,BRB,2020-02-12,0
+Botswana,BWA,2020-02-12,19
+Canada,CAN,2020-02-12,5
+Switzerland,CHE,2020-02-12,0
+Chile,CHL,2020-02-12,0
+China,CHN,2020-02-12,62
+Democratic Republic of Congo,COD,2020-02-12,0
+Colombia,COL,2020-02-12,14
+Costa Rica,CRI,2020-02-12,0
+Czech Republic,CZE,2020-02-12,0
+Germany,DEU,2020-02-12,14
+Dominican Republic,DOM,2020-02-12,0
+Algeria,DZA,2020-02-12,0
+Ecuador,ECU,2020-02-12,14
+Spain,ESP,2020-02-12,14
+Finland,FIN,2020-02-12,0
+France,FRA,2020-02-12,17
+United Kingdom,GBR,2020-02-12,14
+Greece,GRC,2020-02-12,0
+Guatemala,GTM,2020-02-12,24
+Guyana,GUY,2020-02-12,5
+Hong Kong,HKG,2020-02-12,81
+Honduras,HND,2020-02-12,0
+Croatia,HRV,2020-02-12,5
+Hungary,HUN,2020-02-12,14
+Indonesia,IDN,2020-02-12,29
+India,IND,2020-02-12,21
+Ireland,IRL,2020-02-12,0
+Iran,IRN,2020-02-12,0
+Iraq,IRQ,2020-02-12,0
+Iceland,ISL,2020-02-12,5
+Israel,ISR,2020-02-12,29
+Italy,ITA,2020-02-12,14
+Jordan,JOR,2020-02-12,0
+Japan,JPN,2020-02-12,19
+Kazakhstan,KAZ,2020-02-12,0
+Kenya,KEN,2020-02-12,5
+South Korea,KOR,2020-02-12,40
+Sri Lanka,LKA,2020-02-12,29
+Macao,MAC,2020-02-12,71
+Mexico,MEX,2020-02-12,29
+Myanmar,MMR,2020-02-12,12
+Malaysia,MYS,2020-02-12,29
+Nigeria,NGA,2020-02-12,5
+Nicaragua,NIC,2020-02-12,0
+Netherlands,NLD,2020-02-12,0
+Norway,NOR,2020-02-12,0
+New Zealand,NZL,2020-02-12,14
+Pakistan,PAK,2020-02-12,0
+Panama,PAN,2020-02-12,19
+Papua New Guinea,PNG,2020-02-12,29
+Poland,POL,2020-02-12,7
+Portugal,PRT,2020-02-12,0
+Qatar,QAT,2020-02-12,29
+Romania,ROU,2020-02-12,10
+Russia,RUS,2020-02-12,14
+Singapore,SGP,2020-02-12,33
+El Salvador,SLV,2020-02-12,29
+Serbia,SRB,2020-02-12,5
+Slovak Republic,SVK,2020-02-12,0
+Slovenia,SVN,2020-02-12,0
+Sweden,SWE,2020-02-12,0
+Syria,SYR,2020-02-12,5
+Thailand,THA,2020-02-12,0
+Tanzania,TZA,2020-02-12,0
+Uganda,UGA,2020-02-12,24
+Ukraine,UKR,2020-02-12,52
+United States,USA,2020-02-12,10
+Venezuela,VEN,2020-02-12,0
+Vietnam,VNM,2020-02-12,43
+South Africa,ZAF,2020-02-12,5
+Zimbabwe,ZWE,2020-02-12,0
+Taiwan,TWN,2020-02-12,33
+Afghanistan,AFG,2020-02-13,0
+Angola,AGO,2020-02-13,10
+Argentina,ARG,2020-02-13,0
+Australia,AUS,2020-02-13,29
+Austria,AUT,2020-02-13,0
+Belgium,BEL,2020-02-13,14
+Bulgaria,BGR,2020-02-13,14
+Belize,BLZ,2020-02-13,0
+Bermuda,BMU,2020-02-13,0
+Bolivia,BOL,2020-02-13,0
+Brazil,BRA,2020-02-13,0
+Barbados,BRB,2020-02-13,0
+Botswana,BWA,2020-02-13,19
+Canada,CAN,2020-02-13,5
+Switzerland,CHE,2020-02-13,0
+Chile,CHL,2020-02-13,0
+China,CHN,2020-02-13,62
+Democratic Republic of Congo,COD,2020-02-13,0
+Colombia,COL,2020-02-13,14
+Costa Rica,CRI,2020-02-13,0
+Czech Republic,CZE,2020-02-13,0
+Germany,DEU,2020-02-13,14
+Dominican Republic,DOM,2020-02-13,0
+Algeria,DZA,2020-02-13,0
+Ecuador,ECU,2020-02-13,14
+Spain,ESP,2020-02-13,14
+Finland,FIN,2020-02-13,0
+France,FRA,2020-02-13,17
+United Kingdom,GBR,2020-02-13,14
+Greece,GRC,2020-02-13,0
+Guatemala,GTM,2020-02-13,24
+Guyana,GUY,2020-02-13,5
+Hong Kong,HKG,2020-02-13,81
+Honduras,HND,2020-02-13,0
+Croatia,HRV,2020-02-13,5
+Hungary,HUN,2020-02-13,14
+Indonesia,IDN,2020-02-13,29
+India,IND,2020-02-13,21
+Ireland,IRL,2020-02-13,0
+Iran,IRN,2020-02-13,0
+Iraq,IRQ,2020-02-13,0
+Iceland,ISL,2020-02-13,5
+Israel,ISR,2020-02-13,29
+Italy,ITA,2020-02-13,14
+Jordan,JOR,2020-02-13,0
+Japan,JPN,2020-02-13,19
+Kazakhstan,KAZ,2020-02-13,0
+Kenya,KEN,2020-02-13,5
+South Korea,KOR,2020-02-13,40
+Sri Lanka,LKA,2020-02-13,29
+Macao,MAC,2020-02-13,71
+Mexico,MEX,2020-02-13,29
+Myanmar,MMR,2020-02-13,12
+Malaysia,MYS,2020-02-13,29
+Nigeria,NGA,2020-02-13,5
+Nicaragua,NIC,2020-02-13,0
+Netherlands,NLD,2020-02-13,0
+Norway,NOR,2020-02-13,0
+New Zealand,NZL,2020-02-13,14
+Pakistan,PAK,2020-02-13,0
+Panama,PAN,2020-02-13,19
+Papua New Guinea,PNG,2020-02-13,29
+Poland,POL,2020-02-13,7
+Portugal,PRT,2020-02-13,0
+Qatar,QAT,2020-02-13,29
+Romania,ROU,2020-02-13,10
+Russia,RUS,2020-02-13,14
+Singapore,SGP,2020-02-13,33
+El Salvador,SLV,2020-02-13,29
+Serbia,SRB,2020-02-13,5
+Slovak Republic,SVK,2020-02-13,0
+Slovenia,SVN,2020-02-13,0
+Sweden,SWE,2020-02-13,0
+Syria,SYR,2020-02-13,5
+Thailand,THA,2020-02-13,0
+Tanzania,TZA,2020-02-13,0
+Uganda,UGA,2020-02-13,24
+Ukraine,UKR,2020-02-13,52
+United States,USA,2020-02-13,10
+Venezuela,VEN,2020-02-13,0
+Vietnam,VNM,2020-02-13,52
+South Africa,ZAF,2020-02-13,5
+Zimbabwe,ZWE,2020-02-13,0
+Taiwan,TWN,2020-02-13,33
+Afghanistan,AFG,2020-02-14,0
+Angola,AGO,2020-02-14,10
+Argentina,ARG,2020-02-14,0
+Australia,AUS,2020-02-14,29
+Austria,AUT,2020-02-14,0
+Belgium,BEL,2020-02-14,14
+Bulgaria,BGR,2020-02-14,14
+Belize,BLZ,2020-02-14,0
+Bermuda,BMU,2020-02-14,0
+Bolivia,BOL,2020-02-14,0
+Brazil,BRA,2020-02-14,0
+Barbados,BRB,2020-02-14,0
+Botswana,BWA,2020-02-14,19
+Canada,CAN,2020-02-14,5
+Switzerland,CHE,2020-02-14,0
+Chile,CHL,2020-02-14,0
+China,CHN,2020-02-14,62
+Democratic Republic of Congo,COD,2020-02-14,0
+Colombia,COL,2020-02-14,14
+Costa Rica,CRI,2020-02-14,0
+Czech Republic,CZE,2020-02-14,0
+Germany,DEU,2020-02-14,14
+Dominican Republic,DOM,2020-02-14,0
+Algeria,DZA,2020-02-14,0
+Ecuador,ECU,2020-02-14,14
+Spain,ESP,2020-02-14,14
+Finland,FIN,2020-02-14,0
+France,FRA,2020-02-14,17
+United Kingdom,GBR,2020-02-14,14
+Greece,GRC,2020-02-14,0
+Guatemala,GTM,2020-02-14,24
+Guyana,GUY,2020-02-14,5
+Hong Kong,HKG,2020-02-14,81
+Honduras,HND,2020-02-14,0
+Croatia,HRV,2020-02-14,5
+Hungary,HUN,2020-02-14,14
+Indonesia,IDN,2020-02-14,29
+India,IND,2020-02-14,21
+Ireland,IRL,2020-02-14,0
+Iran,IRN,2020-02-14,0
+Iraq,IRQ,2020-02-14,0
+Iceland,ISL,2020-02-14,5
+Israel,ISR,2020-02-14,29
+Italy,ITA,2020-02-14,14
+Jordan,JOR,2020-02-14,0
+Japan,JPN,2020-02-14,19
+Kazakhstan,KAZ,2020-02-14,0
+Kenya,KEN,2020-02-14,5
+South Korea,KOR,2020-02-14,40
+Sri Lanka,LKA,2020-02-14,29
+Macao,MAC,2020-02-14,71
+Mexico,MEX,2020-02-14,29
+Myanmar,MMR,2020-02-14,12
+Malaysia,MYS,2020-02-14,29
+Nigeria,NGA,2020-02-14,5
+Nicaragua,NIC,2020-02-14,0
+Netherlands,NLD,2020-02-14,0
+Norway,NOR,2020-02-14,0
+New Zealand,NZL,2020-02-14,14
+Pakistan,PAK,2020-02-14,0
+Panama,PAN,2020-02-14,19
+Papua New Guinea,PNG,2020-02-14,29
+Poland,POL,2020-02-14,7
+Portugal,PRT,2020-02-14,0
+Qatar,QAT,2020-02-14,29
+Romania,ROU,2020-02-14,10
+Russia,RUS,2020-02-14,14
+Singapore,SGP,2020-02-14,33
+El Salvador,SLV,2020-02-14,29
+Serbia,SRB,2020-02-14,5
+Slovak Republic,SVK,2020-02-14,0
+Slovenia,SVN,2020-02-14,0
+Sweden,SWE,2020-02-14,0
+Syria,SYR,2020-02-14,5
+Thailand,THA,2020-02-14,0
+Tanzania,TZA,2020-02-14,0
+Uganda,UGA,2020-02-14,24
+Ukraine,UKR,2020-02-14,52
+United States,USA,2020-02-14,10
+Venezuela,VEN,2020-02-14,0
+Vietnam,VNM,2020-02-14,52
+South Africa,ZAF,2020-02-14,5
+Zimbabwe,ZWE,2020-02-14,0
+Taiwan,TWN,2020-02-14,33
+Afghanistan,AFG,2020-02-15,0
+Angola,AGO,2020-02-15,10
+Argentina,ARG,2020-02-15,0
+Australia,AUS,2020-02-15,29
+Austria,AUT,2020-02-15,0
+Belgium,BEL,2020-02-15,14
+Bulgaria,BGR,2020-02-15,14
+Belize,BLZ,2020-02-15,0
+Bermuda,BMU,2020-02-15,0
+Bolivia,BOL,2020-02-15,0
+Brazil,BRA,2020-02-15,0
+Barbados,BRB,2020-02-15,0
+Botswana,BWA,2020-02-15,19
+Canada,CAN,2020-02-15,5
+Switzerland,CHE,2020-02-15,0
+Chile,CHL,2020-02-15,0
+China,CHN,2020-02-15,62
+Democratic Republic of Congo,COD,2020-02-15,0
+Colombia,COL,2020-02-15,14
+Costa Rica,CRI,2020-02-15,0
+Czech Republic,CZE,2020-02-15,0
+Germany,DEU,2020-02-15,14
+Dominican Republic,DOM,2020-02-15,0
+Algeria,DZA,2020-02-15,0
+Ecuador,ECU,2020-02-15,14
+Spain,ESP,2020-02-15,14
+Finland,FIN,2020-02-15,0
+France,FRA,2020-02-15,17
+United Kingdom,GBR,2020-02-15,14
+Greece,GRC,2020-02-15,0
+Guatemala,GTM,2020-02-15,24
+Guyana,GUY,2020-02-15,5
+Hong Kong,HKG,2020-02-15,81
+Honduras,HND,2020-02-15,0
+Croatia,HRV,2020-02-15,5
+Hungary,HUN,2020-02-15,14
+Indonesia,IDN,2020-02-15,29
+India,IND,2020-02-15,21
+Ireland,IRL,2020-02-15,0
+Iran,IRN,2020-02-15,0
+Iraq,IRQ,2020-02-15,0
+Iceland,ISL,2020-02-15,5
+Israel,ISR,2020-02-15,29
+Italy,ITA,2020-02-15,14
+Jordan,JOR,2020-02-15,0
+Japan,JPN,2020-02-15,19
+Kazakhstan,KAZ,2020-02-15,0
+Kenya,KEN,2020-02-15,5
+South Korea,KOR,2020-02-15,40
+Sri Lanka,LKA,2020-02-15,29
+Macao,MAC,2020-02-15,71
+Mexico,MEX,2020-02-15,29
+Myanmar,MMR,2020-02-15,12
+Malaysia,MYS,2020-02-15,29
+Nigeria,NGA,2020-02-15,5
+Nicaragua,NIC,2020-02-15,0
+Netherlands,NLD,2020-02-15,0
+Norway,NOR,2020-02-15,0
+New Zealand,NZL,2020-02-15,14
+Pakistan,PAK,2020-02-15,0
+Panama,PAN,2020-02-15,19
+Papua New Guinea,PNG,2020-02-15,29
+Poland,POL,2020-02-15,7
+Portugal,PRT,2020-02-15,0
+Qatar,QAT,2020-02-15,29
+Romania,ROU,2020-02-15,10
+Russia,RUS,2020-02-15,14
+Singapore,SGP,2020-02-15,33
+El Salvador,SLV,2020-02-15,29
+Serbia,SRB,2020-02-15,5
+Slovak Republic,SVK,2020-02-15,0
+Slovenia,SVN,2020-02-15,0
+Sweden,SWE,2020-02-15,0
+Syria,SYR,2020-02-15,5
+Thailand,THA,2020-02-15,0
+Tanzania,TZA,2020-02-15,0
+Uganda,UGA,2020-02-15,24
+Ukraine,UKR,2020-02-15,52
+United States,USA,2020-02-15,10
+Venezuela,VEN,2020-02-15,0
+Vietnam,VNM,2020-02-15,52
+South Africa,ZAF,2020-02-15,5
+Zimbabwe,ZWE,2020-02-15,0
+Taiwan,TWN,2020-02-15,33
+Afghanistan,AFG,2020-02-16,0
+Angola,AGO,2020-02-16,10
+Argentina,ARG,2020-02-16,0
+Australia,AUS,2020-02-16,29
+Austria,AUT,2020-02-16,0
+Belgium,BEL,2020-02-16,14
+Bulgaria,BGR,2020-02-16,14
+Belize,BLZ,2020-02-16,0
+Bermuda,BMU,2020-02-16,0
+Bolivia,BOL,2020-02-16,0
+Brazil,BRA,2020-02-16,0
+Barbados,BRB,2020-02-16,0
+Botswana,BWA,2020-02-16,19
+Canada,CAN,2020-02-16,5
+Switzerland,CHE,2020-02-16,0
+Chile,CHL,2020-02-16,0
+China,CHN,2020-02-16,62
+Democratic Republic of Congo,COD,2020-02-16,0
+Colombia,COL,2020-02-16,14
+Costa Rica,CRI,2020-02-16,0
+Czech Republic,CZE,2020-02-16,0
+Germany,DEU,2020-02-16,14
+Dominican Republic,DOM,2020-02-16,0
+Algeria,DZA,2020-02-16,0
+Ecuador,ECU,2020-02-16,14
+Spain,ESP,2020-02-16,14
+Finland,FIN,2020-02-16,0
+France,FRA,2020-02-16,17
+United Kingdom,GBR,2020-02-16,14
+Greece,GRC,2020-02-16,0
+Guatemala,GTM,2020-02-16,24
+Guyana,GUY,2020-02-16,5
+Hong Kong,HKG,2020-02-16,81
+Honduras,HND,2020-02-16,0
+Croatia,HRV,2020-02-16,5
+Hungary,HUN,2020-02-16,14
+Indonesia,IDN,2020-02-16,29
+India,IND,2020-02-16,21
+Ireland,IRL,2020-02-16,0
+Iran,IRN,2020-02-16,0
+Iraq,IRQ,2020-02-16,0
+Iceland,ISL,2020-02-16,5
+Israel,ISR,2020-02-16,29
+Italy,ITA,2020-02-16,14
+Jordan,JOR,2020-02-16,0
+Japan,JPN,2020-02-16,19
+Kazakhstan,KAZ,2020-02-16,0
+Kenya,KEN,2020-02-16,5
+South Korea,KOR,2020-02-16,40
+Sri Lanka,LKA,2020-02-16,29
+Macao,MAC,2020-02-16,71
+Mexico,MEX,2020-02-16,29
+Myanmar,MMR,2020-02-16,12
+Malaysia,MYS,2020-02-16,29
+Nigeria,NGA,2020-02-16,5
+Nicaragua,NIC,2020-02-16,0
+Netherlands,NLD,2020-02-16,0
+Norway,NOR,2020-02-16,0
+New Zealand,NZL,2020-02-16,14
+Pakistan,PAK,2020-02-16,0
+Panama,PAN,2020-02-16,19
+Papua New Guinea,PNG,2020-02-16,29
+Poland,POL,2020-02-16,7
+Portugal,PRT,2020-02-16,0
+Qatar,QAT,2020-02-16,29
+Romania,ROU,2020-02-16,10
+Russia,RUS,2020-02-16,14
+Singapore,SGP,2020-02-16,33
+El Salvador,SLV,2020-02-16,29
+Serbia,SRB,2020-02-16,5
+Slovak Republic,SVK,2020-02-16,0
+Slovenia,SVN,2020-02-16,0
+Sweden,SWE,2020-02-16,0
+Syria,SYR,2020-02-16,5
+Thailand,THA,2020-02-16,0
+Tanzania,TZA,2020-02-16,0
+Uganda,UGA,2020-02-16,24
+Ukraine,UKR,2020-02-16,52
+United States,USA,2020-02-16,10
+Venezuela,VEN,2020-02-16,0
+Vietnam,VNM,2020-02-16,52
+South Africa,ZAF,2020-02-16,5
+Zimbabwe,ZWE,2020-02-16,0
+Taiwan,TWN,2020-02-16,33
+Afghanistan,AFG,2020-02-17,0
+Angola,AGO,2020-02-17,10
+Argentina,ARG,2020-02-17,0
+Australia,AUS,2020-02-17,29
+Austria,AUT,2020-02-17,0
+Belgium,BEL,2020-02-17,14
+Bulgaria,BGR,2020-02-17,14
+Belize,BLZ,2020-02-17,0
+Bermuda,BMU,2020-02-17,0
+Bolivia,BOL,2020-02-17,0
+Brazil,BRA,2020-02-17,0
+Barbados,BRB,2020-02-17,0
+Botswana,BWA,2020-02-17,19
+Canada,CAN,2020-02-17,5
+Switzerland,CHE,2020-02-17,0
+Chile,CHL,2020-02-17,0
+China,CHN,2020-02-17,62
+Democratic Republic of Congo,COD,2020-02-17,0
+Colombia,COL,2020-02-17,14
+Costa Rica,CRI,2020-02-17,0
+Czech Republic,CZE,2020-02-17,0
+Germany,DEU,2020-02-17,14
+Dominican Republic,DOM,2020-02-17,0
+Algeria,DZA,2020-02-17,0
+Ecuador,ECU,2020-02-17,14
+Spain,ESP,2020-02-17,14
+Finland,FIN,2020-02-17,0
+France,FRA,2020-02-17,17
+United Kingdom,GBR,2020-02-17,14
+Greece,GRC,2020-02-17,0
+Guatemala,GTM,2020-02-17,24
+Guyana,GUY,2020-02-17,5
+Hong Kong,HKG,2020-02-17,81
+Honduras,HND,2020-02-17,0
+Croatia,HRV,2020-02-17,5
+Hungary,HUN,2020-02-17,14
+Indonesia,IDN,2020-02-17,29
+India,IND,2020-02-17,21
+Ireland,IRL,2020-02-17,0
+Iran,IRN,2020-02-17,0
+Iraq,IRQ,2020-02-17,0
+Iceland,ISL,2020-02-17,5
+Israel,ISR,2020-02-17,29
+Italy,ITA,2020-02-17,14
+Jordan,JOR,2020-02-17,0
+Japan,JPN,2020-02-17,19
+Kazakhstan,KAZ,2020-02-17,0
+Kenya,KEN,2020-02-17,5
+South Korea,KOR,2020-02-17,40
+Sri Lanka,LKA,2020-02-17,29
+Macao,MAC,2020-02-17,76
+Mexico,MEX,2020-02-17,29
+Myanmar,MMR,2020-02-17,19
+Malaysia,MYS,2020-02-17,29
+Nigeria,NGA,2020-02-17,5
+Nicaragua,NIC,2020-02-17,0
+Netherlands,NLD,2020-02-17,0
+Norway,NOR,2020-02-17,0
+New Zealand,NZL,2020-02-17,14
+Pakistan,PAK,2020-02-17,0
+Panama,PAN,2020-02-17,19
+Papua New Guinea,PNG,2020-02-17,29
+Poland,POL,2020-02-17,7
+Portugal,PRT,2020-02-17,0
+Qatar,QAT,2020-02-17,29
+Romania,ROU,2020-02-17,10
+Russia,RUS,2020-02-17,14
+Singapore,SGP,2020-02-17,33
+El Salvador,SLV,2020-02-17,29
+Serbia,SRB,2020-02-17,5
+Slovak Republic,SVK,2020-02-17,0
+Slovenia,SVN,2020-02-17,0
+Sweden,SWE,2020-02-17,0
+Syria,SYR,2020-02-17,5
+Thailand,THA,2020-02-17,0
+Tanzania,TZA,2020-02-17,0
+Uganda,UGA,2020-02-17,24
+Ukraine,UKR,2020-02-17,52
+United States,USA,2020-02-17,10
+Venezuela,VEN,2020-02-17,0
+Vietnam,VNM,2020-02-17,52
+South Africa,ZAF,2020-02-17,5
+Zimbabwe,ZWE,2020-02-17,0
+Taiwan,TWN,2020-02-17,38
+Afghanistan,AFG,2020-02-18,0
+Angola,AGO,2020-02-18,10
+Argentina,ARG,2020-02-18,0
+Australia,AUS,2020-02-18,29
+Austria,AUT,2020-02-18,0
+Belgium,BEL,2020-02-18,14
+Bulgaria,BGR,2020-02-18,14
+Belize,BLZ,2020-02-18,0
+Bermuda,BMU,2020-02-18,0
+Bolivia,BOL,2020-02-18,0
+Brazil,BRA,2020-02-18,0
+Barbados,BRB,2020-02-18,0
+Botswana,BWA,2020-02-18,19
+Canada,CAN,2020-02-18,5
+Switzerland,CHE,2020-02-18,0
+Chile,CHL,2020-02-18,0
+China,CHN,2020-02-18,62
+Democratic Republic of Congo,COD,2020-02-18,0
+Colombia,COL,2020-02-18,14
+Costa Rica,CRI,2020-02-18,0
+Czech Republic,CZE,2020-02-18,0
+Germany,DEU,2020-02-18,14
+Dominican Republic,DOM,2020-02-18,0
+Algeria,DZA,2020-02-18,0
+Ecuador,ECU,2020-02-18,14
+Spain,ESP,2020-02-18,14
+Finland,FIN,2020-02-18,0
+France,FRA,2020-02-18,17
+United Kingdom,GBR,2020-02-18,14
+Greece,GRC,2020-02-18,0
+Guatemala,GTM,2020-02-18,24
+Guyana,GUY,2020-02-18,5
+Hong Kong,HKG,2020-02-18,81
+Honduras,HND,2020-02-18,0
+Croatia,HRV,2020-02-18,5
+Hungary,HUN,2020-02-18,14
+Indonesia,IDN,2020-02-18,29
+India,IND,2020-02-18,21
+Ireland,IRL,2020-02-18,0
+Iran,IRN,2020-02-18,0
+Iraq,IRQ,2020-02-18,0
+Iceland,ISL,2020-02-18,5
+Israel,ISR,2020-02-18,29
+Italy,ITA,2020-02-18,14
+Jordan,JOR,2020-02-18,0
+Japan,JPN,2020-02-18,19
+Kazakhstan,KAZ,2020-02-18,0
+Kenya,KEN,2020-02-18,5
+South Korea,KOR,2020-02-18,40
+Sri Lanka,LKA,2020-02-18,29
+Macao,MAC,2020-02-18,76
+Mexico,MEX,2020-02-18,29
+Myanmar,MMR,2020-02-18,19
+Malaysia,MYS,2020-02-18,29
+Nigeria,NGA,2020-02-18,5
+Nicaragua,NIC,2020-02-18,0
+Netherlands,NLD,2020-02-18,0
+Norway,NOR,2020-02-18,0
+New Zealand,NZL,2020-02-18,14
+Pakistan,PAK,2020-02-18,0
+Panama,PAN,2020-02-18,19
+Papua New Guinea,PNG,2020-02-18,29
+Poland,POL,2020-02-18,7
+Portugal,PRT,2020-02-18,0
+Qatar,QAT,2020-02-18,29
+Romania,ROU,2020-02-18,10
+Russia,RUS,2020-02-18,14
+Singapore,SGP,2020-02-18,33
+El Salvador,SLV,2020-02-18,29
+Serbia,SRB,2020-02-18,5
+Slovak Republic,SVK,2020-02-18,0
+Slovenia,SVN,2020-02-18,0
+Sweden,SWE,2020-02-18,0
+Syria,SYR,2020-02-18,5
+Thailand,THA,2020-02-18,0
+Tanzania,TZA,2020-02-18,0
+Uganda,UGA,2020-02-18,24
+Ukraine,UKR,2020-02-18,52
+United States,USA,2020-02-18,10
+Venezuela,VEN,2020-02-18,0
+Vietnam,VNM,2020-02-18,52
+South Africa,ZAF,2020-02-18,5
+Zimbabwe,ZWE,2020-02-18,0
+Taiwan,TWN,2020-02-18,38
+Afghanistan,AFG,2020-02-19,0
+Angola,AGO,2020-02-19,10
+Argentina,ARG,2020-02-19,0
+Australia,AUS,2020-02-19,29
+Austria,AUT,2020-02-19,0
+Belgium,BEL,2020-02-19,14
+Bulgaria,BGR,2020-02-19,14
+Belize,BLZ,2020-02-19,0
+Bermuda,BMU,2020-02-19,0
+Bolivia,BOL,2020-02-19,0
+Brazil,BRA,2020-02-19,0
+Barbados,BRB,2020-02-19,0
+Botswana,BWA,2020-02-19,19
+Canada,CAN,2020-02-19,5
+Switzerland,CHE,2020-02-19,0
+Chile,CHL,2020-02-19,0
+China,CHN,2020-02-19,62
+Democratic Republic of Congo,COD,2020-02-19,0
+Colombia,COL,2020-02-19,14
+Costa Rica,CRI,2020-02-19,0
+Czech Republic,CZE,2020-02-19,0
+Germany,DEU,2020-02-19,14
+Dominican Republic,DOM,2020-02-19,0
+Algeria,DZA,2020-02-19,0
+Ecuador,ECU,2020-02-19,14
+Spain,ESP,2020-02-19,14
+Finland,FIN,2020-02-19,0
+France,FRA,2020-02-19,17
+United Kingdom,GBR,2020-02-19,14
+Greece,GRC,2020-02-19,0
+Guatemala,GTM,2020-02-19,24
+Guyana,GUY,2020-02-19,5
+Hong Kong,HKG,2020-02-19,81
+Honduras,HND,2020-02-19,0
+Croatia,HRV,2020-02-19,5
+Hungary,HUN,2020-02-19,14
+Indonesia,IDN,2020-02-19,29
+India,IND,2020-02-19,21
+Ireland,IRL,2020-02-19,0
+Iran,IRN,2020-02-19,0
+Iraq,IRQ,2020-02-19,0
+Iceland,ISL,2020-02-19,5
+Israel,ISR,2020-02-19,29
+Italy,ITA,2020-02-19,14
+Jordan,JOR,2020-02-19,0
+Japan,JPN,2020-02-19,19
+Kazakhstan,KAZ,2020-02-19,0
+Kenya,KEN,2020-02-19,5
+South Korea,KOR,2020-02-19,40
+Sri Lanka,LKA,2020-02-19,29
+Macao,MAC,2020-02-19,76
+Mexico,MEX,2020-02-19,29
+Myanmar,MMR,2020-02-19,19
+Malaysia,MYS,2020-02-19,29
+Nigeria,NGA,2020-02-19,5
+Nicaragua,NIC,2020-02-19,0
+Netherlands,NLD,2020-02-19,0
+Norway,NOR,2020-02-19,0
+New Zealand,NZL,2020-02-19,14
+Pakistan,PAK,2020-02-19,0
+Panama,PAN,2020-02-19,19
+Papua New Guinea,PNG,2020-02-19,29
+Poland,POL,2020-02-19,7
+Portugal,PRT,2020-02-19,0
+Qatar,QAT,2020-02-19,29
+Romania,ROU,2020-02-19,10
+Russia,RUS,2020-02-19,14
+Singapore,SGP,2020-02-19,33
+El Salvador,SLV,2020-02-19,29
+Serbia,SRB,2020-02-19,5
+Slovak Republic,SVK,2020-02-19,0
+Slovenia,SVN,2020-02-19,0
+Sweden,SWE,2020-02-19,0
+Syria,SYR,2020-02-19,5
+Thailand,THA,2020-02-19,0
+Tanzania,TZA,2020-02-19,0
+Uganda,UGA,2020-02-19,24
+Ukraine,UKR,2020-02-19,52
+United States,USA,2020-02-19,10
+Venezuela,VEN,2020-02-19,0
+Vietnam,VNM,2020-02-19,52
+South Africa,ZAF,2020-02-19,5
+Zimbabwe,ZWE,2020-02-19,0
+Taiwan,TWN,2020-02-19,38
+Afghanistan,AFG,2020-02-20,0
+Angola,AGO,2020-02-20,10
+Argentina,ARG,2020-02-20,0
+Australia,AUS,2020-02-20,29
+Austria,AUT,2020-02-20,0
+Belgium,BEL,2020-02-20,14
+Bulgaria,BGR,2020-02-20,14
+Belize,BLZ,2020-02-20,0
+Bermuda,BMU,2020-02-20,0
+Bolivia,BOL,2020-02-20,0
+Brazil,BRA,2020-02-20,0
+Barbados,BRB,2020-02-20,0
+Botswana,BWA,2020-02-20,19
+Canada,CAN,2020-02-20,5
+Switzerland,CHE,2020-02-20,0
+Chile,CHL,2020-02-20,0
+China,CHN,2020-02-20,62
+Democratic Republic of Congo,COD,2020-02-20,5
+Colombia,COL,2020-02-20,14
+Costa Rica,CRI,2020-02-20,0
+Czech Republic,CZE,2020-02-20,0
+Germany,DEU,2020-02-20,14
+Dominican Republic,DOM,2020-02-20,0
+Algeria,DZA,2020-02-20,0
+Ecuador,ECU,2020-02-20,14
+Spain,ESP,2020-02-20,14
+Finland,FIN,2020-02-20,0
+France,FRA,2020-02-20,17
+United Kingdom,GBR,2020-02-20,14
+Greece,GRC,2020-02-20,0
+Guatemala,GTM,2020-02-20,24
+Guyana,GUY,2020-02-20,5
+Hong Kong,HKG,2020-02-20,81
+Honduras,HND,2020-02-20,0
+Croatia,HRV,2020-02-20,5
+Hungary,HUN,2020-02-20,14
+Indonesia,IDN,2020-02-20,29
+India,IND,2020-02-20,21
+Ireland,IRL,2020-02-20,0
+Iran,IRN,2020-02-20,5
+Iraq,IRQ,2020-02-20,0
+Iceland,ISL,2020-02-20,5
+Israel,ISR,2020-02-20,29
+Italy,ITA,2020-02-20,14
+Jordan,JOR,2020-02-20,0
+Japan,JPN,2020-02-20,29
+Kazakhstan,KAZ,2020-02-20,0
+Kenya,KEN,2020-02-20,5
+South Korea,KOR,2020-02-20,40
+Sri Lanka,LKA,2020-02-20,29
+Macao,MAC,2020-02-20,62
+Mexico,MEX,2020-02-20,29
+Myanmar,MMR,2020-02-20,19
+Malaysia,MYS,2020-02-20,29
+Nigeria,NGA,2020-02-20,5
+Nicaragua,NIC,2020-02-20,0
+Netherlands,NLD,2020-02-20,0
+Norway,NOR,2020-02-20,0
+New Zealand,NZL,2020-02-20,14
+Pakistan,PAK,2020-02-20,0
+Panama,PAN,2020-02-20,19
+Papua New Guinea,PNG,2020-02-20,29
+Poland,POL,2020-02-20,7
+Portugal,PRT,2020-02-20,0
+Qatar,QAT,2020-02-20,29
+Romania,ROU,2020-02-20,10
+Russia,RUS,2020-02-20,14
+Singapore,SGP,2020-02-20,33
+El Salvador,SLV,2020-02-20,29
+Serbia,SRB,2020-02-20,5
+Slovak Republic,SVK,2020-02-20,0
+Slovenia,SVN,2020-02-20,0
+Sweden,SWE,2020-02-20,0
+Syria,SYR,2020-02-20,5
+Thailand,THA,2020-02-20,0
+Tanzania,TZA,2020-02-20,0
+Uganda,UGA,2020-02-20,24
+Ukraine,UKR,2020-02-20,52
+United States,USA,2020-02-20,10
+Venezuela,VEN,2020-02-20,0
+Vietnam,VNM,2020-02-20,52
+South Africa,ZAF,2020-02-20,5
+Zimbabwe,ZWE,2020-02-20,0
+Taiwan,TWN,2020-02-20,38
+Afghanistan,AFG,2020-02-21,0
+Angola,AGO,2020-02-21,10
+Argentina,ARG,2020-02-21,0
+Australia,AUS,2020-02-21,29
+Austria,AUT,2020-02-21,0
+Belgium,BEL,2020-02-21,14
+Bulgaria,BGR,2020-02-21,14
+Belize,BLZ,2020-02-21,0
+Bermuda,BMU,2020-02-21,0
+Bolivia,BOL,2020-02-21,0
+Brazil,BRA,2020-02-21,0
+Barbados,BRB,2020-02-21,0
+Botswana,BWA,2020-02-21,19
+Canada,CAN,2020-02-21,5
+Switzerland,CHE,2020-02-21,0
+Chile,CHL,2020-02-21,0
+China,CHN,2020-02-21,62
+Democratic Republic of Congo,COD,2020-02-21,5
+Colombia,COL,2020-02-21,14
+Costa Rica,CRI,2020-02-21,0
+Czech Republic,CZE,2020-02-21,0
+Germany,DEU,2020-02-21,14
+Dominican Republic,DOM,2020-02-21,0
+Algeria,DZA,2020-02-21,0
+Ecuador,ECU,2020-02-21,14
+Spain,ESP,2020-02-21,14
+Finland,FIN,2020-02-21,0
+France,FRA,2020-02-21,17
+United Kingdom,GBR,2020-02-21,14
+Greece,GRC,2020-02-21,0
+Guatemala,GTM,2020-02-21,24
+Guyana,GUY,2020-02-21,5
+Hong Kong,HKG,2020-02-21,81
+Honduras,HND,2020-02-21,0
+Croatia,HRV,2020-02-21,5
+Hungary,HUN,2020-02-21,14
+Indonesia,IDN,2020-02-21,29
+India,IND,2020-02-21,29
+Ireland,IRL,2020-02-21,0
+Iran,IRN,2020-02-21,5
+Iraq,IRQ,2020-02-21,0
+Iceland,ISL,2020-02-21,5
+Israel,ISR,2020-02-21,29
+Italy,ITA,2020-02-21,24
+Jordan,JOR,2020-02-21,0
+Japan,JPN,2020-02-21,29
+Kazakhstan,KAZ,2020-02-21,0
+Kenya,KEN,2020-02-21,5
+South Korea,KOR,2020-02-21,45
+Sri Lanka,LKA,2020-02-21,29
+Macao,MAC,2020-02-21,62
+Mexico,MEX,2020-02-21,29
+Myanmar,MMR,2020-02-21,19
+Malaysia,MYS,2020-02-21,29
+Nigeria,NGA,2020-02-21,5
+Nicaragua,NIC,2020-02-21,0
+Netherlands,NLD,2020-02-21,0
+Norway,NOR,2020-02-21,0
+New Zealand,NZL,2020-02-21,14
+Pakistan,PAK,2020-02-21,0
+Panama,PAN,2020-02-21,19
+Papua New Guinea,PNG,2020-02-21,29
+Poland,POL,2020-02-21,7
+Portugal,PRT,2020-02-21,0
+Qatar,QAT,2020-02-21,29
+Romania,ROU,2020-02-21,10
+Russia,RUS,2020-02-21,14
+Singapore,SGP,2020-02-21,33
+El Salvador,SLV,2020-02-21,29
+Serbia,SRB,2020-02-21,5
+Slovak Republic,SVK,2020-02-21,0
+Slovenia,SVN,2020-02-21,0
+Sweden,SWE,2020-02-21,0
+Syria,SYR,2020-02-21,5
+Thailand,THA,2020-02-21,0
+Tanzania,TZA,2020-02-21,0
+Uganda,UGA,2020-02-21,24
+Ukraine,UKR,2020-02-21,52
+United States,USA,2020-02-21,10
+Venezuela,VEN,2020-02-21,0
+Vietnam,VNM,2020-02-21,52
+South Africa,ZAF,2020-02-21,5
+Zimbabwe,ZWE,2020-02-21,0
+Taiwan,TWN,2020-02-21,38
+Afghanistan,AFG,2020-02-22,0
+Angola,AGO,2020-02-22,10
+Argentina,ARG,2020-02-22,0
+Australia,AUS,2020-02-22,29
+Austria,AUT,2020-02-22,0
+Belgium,BEL,2020-02-22,14
+Bulgaria,BGR,2020-02-22,14
+Belize,BLZ,2020-02-22,0
+Bermuda,BMU,2020-02-22,0
+Bolivia,BOL,2020-02-22,0
+Brazil,BRA,2020-02-22,0
+Barbados,BRB,2020-02-22,0
+Botswana,BWA,2020-02-22,19
+Canada,CAN,2020-02-22,5
+Switzerland,CHE,2020-02-22,0
+Chile,CHL,2020-02-22,0
+China,CHN,2020-02-22,62
+Democratic Republic of Congo,COD,2020-02-22,5
+Colombia,COL,2020-02-22,14
+Costa Rica,CRI,2020-02-22,0
+Czech Republic,CZE,2020-02-22,0
+Germany,DEU,2020-02-22,14
+Dominican Republic,DOM,2020-02-22,0
+Algeria,DZA,2020-02-22,0
+Ecuador,ECU,2020-02-22,14
+Spain,ESP,2020-02-22,14
+Finland,FIN,2020-02-22,0
+France,FRA,2020-02-22,17
+United Kingdom,GBR,2020-02-22,14
+Greece,GRC,2020-02-22,0
+Guatemala,GTM,2020-02-22,24
+Guyana,GUY,2020-02-22,5
+Hong Kong,HKG,2020-02-22,81
+Honduras,HND,2020-02-22,0
+Croatia,HRV,2020-02-22,5
+Hungary,HUN,2020-02-22,14
+Indonesia,IDN,2020-02-22,29
+India,IND,2020-02-22,29
+Ireland,IRL,2020-02-22,0
+Iran,IRN,2020-02-22,19
+Iraq,IRQ,2020-02-22,0
+Iceland,ISL,2020-02-22,5
+Israel,ISR,2020-02-22,29
+Italy,ITA,2020-02-22,24
+Jordan,JOR,2020-02-22,0
+Japan,JPN,2020-02-22,29
+Kazakhstan,KAZ,2020-02-22,0
+Kenya,KEN,2020-02-22,5
+South Korea,KOR,2020-02-22,45
+Sri Lanka,LKA,2020-02-22,29
+Macao,MAC,2020-02-22,62
+Mexico,MEX,2020-02-22,29
+Myanmar,MMR,2020-02-22,19
+Malaysia,MYS,2020-02-22,29
+Nigeria,NGA,2020-02-22,5
+Nicaragua,NIC,2020-02-22,0
+Netherlands,NLD,2020-02-22,0
+Norway,NOR,2020-02-22,0
+New Zealand,NZL,2020-02-22,14
+Pakistan,PAK,2020-02-22,0
+Panama,PAN,2020-02-22,19
+Papua New Guinea,PNG,2020-02-22,29
+Poland,POL,2020-02-22,7
+Portugal,PRT,2020-02-22,0
+Qatar,QAT,2020-02-22,29
+Romania,ROU,2020-02-22,10
+Russia,RUS,2020-02-22,14
+Singapore,SGP,2020-02-22,33
+El Salvador,SLV,2020-02-22,29
+Serbia,SRB,2020-02-22,5
+Slovak Republic,SVK,2020-02-22,0
+Slovenia,SVN,2020-02-22,0
+Sweden,SWE,2020-02-22,0
+Syria,SYR,2020-02-22,5
+Thailand,THA,2020-02-22,0
+Tanzania,TZA,2020-02-22,0
+Uganda,UGA,2020-02-22,24
+Ukraine,UKR,2020-02-22,52
+United States,USA,2020-02-22,10
+Venezuela,VEN,2020-02-22,0
+Vietnam,VNM,2020-02-22,52
+South Africa,ZAF,2020-02-22,5
+Zimbabwe,ZWE,2020-02-22,0
+Taiwan,TWN,2020-02-22,38
+Afghanistan,AFG,2020-02-23,0
+Angola,AGO,2020-02-23,10
+Argentina,ARG,2020-02-23,0
+Australia,AUS,2020-02-23,29
+Austria,AUT,2020-02-23,0
+Belgium,BEL,2020-02-23,14
+Bulgaria,BGR,2020-02-23,14
+Belize,BLZ,2020-02-23,0
+Bermuda,BMU,2020-02-23,0
+Bolivia,BOL,2020-02-23,0
+Brazil,BRA,2020-02-23,0
+Barbados,BRB,2020-02-23,0
+Botswana,BWA,2020-02-23,19
+Canada,CAN,2020-02-23,5
+Switzerland,CHE,2020-02-23,0
+Chile,CHL,2020-02-23,0
+China,CHN,2020-02-23,62
+Democratic Republic of Congo,COD,2020-02-23,5
+Colombia,COL,2020-02-23,14
+Costa Rica,CRI,2020-02-23,0
+Czech Republic,CZE,2020-02-23,0
+Germany,DEU,2020-02-23,14
+Dominican Republic,DOM,2020-02-23,0
+Algeria,DZA,2020-02-23,0
+Ecuador,ECU,2020-02-23,14
+Spain,ESP,2020-02-23,14
+Finland,FIN,2020-02-23,0
+France,FRA,2020-02-23,17
+United Kingdom,GBR,2020-02-23,14
+Greece,GRC,2020-02-23,0
+Guatemala,GTM,2020-02-23,24
+Guyana,GUY,2020-02-23,5
+Hong Kong,HKG,2020-02-23,81
+Honduras,HND,2020-02-23,0
+Croatia,HRV,2020-02-23,5
+Hungary,HUN,2020-02-23,14
+Indonesia,IDN,2020-02-23,29
+India,IND,2020-02-23,29
+Ireland,IRL,2020-02-23,0
+Iran,IRN,2020-02-23,29
+Iraq,IRQ,2020-02-23,0
+Iceland,ISL,2020-02-23,5
+Israel,ISR,2020-02-23,29
+Italy,ITA,2020-02-23,33
+Jordan,JOR,2020-02-23,0
+Japan,JPN,2020-02-23,29
+Kazakhstan,KAZ,2020-02-23,0
+Kenya,KEN,2020-02-23,5
+South Korea,KOR,2020-02-23,60
+Sri Lanka,LKA,2020-02-23,29
+Macao,MAC,2020-02-23,62
+Mexico,MEX,2020-02-23,29
+Myanmar,MMR,2020-02-23,19
+Malaysia,MYS,2020-02-23,29
+Nigeria,NGA,2020-02-23,5
+Nicaragua,NIC,2020-02-23,0
+Netherlands,NLD,2020-02-23,0
+Norway,NOR,2020-02-23,0
+New Zealand,NZL,2020-02-23,14
+Pakistan,PAK,2020-02-23,14
+Panama,PAN,2020-02-23,19
+Papua New Guinea,PNG,2020-02-23,29
+Poland,POL,2020-02-23,7
+Portugal,PRT,2020-02-23,0
+Qatar,QAT,2020-02-23,29
+Romania,ROU,2020-02-23,10
+Russia,RUS,2020-02-23,14
+Singapore,SGP,2020-02-23,33
+El Salvador,SLV,2020-02-23,29
+Serbia,SRB,2020-02-23,5
+Slovak Republic,SVK,2020-02-23,0
+Slovenia,SVN,2020-02-23,0
+Sweden,SWE,2020-02-23,0
+Syria,SYR,2020-02-23,5
+Thailand,THA,2020-02-23,0
+Tanzania,TZA,2020-02-23,0
+Uganda,UGA,2020-02-23,24
+Ukraine,UKR,2020-02-23,52
+United States,USA,2020-02-23,10
+Venezuela,VEN,2020-02-23,0
+Vietnam,VNM,2020-02-23,52
+South Africa,ZAF,2020-02-23,5
+Zimbabwe,ZWE,2020-02-23,0
+Taiwan,TWN,2020-02-23,48
+Afghanistan,AFG,2020-02-24,0
+Angola,AGO,2020-02-24,10
+Argentina,ARG,2020-02-24,0
+Australia,AUS,2020-02-24,29
+Austria,AUT,2020-02-24,14
+Belgium,BEL,2020-02-24,14
+Bulgaria,BGR,2020-02-24,14
+Belize,BLZ,2020-02-24,0
+Bermuda,BMU,2020-02-24,0
+Bolivia,BOL,2020-02-24,0
+Brazil,BRA,2020-02-24,0
+Barbados,BRB,2020-02-24,0
+Botswana,BWA,2020-02-24,19
+Canada,CAN,2020-02-24,5
+Switzerland,CHE,2020-02-24,0
+Chile,CHL,2020-02-24,0
+China,CHN,2020-02-24,62
+Democratic Republic of Congo,COD,2020-02-24,5
+Colombia,COL,2020-02-24,24
+Costa Rica,CRI,2020-02-24,0
+Czech Republic,CZE,2020-02-24,0
+Germany,DEU,2020-02-24,14
+Dominican Republic,DOM,2020-02-24,0
+Algeria,DZA,2020-02-24,0
+Ecuador,ECU,2020-02-24,14
+Spain,ESP,2020-02-24,14
+Finland,FIN,2020-02-24,0
+France,FRA,2020-02-24,17
+United Kingdom,GBR,2020-02-24,14
+Greece,GRC,2020-02-24,0
+Guatemala,GTM,2020-02-24,24
+Guyana,GUY,2020-02-24,5
+Hong Kong,HKG,2020-02-24,81
+Honduras,HND,2020-02-24,0
+Croatia,HRV,2020-02-24,19
+Hungary,HUN,2020-02-24,14
+Indonesia,IDN,2020-02-24,29
+India,IND,2020-02-24,29
+Ireland,IRL,2020-02-24,0
+Iran,IRN,2020-02-24,29
+Iraq,IRQ,2020-02-24,10
+Iceland,ISL,2020-02-24,5
+Israel,ISR,2020-02-24,29
+Italy,ITA,2020-02-24,33
+Jordan,JOR,2020-02-24,0
+Japan,JPN,2020-02-24,29
+Kazakhstan,KAZ,2020-02-24,0
+Kenya,KEN,2020-02-24,5
+South Korea,KOR,2020-02-24,60
+Sri Lanka,LKA,2020-02-24,33
+Macao,MAC,2020-02-24,62
+Mexico,MEX,2020-02-24,29
+Myanmar,MMR,2020-02-24,19
+Malaysia,MYS,2020-02-24,29
+Nigeria,NGA,2020-02-24,5
+Nicaragua,NIC,2020-02-24,0
+Netherlands,NLD,2020-02-24,0
+Norway,NOR,2020-02-24,0
+New Zealand,NZL,2020-02-24,14
+Pakistan,PAK,2020-02-24,14
+Panama,PAN,2020-02-24,19
+Papua New Guinea,PNG,2020-02-24,29
+Poland,POL,2020-02-24,7
+Portugal,PRT,2020-02-24,0
+Qatar,QAT,2020-02-24,29
+Romania,ROU,2020-02-24,10
+Russia,RUS,2020-02-24,14
+Singapore,SGP,2020-02-24,33
+El Salvador,SLV,2020-02-24,29
+Serbia,SRB,2020-02-24,5
+Slovak Republic,SVK,2020-02-24,0
+Slovenia,SVN,2020-02-24,0
+Sweden,SWE,2020-02-24,0
+Syria,SYR,2020-02-24,5
+Thailand,THA,2020-02-24,0
+Tanzania,TZA,2020-02-24,0
+Uganda,UGA,2020-02-24,24
+Ukraine,UKR,2020-02-24,52
+United States,USA,2020-02-24,10
+Venezuela,VEN,2020-02-24,0
+Vietnam,VNM,2020-02-24,52
+South Africa,ZAF,2020-02-24,5
+Zimbabwe,ZWE,2020-02-24,0
+Taiwan,TWN,2020-02-24,43
+Afghanistan,AFG,2020-02-25,0
+Angola,AGO,2020-02-25,10
+Argentina,ARG,2020-02-25,0
+Australia,AUS,2020-02-25,29
+Austria,AUT,2020-02-25,14
+Belgium,BEL,2020-02-25,14
+Bulgaria,BGR,2020-02-25,14
+Belize,BLZ,2020-02-25,0
+Bermuda,BMU,2020-02-25,0
+Bolivia,BOL,2020-02-25,0
+Brazil,BRA,2020-02-25,0
+Barbados,BRB,2020-02-25,0
+Botswana,BWA,2020-02-25,19
+Canada,CAN,2020-02-25,5
+Switzerland,CHE,2020-02-25,0
+Chile,CHL,2020-02-25,0
+China,CHN,2020-02-25,71
+Democratic Republic of Congo,COD,2020-02-25,5
+Colombia,COL,2020-02-25,24
+Costa Rica,CRI,2020-02-25,0
+Czech Republic,CZE,2020-02-25,0
+Germany,DEU,2020-02-25,14
+Dominican Republic,DOM,2020-02-25,0
+Algeria,DZA,2020-02-25,0
+Ecuador,ECU,2020-02-25,14
+Spain,ESP,2020-02-25,7
+Finland,FIN,2020-02-25,0
+France,FRA,2020-02-25,17
+United Kingdom,GBR,2020-02-25,14
+Greece,GRC,2020-02-25,14
+Guatemala,GTM,2020-02-25,24
+Guyana,GUY,2020-02-25,5
+Hong Kong,HKG,2020-02-25,81
+Honduras,HND,2020-02-25,0
+Croatia,HRV,2020-02-25,19
+Hungary,HUN,2020-02-25,14
+Indonesia,IDN,2020-02-25,29
+India,IND,2020-02-25,29
+Ireland,IRL,2020-02-25,0
+Iran,IRN,2020-02-25,29
+Iraq,IRQ,2020-02-25,24
+Iceland,ISL,2020-02-25,5
+Israel,ISR,2020-02-25,29
+Italy,ITA,2020-02-25,33
+Jordan,JOR,2020-02-25,0
+Japan,JPN,2020-02-25,48
+Kazakhstan,KAZ,2020-02-25,0
+Kenya,KEN,2020-02-25,19
+South Korea,KOR,2020-02-25,60
+Sri Lanka,LKA,2020-02-25,33
+Macao,MAC,2020-02-25,62
+Mexico,MEX,2020-02-25,29
+Myanmar,MMR,2020-02-25,19
+Malaysia,MYS,2020-02-25,29
+Nigeria,NGA,2020-02-25,5
+Nicaragua,NIC,2020-02-25,0
+Netherlands,NLD,2020-02-25,0
+Norway,NOR,2020-02-25,0
+New Zealand,NZL,2020-02-25,14
+Pakistan,PAK,2020-02-25,14
+Panama,PAN,2020-02-25,19
+Papua New Guinea,PNG,2020-02-25,29
+Poland,POL,2020-02-25,7
+Portugal,PRT,2020-02-25,0
+Qatar,QAT,2020-02-25,29
+Romania,ROU,2020-02-25,24
+Russia,RUS,2020-02-25,14
+Singapore,SGP,2020-02-25,33
+El Salvador,SLV,2020-02-25,29
+Serbia,SRB,2020-02-25,19
+Slovak Republic,SVK,2020-02-25,0
+Slovenia,SVN,2020-02-25,0
+Sweden,SWE,2020-02-25,0
+Syria,SYR,2020-02-25,5
+Thailand,THA,2020-02-25,0
+Tanzania,TZA,2020-02-25,0
+Uganda,UGA,2020-02-25,24
+Ukraine,UKR,2020-02-25,52
+United States,USA,2020-02-25,10
+Venezuela,VEN,2020-02-25,0
+Vietnam,VNM,2020-02-25,52
+South Africa,ZAF,2020-02-25,5
+Zimbabwe,ZWE,2020-02-25,0
+Taiwan,TWN,2020-02-25,43
+Afghanistan,AFG,2020-02-26,0
+Angola,AGO,2020-02-26,10
+Argentina,ARG,2020-02-26,0
+Australia,AUS,2020-02-26,29
+Austria,AUT,2020-02-26,14
+Belgium,BEL,2020-02-26,14
+Bulgaria,BGR,2020-02-26,14
+Belize,BLZ,2020-02-26,0
+Bermuda,BMU,2020-02-26,0
+Bolivia,BOL,2020-02-26,0
+Brazil,BRA,2020-02-26,0
+Barbados,BRB,2020-02-26,0
+Botswana,BWA,2020-02-26,19
+Canada,CAN,2020-02-26,5
+Switzerland,CHE,2020-02-26,0
+Chile,CHL,2020-02-26,0
+China,CHN,2020-02-26,71
+Democratic Republic of Congo,COD,2020-02-26,5
+Colombia,COL,2020-02-26,24
+Costa Rica,CRI,2020-02-26,0
+Czech Republic,CZE,2020-02-26,0
+Germany,DEU,2020-02-26,14
+Dominican Republic,DOM,2020-02-26,0
+Algeria,DZA,2020-02-26,0
+Ecuador,ECU,2020-02-26,14
+Spain,ESP,2020-02-26,14
+Finland,FIN,2020-02-26,0
+France,FRA,2020-02-26,17
+United Kingdom,GBR,2020-02-26,14
+Greece,GRC,2020-02-26,14
+Guatemala,GTM,2020-02-26,24
+Guyana,GUY,2020-02-26,5
+Hong Kong,HKG,2020-02-26,81
+Honduras,HND,2020-02-26,0
+Croatia,HRV,2020-02-26,19
+Hungary,HUN,2020-02-26,14
+Indonesia,IDN,2020-02-26,29
+India,IND,2020-02-26,29
+Ireland,IRL,2020-02-26,0
+Iran,IRN,2020-02-26,52
+Iraq,IRQ,2020-02-26,24
+Iceland,ISL,2020-02-26,5
+Israel,ISR,2020-02-26,29
+Italy,ITA,2020-02-26,33
+Jordan,JOR,2020-02-26,0
+Japan,JPN,2020-02-26,48
+Kazakhstan,KAZ,2020-02-26,0
+Kenya,KEN,2020-02-26,19
+South Korea,KOR,2020-02-26,60
+Sri Lanka,LKA,2020-02-26,33
+Macao,MAC,2020-02-26,62
+Mexico,MEX,2020-02-26,29
+Myanmar,MMR,2020-02-26,19
+Malaysia,MYS,2020-02-26,29
+Nigeria,NGA,2020-02-26,5
+Nicaragua,NIC,2020-02-26,0
+Netherlands,NLD,2020-02-26,0
+Norway,NOR,2020-02-26,0
+New Zealand,NZL,2020-02-26,14
+Pakistan,PAK,2020-02-26,14
+Panama,PAN,2020-02-26,19
+Papua New Guinea,PNG,2020-02-26,29
+Poland,POL,2020-02-26,7
+Portugal,PRT,2020-02-26,0
+Qatar,QAT,2020-02-26,29
+Romania,ROU,2020-02-26,24
+Russia,RUS,2020-02-26,14
+Singapore,SGP,2020-02-26,33
+El Salvador,SLV,2020-02-26,29
+Serbia,SRB,2020-02-26,19
+Slovak Republic,SVK,2020-02-26,0
+Slovenia,SVN,2020-02-26,0
+Sweden,SWE,2020-02-26,0
+Syria,SYR,2020-02-26,5
+Thailand,THA,2020-02-26,0
+Tanzania,TZA,2020-02-26,0
+Uganda,UGA,2020-02-26,24
+Ukraine,UKR,2020-02-26,52
+United States,USA,2020-02-26,10
+Venezuela,VEN,2020-02-26,0
+Vietnam,VNM,2020-02-26,52
+South Africa,ZAF,2020-02-26,5
+Zimbabwe,ZWE,2020-02-26,0
+Taiwan,TWN,2020-02-26,29
+Afghanistan,AFG,2020-02-27,0
+Angola,AGO,2020-02-27,10
+Argentina,ARG,2020-02-27,0
+Australia,AUS,2020-02-27,29
+Austria,AUT,2020-02-27,14
+Belgium,BEL,2020-02-27,14
+Bulgaria,BGR,2020-02-27,14
+Belize,BLZ,2020-02-27,0
+Bermuda,BMU,2020-02-27,0
+Bolivia,BOL,2020-02-27,0
+Brazil,BRA,2020-02-27,0
+Barbados,BRB,2020-02-27,0
+Botswana,BWA,2020-02-27,19
+Canada,CAN,2020-02-27,5
+Switzerland,CHE,2020-02-27,0
+Chile,CHL,2020-02-27,0
+China,CHN,2020-02-27,71
+Democratic Republic of Congo,COD,2020-02-27,5
+Colombia,COL,2020-02-27,24
+Costa Rica,CRI,2020-02-27,0
+Czech Republic,CZE,2020-02-27,0
+Germany,DEU,2020-02-27,14
+Dominican Republic,DOM,2020-02-27,0
+Algeria,DZA,2020-02-27,0
+Ecuador,ECU,2020-02-27,14
+Spain,ESP,2020-02-27,14
+Finland,FIN,2020-02-27,0
+France,FRA,2020-02-27,17
+United Kingdom,GBR,2020-02-27,14
+Greece,GRC,2020-02-27,14
+Guatemala,GTM,2020-02-27,24
+Guyana,GUY,2020-02-27,5
+Hong Kong,HKG,2020-02-27,81
+Honduras,HND,2020-02-27,0
+Croatia,HRV,2020-02-27,19
+Hungary,HUN,2020-02-27,14
+Indonesia,IDN,2020-02-27,29
+India,IND,2020-02-27,29
+Ireland,IRL,2020-02-27,0
+Iran,IRN,2020-02-27,52
+Iraq,IRQ,2020-02-27,43
+Iceland,ISL,2020-02-27,5
+Israel,ISR,2020-02-27,29
+Italy,ITA,2020-02-27,33
+Jordan,JOR,2020-02-27,0
+Japan,JPN,2020-02-27,48
+Kazakhstan,KAZ,2020-02-27,0
+Kenya,KEN,2020-02-27,19
+South Korea,KOR,2020-02-27,60
+Sri Lanka,LKA,2020-02-27,33
+Macao,MAC,2020-02-27,62
+Mexico,MEX,2020-02-27,29
+Myanmar,MMR,2020-02-27,19
+Malaysia,MYS,2020-02-27,29
+Nigeria,NGA,2020-02-27,5
+Nicaragua,NIC,2020-02-27,0
+Netherlands,NLD,2020-02-27,0
+Norway,NOR,2020-02-27,0
+New Zealand,NZL,2020-02-27,14
+Pakistan,PAK,2020-02-27,33
+Panama,PAN,2020-02-27,19
+Papua New Guinea,PNG,2020-02-27,29
+Poland,POL,2020-02-27,14
+Portugal,PRT,2020-02-27,0
+Qatar,QAT,2020-02-27,29
+Romania,ROU,2020-02-27,24
+Russia,RUS,2020-02-27,14
+Singapore,SGP,2020-02-27,33
+El Salvador,SLV,2020-02-27,29
+Serbia,SRB,2020-02-27,19
+Slovak Republic,SVK,2020-02-27,0
+Slovenia,SVN,2020-02-27,0
+Sweden,SWE,2020-02-27,0
+Syria,SYR,2020-02-27,5
+Thailand,THA,2020-02-27,0
+Tanzania,TZA,2020-02-27,0
+Uganda,UGA,2020-02-27,24
+Ukraine,UKR,2020-02-27,52
+United States,USA,2020-02-27,10
+Venezuela,VEN,2020-02-27,0
+Vietnam,VNM,2020-02-27,52
+South Africa,ZAF,2020-02-27,5
+Zimbabwe,ZWE,2020-02-27,0
+Taiwan,TWN,2020-02-27,29
+Afghanistan,AFG,2020-02-28,0
+Angola,AGO,2020-02-28,10
+Argentina,ARG,2020-02-28,0
+Australia,AUS,2020-02-28,29
+Austria,AUT,2020-02-28,14
+Belgium,BEL,2020-02-28,14
+Bulgaria,BGR,2020-02-28,14
+Belize,BLZ,2020-02-28,14
+Bermuda,BMU,2020-02-28,0
+Bolivia,BOL,2020-02-28,0
+Brazil,BRA,2020-02-28,0
+Barbados,BRB,2020-02-28,0
+Botswana,BWA,2020-02-28,19
+Canada,CAN,2020-02-28,5
+Switzerland,CHE,2020-02-28,10
+Chile,CHL,2020-02-28,0
+China,CHN,2020-02-28,71
+Democratic Republic of Congo,COD,2020-02-28,5
+Colombia,COL,2020-02-28,24
+Costa Rica,CRI,2020-02-28,0
+Czech Republic,CZE,2020-02-28,0
+Germany,DEU,2020-02-28,14
+Dominican Republic,DOM,2020-02-28,0
+Algeria,DZA,2020-02-28,0
+Ecuador,ECU,2020-02-28,14
+Spain,ESP,2020-02-28,14
+Finland,FIN,2020-02-28,0
+France,FRA,2020-02-28,24
+United Kingdom,GBR,2020-02-28,14
+Greece,GRC,2020-02-28,14
+Guatemala,GTM,2020-02-28,24
+Guyana,GUY,2020-02-28,5
+Hong Kong,HKG,2020-02-28,81
+Honduras,HND,2020-02-28,0
+Croatia,HRV,2020-02-28,19
+Hungary,HUN,2020-02-28,14
+Indonesia,IDN,2020-02-28,29
+India,IND,2020-02-28,29
+Ireland,IRL,2020-02-28,0
+Iran,IRN,2020-02-28,52
+Iraq,IRQ,2020-02-28,43
+Iceland,ISL,2020-02-28,5
+Israel,ISR,2020-02-28,29
+Italy,ITA,2020-02-28,57
+Jordan,JOR,2020-02-28,0
+Japan,JPN,2020-02-28,48
+Kazakhstan,KAZ,2020-02-28,0
+Kenya,KEN,2020-02-28,19
+South Korea,KOR,2020-02-28,60
+Sri Lanka,LKA,2020-02-28,33
+Macao,MAC,2020-02-28,62
+Mexico,MEX,2020-02-28,29
+Myanmar,MMR,2020-02-28,19
+Malaysia,MYS,2020-02-28,29
+Nigeria,NGA,2020-02-28,5
+Nicaragua,NIC,2020-02-28,0
+Netherlands,NLD,2020-02-28,0
+Norway,NOR,2020-02-28,0
+New Zealand,NZL,2020-02-28,29
+Pakistan,PAK,2020-02-28,29
+Panama,PAN,2020-02-28,19
+Papua New Guinea,PNG,2020-02-28,29
+Poland,POL,2020-02-28,14
+Portugal,PRT,2020-02-28,0
+Qatar,QAT,2020-02-28,29
+Romania,ROU,2020-02-28,24
+Russia,RUS,2020-02-28,14
+Singapore,SGP,2020-02-28,33
+El Salvador,SLV,2020-02-28,29
+Serbia,SRB,2020-02-28,19
+Slovak Republic,SVK,2020-02-28,0
+Slovenia,SVN,2020-02-28,0
+Sweden,SWE,2020-02-28,0
+Syria,SYR,2020-02-28,5
+Thailand,THA,2020-02-28,0
+Tanzania,TZA,2020-02-28,0
+Uganda,UGA,2020-02-28,24
+Ukraine,UKR,2020-02-28,52
+United States,USA,2020-02-28,10
+Venezuela,VEN,2020-02-28,14
+Vietnam,VNM,2020-02-28,52
+South Africa,ZAF,2020-02-28,5
+Zimbabwe,ZWE,2020-02-28,0
+Taiwan,TWN,2020-02-28,29
+Afghanistan,AFG,2020-02-29,0
+Angola,AGO,2020-02-29,10
+Argentina,ARG,2020-02-29,0
+Australia,AUS,2020-02-29,29
+Austria,AUT,2020-02-29,14
+Belgium,BEL,2020-02-29,14
+Bulgaria,BGR,2020-02-29,14
+Belize,BLZ,2020-02-29,14
+Bermuda,BMU,2020-02-29,0
+Bolivia,BOL,2020-02-29,0
+Brazil,BRA,2020-02-29,0
+Barbados,BRB,2020-02-29,0
+Botswana,BWA,2020-02-29,19
+Canada,CAN,2020-02-29,5
+Switzerland,CHE,2020-02-29,10
+Chile,CHL,2020-02-29,0
+China,CHN,2020-02-29,71
+Democratic Republic of Congo,COD,2020-02-29,5
+Colombia,COL,2020-02-29,24
+Costa Rica,CRI,2020-02-29,0
+Czech Republic,CZE,2020-02-29,0
+Germany,DEU,2020-02-29,29
+Dominican Republic,DOM,2020-02-29,0
+Algeria,DZA,2020-02-29,0
+Ecuador,ECU,2020-02-29,14
+Spain,ESP,2020-02-29,14
+Finland,FIN,2020-02-29,0
+France,FRA,2020-02-29,38
+United Kingdom,GBR,2020-02-29,14
+Greece,GRC,2020-02-29,24
+Guatemala,GTM,2020-02-29,24
+Guyana,GUY,2020-02-29,5
+Hong Kong,HKG,2020-02-29,81
+Honduras,HND,2020-02-29,0
+Croatia,HRV,2020-02-29,29
+Hungary,HUN,2020-02-29,14
+Indonesia,IDN,2020-02-29,29
+India,IND,2020-02-29,29
+Ireland,IRL,2020-02-29,14
+Iran,IRN,2020-02-29,52
+Iraq,IRQ,2020-02-29,57
+Iceland,ISL,2020-02-29,5
+Israel,ISR,2020-02-29,29
+Italy,ITA,2020-02-29,57
+Jordan,JOR,2020-02-29,0
+Japan,JPN,2020-02-29,48
+Kazakhstan,KAZ,2020-02-29,0
+Kenya,KEN,2020-02-29,19
+South Korea,KOR,2020-02-29,60
+Sri Lanka,LKA,2020-02-29,33
+Macao,MAC,2020-02-29,62
+Mexico,MEX,2020-02-29,29
+Myanmar,MMR,2020-02-29,19
+Malaysia,MYS,2020-02-29,29
+Nigeria,NGA,2020-02-29,5
+Nicaragua,NIC,2020-02-29,0
+Netherlands,NLD,2020-02-29,0
+Norway,NOR,2020-02-29,0
+New Zealand,NZL,2020-02-29,29
+Pakistan,PAK,2020-02-29,29
+Panama,PAN,2020-02-29,19
+Papua New Guinea,PNG,2020-02-29,29
+Poland,POL,2020-02-29,14
+Portugal,PRT,2020-02-29,0
+Qatar,QAT,2020-02-29,29
+Romania,ROU,2020-02-29,24
+Russia,RUS,2020-02-29,14
+Singapore,SGP,2020-02-29,33
+El Salvador,SLV,2020-02-29,29
+Serbia,SRB,2020-02-29,19
+Slovak Republic,SVK,2020-02-29,0
+Slovenia,SVN,2020-02-29,0
+Sweden,SWE,2020-02-29,0
+Syria,SYR,2020-02-29,5
+Thailand,THA,2020-02-29,0
+Tanzania,TZA,2020-02-29,0
+Uganda,UGA,2020-02-29,24
+Ukraine,UKR,2020-02-29,52
+United States,USA,2020-02-29,10
+Venezuela,VEN,2020-02-29,7
+Vietnam,VNM,2020-02-29,52
+South Africa,ZAF,2020-02-29,5
+Zimbabwe,ZWE,2020-02-29,0
+Taiwan,TWN,2020-02-29,29
+Afghanistan,AFG,2020-03-01,24
+Angola,AGO,2020-03-01,14
+Argentina,ARG,2020-03-01,0
+Australia,AUS,2020-03-01,29
+Austria,AUT,2020-03-01,14
+Belgium,BEL,2020-03-01,14
+Bulgaria,BGR,2020-03-01,14
+Belize,BLZ,2020-03-01,14
+Bermuda,BMU,2020-03-01,0
+Bolivia,BOL,2020-03-01,0
+Brazil,BRA,2020-03-01,0
+Barbados,BRB,2020-03-01,0
+Botswana,BWA,2020-03-01,19
+Canada,CAN,2020-03-01,5
+Switzerland,CHE,2020-03-01,10
+Chile,CHL,2020-03-01,0
+China,CHN,2020-03-01,71
+Democratic Republic of Congo,COD,2020-03-01,5
+Colombia,COL,2020-03-01,24
+Costa Rica,CRI,2020-03-01,0
+Czech Republic,CZE,2020-03-01,0
+Germany,DEU,2020-03-01,29
+Dominican Republic,DOM,2020-03-01,0
+Algeria,DZA,2020-03-01,0
+Ecuador,ECU,2020-03-01,14
+Spain,ESP,2020-03-01,14
+Finland,FIN,2020-03-01,0
+France,FRA,2020-03-01,38
+United Kingdom,GBR,2020-03-01,14
+Greece,GRC,2020-03-01,24
+Guatemala,GTM,2020-03-01,24
+Guyana,GUY,2020-03-01,5
+Hong Kong,HKG,2020-03-01,81
+Honduras,HND,2020-03-01,0
+Croatia,HRV,2020-03-01,29
+Hungary,HUN,2020-03-01,14
+Indonesia,IDN,2020-03-01,29
+India,IND,2020-03-01,29
+Ireland,IRL,2020-03-01,14
+Iran,IRN,2020-03-01,52
+Iraq,IRQ,2020-03-01,57
+Iceland,ISL,2020-03-01,5
+Israel,ISR,2020-03-01,29
+Italy,ITA,2020-03-01,62
+Jordan,JOR,2020-03-01,0
+Japan,JPN,2020-03-01,48
+Kazakhstan,KAZ,2020-03-01,0
+Kenya,KEN,2020-03-01,19
+South Korea,KOR,2020-03-01,60
+Sri Lanka,LKA,2020-03-01,33
+Macao,MAC,2020-03-01,62
+Mexico,MEX,2020-03-01,29
+Myanmar,MMR,2020-03-01,19
+Malaysia,MYS,2020-03-01,29
+Nigeria,NGA,2020-03-01,5
+Nicaragua,NIC,2020-03-01,0
+Netherlands,NLD,2020-03-01,0
+Norway,NOR,2020-03-01,0
+New Zealand,NZL,2020-03-01,29
+Pakistan,PAK,2020-03-01,33
+Panama,PAN,2020-03-01,19
+Papua New Guinea,PNG,2020-03-01,29
+Poland,POL,2020-03-01,14
+Portugal,PRT,2020-03-01,0
+Qatar,QAT,2020-03-01,43
+Romania,ROU,2020-03-01,24
+Russia,RUS,2020-03-01,14
+Singapore,SGP,2020-03-01,33
+El Salvador,SLV,2020-03-01,29
+Serbia,SRB,2020-03-01,19
+Slovak Republic,SVK,2020-03-01,0
+Slovenia,SVN,2020-03-01,0
+Sweden,SWE,2020-03-01,0
+Syria,SYR,2020-03-01,5
+Thailand,THA,2020-03-01,0
+Tanzania,TZA,2020-03-01,0
+Uganda,UGA,2020-03-01,24
+Ukraine,UKR,2020-03-01,52
+United States,USA,2020-03-01,10
+Venezuela,VEN,2020-03-01,7
+Vietnam,VNM,2020-03-01,52
+South Africa,ZAF,2020-03-01,5
+Zimbabwe,ZWE,2020-03-01,0
+Taiwan,TWN,2020-03-01,29
+Afghanistan,AFG,2020-03-02,43
+Angola,AGO,2020-03-02,14
+Argentina,ARG,2020-03-02,0
+Australia,AUS,2020-03-02,29
+Austria,AUT,2020-03-02,14
+Belgium,BEL,2020-03-02,14
+Bulgaria,BGR,2020-03-02,14
+Belize,BLZ,2020-03-02,14
+Bermuda,BMU,2020-03-02,0
+Bolivia,BOL,2020-03-02,0
+Brazil,BRA,2020-03-02,14
+Barbados,BRB,2020-03-02,0
+Botswana,BWA,2020-03-02,19
+Canada,CAN,2020-03-02,5
+Switzerland,CHE,2020-03-02,10
+Chile,CHL,2020-03-02,0
+China,CHN,2020-03-02,71
+Democratic Republic of Congo,COD,2020-03-02,5
+Colombia,COL,2020-03-02,24
+Costa Rica,CRI,2020-03-02,0
+Czech Republic,CZE,2020-03-02,0
+Germany,DEU,2020-03-02,29
+Dominican Republic,DOM,2020-03-02,14
+Algeria,DZA,2020-03-02,0
+Ecuador,ECU,2020-03-02,19
+Spain,ESP,2020-03-02,14
+Finland,FIN,2020-03-02,0
+France,FRA,2020-03-02,38
+United Kingdom,GBR,2020-03-02,14
+Greece,GRC,2020-03-02,14
+Guatemala,GTM,2020-03-02,24
+Guyana,GUY,2020-03-02,5
+Hong Kong,HKG,2020-03-02,67
+Honduras,HND,2020-03-02,14
+Croatia,HRV,2020-03-02,29
+Hungary,HUN,2020-03-02,14
+Indonesia,IDN,2020-03-02,14
+India,IND,2020-03-02,29
+Ireland,IRL,2020-03-02,14
+Iran,IRN,2020-03-02,52
+Iraq,IRQ,2020-03-02,57
+Iceland,ISL,2020-03-02,5
+Israel,ISR,2020-03-02,29
+Italy,ITA,2020-03-02,62
+Jordan,JOR,2020-03-02,0
+Japan,JPN,2020-03-02,57
+Kazakhstan,KAZ,2020-03-02,0
+Kenya,KEN,2020-03-02,19
+South Korea,KOR,2020-03-02,60
+Sri Lanka,LKA,2020-03-02,33
+Macao,MAC,2020-03-02,62
+Mexico,MEX,2020-03-02,29
+Myanmar,MMR,2020-03-02,19
+Malaysia,MYS,2020-03-02,29
+Nigeria,NGA,2020-03-02,5
+Nicaragua,NIC,2020-03-02,0
+Netherlands,NLD,2020-03-02,0
+Norway,NOR,2020-03-02,0
+New Zealand,NZL,2020-03-02,29
+Pakistan,PAK,2020-03-02,29
+Panama,PAN,2020-03-02,19
+Papua New Guinea,PNG,2020-03-02,29
+Poland,POL,2020-03-02,14
+Portugal,PRT,2020-03-02,0
+Qatar,QAT,2020-03-02,43
+Romania,ROU,2020-03-02,24
+Russia,RUS,2020-03-02,14
+Singapore,SGP,2020-03-02,33
+El Salvador,SLV,2020-03-02,29
+Serbia,SRB,2020-03-02,19
+Slovak Republic,SVK,2020-03-02,0
+Slovenia,SVN,2020-03-02,0
+Sweden,SWE,2020-03-02,0
+Syria,SYR,2020-03-02,5
+Thailand,THA,2020-03-02,0
+Tanzania,TZA,2020-03-02,0
+Uganda,UGA,2020-03-02,24
+Ukraine,UKR,2020-03-02,52
+United States,USA,2020-03-02,10
+Venezuela,VEN,2020-03-02,7
+Vietnam,VNM,2020-03-02,52
+South Africa,ZAF,2020-03-02,5
+Zimbabwe,ZWE,2020-03-02,0
+Taiwan,TWN,2020-03-02,24
+Afghanistan,AFG,2020-03-03,43
+Angola,AGO,2020-03-03,14
+Argentina,ARG,2020-03-03,0
+Australia,AUS,2020-03-03,29
+Austria,AUT,2020-03-03,14
+Belgium,BEL,2020-03-03,14
+Bulgaria,BGR,2020-03-03,14
+Belize,BLZ,2020-03-03,14
+Bermuda,BMU,2020-03-03,7
+Bolivia,BOL,2020-03-03,0
+Brazil,BRA,2020-03-03,14
+Barbados,BRB,2020-03-03,0
+Botswana,BWA,2020-03-03,19
+Canada,CAN,2020-03-03,5
+Switzerland,CHE,2020-03-03,24
+Chile,CHL,2020-03-03,0
+China,CHN,2020-03-03,71
+Democratic Republic of Congo,COD,2020-03-03,5
+Colombia,COL,2020-03-03,24
+Costa Rica,CRI,2020-03-03,0
+Czech Republic,CZE,2020-03-03,0
+Germany,DEU,2020-03-03,29
+Dominican Republic,DOM,2020-03-03,14
+Algeria,DZA,2020-03-03,0
+Ecuador,ECU,2020-03-03,19
+Spain,ESP,2020-03-03,14
+Finland,FIN,2020-03-03,0
+France,FRA,2020-03-03,43
+United Kingdom,GBR,2020-03-03,14
+Greece,GRC,2020-03-03,14
+Guatemala,GTM,2020-03-03,24
+Guyana,GUY,2020-03-03,5
+Hong Kong,HKG,2020-03-03,67
+Honduras,HND,2020-03-03,14
+Croatia,HRV,2020-03-03,29
+Hungary,HUN,2020-03-03,14
+Indonesia,IDN,2020-03-03,38
+India,IND,2020-03-03,38
+Ireland,IRL,2020-03-03,14
+Iran,IRN,2020-03-03,52
+Iraq,IRQ,2020-03-03,57
+Iceland,ISL,2020-03-03,5
+Israel,ISR,2020-03-03,29
+Italy,ITA,2020-03-03,62
+Jordan,JOR,2020-03-03,14
+Japan,JPN,2020-03-03,57
+Kazakhstan,KAZ,2020-03-03,0
+Kenya,KEN,2020-03-03,19
+South Korea,KOR,2020-03-03,60
+Sri Lanka,LKA,2020-03-03,33
+Macao,MAC,2020-03-03,62
+Mexico,MEX,2020-03-03,29
+Myanmar,MMR,2020-03-03,19
+Malaysia,MYS,2020-03-03,29
+Nigeria,NGA,2020-03-03,5
+Nicaragua,NIC,2020-03-03,0
+Netherlands,NLD,2020-03-03,0
+New Zealand,NZL,2020-03-03,29
+Pakistan,PAK,2020-03-03,29
+Panama,PAN,2020-03-03,19
+Papua New Guinea,PNG,2020-03-03,29
+Poland,POL,2020-03-03,14
+Portugal,PRT,2020-03-03,0
+Qatar,QAT,2020-03-03,43
+Romania,ROU,2020-03-03,24
+Russia,RUS,2020-03-03,14
+Singapore,SGP,2020-03-03,33
+El Salvador,SLV,2020-03-03,29
+Serbia,SRB,2020-03-03,19
+Slovak Republic,SVK,2020-03-03,0
+Slovenia,SVN,2020-03-03,0
+Sweden,SWE,2020-03-03,0
+Syria,SYR,2020-03-03,5
+Thailand,THA,2020-03-03,0
+Tanzania,TZA,2020-03-03,0
+Uganda,UGA,2020-03-03,24
+Ukraine,UKR,2020-03-03,52
+United States,USA,2020-03-03,14
+Venezuela,VEN,2020-03-03,7
+Vietnam,VNM,2020-03-03,52
+South Africa,ZAF,2020-03-03,5
+Zimbabwe,ZWE,2020-03-03,0
+Taiwan,TWN,2020-03-03,24
+Afghanistan,AFG,2020-03-04,43
+Angola,AGO,2020-03-04,14
+Argentina,ARG,2020-03-04,0
+Australia,AUS,2020-03-04,29
+Austria,AUT,2020-03-04,14
+Belgium,BEL,2020-03-04,19
+Bulgaria,BGR,2020-03-04,14
+Belize,BLZ,2020-03-04,14
+Bermuda,BMU,2020-03-04,7
+Bolivia,BOL,2020-03-04,0
+Brazil,BRA,2020-03-04,14
+Barbados,BRB,2020-03-04,0
+Botswana,BWA,2020-03-04,19
+Canada,CAN,2020-03-04,5
+Switzerland,CHE,2020-03-04,24
+Chile,CHL,2020-03-04,0
+China,CHN,2020-03-04,71
+Democratic Republic of Congo,COD,2020-03-04,5
+Colombia,COL,2020-03-04,24
+Costa Rica,CRI,2020-03-04,0
+Czech Republic,CZE,2020-03-04,0
+Germany,DEU,2020-03-04,29
+Dominican Republic,DOM,2020-03-04,14
+Algeria,DZA,2020-03-04,0
+Ecuador,ECU,2020-03-04,19
+Spain,ESP,2020-03-04,14
+Finland,FIN,2020-03-04,14
+France,FRA,2020-03-04,43
+United Kingdom,GBR,2020-03-04,14
+Greece,GRC,2020-03-04,14
+Guatemala,GTM,2020-03-04,24
+Guyana,GUY,2020-03-04,5
+Hong Kong,HKG,2020-03-04,67
+Honduras,HND,2020-03-04,14
+Croatia,HRV,2020-03-04,29
+Hungary,HUN,2020-03-04,14
+Indonesia,IDN,2020-03-04,38
+India,IND,2020-03-04,38
+Ireland,IRL,2020-03-04,14
+Iran,IRN,2020-03-04,52
+Iraq,IRQ,2020-03-04,57
+Iceland,ISL,2020-03-04,5
+Israel,ISR,2020-03-04,38
+Italy,ITA,2020-03-04,67
+Jordan,JOR,2020-03-04,14
+Japan,JPN,2020-03-04,57
+Kazakhstan,KAZ,2020-03-04,0
+Kenya,KEN,2020-03-04,19
+South Korea,KOR,2020-03-04,60
+Sri Lanka,LKA,2020-03-04,33
+Macao,MAC,2020-03-04,62
+Mexico,MEX,2020-03-04,29
+Myanmar,MMR,2020-03-04,19
+Malaysia,MYS,2020-03-04,29
+Nigeria,NGA,2020-03-04,5
+Nicaragua,NIC,2020-03-04,0
+Netherlands,NLD,2020-03-04,0
+Norway,NOR,2020-03-04,0
+New Zealand,NZL,2020-03-04,29
+Pakistan,PAK,2020-03-04,29
+Panama,PAN,2020-03-04,19
+Papua New Guinea,PNG,2020-03-04,29
+Poland,POL,2020-03-04,14
+Portugal,PRT,2020-03-04,0
+Qatar,QAT,2020-03-04,43
+Romania,ROU,2020-03-04,24
+Russia,RUS,2020-03-04,14
+Singapore,SGP,2020-03-04,33
+El Salvador,SLV,2020-03-04,29
+Serbia,SRB,2020-03-04,19
+Slovak Republic,SVK,2020-03-04,0
+Slovenia,SVN,2020-03-04,14
+Sweden,SWE,2020-03-04,0
+Syria,SYR,2020-03-04,5
+Thailand,THA,2020-03-04,0
+Tanzania,TZA,2020-03-04,0
+Uganda,UGA,2020-03-04,24
+Ukraine,UKR,2020-03-04,52
+United States,USA,2020-03-04,14
+Venezuela,VEN,2020-03-04,7
+Vietnam,VNM,2020-03-04,52
+South Africa,ZAF,2020-03-04,5
+Zimbabwe,ZWE,2020-03-04,0
+Taiwan,TWN,2020-03-04,24
+Afghanistan,AFG,2020-03-05,43
+Angola,AGO,2020-03-05,14
+Argentina,ARG,2020-03-05,14
+Australia,AUS,2020-03-05,29
+Austria,AUT,2020-03-05,14
+Belgium,BEL,2020-03-05,19
+Bulgaria,BGR,2020-03-05,29
+Belize,BLZ,2020-03-05,14
+Bermuda,BMU,2020-03-05,7
+Bolivia,BOL,2020-03-05,0
+Brazil,BRA,2020-03-05,14
+Barbados,BRB,2020-03-05,0
+Botswana,BWA,2020-03-05,19
+Canada,CAN,2020-03-05,5
+Switzerland,CHE,2020-03-05,24
+Chile,CHL,2020-03-05,0
+China,CHN,2020-03-05,71
+Democratic Republic of Congo,COD,2020-03-05,5
+Colombia,COL,2020-03-05,24
+Costa Rica,CRI,2020-03-05,0
+Czech Republic,CZE,2020-03-05,0
+Germany,DEU,2020-03-05,29
+Dominican Republic,DOM,2020-03-05,14
+Algeria,DZA,2020-03-05,0
+Ecuador,ECU,2020-03-05,19
+Spain,ESP,2020-03-05,14
+Finland,FIN,2020-03-05,14
+France,FRA,2020-03-05,43
+United Kingdom,GBR,2020-03-05,14
+Greece,GRC,2020-03-05,14
+Guatemala,GTM,2020-03-05,24
+Guyana,GUY,2020-03-05,5
+Hong Kong,HKG,2020-03-05,67
+Honduras,HND,2020-03-05,14
+Croatia,HRV,2020-03-05,29
+Hungary,HUN,2020-03-05,14
+Indonesia,IDN,2020-03-05,38
+India,IND,2020-03-05,48
+Ireland,IRL,2020-03-05,14
+Iran,IRN,2020-03-05,67
+Iraq,IRQ,2020-03-05,57
+Iceland,ISL,2020-03-05,5
+Israel,ISR,2020-03-05,38
+Italy,ITA,2020-03-05,67
+Jordan,JOR,2020-03-05,14
+Japan,JPN,2020-03-05,57
+Kazakhstan,KAZ,2020-03-05,0
+Kenya,KEN,2020-03-05,19
+South Korea,KOR,2020-03-05,60
+Sri Lanka,LKA,2020-03-05,33
+Macao,MAC,2020-03-05,62
+Mexico,MEX,2020-03-05,29
+Myanmar,MMR,2020-03-05,19
+Malaysia,MYS,2020-03-05,29
+Nigeria,NGA,2020-03-05,5
+Nicaragua,NIC,2020-03-05,0
+Netherlands,NLD,2020-03-05,0
+Norway,NOR,2020-03-05,0
+New Zealand,NZL,2020-03-05,29
+Pakistan,PAK,2020-03-05,29
+Panama,PAN,2020-03-05,19
+Papua New Guinea,PNG,2020-03-05,29
+Poland,POL,2020-03-05,14
+Portugal,PRT,2020-03-05,0
+Qatar,QAT,2020-03-05,43
+Romania,ROU,2020-03-05,24
+Russia,RUS,2020-03-05,29
+Singapore,SGP,2020-03-05,33
+El Salvador,SLV,2020-03-05,29
+Serbia,SRB,2020-03-05,19
+Slovak Republic,SVK,2020-03-05,0
+Slovenia,SVN,2020-03-05,0
+Sweden,SWE,2020-03-05,0
+Syria,SYR,2020-03-05,5
+Thailand,THA,2020-03-05,0
+Tanzania,TZA,2020-03-05,0
+Uganda,UGA,2020-03-05,24
+Ukraine,UKR,2020-03-05,52
+United States,USA,2020-03-05,19
+Venezuela,VEN,2020-03-05,7
+Vietnam,VNM,2020-03-05,52
+South Africa,ZAF,2020-03-05,5
+Zimbabwe,ZWE,2020-03-05,0
+Taiwan,TWN,2020-03-05,33
+Afghanistan,AFG,2020-03-06,43
+Angola,AGO,2020-03-06,14
+Argentina,ARG,2020-03-06,14
+Australia,AUS,2020-03-06,29
+Austria,AUT,2020-03-06,14
+Belgium,BEL,2020-03-06,19
+Bulgaria,BGR,2020-03-06,29
+Belize,BLZ,2020-03-06,14
+Bermuda,BMU,2020-03-06,0
+Bolivia,BOL,2020-03-06,0
+Brazil,BRA,2020-03-06,14
+Barbados,BRB,2020-03-06,0
+Botswana,BWA,2020-03-06,19
+Canada,CAN,2020-03-06,5
+Switzerland,CHE,2020-03-06,24
+Chile,CHL,2020-03-06,0
+China,CHN,2020-03-06,71
+Democratic Republic of Congo,COD,2020-03-06,10
+Colombia,COL,2020-03-06,24
+Costa Rica,CRI,2020-03-06,0
+Czech Republic,CZE,2020-03-06,14
+Germany,DEU,2020-03-06,29
+Dominican Republic,DOM,2020-03-06,14
+Algeria,DZA,2020-03-06,0
+Ecuador,ECU,2020-03-06,19
+Spain,ESP,2020-03-06,14
+Finland,FIN,2020-03-06,14
+France,FRA,2020-03-06,43
+United Kingdom,GBR,2020-03-06,14
+Greece,GRC,2020-03-06,14
+Guatemala,GTM,2020-03-06,24
+Guyana,GUY,2020-03-06,5
+Hong Kong,HKG,2020-03-06,67
+Honduras,HND,2020-03-06,14
+Croatia,HRV,2020-03-06,29
+Hungary,HUN,2020-03-06,14
+Indonesia,IDN,2020-03-06,38
+India,IND,2020-03-06,48
+Ireland,IRL,2020-03-06,14
+Iran,IRN,2020-03-06,67
+Iraq,IRQ,2020-03-06,57
+Iceland,ISL,2020-03-06,5
+Israel,ISR,2020-03-06,38
+Italy,ITA,2020-03-06,67
+Jordan,JOR,2020-03-06,14
+Japan,JPN,2020-03-06,57
+Kazakhstan,KAZ,2020-03-06,0
+Kenya,KEN,2020-03-06,19
+South Korea,KOR,2020-03-06,60
+Sri Lanka,LKA,2020-03-06,33
+Macao,MAC,2020-03-06,62
+Mexico,MEX,2020-03-06,29
+Myanmar,MMR,2020-03-06,19
+Malaysia,MYS,2020-03-06,29
+Nigeria,NGA,2020-03-06,5
+Nicaragua,NIC,2020-03-06,0
+Netherlands,NLD,2020-03-06,5
+Norway,NOR,2020-03-06,0
+New Zealand,NZL,2020-03-06,29
+Pakistan,PAK,2020-03-06,29
+Panama,PAN,2020-03-06,19
+Papua New Guinea,PNG,2020-03-06,29
+Poland,POL,2020-03-06,14
+Portugal,PRT,2020-03-06,0
+Qatar,QAT,2020-03-06,43
+Romania,ROU,2020-03-06,24
+Russia,RUS,2020-03-06,29
+Singapore,SGP,2020-03-06,33
+El Salvador,SLV,2020-03-06,29
+Serbia,SRB,2020-03-06,19
+Slovak Republic,SVK,2020-03-06,0
+Slovenia,SVN,2020-03-06,0
+Sweden,SWE,2020-03-06,0
+Syria,SYR,2020-03-06,5
+Thailand,THA,2020-03-06,24
+Tanzania,TZA,2020-03-06,0
+Uganda,UGA,2020-03-06,24
+Ukraine,UKR,2020-03-06,52
+United States,USA,2020-03-06,19
+Venezuela,VEN,2020-03-06,7
+Vietnam,VNM,2020-03-06,52
+South Africa,ZAF,2020-03-06,5
+Zimbabwe,ZWE,2020-03-06,0
+Taiwan,TWN,2020-03-06,33
+Afghanistan,AFG,2020-03-07,43
+Angola,AGO,2020-03-07,14
+Argentina,ARG,2020-03-07,14
+Australia,AUS,2020-03-07,29
+Austria,AUT,2020-03-07,14
+Belgium,BEL,2020-03-07,19
+Bulgaria,BGR,2020-03-07,29
+Belize,BLZ,2020-03-07,14
+Bermuda,BMU,2020-03-07,0
+Bolivia,BOL,2020-03-07,0
+Brazil,BRA,2020-03-07,14
+Barbados,BRB,2020-03-07,0
+Botswana,BWA,2020-03-07,19
+Canada,CAN,2020-03-07,5
+Switzerland,CHE,2020-03-07,24
+Chile,CHL,2020-03-07,0
+China,CHN,2020-03-07,71
+Democratic Republic of Congo,COD,2020-03-07,10
+Colombia,COL,2020-03-07,24
+Costa Rica,CRI,2020-03-07,0
+Czech Republic,CZE,2020-03-07,24
+Germany,DEU,2020-03-07,29
+Dominican Republic,DOM,2020-03-07,14
+Algeria,DZA,2020-03-07,0
+Ecuador,ECU,2020-03-07,19
+Spain,ESP,2020-03-07,14
+Finland,FIN,2020-03-07,14
+France,FRA,2020-03-07,43
+United Kingdom,GBR,2020-03-07,14
+Greece,GRC,2020-03-07,14
+Guatemala,GTM,2020-03-07,24
+Guyana,GUY,2020-03-07,5
+Hong Kong,HKG,2020-03-07,67
+Honduras,HND,2020-03-07,14
+Croatia,HRV,2020-03-07,29
+Hungary,HUN,2020-03-07,14
+Indonesia,IDN,2020-03-07,38
+India,IND,2020-03-07,48
+Ireland,IRL,2020-03-07,14
+Iran,IRN,2020-03-07,67
+Iraq,IRQ,2020-03-07,57
+Iceland,ISL,2020-03-07,5
+Israel,ISR,2020-03-07,38
+Italy,ITA,2020-03-07,67
+Jordan,JOR,2020-03-07,14
+Japan,JPN,2020-03-07,57
+Kazakhstan,KAZ,2020-03-07,0
+Kenya,KEN,2020-03-07,19
+South Korea,KOR,2020-03-07,60
+Sri Lanka,LKA,2020-03-07,33
+Macao,MAC,2020-03-07,62
+Mexico,MEX,2020-03-07,29
+Myanmar,MMR,2020-03-07,19
+Malaysia,MYS,2020-03-07,33
+Nigeria,NGA,2020-03-07,5
+Nicaragua,NIC,2020-03-07,0
+Netherlands,NLD,2020-03-07,5
+Norway,NOR,2020-03-07,0
+New Zealand,NZL,2020-03-07,29
+Pakistan,PAK,2020-03-07,29
+Panama,PAN,2020-03-07,19
+Papua New Guinea,PNG,2020-03-07,29
+Poland,POL,2020-03-07,14
+Portugal,PRT,2020-03-07,0
+Qatar,QAT,2020-03-07,43
+Romania,ROU,2020-03-07,24
+Russia,RUS,2020-03-07,29
+Singapore,SGP,2020-03-07,33
+El Salvador,SLV,2020-03-07,29
+Serbia,SRB,2020-03-07,19
+Slovak Republic,SVK,2020-03-07,0
+Slovenia,SVN,2020-03-07,24
+Sweden,SWE,2020-03-07,0
+Syria,SYR,2020-03-07,5
+Thailand,THA,2020-03-07,24
+Tanzania,TZA,2020-03-07,0
+Uganda,UGA,2020-03-07,24
+Ukraine,UKR,2020-03-07,52
+United States,USA,2020-03-07,19
+Venezuela,VEN,2020-03-07,7
+Vietnam,VNM,2020-03-07,52
+South Africa,ZAF,2020-03-07,12
+Zimbabwe,ZWE,2020-03-07,0
+Taiwan,TWN,2020-03-07,33
+Afghanistan,AFG,2020-03-08,43
+Angola,AGO,2020-03-08,14
+Argentina,ARG,2020-03-08,14
+Australia,AUS,2020-03-08,29
+Austria,AUT,2020-03-08,14
+Belgium,BEL,2020-03-08,19
+Bulgaria,BGR,2020-03-08,33
+Belize,BLZ,2020-03-08,14
+Bermuda,BMU,2020-03-08,0
+Bolivia,BOL,2020-03-08,0
+Brazil,BRA,2020-03-08,14
+Barbados,BRB,2020-03-08,0
+Botswana,BWA,2020-03-08,19
+Canada,CAN,2020-03-08,5
+Switzerland,CHE,2020-03-08,24
+Chile,CHL,2020-03-08,0
+China,CHN,2020-03-08,71
+Democratic Republic of Congo,COD,2020-03-08,10
+Colombia,COL,2020-03-08,24
+Costa Rica,CRI,2020-03-08,0
+Czech Republic,CZE,2020-03-08,24
+Germany,DEU,2020-03-08,29
+Dominican Republic,DOM,2020-03-08,14
+Algeria,DZA,2020-03-08,0
+Ecuador,ECU,2020-03-08,19
+Spain,ESP,2020-03-08,14
+Finland,FIN,2020-03-08,14
+France,FRA,2020-03-08,43
+United Kingdom,GBR,2020-03-08,14
+Greece,GRC,2020-03-08,14
+Guatemala,GTM,2020-03-08,24
+Guyana,GUY,2020-03-08,5
+Hong Kong,HKG,2020-03-08,67
+Honduras,HND,2020-03-08,14
+Croatia,HRV,2020-03-08,29
+Hungary,HUN,2020-03-08,14
+Indonesia,IDN,2020-03-08,38
+India,IND,2020-03-08,48
+Ireland,IRL,2020-03-08,14
+Iran,IRN,2020-03-08,67
+Iraq,IRQ,2020-03-08,57
+Iceland,ISL,2020-03-08,5
+Israel,ISR,2020-03-08,38
+Italy,ITA,2020-03-08,67
+Jordan,JOR,2020-03-08,14
+Japan,JPN,2020-03-08,57
+Kazakhstan,KAZ,2020-03-08,0
+Kenya,KEN,2020-03-08,19
+South Korea,KOR,2020-03-08,60
+Sri Lanka,LKA,2020-03-08,33
+Macao,MAC,2020-03-08,62
+Mexico,MEX,2020-03-08,29
+Myanmar,MMR,2020-03-08,19
+Malaysia,MYS,2020-03-08,29
+Nigeria,NGA,2020-03-08,5
+Nicaragua,NIC,2020-03-08,0
+Netherlands,NLD,2020-03-08,5
+Norway,NOR,2020-03-08,0
+New Zealand,NZL,2020-03-08,29
+Pakistan,PAK,2020-03-08,29
+Panama,PAN,2020-03-08,19
+Papua New Guinea,PNG,2020-03-08,29
+Poland,POL,2020-03-08,14
+Portugal,PRT,2020-03-08,0
+Qatar,QAT,2020-03-08,43
+Romania,ROU,2020-03-08,38
+Russia,RUS,2020-03-08,29
+Singapore,SGP,2020-03-08,33
+El Salvador,SLV,2020-03-08,29
+Serbia,SRB,2020-03-08,19
+Slovak Republic,SVK,2020-03-08,0
+Slovenia,SVN,2020-03-08,10
+Sweden,SWE,2020-03-08,0
+Syria,SYR,2020-03-08,24
+Thailand,THA,2020-03-08,24
+Tanzania,TZA,2020-03-08,0
+Uganda,UGA,2020-03-08,24
+Ukraine,UKR,2020-03-08,52
+United States,USA,2020-03-08,19
+Venezuela,VEN,2020-03-08,7
+Vietnam,VNM,2020-03-08,52
+South Africa,ZAF,2020-03-08,12
+Zimbabwe,ZWE,2020-03-08,0
+Taiwan,TWN,2020-03-08,33
+Afghanistan,AFG,2020-03-09,43
+Angola,AGO,2020-03-09,14
+Argentina,ARG,2020-03-09,14
+Australia,AUS,2020-03-09,29
+Austria,AUT,2020-03-09,29
+Belgium,BEL,2020-03-09,19
+Bulgaria,BGR,2020-03-09,33
+Belize,BLZ,2020-03-09,14
+Bermuda,BMU,2020-03-09,0
+Bolivia,BOL,2020-03-09,0
+Brazil,BRA,2020-03-09,14
+Barbados,BRB,2020-03-09,0
+Botswana,BWA,2020-03-09,19
+Canada,CAN,2020-03-09,5
+Switzerland,CHE,2020-03-09,24
+Chile,CHL,2020-03-09,0
+China,CHN,2020-03-09,71
+Democratic Republic of Congo,COD,2020-03-09,10
+Colombia,COL,2020-03-09,24
+Costa Rica,CRI,2020-03-09,14
+Czech Republic,CZE,2020-03-09,24
+Germany,DEU,2020-03-09,29
+Dominican Republic,DOM,2020-03-09,24
+Algeria,DZA,2020-03-09,0
+Ecuador,ECU,2020-03-09,19
+Spain,ESP,2020-03-09,38
+Finland,FIN,2020-03-09,14
+France,FRA,2020-03-09,43
+United Kingdom,GBR,2020-03-09,14
+Greece,GRC,2020-03-09,29
+Guatemala,GTM,2020-03-09,24
+Guyana,GUY,2020-03-09,5
+Hong Kong,HKG,2020-03-09,67
+Honduras,HND,2020-03-09,14
+Croatia,HRV,2020-03-09,33
+Hungary,HUN,2020-03-09,29
+Indonesia,IDN,2020-03-09,38
+India,IND,2020-03-09,48
+Ireland,IRL,2020-03-09,24
+Iran,IRN,2020-03-09,67
+Iraq,IRQ,2020-03-09,57
+Iceland,ISL,2020-03-09,5
+Israel,ISR,2020-03-09,38
+Italy,ITA,2020-03-09,71
+Jordan,JOR,2020-03-09,14
+Japan,JPN,2020-03-09,62
+Kazakhstan,KAZ,2020-03-09,0
+Kenya,KEN,2020-03-09,19
+South Korea,KOR,2020-03-09,60
+Sri Lanka,LKA,2020-03-09,33
+Macao,MAC,2020-03-09,62
+Mexico,MEX,2020-03-09,29
+Myanmar,MMR,2020-03-09,19
+Malaysia,MYS,2020-03-09,29
+Nigeria,NGA,2020-03-09,5
+Nicaragua,NIC,2020-03-09,0
+Netherlands,NLD,2020-03-09,12
+Norway,NOR,2020-03-09,0
+New Zealand,NZL,2020-03-09,29
+Pakistan,PAK,2020-03-09,29
+Panama,PAN,2020-03-09,19
+Papua New Guinea,PNG,2020-03-09,29
+Poland,POL,2020-03-09,19
+Portugal,PRT,2020-03-09,0
+Qatar,QAT,2020-03-09,43
+Romania,ROU,2020-03-09,38
+Russia,RUS,2020-03-09,29
+Singapore,SGP,2020-03-09,33
+El Salvador,SLV,2020-03-09,29
+Serbia,SRB,2020-03-09,19
+Slovak Republic,SVK,2020-03-09,19
+Slovenia,SVN,2020-03-09,24
+Sweden,SWE,2020-03-09,14
+Syria,SYR,2020-03-09,24
+Thailand,THA,2020-03-09,24
+Tanzania,TZA,2020-03-09,0
+Uganda,UGA,2020-03-09,24
+Ukraine,UKR,2020-03-09,52
+United States,USA,2020-03-09,19
+Venezuela,VEN,2020-03-09,7
+Vietnam,VNM,2020-03-09,52
+South Africa,ZAF,2020-03-09,12
+Zimbabwe,ZWE,2020-03-09,0
+Taiwan,TWN,2020-03-09,33
+Afghanistan,AFG,2020-03-10,43
+Angola,AGO,2020-03-10,14
+Argentina,ARG,2020-03-10,14
+Australia,AUS,2020-03-10,29
+Austria,AUT,2020-03-10,29
+Belgium,BEL,2020-03-10,29
+Bulgaria,BGR,2020-03-10,33
+Belize,BLZ,2020-03-10,14
+Bermuda,BMU,2020-03-10,0
+Bolivia,BOL,2020-03-10,0
+Brazil,BRA,2020-03-10,14
+Barbados,BRB,2020-03-10,0
+Botswana,BWA,2020-03-10,19
+Canada,CAN,2020-03-10,5
+Switzerland,CHE,2020-03-10,24
+Chile,CHL,2020-03-10,0
+China,CHN,2020-03-10,71
+Democratic Republic of Congo,COD,2020-03-10,10
+Colombia,COL,2020-03-10,24
+Costa Rica,CRI,2020-03-10,29
+Czech Republic,CZE,2020-03-10,24
+Germany,DEU,2020-03-10,29
+Denmark,DNK,2020-03-10,24
+Dominican Republic,DOM,2020-03-10,24
+Algeria,DZA,2020-03-10,0
+Ecuador,ECU,2020-03-10,19
+Spain,ESP,2020-03-10,62
+Finland,FIN,2020-03-10,14
+France,FRA,2020-03-10,43
+United Kingdom,GBR,2020-03-10,14
+Greece,GRC,2020-03-10,29
+Guatemala,GTM,2020-03-10,33
+Guyana,GUY,2020-03-10,5
+Hong Kong,HKG,2020-03-10,67
+Honduras,HND,2020-03-10,14
+Croatia,HRV,2020-03-10,33
+Hungary,HUN,2020-03-10,29
+Indonesia,IDN,2020-03-10,38
+India,IND,2020-03-10,48
+Ireland,IRL,2020-03-10,24
+Iran,IRN,2020-03-10,67
+Iraq,IRQ,2020-03-10,67
+Iceland,ISL,2020-03-10,5
+Israel,ISR,2020-03-10,38
+Italy,ITA,2020-03-10,71
+Jordan,JOR,2020-03-10,29
+Japan,JPN,2020-03-10,62
+Kazakhstan,KAZ,2020-03-10,0
+Kenya,KEN,2020-03-10,19
+South Korea,KOR,2020-03-10,60
+Sri Lanka,LKA,2020-03-10,33
+Macao,MAC,2020-03-10,62
+Mexico,MEX,2020-03-10,29
+Myanmar,MMR,2020-03-10,19
+Malaysia,MYS,2020-03-10,29
+Nigeria,NGA,2020-03-10,5
+Nicaragua,NIC,2020-03-10,0
+Netherlands,NLD,2020-03-10,21
+Norway,NOR,2020-03-10,0
+New Zealand,NZL,2020-03-10,29
+Pakistan,PAK,2020-03-10,29
+Panama,PAN,2020-03-10,19
+Papua New Guinea,PNG,2020-03-10,29
+Poland,POL,2020-03-10,33
+Portugal,PRT,2020-03-10,29
+Qatar,QAT,2020-03-10,57
+Romania,ROU,2020-03-10,38
+Russia,RUS,2020-03-10,29
+Singapore,SGP,2020-03-10,33
+El Salvador,SLV,2020-03-10,29
+Serbia,SRB,2020-03-10,29
+Slovak Republic,SVK,2020-03-10,33
+Slovenia,SVN,2020-03-10,29
+Sweden,SWE,2020-03-10,14
+Syria,SYR,2020-03-10,24
+Thailand,THA,2020-03-10,33
+Tanzania,TZA,2020-03-10,0
+Uganda,UGA,2020-03-10,24
+Ukraine,UKR,2020-03-10,52
+United States,USA,2020-03-10,19
+Venezuela,VEN,2020-03-10,7
+Vietnam,VNM,2020-03-10,52
+South Africa,ZAF,2020-03-10,12
+Zimbabwe,ZWE,2020-03-10,0
+Taiwan,TWN,2020-03-10,33
+Afghanistan,AFG,2020-03-11,43
+Angola,AGO,2020-03-11,14
+Argentina,ARG,2020-03-11,24
+Australia,AUS,2020-03-11,29
+Austria,AUT,2020-03-11,43
+Belgium,BEL,2020-03-11,29
+Bulgaria,BGR,2020-03-11,33
+Belize,BLZ,2020-03-11,19
+Bermuda,BMU,2020-03-11,0
+Bolivia,BOL,2020-03-11,0
+Brazil,BRA,2020-03-11,14
+Barbados,BRB,2020-03-11,0
+Botswana,BWA,2020-03-11,19
+Canada,CAN,2020-03-11,5
+Switzerland,CHE,2020-03-11,24
+Chile,CHL,2020-03-11,0
+China,CHN,2020-03-11,71
+Democratic Republic of Congo,COD,2020-03-11,10
+Colombia,COL,2020-03-11,24
+Costa Rica,CRI,2020-03-11,43
+Czech Republic,CZE,2020-03-11,52
+Germany,DEU,2020-03-11,29
+Denmark,DNK,2020-03-11,38
+Dominican Republic,DOM,2020-03-11,14
+Algeria,DZA,2020-03-11,0
+Ecuador,ECU,2020-03-11,19
+Spain,ESP,2020-03-11,62
+Finland,FIN,2020-03-11,14
+France,FRA,2020-03-11,43
+United Kingdom,GBR,2020-03-11,14
+Greece,GRC,2020-03-11,43
+Guatemala,GTM,2020-03-11,33
+Guyana,GUY,2020-03-11,33
+Hong Kong,HKG,2020-03-11,67
+Honduras,HND,2020-03-11,14
+Croatia,HRV,2020-03-11,38
+Hungary,HUN,2020-03-11,62
+Indonesia,IDN,2020-03-11,33
+India,IND,2020-03-11,48
+Ireland,IRL,2020-03-11,24
+Iran,IRN,2020-03-11,67
+Iraq,IRQ,2020-03-11,67
+Iceland,ISL,2020-03-11,5
+Israel,ISR,2020-03-11,38
+Italy,ITA,2020-03-11,81
+Jordan,JOR,2020-03-11,29
+Japan,JPN,2020-03-11,62
+Kazakhstan,KAZ,2020-03-11,0
+Kenya,KEN,2020-03-11,19
+South Korea,KOR,2020-03-11,60
+Sri Lanka,LKA,2020-03-11,33
+Macao,MAC,2020-03-11,62
+Mexico,MEX,2020-03-11,29
+Myanmar,MMR,2020-03-11,19
+Malaysia,MYS,2020-03-11,29
+Nigeria,NGA,2020-03-11,5
+Nicaragua,NIC,2020-03-11,0
+Netherlands,NLD,2020-03-11,21
+Norway,NOR,2020-03-11,0
+New Zealand,NZL,2020-03-11,29
+Pakistan,PAK,2020-03-11,29
+Panama,PAN,2020-03-11,19
+Papua New Guinea,PNG,2020-03-11,29
+Poland,POL,2020-03-11,33
+Portugal,PRT,2020-03-11,29
+Qatar,QAT,2020-03-11,57
+Romania,ROU,2020-03-11,52
+Russia,RUS,2020-03-11,29
+Singapore,SGP,2020-03-11,33
+El Salvador,SLV,2020-03-11,43
+Serbia,SRB,2020-03-11,43
+Slovak Republic,SVK,2020-03-11,33
+Sweden,SWE,2020-03-11,14
+Syria,SYR,2020-03-11,24
+Thailand,THA,2020-03-11,33
+Tanzania,TZA,2020-03-11,0
+Uganda,UGA,2020-03-11,24
+Ukraine,UKR,2020-03-11,81
+United States,USA,2020-03-11,19
+Venezuela,VEN,2020-03-11,7
+Vietnam,VNM,2020-03-11,52
+South Africa,ZAF,2020-03-11,12
+Zimbabwe,ZWE,2020-03-11,0
+Taiwan,TWN,2020-03-11,33
+Afghanistan,AFG,2020-03-12,43
+Angola,AGO,2020-03-12,14
+Argentina,ARG,2020-03-12,24
+Australia,AUS,2020-03-12,29
+Austria,AUT,2020-03-12,67
+Belgium,BEL,2020-03-12,29
+Bulgaria,BGR,2020-03-12,33
+Belize,BLZ,2020-03-12,19
+Bermuda,BMU,2020-03-12,0
+Bolivia,BOL,2020-03-12,14
+Brazil,BRA,2020-03-12,33
+Barbados,BRB,2020-03-12,0
+Botswana,BWA,2020-03-12,19
+Canada,CAN,2020-03-12,33
+Switzerland,CHE,2020-03-12,24
+Chile,CHL,2020-03-12,0
+China,CHN,2020-03-12,67
+Democratic Republic of Congo,COD,2020-03-12,10
+Colombia,COL,2020-03-12,24
+Costa Rica,CRI,2020-03-12,43
+Czech Republic,CZE,2020-03-12,52
+Germany,DEU,2020-03-12,29
+Denmark,DNK,2020-03-12,38
+Dominican Republic,DOM,2020-03-12,14
+Algeria,DZA,2020-03-12,19
+Ecuador,ECU,2020-03-12,19
+Spain,ESP,2020-03-12,62
+Finland,FIN,2020-03-12,33
+France,FRA,2020-03-12,43
+United Kingdom,GBR,2020-03-12,14
+Greece,GRC,2020-03-12,43
+Guatemala,GTM,2020-03-12,38
+Guyana,GUY,2020-03-12,33
+Hong Kong,HKG,2020-03-12,67
+Honduras,HND,2020-03-12,14
+Croatia,HRV,2020-03-12,43
+Hungary,HUN,2020-03-12,62
+Indonesia,IDN,2020-03-12,33
+India,IND,2020-03-12,48
+Ireland,IRL,2020-03-12,24
+Iran,IRN,2020-03-12,67
+Iraq,IRQ,2020-03-12,67
+Iceland,ISL,2020-03-12,5
+Israel,ISR,2020-03-12,38
+Italy,ITA,2020-03-12,90
+Jordan,JOR,2020-03-12,29
+Japan,JPN,2020-03-12,62
+Kazakhstan,KAZ,2020-03-12,14
+Kenya,KEN,2020-03-12,19
+South Korea,KOR,2020-03-12,60
+Sri Lanka,LKA,2020-03-12,33
+Macao,MAC,2020-03-12,62
+Mexico,MEX,2020-03-12,33
+Myanmar,MMR,2020-03-12,33
+Malaysia,MYS,2020-03-12,43
+Nigeria,NGA,2020-03-12,5
+Nicaragua,NIC,2020-03-12,0
+Netherlands,NLD,2020-03-12,48
+Norway,NOR,2020-03-12,45
+New Zealand,NZL,2020-03-12,29
+Pakistan,PAK,2020-03-12,29
+Panama,PAN,2020-03-12,33
+Papua New Guinea,PNG,2020-03-12,29
+Poland,POL,2020-03-12,57
+Portugal,PRT,2020-03-12,29
+Qatar,QAT,2020-03-12,57
+Romania,ROU,2020-03-12,71
+Russia,RUS,2020-03-12,29
+Singapore,SGP,2020-03-12,33
+El Salvador,SLV,2020-03-12,43
+Serbia,SRB,2020-03-12,43
+Slovak Republic,SVK,2020-03-12,52
+Slovenia,SVN,2020-03-12,38
+Sweden,SWE,2020-03-12,29
+Syria,SYR,2020-03-12,24
+Thailand,THA,2020-03-12,33
+Turkey,TUR,2020-03-12,0
+Tanzania,TZA,2020-03-12,0
+Uganda,UGA,2020-03-12,24
+Ukraine,UKR,2020-03-12,95
+United States,USA,2020-03-12,29
+Venezuela,VEN,2020-03-12,7
+Vietnam,VNM,2020-03-12,52
+South Africa,ZAF,2020-03-12,19
+Zimbabwe,ZWE,2020-03-12,0
+Taiwan,TWN,2020-03-12,33
+Afghanistan,AFG,2020-03-13,43
+Angola,AGO,2020-03-13,14
+Argentina,ARG,2020-03-13,38
+Australia,AUS,2020-03-13,29
+Austria,AUT,2020-03-13,76
+Belgium,BEL,2020-03-13,38
+Bulgaria,BGR,2020-03-13,71
+Belize,BLZ,2020-03-13,24
+Bermuda,BMU,2020-03-13,0
+Bolivia,BOL,2020-03-13,36
+Brazil,BRA,2020-03-13,48
+Barbados,BRB,2020-03-13,0
+Botswana,BWA,2020-03-13,19
+Canada,CAN,2020-03-13,33
+Switzerland,CHE,2020-03-13,62
+Chile,CHL,2020-03-13,0
+China,CHN,2020-03-13,67
+Democratic Republic of Congo,COD,2020-03-13,10
+Colombia,COL,2020-03-13,24
+Costa Rica,CRI,2020-03-13,43
+Czech Republic,CZE,2020-03-13,52
+Germany,DEU,2020-03-13,38
+Denmark,DNK,2020-03-13,67
+Dominican Republic,DOM,2020-03-13,14
+Algeria,DZA,2020-03-13,19
+Ecuador,ECU,2020-03-13,19
+Spain,ESP,2020-03-13,62
+Finland,FIN,2020-03-13,33
+France,FRA,2020-03-13,43
+United Kingdom,GBR,2020-03-13,14
+Greece,GRC,2020-03-13,43
+Guatemala,GTM,2020-03-13,38
+Guyana,GUY,2020-03-13,33
+Hong Kong,HKG,2020-03-13,67
+Honduras,HND,2020-03-13,43
+Croatia,HRV,2020-03-13,52
+Hungary,HUN,2020-03-13,62
+Indonesia,IDN,2020-03-13,52
+India,IND,2020-03-13,48
+Ireland,IRL,2020-03-13,24
+Iran,IRN,2020-03-13,71
+Iraq,IRQ,2020-03-13,76
+Iceland,ISL,2020-03-13,19
+Israel,ISR,2020-03-13,52
+Italy,ITA,2020-03-13,90
+Jordan,JOR,2020-03-13,29
+Japan,JPN,2020-03-13,62
+Kazakhstan,KAZ,2020-03-13,24
+Kenya,KEN,2020-03-13,33
+South Korea,KOR,2020-03-13,60
+Sri Lanka,LKA,2020-03-13,48
+Macao,MAC,2020-03-13,62
+Mexico,MEX,2020-03-13,33
+Myanmar,MMR,2020-03-13,33
+Malaysia,MYS,2020-03-13,43
+Nigeria,NGA,2020-03-13,5
+Nicaragua,NIC,2020-03-13,0
+Netherlands,NLD,2020-03-13,48
+Norway,NOR,2020-03-13,45
+New Zealand,NZL,2020-03-13,29
+Pakistan,PAK,2020-03-13,52
+Panama,PAN,2020-03-13,95
+Papua New Guinea,PNG,2020-03-13,29
+Poland,POL,2020-03-13,57
+Portugal,PRT,2020-03-13,29
+Qatar,QAT,2020-03-13,57
+Romania,ROU,2020-03-13,71
+Russia,RUS,2020-03-13,38
+Singapore,SGP,2020-03-13,38
+El Salvador,SLV,2020-03-13,43
+Serbia,SRB,2020-03-13,52
+Slovak Republic,SVK,2020-03-13,52
+Sweden,SWE,2020-03-13,29
+Syria,SYR,2020-03-13,24
+Thailand,THA,2020-03-13,33
+Turkey,TUR,2020-03-13,0
+Tanzania,TZA,2020-03-13,0
+Uganda,UGA,2020-03-13,24
+Ukraine,UKR,2020-03-13,95
+United States,USA,2020-03-13,29
+Venezuela,VEN,2020-03-13,7
+Vietnam,VNM,2020-03-13,52
+South Africa,ZAF,2020-03-13,19
+Zimbabwe,ZWE,2020-03-13,0
+Taiwan,TWN,2020-03-13,33
+Afghanistan,AFG,2020-03-14,48
+Angola,AGO,2020-03-14,14
+Argentina,ARG,2020-03-14,38
+Australia,AUS,2020-03-14,29
+Austria,AUT,2020-03-14,76
+Belgium,BEL,2020-03-14,62
+Bulgaria,BGR,2020-03-14,71
+Belize,BLZ,2020-03-14,24
+Bermuda,BMU,2020-03-14,0
+Bolivia,BOL,2020-03-14,50
+Brazil,BRA,2020-03-14,48
+Barbados,BRB,2020-03-14,0
+Botswana,BWA,2020-03-14,19
+Canada,CAN,2020-03-14,33
+Switzerland,CHE,2020-03-14,62
+Chile,CHL,2020-03-14,14
+China,CHN,2020-03-14,67
+Democratic Republic of Congo,COD,2020-03-14,10
+Colombia,COL,2020-03-14,24
+Costa Rica,CRI,2020-03-14,43
+Czech Republic,CZE,2020-03-14,62
+Germany,DEU,2020-03-14,38
+Denmark,DNK,2020-03-14,67
+Dominican Republic,DOM,2020-03-14,14
+Algeria,DZA,2020-03-14,19
+Ecuador,ECU,2020-03-14,19
+Spain,ESP,2020-03-14,76
+Finland,FIN,2020-03-14,33
+France,FRA,2020-03-14,52
+United Kingdom,GBR,2020-03-14,14
+Greece,GRC,2020-03-14,43
+Guatemala,GTM,2020-03-14,38
+Guyana,GUY,2020-03-14,33
+Hong Kong,HKG,2020-03-14,67
+Honduras,HND,2020-03-14,43
+Croatia,HRV,2020-03-14,62
+Hungary,HUN,2020-03-14,62
+Indonesia,IDN,2020-03-14,52
+India,IND,2020-03-14,48
+Ireland,IRL,2020-03-14,24
+Iran,IRN,2020-03-14,71
+Iraq,IRQ,2020-03-14,76
+Iceland,ISL,2020-03-14,19
+Israel,ISR,2020-03-14,52
+Italy,ITA,2020-03-14,90
+Jordan,JOR,2020-03-14,29
+Japan,JPN,2020-03-14,62
+Kazakhstan,KAZ,2020-03-14,24
+Kenya,KEN,2020-03-14,33
+South Korea,KOR,2020-03-14,60
+Sri Lanka,LKA,2020-03-14,62
+Macao,MAC,2020-03-14,62
+Mexico,MEX,2020-03-14,62
+Myanmar,MMR,2020-03-14,33
+Malaysia,MYS,2020-03-14,29
+Nigeria,NGA,2020-03-14,5
+Nicaragua,NIC,2020-03-14,0
+Netherlands,NLD,2020-03-14,48
+Norway,NOR,2020-03-14,55
+New Zealand,NZL,2020-03-14,29
+Pakistan,PAK,2020-03-14,52
+Panama,PAN,2020-03-14,95
+Papua New Guinea,PNG,2020-03-14,29
+Poland,POL,2020-03-14,57
+Portugal,PRT,2020-03-14,29
+Qatar,QAT,2020-03-14,57
+Romania,ROU,2020-03-14,71
+Russia,RUS,2020-03-14,38
+Singapore,SGP,2020-03-14,38
+El Salvador,SLV,2020-03-14,62
+Serbia,SRB,2020-03-14,52
+Slovak Republic,SVK,2020-03-14,52
+Sweden,SWE,2020-03-14,29
+Syria,SYR,2020-03-14,38
+Thailand,THA,2020-03-14,33
+Turkey,TUR,2020-03-14,0
+Tanzania,TZA,2020-03-14,5
+Uganda,UGA,2020-03-14,24
+Ukraine,UKR,2020-03-14,95
+United States,USA,2020-03-14,43
+Venezuela,VEN,2020-03-14,7
+Vietnam,VNM,2020-03-14,52
+South Africa,ZAF,2020-03-14,19
+Zimbabwe,ZWE,2020-03-14,0
+Taiwan,TWN,2020-03-14,33
+Afghanistan,AFG,2020-03-15,48
+Angola,AGO,2020-03-15,14
+Argentina,ARG,2020-03-15,38
+Australia,AUS,2020-03-15,29
+Austria,AUT,2020-03-15,76
+Belgium,BEL,2020-03-15,62
+Bulgaria,BGR,2020-03-15,71
+Belize,BLZ,2020-03-15,29
+Bermuda,BMU,2020-03-15,0
+Bolivia,BOL,2020-03-15,50
+Brazil,BRA,2020-03-15,52
+Barbados,BRB,2020-03-15,0
+Botswana,BWA,2020-03-15,19
+Canada,CAN,2020-03-15,33
+Switzerland,CHE,2020-03-15,62
+Chile,CHL,2020-03-15,14
+China,CHN,2020-03-15,67
+Democratic Republic of Congo,COD,2020-03-15,10
+Colombia,COL,2020-03-15,24
+Costa Rica,CRI,2020-03-15,43
+Czech Republic,CZE,2020-03-15,62
+Germany,DEU,2020-03-15,38
+Denmark,DNK,2020-03-15,67
+Dominican Republic,DOM,2020-03-15,14
+Algeria,DZA,2020-03-15,19
+Ecuador,ECU,2020-03-15,29
+Spain,ESP,2020-03-15,86
+Finland,FIN,2020-03-15,33
+France,FRA,2020-03-15,57
+United Kingdom,GBR,2020-03-15,14
+Greece,GRC,2020-03-15,43
+Guatemala,GTM,2020-03-15,52
+Guyana,GUY,2020-03-15,33
+Hong Kong,HKG,2020-03-15,67
+Honduras,HND,2020-03-15,43
+Croatia,HRV,2020-03-15,67
+Hungary,HUN,2020-03-15,62
+Indonesia,IDN,2020-03-15,67
+India,IND,2020-03-15,48
+Ireland,IRL,2020-03-15,24
+Iran,IRN,2020-03-15,71
+Iraq,IRQ,2020-03-15,76
+Iceland,ISL,2020-03-15,19
+Israel,ISR,2020-03-15,67
+Italy,ITA,2020-03-15,90
+Jordan,JOR,2020-03-15,43
+Japan,JPN,2020-03-15,62
+Kazakhstan,KAZ,2020-03-15,24
+Kenya,KEN,2020-03-15,71
+South Korea,KOR,2020-03-15,60
+Sri Lanka,LKA,2020-03-15,62
+Macao,MAC,2020-03-15,62
+Mexico,MEX,2020-03-15,33
+Myanmar,MMR,2020-03-15,33
+Malaysia,MYS,2020-03-15,29
+Nigeria,NGA,2020-03-15,5
+Nicaragua,NIC,2020-03-15,14
+Netherlands,NLD,2020-03-15,67
+Norway,NOR,2020-03-15,60
+New Zealand,NZL,2020-03-15,29
+Pakistan,PAK,2020-03-15,52
+Panama,PAN,2020-03-15,95
+Papua New Guinea,PNG,2020-03-15,29
+Poland,POL,2020-03-15,67
+Portugal,PRT,2020-03-15,29
+Qatar,QAT,2020-03-15,71
+Romania,ROU,2020-03-15,71
+Russia,RUS,2020-03-15,38
+Singapore,SGP,2020-03-15,38
+El Salvador,SLV,2020-03-15,62
+Serbia,SRB,2020-03-15,62
+Slovak Republic,SVK,2020-03-15,52
+Sweden,SWE,2020-03-15,29
+Syria,SYR,2020-03-15,48
+Thailand,THA,2020-03-15,38
+Turkey,TUR,2020-03-15,14
+Tanzania,TZA,2020-03-15,14
+Uganda,UGA,2020-03-15,24
+Ukraine,UKR,2020-03-15,95
+United States,USA,2020-03-15,43
+Venezuela,VEN,2020-03-15,21
+Vietnam,VNM,2020-03-15,57
+South Africa,ZAF,2020-03-15,62
+Zimbabwe,ZWE,2020-03-15,0
+Taiwan,TWN,2020-03-15,43
+Afghanistan,AFG,2020-03-16,48
+Angola,AGO,2020-03-16,14
+Argentina,ARG,2020-03-16,67
+Australia,AUS,2020-03-16,33
+Austria,AUT,2020-03-16,95
+Belgium,BEL,2020-03-16,62
+Bulgaria,BGR,2020-03-16,71
+Belize,BLZ,2020-03-16,43
+Bermuda,BMU,2020-03-16,24
+Bolivia,BOL,2020-03-16,69
+Brazil,BRA,2020-03-16,52
+Barbados,BRB,2020-03-16,14
+Botswana,BWA,2020-03-16,43
+Canada,CAN,2020-03-16,33
+Switzerland,CHE,2020-03-16,62
+Chile,CHL,2020-03-16,43
+China,CHN,2020-03-16,67
+Democratic Republic of Congo,COD,2020-03-16,10
+Colombia,COL,2020-03-16,38
+Costa Rica,CRI,2020-03-16,52
+Czech Republic,CZE,2020-03-16,81
+Germany,DEU,2020-03-16,48
+Denmark,DNK,2020-03-16,67
+Dominican Republic,DOM,2020-03-16,19
+Algeria,DZA,2020-03-16,19
+Ecuador,ECU,2020-03-16,29
+Spain,ESP,2020-03-16,90
+Finland,FIN,2020-03-16,43
+France,FRA,2020-03-16,67
+United Kingdom,GBR,2020-03-16,24
+Greece,GRC,2020-03-16,52
+Guatemala,GTM,2020-03-16,52
+Guyana,GUY,2020-03-16,48
+Hong Kong,HKG,2020-03-16,67
+Honduras,HND,2020-03-16,57
+Croatia,HRV,2020-03-16,67
+Hungary,HUN,2020-03-16,90
+Indonesia,IDN,2020-03-16,76
+India,IND,2020-03-16,57
+Ireland,IRL,2020-03-16,24
+Iran,IRN,2020-03-16,71
+Iraq,IRQ,2020-03-16,76
+Iceland,ISL,2020-03-16,29
+Israel,ISR,2020-03-16,76
+Italy,ITA,2020-03-16,90
+Jordan,JOR,2020-03-16,43
+Japan,JPN,2020-03-16,62
+Kazakhstan,KAZ,2020-03-16,43
+Kenya,KEN,2020-03-16,71
+South Korea,KOR,2020-03-16,60
+Sri Lanka,LKA,2020-03-16,76
+Macao,MAC,2020-03-16,62
+Mexico,MEX,2020-03-16,43
+Myanmar,MMR,2020-03-16,48
+Malaysia,MYS,2020-03-16,71
+Nigeria,NGA,2020-03-16,5
+Nicaragua,NIC,2020-03-16,0
+Netherlands,NLD,2020-03-16,67
+Norway,NOR,2020-03-16,55
+New Zealand,NZL,2020-03-16,43
+Pakistan,PAK,2020-03-16,52
+Panama,PAN,2020-03-16,95
+Papua New Guinea,PNG,2020-03-16,29
+Poland,POL,2020-03-16,67
+Portugal,PRT,2020-03-16,43
+Qatar,QAT,2020-03-16,86
+Romania,ROU,2020-03-16,71
+Russia,RUS,2020-03-16,57
+Rwanda,RWA,2020-03-16,52
+El Salvador,SLV,2020-03-16,62
+Serbia,SRB,2020-03-16,76
+Slovak Republic,SVK,2020-03-16,52
+Sweden,SWE,2020-03-16,29
+Syria,SYR,2020-03-16,48
+Thailand,THA,2020-03-16,38
+Turkey,TUR,2020-03-16,29
+Tanzania,TZA,2020-03-16,5
+Uganda,UGA,2020-03-16,24
+Ukraine,UKR,2020-03-16,95
+United States,USA,2020-03-16,43
+Venezuela,VEN,2020-03-16,45
+Vietnam,VNM,2020-03-16,57
+South Africa,ZAF,2020-03-16,62
+Zimbabwe,ZWE,2020-03-16,0
+Taiwan,TWN,2020-03-16,43
+Afghanistan,AFG,2020-03-17,48
+Angola,AGO,2020-03-17,14
+Argentina,ARG,2020-03-17,67
+Australia,AUS,2020-03-17,33
+Austria,AUT,2020-03-17,95
+Belgium,BEL,2020-03-17,62
+Bulgaria,BGR,2020-03-17,71
+Belize,BLZ,2020-03-17,43
+Bermuda,BMU,2020-03-17,24
+Bolivia,BOL,2020-03-17,69
+Brazil,BRA,2020-03-17,62
+Barbados,BRB,2020-03-17,14
+Botswana,BWA,2020-03-17,43
+Canada,CAN,2020-03-17,33
+Switzerland,CHE,2020-03-17,76
+Chile,CHL,2020-03-17,43
+China,CHN,2020-03-17,67
+Democratic Republic of Congo,COD,2020-03-17,10
+Colombia,COL,2020-03-17,52
+Costa Rica,CRI,2020-03-17,57
+Czech Republic,CZE,2020-03-17,81
+Germany,DEU,2020-03-17,48
+Denmark,DNK,2020-03-17,67
+Dominican Republic,DOM,2020-03-17,19
+Algeria,DZA,2020-03-17,19
+Ecuador,ECU,2020-03-17,76
+Spain,ESP,2020-03-17,90
+Finland,FIN,2020-03-17,43
+France,FRA,2020-03-17,81
+United Kingdom,GBR,2020-03-17,33
+Greece,GRC,2020-03-17,52
+Guatemala,GTM,2020-03-17,52
+Guyana,GUY,2020-03-17,48
+Hong Kong,HKG,2020-03-17,67
+Honduras,HND,2020-03-17,57
+Croatia,HRV,2020-03-17,71
+Hungary,HUN,2020-03-17,90
+Indonesia,IDN,2020-03-17,67
+India,IND,2020-03-17,57
+Ireland,IRL,2020-03-17,24
+Iran,IRN,2020-03-17,71
+Iraq,IRQ,2020-03-17,76
+Iceland,ISL,2020-03-17,33
+Israel,ISR,2020-03-17,86
+Italy,ITA,2020-03-17,90
+Jordan,JOR,2020-03-17,43
+Japan,JPN,2020-03-17,62
+Kazakhstan,KAZ,2020-03-17,43
+Kenya,KEN,2020-03-17,71
+South Korea,KOR,2020-03-17,60
+Sri Lanka,LKA,2020-03-17,76
+Macao,MAC,2020-03-17,62
+Mexico,MEX,2020-03-17,52
+Myanmar,MMR,2020-03-17,48
+Malaysia,MYS,2020-03-17,86
+Nigeria,NGA,2020-03-17,19
+Nicaragua,NIC,2020-03-17,0
+Netherlands,NLD,2020-03-17,67
+Norway,NOR,2020-03-17,55
+New Zealand,NZL,2020-03-17,43
+Pakistan,PAK,2020-03-17,60
+Panama,PAN,2020-03-17,95
+Papua New Guinea,PNG,2020-03-17,29
+Poland,POL,2020-03-17,67
+Qatar,QAT,2020-03-17,95
+Romania,ROU,2020-03-17,71
+Russia,RUS,2020-03-17,57
+Rwanda,RWA,2020-03-17,52
+El Salvador,SLV,2020-03-17,62
+Serbia,SRB,2020-03-17,81
+Sweden,SWE,2020-03-17,29
+Syria,SYR,2020-03-17,48
+Thailand,THA,2020-03-17,48
+Turkey,TUR,2020-03-17,29
+Tanzania,TZA,2020-03-17,19
+Uganda,UGA,2020-03-17,24
+Ukraine,UKR,2020-03-17,95
+United States,USA,2020-03-17,57
+Venezuela,VEN,2020-03-17,64
+Vietnam,VNM,2020-03-17,57
+South Africa,ZAF,2020-03-17,62
+Zimbabwe,ZWE,2020-03-17,29
+Taiwan,TWN,2020-03-17,43
+Afghanistan,AFG,2020-03-18,48
+Angola,AGO,2020-03-18,14
+Argentina,ARG,2020-03-18,67
+Australia,AUS,2020-03-18,38
+Austria,AUT,2020-03-18,95
+Belgium,BEL,2020-03-18,86
+Bulgaria,BGR,2020-03-18,81
+Belize,BLZ,2020-03-18,43
+Bermuda,BMU,2020-03-18,10
+Bolivia,BOL,2020-03-18,74
+Brazil,BRA,2020-03-18,62
+Barbados,BRB,2020-03-18,14
+Botswana,BWA,2020-03-18,43
+Canada,CAN,2020-03-18,57
+Switzerland,CHE,2020-03-18,81
+Chile,CHL,2020-03-18,57
+China,CHN,2020-03-18,67
+Democratic Republic of Congo,COD,2020-03-18,19
+Colombia,COL,2020-03-18,52
+Costa Rica,CRI,2020-03-18,71
+Czech Republic,CZE,2020-03-18,81
+Germany,DEU,2020-03-18,62
+Denmark,DNK,2020-03-18,67
+Dominican Republic,DOM,2020-03-18,52
+Algeria,DZA,2020-03-18,33
+Ecuador,ECU,2020-03-18,76
+Spain,ESP,2020-03-18,90
+Finland,FIN,2020-03-18,62
+France,FRA,2020-03-18,81
+United Kingdom,GBR,2020-03-18,33
+Greece,GRC,2020-03-18,52
+Guatemala,GTM,2020-03-18,52
+Guyana,GUY,2020-03-18,48
+Hong Kong,HKG,2020-03-18,67
+Honduras,HND,2020-03-18,57
+Croatia,HRV,2020-03-18,81
+Hungary,HUN,2020-03-18,90
+Indonesia,IDN,2020-03-18,67
+India,IND,2020-03-18,62
+Ireland,IRL,2020-03-18,24
+Iran,IRN,2020-03-18,71
+Iraq,IRQ,2020-03-18,76
+Iceland,ISL,2020-03-18,38
+Israel,ISR,2020-03-18,90
+Italy,ITA,2020-03-18,90
+Jordan,JOR,2020-03-18,100
+Japan,JPN,2020-03-18,62
+Kazakhstan,KAZ,2020-03-18,43
+Kenya,KEN,2020-03-18,71
+South Korea,KOR,2020-03-18,60
+Sri Lanka,LKA,2020-03-18,76
+Macao,MAC,2020-03-18,67
+Mexico,MEX,2020-03-18,52
+Myanmar,MMR,2020-03-18,48
+Malaysia,MYS,2020-03-18,86
+Nigeria,NGA,2020-03-18,33
+Netherlands,NLD,2020-03-18,81
+Norway,NOR,2020-03-18,55
+Pakistan,PAK,2020-03-18,52
+Panama,PAN,2020-03-18,95
+Papua New Guinea,PNG,2020-03-18,29
+Poland,POL,2020-03-18,67
+Qatar,QAT,2020-03-18,95
+Romania,ROU,2020-03-18,71
+Russia,RUS,2020-03-18,57
+Rwanda,RWA,2020-03-18,52
+Serbia,SRB,2020-03-18,81
+Sweden,SWE,2020-03-18,29
+Syria,SYR,2020-03-18,48
+Thailand,THA,2020-03-18,57
+Turkey,TUR,2020-03-18,62
+Tanzania,TZA,2020-03-18,33
+Uganda,UGA,2020-03-18,52
+Ukraine,UKR,2020-03-18,95
+United States,USA,2020-03-18,57
+Venezuela,VEN,2020-03-18,79
+Vietnam,VNM,2020-03-18,57
+South Africa,ZAF,2020-03-18,76
+Zimbabwe,ZWE,2020-03-18,29
+Taiwan,TWN,2020-03-18,43
+Afghanistan,AFG,2020-03-19,48
+Angola,AGO,2020-03-19,14
+Argentina,ARG,2020-03-19,67
+Australia,AUS,2020-03-19,48
+Austria,AUT,2020-03-19,95
+Belgium,BEL,2020-03-19,86
+Bulgaria,BGR,2020-03-19,81
+Belize,BLZ,2020-03-19,43
+Bermuda,BMU,2020-03-19,19
+Bolivia,BOL,2020-03-19,69
+Brazil,BRA,2020-03-19,71
+Barbados,BRB,2020-03-19,0
+Botswana,BWA,2020-03-19,43
+Canada,CAN,2020-03-19,57
+Switzerland,CHE,2020-03-19,81
+Chile,CHL,2020-03-19,57
+China,CHN,2020-03-19,76
+Democratic Republic of Congo,COD,2020-03-19,67
+Colombia,COL,2020-03-19,52
+Costa Rica,CRI,2020-03-19,71
+Czech Republic,CZE,2020-03-19,81
+Germany,DEU,2020-03-19,62
+Denmark,DNK,2020-03-19,52
+Dominican Republic,DOM,2020-03-19,48
+Algeria,DZA,2020-03-19,33
+Spain,ESP,2020-03-19,90
+Finland,FIN,2020-03-19,71
+France,FRA,2020-03-19,81
+United Kingdom,GBR,2020-03-19,33
+Greece,GRC,2020-03-19,52
+Guyana,GUY,2020-03-19,48
+Hong Kong,HKG,2020-03-19,67
+Honduras,HND,2020-03-19,71
+Croatia,HRV,2020-03-19,86
+Hungary,HUN,2020-03-19,90
+Indonesia,IDN,2020-03-19,10
+India,IND,2020-03-19,71
+Ireland,IRL,2020-03-19,24
+Iran,IRN,2020-03-19,71
+Iraq,IRQ,2020-03-19,76
+Iceland,ISL,2020-03-19,38
+Israel,ISR,2020-03-19,90
+Italy,ITA,2020-03-19,90
+Jordan,JOR,2020-03-19,100
+Japan,JPN,2020-03-19,62
+Kazakhstan,KAZ,2020-03-19,62
+Kenya,KEN,2020-03-19,71
+South Korea,KOR,2020-03-19,60
+Sri Lanka,LKA,2020-03-19,76
+Macao,MAC,2020-03-19,67
+Mexico,MEX,2020-03-19,52
+Malaysia,MYS,2020-03-19,86
+Nigeria,NGA,2020-03-19,38
+Netherlands,NLD,2020-03-19,81
+Norway,NOR,2020-03-19,55
+Pakistan,PAK,2020-03-19,52
+Panama,PAN,2020-03-19,90
+Papua New Guinea,PNG,2020-03-19,29
+Poland,POL,2020-03-19,67
+Qatar,QAT,2020-03-19,90
+Romania,ROU,2020-03-19,71
+Russia,RUS,2020-03-19,57
+Rwanda,RWA,2020-03-19,52
+Serbia,SRB,2020-03-19,81
+Sweden,SWE,2020-03-19,43
+Syria,SYR,2020-03-19,48
+Thailand,THA,2020-03-19,57
+Turkey,TUR,2020-03-19,69
+Tanzania,TZA,2020-03-19,33
+Uganda,UGA,2020-03-19,52
+Ukraine,UKR,2020-03-19,95
+United States,USA,2020-03-19,67
+Venezuela,VEN,2020-03-19,69
+Vietnam,VNM,2020-03-19,57
+South Africa,ZAF,2020-03-19,76
+Zimbabwe,ZWE,2020-03-19,29
+Taiwan,TWN,2020-03-19,48
+Afghanistan,AFG,2020-03-20,48
+Angola,AGO,2020-03-20,14
+Argentina,ARG,2020-03-20,95
+Australia,AUS,2020-03-20,48
+Austria,AUT,2020-03-20,95
+Belgium,BEL,2020-03-20,86
+Bulgaria,BGR,2020-03-20,81
+Belize,BLZ,2020-03-20,67
+Bermuda,BMU,2020-03-20,48
+Bolivia,BOL,2020-03-20,69
+Brazil,BRA,2020-03-20,71
+Barbados,BRB,2020-03-20,0
+Botswana,BWA,2020-03-20,71
+Canada,CAN,2020-03-20,57
+Switzerland,CHE,2020-03-20,81
+China,CHN,2020-03-20,76
+Democratic Republic of Congo,COD,2020-03-20,67
+Colombia,COL,2020-03-20,52
+Costa Rica,CRI,2020-03-20,57
+Czech Republic,CZE,2020-03-20,81
+Germany,DEU,2020-03-20,67
+Denmark,DNK,2020-03-20,52
+Dominican Republic,DOM,2020-03-20,38
+Algeria,DZA,2020-03-20,43
+Spain,ESP,2020-03-20,90
+Finland,FIN,2020-03-20,71
+France,FRA,2020-03-20,81
+United Kingdom,GBR,2020-03-20,33
+Greece,GRC,2020-03-20,52
+Guyana,GUY,2020-03-20,48
+Hong Kong,HKG,2020-03-20,67
+Honduras,HND,2020-03-20,71
+Croatia,HRV,2020-03-20,86
+Hungary,HUN,2020-03-20,90
+India,IND,2020-03-20,81
+Ireland,IRL,2020-03-20,62
+Iran,IRN,2020-03-20,71
+Iraq,IRQ,2020-03-20,76
+Iceland,ISL,2020-03-20,38
+Israel,ISR,2020-03-20,95
+Jordan,JOR,2020-03-20,100
+Japan,JPN,2020-03-20,62
+Kazakhstan,KAZ,2020-03-20,62
+Kenya,KEN,2020-03-20,81
+South Korea,KOR,2020-03-20,60
+Sri Lanka,LKA,2020-03-20,76
+Macao,MAC,2020-03-20,67
+Mexico,MEX,2020-03-20,67
+Malaysia,MYS,2020-03-20,86
+Nigeria,NGA,2020-03-20,48
+Netherlands,NLD,2020-03-20,81
+Norway,NOR,2020-03-20,55
+Pakistan,PAK,2020-03-20,52
+Panama,PAN,2020-03-20,90
+Papua New Guinea,PNG,2020-03-20,29
+Poland,POL,2020-03-20,67
+Qatar,QAT,2020-03-20,90
+Romania,ROU,2020-03-20,71
+Russia,RUS,2020-03-20,57
+Rwanda,RWA,2020-03-20,52
+Serbia,SRB,2020-03-20,81
+Sweden,SWE,2020-03-20,43
+Syria,SYR,2020-03-20,71
+Thailand,THA,2020-03-20,67
+Turkey,TUR,2020-03-20,69
+Tanzania,TZA,2020-03-20,33
+Uganda,UGA,2020-03-20,67
+Ukraine,UKR,2020-03-20,95
+United States,USA,2020-03-20,67
+Venezuela,VEN,2020-03-20,79
+South Africa,ZAF,2020-03-20,76
+Zimbabwe,ZWE,2020-03-20,29
+Taiwan,TWN,2020-03-20,48
+Aruba,ABW,2020-03-21,43
+Afghanistan,AFG,2020-03-21,48
+Angola,AGO,2020-03-21,14
+Argentina,ARG,2020-03-21,95
+Australia,AUS,2020-03-21,48
+Austria,AUT,2020-03-21,95
+Belgium,BEL,2020-03-21,86
+Bulgaria,BGR,2020-03-21,81
+Belize,BLZ,2020-03-21,67
+Bermuda,BMU,2020-03-21,52
+Bolivia,BOL,2020-03-21,69
+Brazil,BRA,2020-03-21,76
+Barbados,BRB,2020-03-21,0
+Botswana,BWA,2020-03-21,71
+Canada,CAN,2020-03-21,57
+Switzerland,CHE,2020-03-21,81
+China,CHN,2020-03-21,76
+Democratic Republic of Congo,COD,2020-03-21,71
+Colombia,COL,2020-03-21,52
+Costa Rica,CRI,2020-03-21,57
+Czech Republic,CZE,2020-03-21,81
+Germany,DEU,2020-03-21,67
+Denmark,DNK,2020-03-21,52
+Dominican Republic,DOM,2020-03-21,38
+Algeria,DZA,2020-03-21,43
+Spain,ESP,2020-03-21,90
+France,FRA,2020-03-21,86
+United Kingdom,GBR,2020-03-21,38
+Greece,GRC,2020-03-21,62
+Guyana,GUY,2020-03-21,48
+Hong Kong,HKG,2020-03-21,67
+Honduras,HND,2020-03-21,71
+Croatia,HRV,2020-03-21,95
+Hungary,HUN,2020-03-21,90
+India,IND,2020-03-21,81
+Ireland,IRL,2020-03-21,62
+Iran,IRN,2020-03-21,71
+Iraq,IRQ,2020-03-21,76
+Iceland,ISL,2020-03-21,38
+Israel,ISR,2020-03-21,95
+Jordan,JOR,2020-03-21,100
+Japan,JPN,2020-03-21,62
+Kazakhstan,KAZ,2020-03-21,62
+Kenya,KEN,2020-03-21,81
+South Korea,KOR,2020-03-21,64
+Sri Lanka,LKA,2020-03-21,81
+Macao,MAC,2020-03-21,67
+Mexico,MEX,2020-03-21,67
+Malaysia,MYS,2020-03-21,86
+Nigeria,NGA,2020-03-21,52
+Netherlands,NLD,2020-03-21,81
+Norway,NOR,2020-03-21,55
+Pakistan,PAK,2020-03-21,52
+Panama,PAN,2020-03-21,90
+Papua New Guinea,PNG,2020-03-21,29
+Poland,POL,2020-03-21,67
+Qatar,QAT,2020-03-21,90
+Romania,ROU,2020-03-21,81
+Russia,RUS,2020-03-21,62
+Rwanda,RWA,2020-03-21,81
+Serbia,SRB,2020-03-21,81
+Sweden,SWE,2020-03-21,43
+Syria,SYR,2020-03-21,71
+Thailand,THA,2020-03-21,67
+Turkey,TUR,2020-03-21,76
+Tanzania,TZA,2020-03-21,43
+Uganda,UGA,2020-03-21,67
+Ukraine,UKR,2020-03-21,95
+United States,USA,2020-03-21,67
+Venezuela,VEN,2020-03-21,83
+South Africa,ZAF,2020-03-21,76
+Zimbabwe,ZWE,2020-03-21,29
+Taiwan,TWN,2020-03-21,48
+Aruba,ABW,2020-03-22,43
+Afghanistan,AFG,2020-03-22,48
+Angola,AGO,2020-03-22,14
+Argentina,ARG,2020-03-22,95
+Australia,AUS,2020-03-22,57
+Austria,AUT,2020-03-22,95
+Belgium,BEL,2020-03-22,86
+Bulgaria,BGR,2020-03-22,81
+Belize,BLZ,2020-03-22,67
+Bermuda,BMU,2020-03-22,52
+Bolivia,BOL,2020-03-22,93
+Brazil,BRA,2020-03-22,76
+Barbados,BRB,2020-03-22,10
+Botswana,BWA,2020-03-22,71
+Canada,CAN,2020-03-22,57
+Switzerland,CHE,2020-03-22,81
+China,CHN,2020-03-22,76
+Democratic Republic of Congo,COD,2020-03-22,76
+Colombia,COL,2020-03-22,52
+Costa Rica,CRI,2020-03-22,57
+Czech Republic,CZE,2020-03-22,81
+Germany,DEU,2020-03-22,71
+Denmark,DNK,2020-03-22,52
+Dominican Republic,DOM,2020-03-22,38
+Algeria,DZA,2020-03-22,62
+Spain,ESP,2020-03-22,90
+France,FRA,2020-03-22,86
+United Kingdom,GBR,2020-03-22,48
+Greece,GRC,2020-03-22,62
+Guyana,GUY,2020-03-22,48
+Hong Kong,HKG,2020-03-22,67
+Honduras,HND,2020-03-22,71
+Croatia,HRV,2020-03-22,100
+Hungary,HUN,2020-03-22,90
+India,IND,2020-03-22,95
+Ireland,IRL,2020-03-22,62
+Iran,IRN,2020-03-22,71
+Iraq,IRQ,2020-03-22,76
+Iceland,ISL,2020-03-22,38
+Israel,ISR,2020-03-22,95
+Jordan,JOR,2020-03-22,100
+Japan,JPN,2020-03-22,62
+Kazakhstan,KAZ,2020-03-22,62
+Kenya,KEN,2020-03-22,81
+South Korea,KOR,2020-03-22,74
+Sri Lanka,LKA,2020-03-22,81
+Macao,MAC,2020-03-22,67
+Mexico,MEX,2020-03-22,67
+Malaysia,MYS,2020-03-22,86
+Nigeria,NGA,2020-03-22,57
+Netherlands,NLD,2020-03-22,81
+Norway,NOR,2020-03-22,55
+Pakistan,PAK,2020-03-22,52
+Panama,PAN,2020-03-22,90
+Papua New Guinea,PNG,2020-03-22,29
+Poland,POL,2020-03-22,67
+Qatar,QAT,2020-03-22,90
+Romania,ROU,2020-03-22,81
+Russia,RUS,2020-03-22,62
+Rwanda,RWA,2020-03-22,81
+Serbia,SRB,2020-03-22,95
+Sweden,SWE,2020-03-22,29
+Syria,SYR,2020-03-22,81
+Thailand,THA,2020-03-22,62
+Turkey,TUR,2020-03-22,76
+Tanzania,TZA,2020-03-22,57
+Uganda,UGA,2020-03-22,71
+Ukraine,UKR,2020-03-22,95
+United States,USA,2020-03-22,67
+Venezuela,VEN,2020-03-22,83
+South Africa,ZAF,2020-03-22,76
+Zimbabwe,ZWE,2020-03-22,29
+Taiwan,TWN,2020-03-22,48
+Aruba,ABW,2020-03-23,43
+Afghanistan,AFG,2020-03-23,48
+Angola,AGO,2020-03-23,14
+Argentina,ARG,2020-03-23,95
+Australia,AUS,2020-03-23,57
+Austria,AUT,2020-03-23,95
+Belgium,BEL,2020-03-23,86
+Bulgaria,BGR,2020-03-23,52
+Belize,BLZ,2020-03-23,67
+Bermuda,BMU,2020-03-23,57
+Bolivia,BOL,2020-03-23,93
+Brazil,BRA,2020-03-23,76
+Barbados,BRB,2020-03-23,10
+Botswana,BWA,2020-03-23,71
+Canada,CAN,2020-03-23,57
+Switzerland,CHE,2020-03-23,90
+China,CHN,2020-03-23,76
+Democratic Republic of Congo,COD,2020-03-23,76
+Colombia,COL,2020-03-23,67
+Costa Rica,CRI,2020-03-23,57
+Czech Republic,CZE,2020-03-23,81
+Germany,DEU,2020-03-23,71
+Denmark,DNK,2020-03-23,43
+Dominican Republic,DOM,2020-03-23,38
+Algeria,DZA,2020-03-23,62
+Spain,ESP,2020-03-23,90
+Finland,FIN,2020-03-23,29
+France,FRA,2020-03-23,86
+United Kingdom,GBR,2020-03-23,67
+Greece,GRC,2020-03-23,67
+Guyana,GUY,2020-03-23,48
+Hong Kong,HKG,2020-03-23,81
+Honduras,HND,2020-03-23,71
+Croatia,HRV,2020-03-23,57
+Hungary,HUN,2020-03-23,57
+India,IND,2020-03-23,86
+Ireland,IRL,2020-03-23,62
+Iran,IRN,2020-03-23,71
+Iceland,ISL,2020-03-23,38
+Israel,ISR,2020-03-23,95
+Jordan,JOR,2020-03-23,100
+Japan,JPN,2020-03-23,62
+Kazakhstan,KAZ,2020-03-23,62
+Kenya,KEN,2020-03-23,81
+South Korea,KOR,2020-03-23,74
+Sri Lanka,LKA,2020-03-23,76
+Macao,MAC,2020-03-23,67
+Mexico,MEX,2020-03-23,67
+Malaysia,MYS,2020-03-23,86
+Nigeria,NGA,2020-03-23,48
+Netherlands,NLD,2020-03-23,86
+Norway,NOR,2020-03-23,76
+Pakistan,PAK,2020-03-23,60
+Panama,PAN,2020-03-23,90
+Papua New Guinea,PNG,2020-03-23,43
+Poland,POL,2020-03-23,67
+Qatar,QAT,2020-03-23,90
+Romania,ROU,2020-03-23,86
+Russia,RUS,2020-03-23,67
+Rwanda,RWA,2020-03-23,81
+Serbia,SRB,2020-03-23,52
+Sweden,SWE,2020-03-23,29
+Syria,SYR,2020-03-23,95
+Thailand,THA,2020-03-23,62
+Turkey,TUR,2020-03-23,76
+Tanzania,TZA,2020-03-23,19
+Uganda,UGA,2020-03-23,71
+Ukraine,UKR,2020-03-23,95
+United States,USA,2020-03-23,67
+Venezuela,VEN,2020-03-23,83
+South Africa,ZAF,2020-03-23,86
+Zimbabwe,ZWE,2020-03-23,67
+Taiwan,TWN,2020-03-23,48
+Aruba,ABW,2020-03-24,43
+Afghanistan,AFG,2020-03-24,57
+Angola,AGO,2020-03-24,43
+Argentina,ARG,2020-03-24,81
+Australia,AUS,2020-03-24,67
+Austria,AUT,2020-03-24,95
+Belgium,BEL,2020-03-24,86
+Bulgaria,BGR,2020-03-24,52
+Belize,BLZ,2020-03-24,67
+Bermuda,BMU,2020-03-24,57
+Bolivia,BOL,2020-03-24,93
+Brazil,BRA,2020-03-24,76
+Barbados,BRB,2020-03-24,10
+Botswana,BWA,2020-03-24,71
+Canada,CAN,2020-03-24,67
+Switzerland,CHE,2020-03-24,90
+China,CHN,2020-03-24,76
+Democratic Republic of Congo,COD,2020-03-24,81
+Colombia,COL,2020-03-24,67
+Costa Rica,CRI,2020-03-24,71
+Germany,DEU,2020-03-24,71
+Denmark,DNK,2020-03-24,43
+Dominican Republic,DOM,2020-03-24,38
+Algeria,DZA,2020-03-24,62
+Spain,ESP,2020-03-24,90
+France,FRA,2020-03-24,86
+United Kingdom,GBR,2020-03-24,64
+Guyana,GUY,2020-03-24,48
+Hong Kong,HKG,2020-03-24,81
+Honduras,HND,2020-03-24,71
+Croatia,HRV,2020-03-24,57
+Hungary,HUN,2020-03-24,57
+India,IND,2020-03-24,86
+Ireland,IRL,2020-03-24,62
+Iran,IRN,2020-03-24,71
+Iceland,ISL,2020-03-24,38
+Israel,ISR,2020-03-24,95
+Jordan,JOR,2020-03-24,100
+Japan,JPN,2020-03-24,62
+Kazakhstan,KAZ,2020-03-24,62
+Kenya,KEN,2020-03-24,81
+South Korea,KOR,2020-03-24,74
+Sri Lanka,LKA,2020-03-24,81
+Macao,MAC,2020-03-24,67
+Mexico,MEX,2020-03-24,67
+Malaysia,MYS,2020-03-24,86
+Netherlands,NLD,2020-03-24,86
+Norway,NOR,2020-03-24,55
+Pakistan,PAK,2020-03-24,93
+Panama,PAN,2020-03-24,90
+Papua New Guinea,PNG,2020-03-24,95
+Qatar,QAT,2020-03-24,95
+Romania,ROU,2020-03-24,86
+Russia,RUS,2020-03-24,67
+Rwanda,RWA,2020-03-24,81
+Serbia,SRB,2020-03-24,52
+Sweden,SWE,2020-03-24,29
+Syria,SYR,2020-03-24,95
+Turkey,TUR,2020-03-24,76
+Tanzania,TZA,2020-03-24,19
+Uganda,UGA,2020-03-24,81
+Ukraine,UKR,2020-03-24,95
+United States,USA,2020-03-24,67
+Venezuela,VEN,2020-03-24,83
+South Africa,ZAF,2020-03-24,86
+Zimbabwe,ZWE,2020-03-24,67
+Taiwan,TWN,2020-03-24,48
+Aruba,ABW,2020-03-25,43
+Afghanistan,AFG,2020-03-25,57
+Angola,AGO,2020-03-25,48
+Argentina,ARG,2020-03-25,95
+Australia,AUS,2020-03-25,67
+Austria,AUT,2020-03-25,95
+Belgium,BEL,2020-03-25,86
+Bulgaria,BGR,2020-03-25,52
+Belize,BLZ,2020-03-25,67
+Bermuda,BMU,2020-03-25,81
+Bolivia,BOL,2020-03-25,93
+Brazil,BRA,2020-03-25,76
+Barbados,BRB,2020-03-25,10
+Botswana,BWA,2020-03-25,71
+Canada,CAN,2020-03-25,67
+Switzerland,CHE,2020-03-25,90
+China,CHN,2020-03-25,71
+Democratic Republic of Congo,COD,2020-03-25,81
+Colombia,COL,2020-03-25,95
+Costa Rica,CRI,2020-03-25,71
+Germany,DEU,2020-03-25,71
+Denmark,DNK,2020-03-25,43
+Dominican Republic,DOM,2020-03-25,38
+Algeria,DZA,2020-03-25,62
+Spain,ESP,2020-03-25,90
+France,FRA,2020-03-25,86
+United Kingdom,GBR,2020-03-25,64
+Guyana,GUY,2020-03-25,48
+Hong Kong,HKG,2020-03-25,81
+Honduras,HND,2020-03-25,71
+Croatia,HRV,2020-03-25,57
+Hungary,HUN,2020-03-25,57
+India,IND,2020-03-25,100
+Ireland,IRL,2020-03-25,62
+Iran,IRN,2020-03-25,71
+Iceland,ISL,2020-03-25,38
+Israel,ISR,2020-03-25,100
+Jordan,JOR,2020-03-25,100
+Japan,JPN,2020-03-25,62
+Kazakhstan,KAZ,2020-03-25,62
+Kenya,KEN,2020-03-25,81
+South Korea,KOR,2020-03-25,74
+Sri Lanka,LKA,2020-03-25,90
+Mexico,MEX,2020-03-25,67
+Malaysia,MYS,2020-03-25,86
+Netherlands,NLD,2020-03-25,86
+Norway,NOR,2020-03-25,55
+Panama,PAN,2020-03-25,90
+Papua New Guinea,PNG,2020-03-25,95
+Qatar,QAT,2020-03-25,100
+Romania,ROU,2020-03-25,71
+Russia,RUS,2020-03-25,24
+Rwanda,RWA,2020-03-25,81
+Serbia,SRB,2020-03-25,52
+Sweden,SWE,2020-03-25,29
+Turkey,TUR,2020-03-25,76
+Tanzania,TZA,2020-03-25,24
+Uganda,UGA,2020-03-25,86
+Ukraine,UKR,2020-03-25,95
+United States,USA,2020-03-25,67
+Venezuela,VEN,2020-03-25,83
+South Africa,ZAF,2020-03-25,33
+Zimbabwe,ZWE,2020-03-25,67
+Taiwan,TWN,2020-03-25,48
+Aruba,ABW,2020-03-26,43
+Afghanistan,AFG,2020-03-26,57
+Angola,AGO,2020-03-26,48
+Argentina,ARG,2020-03-26,81
+Australia,AUS,2020-03-26,67
+Austria,AUT,2020-03-26,95
+Belgium,BEL,2020-03-26,86
+Bulgaria,BGR,2020-03-26,52
+Belize,BLZ,2020-03-26,67
+Bolivia,BOL,2020-03-26,93
+Brazil,BRA,2020-03-26,76
+Botswana,BWA,2020-03-26,29
+Canada,CAN,2020-03-26,67
+Switzerland,CHE,2020-03-26,90
+China,CHN,2020-03-26,76
+Democratic Republic of Congo,COD,2020-03-26,81
+Colombia,COL,2020-03-26,95
+Costa Rica,CRI,2020-03-26,71
+Germany,DEU,2020-03-26,71
+Denmark,DNK,2020-03-26,43
+Dominican Republic,DOM,2020-03-26,38
+Algeria,DZA,2020-03-26,62
+Spain,ESP,2020-03-26,90
+France,FRA,2020-03-26,86
+United Kingdom,GBR,2020-03-26,64
+Guyana,GUY,2020-03-26,48
+Hong Kong,HKG,2020-03-26,81
+Honduras,HND,2020-03-26,71
+Croatia,HRV,2020-03-26,57
+Hungary,HUN,2020-03-26,57
+India,IND,2020-03-26,100
+Ireland,IRL,2020-03-26,67
+Iran,IRN,2020-03-26,71
+Iceland,ISL,2020-03-26,38
+Israel,ISR,2020-03-26,100
+Jordan,JOR,2020-03-26,100
+Japan,JPN,2020-03-26,62
+Kazakhstan,KAZ,2020-03-26,62
+Kenya,KEN,2020-03-26,81
+South Korea,KOR,2020-03-26,74
+Sri Lanka,LKA,2020-03-26,90
+Mexico,MEX,2020-03-26,67
+Malaysia,MYS,2020-03-26,86
+Netherlands,NLD,2020-03-26,86
+Norway,NOR,2020-03-26,55
+Panama,PAN,2020-03-26,90
+Papua New Guinea,PNG,2020-03-26,95
+Qatar,QAT,2020-03-26,100
+Romania,ROU,2020-03-26,71
+Rwanda,RWA,2020-03-26,81
+Serbia,SRB,2020-03-26,52
+Sweden,SWE,2020-03-26,29
+Turkey,TUR,2020-03-26,71
+Tanzania,TZA,2020-03-26,31
+Uganda,UGA,2020-03-26,86
+Ukraine,UKR,2020-03-26,95
+United States,USA,2020-03-26,67
+Venezuela,VEN,2020-03-26,83
+South Africa,ZAF,2020-03-26,43
+Zimbabwe,ZWE,2020-03-26,67
+Taiwan,TWN,2020-03-26,48
+Aruba,ABW,2020-03-27,43
+Afghanistan,AFG,2020-03-27,57
+Angola,AGO,2020-03-27,62
+Argentina,ARG,2020-03-27,67
+Australia,AUS,2020-03-27,10
+Austria,AUT,2020-03-27,95
+Belgium,BEL,2020-03-27,86
+Bulgaria,BGR,2020-03-27,52
+Belize,BLZ,2020-03-27,67
+Bolivia,BOL,2020-03-27,93
+Brazil,BRA,2020-03-27,76
+Botswana,BWA,2020-03-27,29
+Canada,CAN,2020-03-27,67
+Switzerland,CHE,2020-03-27,90
+China,CHN,2020-03-27,76
+Democratic Republic of Congo,COD,2020-03-27,81
+Colombia,COL,2020-03-27,95
+Costa Rica,CRI,2020-03-27,71
+Germany,DEU,2020-03-27,71
+Denmark,DNK,2020-03-27,43
+Dominican Republic,DOM,2020-03-27,38
+Algeria,DZA,2020-03-27,62
+Spain,ESP,2020-03-27,90
+France,FRA,2020-03-27,86
+United Kingdom,GBR,2020-03-27,64
+Guyana,GUY,2020-03-27,57
+Hong Kong,HKG,2020-03-27,81
+Honduras,HND,2020-03-27,71
+Croatia,HRV,2020-03-27,57
+India,IND,2020-03-27,100
+Ireland,IRL,2020-03-27,67
+Iran,IRN,2020-03-27,71
+Iceland,ISL,2020-03-27,38
+Israel,ISR,2020-03-27,100
+Jordan,JOR,2020-03-27,100
+Japan,JPN,2020-03-27,62
+Kazakhstan,KAZ,2020-03-27,62
+Kenya,KEN,2020-03-27,95
+South Korea,KOR,2020-03-27,74
+Sri Lanka,LKA,2020-03-27,81
+Mexico,MEX,2020-03-27,67
+Malaysia,MYS,2020-03-27,86
+Netherlands,NLD,2020-03-27,86
+Norway,NOR,2020-03-27,55
+Panama,PAN,2020-03-27,90
+Papua New Guinea,PNG,2020-03-27,95
+Qatar,QAT,2020-03-27,100
+Romania,ROU,2020-03-27,71
+Rwanda,RWA,2020-03-27,81
+Serbia,SRB,2020-03-27,38
+Turkey,TUR,2020-03-27,71
+Tanzania,TZA,2020-03-27,10
+Uganda,UGA,2020-03-27,86
+Ukraine,UKR,2020-03-27,95
+United States,USA,2020-03-27,67
+Venezuela,VEN,2020-03-27,83
+Vietnam,VNM,2020-03-27,52
+Zimbabwe,ZWE,2020-03-27,67
+Aruba,ABW,2020-03-28,43
+Afghanistan,AFG,2020-03-28,57
+Angola,AGO,2020-03-28,62
+Argentina,ARG,2020-03-28,67
+Australia,AUS,2020-03-28,10
+Austria,AUT,2020-03-28,95
+Belgium,BEL,2020-03-28,86
+Bulgaria,BGR,2020-03-28,52
+Belize,BLZ,2020-03-28,67
+Bolivia,BOL,2020-03-28,93
+Brazil,BRA,2020-03-28,76
+Canada,CAN,2020-03-28,67
+Switzerland,CHE,2020-03-28,90
+China,CHN,2020-03-28,67
+Democratic Republic of Congo,COD,2020-03-28,74
+Colombia,COL,2020-03-28,95
+Costa Rica,CRI,2020-03-28,71
+Germany,DEU,2020-03-28,71
+Denmark,DNK,2020-03-28,43
+Dominican Republic,DOM,2020-03-28,48
+Algeria,DZA,2020-03-28,62
+Spain,ESP,2020-03-28,90
+France,FRA,2020-03-28,86
+United Kingdom,GBR,2020-03-28,64
+Guyana,GUY,2020-03-28,71
+Hong Kong,HKG,2020-03-28,81
+Honduras,HND,2020-03-28,71
+Croatia,HRV,2020-03-28,57
+India,IND,2020-03-28,100
+Ireland,IRL,2020-03-28,67
+Iran,IRN,2020-03-28,71
+Iceland,ISL,2020-03-28,38
+Israel,ISR,2020-03-28,100
+Jordan,JOR,2020-03-28,100
+Japan,JPN,2020-03-28,62
+Kazakhstan,KAZ,2020-03-28,62
+Kenya,KEN,2020-03-28,95
+South Korea,KOR,2020-03-28,74
+Sri Lanka,LKA,2020-03-28,81
+Mexico,MEX,2020-03-28,67
+Malaysia,MYS,2020-03-28,86
+Netherlands,NLD,2020-03-28,86
+Norway,NOR,2020-03-28,55
+Panama,PAN,2020-03-28,90
+Papua New Guinea,PNG,2020-03-28,95
+Qatar,QAT,2020-03-28,100
+Romania,ROU,2020-03-28,71
+Rwanda,RWA,2020-03-28,81
+Serbia,SRB,2020-03-28,38
+Turkey,TUR,2020-03-28,86
+Tanzania,TZA,2020-03-28,19
+Uganda,UGA,2020-03-28,86
+Ukraine,UKR,2020-03-28,95
+United States,USA,2020-03-28,67
+Venezuela,VEN,2020-03-28,83
+Vietnam,VNM,2020-03-28,52
+Zimbabwe,ZWE,2020-03-28,67
+Aruba,ABW,2020-03-29,43
+Afghanistan,AFG,2020-03-29,57
+Angola,AGO,2020-03-29,62
+Argentina,ARG,2020-03-29,67
+Australia,AUS,2020-03-29,10
+Austria,AUT,2020-03-29,95
+Belgium,BEL,2020-03-29,86
+Bulgaria,BGR,2020-03-29,52
+Bolivia,BOL,2020-03-29,93
+Canada,CAN,2020-03-29,67
+China,CHN,2020-03-29,67
+Democratic Republic of Congo,COD,2020-03-29,67
+Colombia,COL,2020-03-29,95
+Costa Rica,CRI,2020-03-29,71
+Germany,DEU,2020-03-29,71
+Dominican Republic,DOM,2020-03-29,48
+Algeria,DZA,2020-03-29,62
+Spain,ESP,2020-03-29,90
+France,FRA,2020-03-29,86
+United Kingdom,GBR,2020-03-29,71
+Guyana,GUY,2020-03-29,71
+Honduras,HND,2020-03-29,71
+Croatia,HRV,2020-03-29,57
+India,IND,2020-03-29,100
+Ireland,IRL,2020-03-29,67
+Iran,IRN,2020-03-29,71
+Iceland,ISL,2020-03-29,38
+Israel,ISR,2020-03-29,100
+Jordan,JOR,2020-03-29,100
+Japan,JPN,2020-03-29,62
+Kazakhstan,KAZ,2020-03-29,62
+Kenya,KEN,2020-03-29,95
+South Korea,KOR,2020-03-29,74
+Sri Lanka,LKA,2020-03-29,90
+Mexico,MEX,2020-03-29,67
+Malaysia,MYS,2020-03-29,86
+Netherlands,NLD,2020-03-29,86
+Norway,NOR,2020-03-29,45
+Panama,PAN,2020-03-29,90
+Papua New Guinea,PNG,2020-03-29,95
+Qatar,QAT,2020-03-29,100
+Romania,ROU,2020-03-29,71
+Rwanda,RWA,2020-03-29,81
+Serbia,SRB,2020-03-29,38
+Turkey,TUR,2020-03-29,90
+Tanzania,TZA,2020-03-29,19
+Uganda,UGA,2020-03-29,86
+Ukraine,UKR,2020-03-29,95
+United States,USA,2020-03-29,67
+Venezuela,VEN,2020-03-29,83
+Vietnam,VNM,2020-03-29,52
+Zimbabwe,ZWE,2020-03-29,67
+Aruba,ABW,2020-03-30,43
+Afghanistan,AFG,2020-03-30,57
+Angola,AGO,2020-03-30,62
+Argentina,ARG,2020-03-30,43
+Australia,AUS,2020-03-30,10
+Austria,AUT,2020-03-30,95
+Belgium,BEL,2020-03-30,86
+Bulgaria,BGR,2020-03-30,52
+Bolivia,BOL,2020-03-30,93
+Canada,CAN,2020-03-30,67
+China,CHN,2020-03-30,67
+Democratic Republic of Congo,COD,2020-03-30,67
+Colombia,COL,2020-03-30,95
+Germany,DEU,2020-03-30,71
+Algeria,DZA,2020-03-30,62
+Spain,ESP,2020-03-30,90
+France,FRA,2020-03-30,86
+United Kingdom,GBR,2020-03-30,71
+Guyana,GUY,2020-03-30,71
+Honduras,HND,2020-03-30,71
+India,IND,2020-03-30,100
+Iceland,ISL,2020-03-30,38
+Israel,ISR,2020-03-30,100
+Jordan,JOR,2020-03-30,100
+Japan,JPN,2020-03-30,62
+Kazakhstan,KAZ,2020-03-30,62
+Kenya,KEN,2020-03-30,95
+South Korea,KOR,2020-03-30,74
+Sri Lanka,LKA,2020-03-30,90
+Malaysia,MYS,2020-03-30,86
+Netherlands,NLD,2020-03-30,86
+Papua New Guinea,PNG,2020-03-30,95
+Qatar,QAT,2020-03-30,100
+Romania,ROU,2020-03-30,71
+Rwanda,RWA,2020-03-30,81
+Serbia,SRB,2020-03-30,38
+Turkey,TUR,2020-03-30,90
+Tanzania,TZA,2020-03-30,19
+Ukraine,UKR,2020-03-30,95
+United States,USA,2020-03-30,67
+Venezuela,VEN,2020-03-30,83
+Vietnam,VNM,2020-03-30,67
+Zimbabwe,ZWE,2020-03-30,100
+Aruba,ABW,2020-03-31,43
+Austria,AUT,2020-03-31,57
+Belgium,BEL,2020-03-31,71
+Bulgaria,BGR,2020-03-31,52
+Bolivia,BOL,2020-03-31,93
+Colombia,COL,2020-03-31,67
+India,IND,2020-03-31,100
+Japan,JPN,2020-03-31,62
+Kenya,KEN,2020-03-31,14
+Sri Lanka,LKA,2020-03-31,90
+Malaysia,MYS,2020-03-31,86
+Romania,ROU,2020-03-31,86
+Rwanda,RWA,2020-03-31,81
+Ukraine,UKR,2020-03-31,95
+Venezuela,VEN,2020-03-31,83

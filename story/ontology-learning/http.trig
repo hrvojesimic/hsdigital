@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <proto:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+:CommunicationProtocol
+  rdfs:label "communication protocol" .
+:ClientServerProtocol
+  rdfs:label "client-server protocol" .
+:Message
+  rdfs:label "message" .
+:MessagePart
+  rdfs:label "message part" .
+:Client
+  rdfs:label "client" .
+:Server
+  rdfs:label "server" .
+
+:Http a :ClientServerProtocol ;
+  rdfs:label "HTTP" ;
+  :fullName "Hypertext Transfer Protocol" .
+
+:ClientServerProtocol rdfs:subClassOf :CommunicationProtocol ;
+  rdfs:label "client-server protocol" .
+
+:HttpMessage rdfs:subClassOf :Message ;
+  rdfs:label "HTTP message" .
+
+:HttpRequest rdfs:subClassOf :HttpMessage ;
+  rdfs:label "HTTP request" ;
+  :receiver :Server ;
+  :sender :Client .
+
+:HttpResponse rdfs:subClassOf :HttpMessage ;
+  rdfs:label "HTTP response" ;
+  :sender :Server ;
+  :receiver :Client .
+
+:HttpMethod a :MessagePart ;
+  rdfs:label "HTTP method" ;
+  :partof :HttpRequest .
+
+:Get a :HttpMethod ;
+  rdfs:label "GET" ;
+  :isIdempotent true ;
+  :isSafe true .
+
+:Post a :HttpMethod ;
+  rdfs:label "POST" ;
+  :isIdempotent false ;
+  :isSafe false .
+
+

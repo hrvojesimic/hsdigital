@@ -1,0 +1,4 @@
+title: Euro COVID-19 map
+features:
+  - d3
+  - topojson

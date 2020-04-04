@@ -1,0 +1,10 @@
+.graphviz svg {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.graphviz text {
+  font-family: Kavivanar;
+}

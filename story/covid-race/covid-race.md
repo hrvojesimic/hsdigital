@@ -1,0 +1,958 @@
+# A race to Wuhan
+
+*Hrvoje Šimić, 2020-03-21*
+
+<p class="low-key card-panel yellow lighten-4">
+<b>Reader beware!</b> I am not an expert in epidemiology, nor do I have enough knowledge or experience to speak authoritatively on the subject. Although made with the best of intentions, some of the conclusions suggested here may be completely wrong! I strongly suggest checking out what experts have to say about it. This analysis uses publicly available pandemic data from <a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University</a>, so if they are not reflecting the true numbers out there in the real world, then these comparisons will not be true either.
+</p>
+
+<span class="dropcap">T</span>he worst thing about epidemics is the way they sneak up on you. Just look at the situation in Spain over the last five Fridays. It started quite mild. On February 21<sup>st</sup> there were only two confirmed cases of Covid-19. A week after that, there were 32. A week after that, 400. Next Friday, the 13<sup>th</sup>, there were 5232. And finally yesterday, over *twenty thousand*!
+
+```vly.exceptMob
+width: 600
+height: 60
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - filter: "datum.country == 'Spain'"
+  - calculate: "(datum.date < 1582934400000)? '' : timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+layer:
+  - mark: circle
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+        title: confirmed cases in Span on specified date
+      y:
+        type: nominal
+        field: country
+        title: null
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: dateLabel
+          title: date
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: {type: text, dy: 16}
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 12}
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+```
+
+```vly.onlyMob
+width: 60
+height: 400
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - filter: "datum.country == 'Spain'"
+  - calculate: "(datum.date < 1582934400000)? '' : timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+layer:
+  - mark: circle
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+        title: confirmed cases in Span on specified date
+      x:
+        type: nominal
+        field: country
+        title: null
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: dateLabel
+          title: datum
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: {type: text, dx: 10, align: left}
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 12}
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+```
+
+It's not easy to show the early epidemic numbers on the number line. Compared to the later ones it is difficult to distinguish them from zero. They squeeze against each other that their marks overlap. But these small numbers, stuck at the bottom of the number line, are important. They represent the seed of evil. Their behavior may reveal how fast will the epidemic grow.
+
+But it is in human nature to ignore these small numbers. We just evolved that way. When our brain tries to predict how fast the trend will continue to move, it only interpolates based on the speed so far. If the speed was low, you just can't imagine how the situation can become significantly different, literally *overnight*.
+
+That is why it is more appropriate to present the early stage of the epidemic on a scale like this:
+
+```vly.exceptMob
+width: 600
+height: 30
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+mark: text
+encoding:
+  x:
+    field: size
+    type: quantitative
+    title: cases
+    scale: {type: log}
+```
+
+```vly.onlyMob
+width: 75
+height: 300
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+mark: text
+encoding:
+  y:
+    field: size
+    type: quantitative
+    title: cases
+    scale: {type: log}
+```
+
+This scale is logarithmic. On it, the number 100 is as far away from one thousand as it is from ten.
+
+The logarithmic scale is convenient because we can display numbers of different orders of magnitude on it. We can compare how many people get on a bike with the number of people who will fill a large stadium. In other words, instead of this:
+
+```vly.exceptMob
+width: 600
+height: 30
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+layer:
+  - mark:
+      type: text
+      fontSize: 15
+      fontWeight: bold
+    encoding:
+      x:
+        field: size
+        type: quantitative
+        title: how many people fit in...
+      text: 
+        field: label
+        type: nominal
+      color: 
+        field: label
+        type: nominal
+        legend: null
+      tooltip: 
+        field: desc
+        type: nominal
+```
+
+```vly.onlyMob
+width: 75
+height: 300
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+layer:
+  - mark:
+      type: text
+      fontSize: 20
+      fontWeight: bold
+    encoding:
+      y:
+        field: size
+        type: quantitative
+        title: how many people fit in...
+      text: 
+        field: label
+        type: nominal
+      color: 
+        field: label
+        type: nominal
+        legend: null
+      tooltip: 
+        field: desc
+        type: nominal
+```
+
+we have this:
+
+```vly.exceptMob
+width: 600
+height: 30
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+layer:
+  - mark:
+      type: text
+      fontSize: 15
+      fontWeight: bold
+    encoding:
+      x:
+        field: size
+        type: quantitative
+        title: how many people fit in...
+        scale: {type: log}
+      text: 
+        field: label
+        type: nominal
+      color: 
+        field: label
+        type: nominal
+        legend: null
+      tooltip: 
+        field: desc
+        type: nominal
+```
+
+```vly.onlyMob
+width: 75
+height: 300
+data:
+  url: "/story/covid-race/size-desc.csv"
+  format: {type: csv}
+layer:
+  - mark:
+      type: text
+      fontSize: 20
+      fontWeight: bold
+    encoding:
+      y:
+        field: size
+        type: quantitative
+        title: how many people fit in...
+        scale: {type: log}
+      text: 
+        field: label
+        type: nominal
+      color: 
+        field: label
+        type: nominal
+        legend: null
+      tooltip: 
+        field: desc
+        type: nominal
+```
+
+In the exponential growth phase, the point representing the accumulated number of cases travels *at a uniform speed* along this logarithmic scale. If it took her a week to break from ten to one hundred, it would take another week to reach one thousand, and then another one to ten thousand.
+
+Looking at the logarithmic scale for the last five Fridays, the average increase in detected Covid-19 cases in Spain shows an almost constant rate of change:
+
+```vly.exceptMob
+width: 600
+height: 60
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - calculate: "timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+  - filter: "datum.country == 'Spain'"
+layer:
+  - mark: circle
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+        title: confirmed cases in Span on specified date
+      y:
+        type: nominal
+        field: country
+        title: null
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: dateLabel
+          title: datum
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: {type: text, dy: 16}
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 12}
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+```
+
+```vly.onlyMob
+width: 80
+height: 600
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - calculate: "timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+  - filter: "datum.country == 'Spain'"
+layer:
+  - mark: circle
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+        title: confirmed cases in Span on specified date
+      x:
+        type: nominal
+        field: country
+        title: null
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: dateLabel
+          title: datum
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: {type: text, dy: 16}
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 12}
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+```
+
+On this chart, small numbers no longer seem so irrelevant. When the data is presented this way, we can more easily predict the danger of an increase in the number of infected people to over 30,000 in the next few days.
+
+Exponential growth is nothing specific to Spain. Take a look at the last five to six Fridays in the countries that have had the largest outbreaks in the period:
+
+```vly.exceptMob
+width: 600
+height: 200
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - calculate: "datum.country == 'South Korea' && datum.date >= 1583100000000 && datum.date < 1584300000000"
+    as: crowded
+  - calculate: "datum.country == 'Iran' && datum.date == 1584057600000"
+    as: enclosed
+  - calculate: "datum.crowded? '' : datum.enclosed? timeFormat(datum.date, '%d.') : timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+  - filter:
+      field: country
+      oneOf:
+        - South Korea
+        - Italy
+        - Iran
+layer:
+  - mark: circle
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+        title: number of cofirmed cases on specific date
+      y:
+        type: nominal
+        field: country
+        title: null
+        axis: {labelFontSize: 13}
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+        scale:
+          domain: ["South Korea", "Italy", "Iran"]
+          range: ["#D68910", "#1A5276", "#1D8348"]
+      tooltip:
+        - field: country
+          type: nominal
+        - field: dateLabel
+          title: datum
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: 
+      type: text
+      dy: 16
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 12
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      x:
+        field: cases
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 2}
+```
+
+```vly.onlyMob
+width: 200
+height: 500
+data:
+  url: "/story/covid-race/covid-weekly.csv"
+  format: {type: csv}
+transform:
+  - {timeUnit: utcmonthdate, field: date, as: md}
+  - calculate: "datum.country == 'South Korea' && datum.date >= 1583100000000 && datum.date < 1584300000000"
+    as: crowded
+  - calculate: "datum.country == 'Iran' && datum.date == 1584057600000"
+    as: enclosed
+  - calculate: "datum.crowded? '' : datum.enclosed? timeFormat(datum.date, '%d.') : timeFormat(datum.date, '%d.%m.')"
+    as: dateLabel
+  - filter:
+      field: country
+      oneOf:
+        - South Korea
+        - Italy
+        - Iran
+layer:
+  - mark: circle
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+        title: number of cofirmed cases on specific date
+      x:
+        type: nominal
+        field: country
+        title: null
+        axis: {labelFontSize: 13}
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+        scale:
+          domain: ["South Korea", "Italy", "Iran"]
+          range: ["#D68910", "#1A5276", "#1D8348"]
+      tooltip:
+        - field: country
+          type: nominal
+        - field: dateLabel
+          title: datum
+          type: nominal
+        - field: cases
+          title: confirmed cases (cumulative)
+          type: quantitative
+  - mark: 
+      type: text
+      align: left
+      dx: 10
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 12
+      text: 
+        field: dateLabel
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      y:
+        field: cases
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 2}
+```
+
+In the last week, we are already seeing a decline in the exponential rate of growth. In the first weeks, marks are equally spaced, but as they enter the tens of thousands, they begin to gather closer. The explosive nature of the epidemic changes as public health measures begin to take effect.
+
+In the Far East, we can see that the exponential rate of growth has been successfully reduced. China has hardly moved on a logarithmic scale in the last week, as the number of new cases is negligible compared to what they have accumulated in the previous two months. But the surrounding countries, especially Japan, South Korea, Singapore, and Taiwan, although the absolute values of new cases are still high, have relatively small shifts on the logarithmic scale compared to the previous weekend. I have marked this shift in the last week with a line:
+
+```vly.exceptMob
+width: 600
+height: 150
+data:
+  url: "/story/covid-race/covid-race-03-20.csv"
+  format: {type: csv}
+transform:
+  - filter:
+      field: country
+      oneOf:
+        - South Korea
+        - Singapore
+        - Japan
+        - China
+        - Taiwan
+layer:
+  - mark: circle
+    encoding:
+      x:
+        field: now
+        title: number of cofirmed cases on Mar 20th and the week before
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: before
+          title: number of cases on Mar 13th
+          type: quantitative
+        - field: now
+          title: number of cases on Mar 20th
+          type: quantitative
+  - mark: 
+      type: text
+      align: left
+      dx: 10
+      baseline: middle
+    encoding:
+      x:
+        field: now
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 18
+      text: 
+        field: country
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      x:
+        field: before
+        type: quantitative
+      x2:
+        field: now
+      y:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 4}
+```
+
+```vly.onlyMob
+width: 200
+height: 600
+data:
+  url: "/story/covid-race/covid-race-03-20.csv"
+  format: {type: csv}
+transform:
+  - filter:
+      field: country
+      oneOf:
+        - South Korea
+        - Singapore
+        - Japan
+        - China
+        - Taiwan
+layer:
+  - mark: circle
+    encoding:
+      y:
+        field: now
+        title: number of cofirmed cases on Mar 20th and the week before
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: before
+          title: number of cases on Mar 13th
+          type: quantitative
+        - field: now
+          title: number of cases on Mar 20th
+          type: quantitative
+  - mark: 
+      type: text
+      angle: -90
+      align: left
+      dx: 10
+      baseline: middle
+    encoding:
+      y:
+        field: now
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 18
+      text: 
+        field: country
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      y:
+        field: before
+        type: quantitative
+      y2:
+        field: now
+      x:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 4}
+```
+
+Western European countries, on the other hand, are not slowing down as much. Their lines are much longer, giving a fivefold or even a fifteenfold increase in the number of reported cases. Turkey reported a 72-fold increase in the same period.
+
+```vly.exceptMob
+width: 600
+height: 340
+data:
+  url: "/story/covid-race/covid-race-03-20.csv"
+  format: {type: csv}
+transform:
+  - calculate: "ceil(datum.now / datum.before) + '×'"
+    as: multiplicity
+  - filter:
+      field: country
+      oneOf:
+        - Austria
+        - Germany
+        - France
+        - Spain
+        - Sweden
+        - Finland
+        - Switzerland
+        - Italy
+        - Norway
+        - Iceland
+        - Belgium
+        - Netherlands
+        - Denmark
+        - United Kingdom
+        - Ireland
+        - Luxembourg
+        - Turkey
+layer:
+  - mark: circle
+    encoding:
+      x:
+        field: now
+        title: number of cofirmed cases on Mar 20th and the week before
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: before
+          title: number of cases on Mar 13th
+          type: quantitative
+        - field: now
+          title: number of cases on Mar 20th
+          type: quantitative
+        - field: multiplicity
+          title: increase
+          type: nominal
+  - mark: 
+      type: text
+      align: left
+      dx: 10
+      baseline: middle
+    encoding:
+      x:
+        field: now
+        type: quantitative
+      y:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 18
+      text: 
+        field: country
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      x:
+        field: before
+        type: quantitative
+      x2:
+        field: now
+      y:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 4}
+```
+
+```vly.onlyMob
+width: 270
+height: 600
+data:
+  url: "/story/covid-race/covid-race-03-20.csv"
+  format: {type: csv}
+transform:
+  - calculate: "ceil(datum.now / datum.before) + '×'"
+    as: multiplicity
+  - filter:
+      field: country
+      oneOf:
+        - Austria
+        - Germany
+        - France
+        - Spain
+        - Sweden
+        - Finland
+        - Switzerland
+        - Italy
+        - Norway
+        - Iceland
+        - Belgium
+        - Netherlands
+        - Denmark
+        - United Kingdom
+        - Ireland
+        - Luxembourg
+        - Turkey
+layer:
+  - mark: circle
+    encoding:
+      y:
+        field: now
+        title: number of cofirmed cases on Mar 20th and the week before
+        type: quantitative
+        scale: 
+          type: log
+          domain: [1,100000]
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: {value: 250}
+      color:
+        type: nominal
+        field: country
+        legend: null
+      tooltip:
+        - field: country
+          type: nominal
+        - field: before
+          title: number of cases on Mar 13th
+          type: quantitative
+        - field: now
+          title: number of cases on Mar 20th
+          type: quantitative
+        - field: multiplicity
+          title: increase
+          type: nominal
+  - mark: 
+      type: text
+      angle: -90
+      align: left
+      dx: 10
+      baseline: middle
+    encoding:
+      y:
+        field: now
+        type: quantitative
+      x:
+        type: nominal
+        field: country
+        axis: null
+      size: 
+        value: 18
+      text: 
+        field: country
+        type: nominal
+      color:
+        type: nominal
+        field: country
+        legend: null
+  - mark: bar
+    encoding:
+      y:
+        field: before
+        type: quantitative
+      y2:
+        field: now
+      x:
+        type: nominal
+        field: country
+        axis: null
+      color:
+        type: nominal
+        field: country
+        legend: null
+config: 
+  bar: {discreteBandSize: 4}
+```
+
+I don't know if the length of these "tails" has any predictive power, but they are surely some systemic factors in the profile of each epidemic that can be observed in the rate of the exponential growth of confirmed cases. Historic data suggests that there is some inertia in tail size, so a country with a longer tail tends to develop more new cases in the next week compared to the countries in a similar position along the logarithmic scale, but with shorter tails.

@@ -1,0 +1,8 @@
+title: COVID pandemic on a log scale
+author: Hrvoje Šimić
+#published: 2020-03-28
+description: Numbers of confirmed COVID-19 cases on a logarithmic scale.
+image: https://hrvoje.simic.digital/story/covid-anim-race/screenshot.png
+features:
+  - d3
+  - moment

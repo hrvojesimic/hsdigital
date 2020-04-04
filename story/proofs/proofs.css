@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.theorem {
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 1.5em;
+  padding: 0.2em;
+  margin: 0.05em;
+  cursor: pointer;
+  border: thin solid transparent;
+}
+
+.theorem > * {
+  pointer-events: none;
+}
+
+.theorem.selected {
+  border-color: gray;
+}
+
+.theorem.proven.false {
+  background: pink;
+  color: maroon;
+}
+
+.theorem.proven.true {
+  background: palegreen;
+}
+
+.theorem .id {
+  color: gray;
+}
+.theorem .id::before {
+  content: "(";
+}
+.theorem .id::after {
+  content: ")";
+}
+
+dig {
+  border-top: solid;
+  font-style: italic;
+}
+
+section#Rules {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 400px) {
+  section#Rule {
+    flex-direction: column;
+  } 
+}
+
+section#Rules {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+}
+
+section#Rules .btn * {
+  pointer-events: none;
+}
