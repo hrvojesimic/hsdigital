@@ -26,6 +26,7 @@ text.level {
   background: white;
   margin: 0;
   padding: 0;
+  z-index: 100;
 }
 #DateOffsetDiv > form {
   display: flex;
@@ -49,7 +50,10 @@ span.switch {
 }
 
 .race { position: relative; }
-
+.onlyMob.race {
+  max-width: 400px;
+  margin: auto;
+}
 
 .glass {
   position:absolute;

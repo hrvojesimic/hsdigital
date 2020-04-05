@@ -13,6 +13,8 @@ Controls are on the bottom of the page. Slider changes display date. Use switche
 <p id="HotspotsH" class="exceptMob race">Loading chart...</p>
 <p id="HotspotsV" class="onlyMob race"  >Loading chart...</p>
 
+<p class="onlyMob">Tip: you can slide your finger across the chart to move through dates.</p>
+
 ## The most populous countries in the world
 
 <p id="PopulousH" class="exceptMob race">Loading chart...</p>
