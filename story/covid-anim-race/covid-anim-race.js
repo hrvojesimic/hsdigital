@@ -153,8 +153,8 @@ function createChart(chartEl) {
 function overlay(chartEl) {
   const overlayGlassEl = document.createElement("div");
   overlayGlassEl.setAttribute("class", "glass");
-  const helpText = chartEl.classList.contains("mobOnly")?
-    "Tap to play. Slide finger to seek." : "Click to play. Use bottom slider to seek.";
+  const helpText = chartEl.classList.contains("onlyMob")?
+    "Tap to play.<br>Slide finger to seek." : "Click to play.<br>Use bottom slider to seek.";
   overlayGlassEl.innerHTML = `<span class="helptext">${helpText}</span>`;
   chartEl.appendChild(overlayGlassEl);
   registerEventHandlers(chartEl, overlayGlassEl);
