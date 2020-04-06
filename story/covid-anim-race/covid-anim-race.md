@@ -45,23 +45,26 @@ Controls are on the bottom of the page. Slider changes display date. Use switche
     <span class="exceptMob">Jan 8</span>
     <span class="slider">
       <input type="range" id="DateOffsetInput" name="dateOffset" value="0" min="0" max="85">
+      <span class="onlyMob sublabel">slider for dates</span>
     </span>
     <span class="exceptMob">yesterday</span>
-    <span class="switch">
+    <span id="arSwitch" class="switch">
       <label>
         <span id="AbsoluteSwitch" onclick="switchAbsRel()" class="exceptMob red-text">Absolute</span>
         <input type="checkbox">
         <span class="lever" onclick="switchAbsRel()"></span>
         <span id="RelativeSwitch" onclick="switchAbsRel()" class="exceptMob">Relative</span>
       </label>
+      <span id="arSwitchSublabel" class="onlyMob sublabel">Absolute</span>
     </span>
-    <span class="switch">
+    <span id="cdSwitch" class="switch">
       <label>
         <span id="CasesSwitch" onclick="switchCaseDed()" class="exceptMob red-text">Cases</span>
         <input type="checkbox">
         <span class="lever" onclick="switchCaseDed()"></span>
         <span id="DeathsSwitch" onclick="switchCaseDed()" class="exceptMob">Deaths</span>
       </label>
+      <span id="cdSwitchSublabel" class="onlyMob sublabel">Cases</span>
     </span>
   </form>
 </div>

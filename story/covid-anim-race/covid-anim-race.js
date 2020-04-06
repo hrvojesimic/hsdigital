@@ -296,7 +296,7 @@ function data4date(date, countries) {
     const divisor = absNumber? 1 : data.population[country]/100000000;
     if (!dataNow || !dataBefore)
       console.log("No " + country + " for " + d1 + " " + dataNow + " " + dataBefore);
-    else if (+dataNow[country] >= 1) {
+    else if (+dataNow[country] >= divisor) {
       const point1 = +dataNow[country] / divisor;
       const point0 = +dataBefore[country] / divisor;
       result.push({
@@ -337,6 +337,7 @@ function switchAbsRel() {
   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
   document.getElementById("AbsoluteSwitch").classList.toggle("red-text");
   document.getElementById("RelativeSwitch").classList.toggle("red-text");
+  document.getElementById("arSwitchSublabel").textContent = absNumber? "Absolute" : "Relative";
 }
 
 function switchCaseDed() {
@@ -344,24 +345,5 @@ function switchCaseDed() {
   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
   document.getElementById("CasesSwitch").classList.toggle("red-text");
   document.getElementById("DeathsSwitch").classList.toggle("red-text");
+  document.getElementById("cdSwitchSublabel").textContent = showDeaths? "Deaths" : "Cases";
 }
-
-// function clickedAbs() {
-//   absNumber = true;
-//   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
-// }
-
-// function clickedRel() {
-//   absNumber = false;
-//   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
-// }
-
-// function clickedDeaths() {
-//   showDeaths = true;
-//   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
-// }
-
-// function clickedCases() {
-//   showDeaths = false;
-//   dateOffsetInputEl.dispatchEvent(new InputEvent('input'));
-// }

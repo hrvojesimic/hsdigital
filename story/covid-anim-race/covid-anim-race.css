@@ -22,12 +22,21 @@ text.level {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2em;
+  height: 3em;
   background: white;
   margin: 0;
   padding: 0;
   z-index: 100;
 }
+@media screen and (min-width: 600px) {
+  .switch label .lever {
+    margin: 0; 
+  }
+  #DateOffsetDiv {
+    height: 2em;
+  }
+}
+
 #DateOffsetDiv > form {
   display: flex;
 }
@@ -45,14 +54,13 @@ span.switch {
   margin: 0 0.5rem 0 0.5rem;
 }
 
-.switch label .lever {
-   margin: 0; 
-}
-
 .race { position: relative; }
 .onlyMob.race {
   max-width: 400px;
   margin: auto;
+}
+.sublabel {
+  text-align: center;
 }
 
 .glass {
