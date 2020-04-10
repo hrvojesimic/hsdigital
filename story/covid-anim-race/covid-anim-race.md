@@ -1,10 +1,10 @@
 # Pandemic on a log scale
 
-*Hrvoje Šimić, 2020-04-06 - live [data from ECDC](https://ourworldindata.org/coronavirus-source-data)*
+*Hrvoje Šimić, 2020-04-10 - live data from [ECDC](https://ourworldindata.org/coronavirus-source-data) and from [OxCRGT](https://covidtracker.bsg.ox.ac.uk/about-api)*
 
-<span class="dropcap">T</span>hese charts show the development of COVID-19 pandemic on a logarithmic scale. Position of the circle shows the cumulative number of reported cases on the specific date, and the "tail" shows the change in that number in the preceding week. For a more detailed explanation, please read [*A race to Wuhan*](/a/covid-race).
+<span class="dropcap">T</span>hese charts show the development of COVID-19 pandemic on a logarithmic scale. Position of the circle shows the cumulative number of cases on the specific date, as reported by [ECDC](https://www.ecdc.europa.eu/en/coronavirus), and the "tail" shows the change in that number in the preceding week. For a more detailed explanation, please read [*A race to Wuhan*](/a/covid-race).
 
-Numbers in the "heads" is the *Government Response Stringency Index* calculated by [The Oxford COVID-19 Government Response Tracker (OxCGRT)](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), divided by ten to fit. The higher the number, the harder the lockdown. This index is not yet calculated for all of the countries and all of the dates, and sometimes the points are only partially awarded, so don't read too much into it.
+Numbers in the "heads" is the *Government Response Stringency Index* calculated by [The Oxford COVID-19 Government Response Tracker (OxCGRT)](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), divided by ten and rounded to fit. The higher the number, the harder the lockdown.
 
 Controls are on the bottom of the page. Slider changes display date. You can also switch between absolute and numbers relative to the population of the country (one per 100 million), and also between the number of confirmed cases and the number of reported deaths.
 

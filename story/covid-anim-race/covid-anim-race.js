@@ -1,4 +1,7 @@
 const START_DATE = "2020-01-08";
+const Yesterday = moment().subtract(1, 'day').startOf('day');
+const END_DATE = Yesterday.format("YYYY-MM-DD");
+
 const LongDimension = 600;
 const AxisDim = 60;
 const HeadRadius = 10;
@@ -42,7 +45,8 @@ const dataUris = {
   owidCases: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
   owidDeaths: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
   populationSource: "/story/covid-anim-race/country-population.csv",
-  oxcgrt: "/story/covid-anim-race/OxCGRT.csv"
+  countryCodes: "/story/euro-neighbours/country-codes-alpha3.json",
+  oxcgrt: `https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/${START_DATE}/${END_DATE}`
 };
 const data = {}, svg = {}, chartArea = {};
 
@@ -55,6 +59,7 @@ function prepareRangeInput() {
   dateOffsetInputEl = document.getElementById('DateOffsetInput');
   const daysPassed = Math.floor(moment().diff(moment(START_DATE), 'days'));
   dateOffsetInputEl.setAttribute("max", daysPassed - 1);
+  dateOffsetInputEl.value = daysPassed - 1;
 }
 
 function loadFromUri(uri) {
@@ -62,6 +67,8 @@ function loadFromUri(uri) {
     return d3.json(uri);
   else if (uri.endsWith(".csv"))
     return d3.csv(uri);
+  else
+    return d3.json(uri);
 }
 
 function store(key, o) {
@@ -276,7 +283,7 @@ function updateChart(chartEl) {
   updatedTadpoles.selectAll("text.level").data(datas, d => d.country)
     // .transition(TransStep)
     .attr("x", d => logScale(d.now))
-    .text(d => d.stringency? Math.floor(d.stringency / 10) : "");
+    .text(d => d.stringency? Math.round(d.stringency / 10) : "");
   updatedTadpoles.selectAll("text.title").data(datas, d => d.country)
     // .transition(TransStep)
     .attr("x",  d => logScale(d.now) + HeadRadius);
@@ -311,8 +318,10 @@ function data4date(date, countries) {
 }
 
 function findStringency(country, dateString) {
-  const datapoint = data.oxcgrt.find(o => o.CountryName === country && o.Date == dateString);
-  if (datapoint) return datapoint.StringencyIndex;
+  const dataForDate = data.oxcgrt.data[dateString];
+  if (!dataForDate) return undefined;
+  const datapoint = dataForDate[data.countryCodes[country]];
+  if (datapoint) return datapoint.stringency;
   else return undefined;
 }
 
