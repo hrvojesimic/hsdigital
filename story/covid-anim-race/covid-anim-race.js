@@ -1,4 +1,4 @@
-const START_DATE = "2020-01-08";
+const START_DATE = "2020-01-16";
 const Yesterday = moment().subtract(1, 'day').startOf('day');
 const END_DATE = Yesterday.format("YYYY-MM-DD");
 
