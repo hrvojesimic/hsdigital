@@ -1,0 +1,8 @@
+title: COVID-19 converging ratios
+author: Hrvoje Šimić
+#published: 2020-03-31
+description: Deaths per case and per recovered patient.
+features:
+  - moment
+  - vega
+  - d3
