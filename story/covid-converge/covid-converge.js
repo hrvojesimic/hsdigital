@@ -1,5 +1,6 @@
-Today = moment().startOf('day');
-StartDate = moment(Today).subtract(40, 'days');
+const Today = moment().startOf('day');
+const StartDate = moment(Today).subtract(40, 'days');
+let lastDate = StartDate.format("YYYY-MM-DD");
 
 const GeoRegions = ({
   "EastAsia": ["Malaysia", "Indonesia", "Thailand", "Taiwan", "Japan", "China", "Singapore", "South Korea"],
@@ -108,6 +109,7 @@ function prepareData() {
     data.all[country] = [];
     for (let date = moment(StartDate); date.isBefore(Today); date.add(1, 'day')) {
       const dateString = date.format("YYYY-MM-DD");
+      if (dateString > lastDate) lastDate = dateString;
       const deaths = allDeaths.find( o => o.country === country && o.sub === "" && o.date == dateString );
       const cases = allCases.find( o => o.country === country && o.sub === "" && o.date == dateString );
       const recoveries = allRecoveries.find( o => o.country === country && o.sub === "" && o.date == dateString );
@@ -178,7 +180,7 @@ function specsFor(country, dataset) {
     layer: [
       {
         data: {values: 
-          dataset.filter(o => o.date === '2020-04-11').map( o => {
+          dataset.filter(o => o.date === lastDate).map( o => {
               o.pct = (Math.round(o.value * 1000) / 10) + "%";
               return o;
             }
@@ -237,14 +239,13 @@ function specsFor(country, dataset) {
   };
 }
 
-
 function createCharts() {
   const chartsDiv = document.getElementById("Charts");
   chartsDiv.innerHTML = "";
   for (let country of AllCountries) {
     const singleDiv = document.createElement("div");
     const dataset = data.all[country].filter(o => o.recoveries > 49);
-    if (dataset.length > 0) {
+    if (dataset.length > 6) {
       const vegaSpec = specsFor(country, dataset);
       vegaEmbed(singleDiv, vegaSpec)
         .catch(console.warn);
