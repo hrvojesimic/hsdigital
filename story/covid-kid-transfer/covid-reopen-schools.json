@@ -20,6 +20,11 @@
     "nursery": "2020-04-13",
     "src": "https://montrealgazette.com/news/local-news/how-other-countries-sent-their-children-back-to-school-amid-covid-19/"
   },
+  "IRL": {
+    "closed": true,
+    "reopening": "2020-09-01",
+    "src": "https://www.mirror.co.uk/news/world-news/ireland-lockdown-eased-mid-schools-21960491"
+  },
   "ISL": {
     "closed": false
   },
