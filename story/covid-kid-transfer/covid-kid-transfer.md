@@ -66,12 +66,12 @@ Ovo je kraći, time vjerojatno i opasniji "most". No uključuje opet iste elemen
 
 Kako bi izračunali spojnu vjerojatnost nameću se pitanja:
 
-- Koliko zaraženih ljudi kola u populaciji, tj. njegovo kućanstvo nije u izolaciji?
+- Koliko zaraženih ljudi kola u populaciji, tj. nisu u (samo)izolaciji?
 - Kolika je vjerojatnost da se dijete zarazi od druge osobe, i u kojim okolnostima?
 - Kolika je vjerojatnost da zarazno dijete dođe u školu? U slučaju da se otkrije kako je bilo u kontaktu sa zaraženom osobom, ili samo pokaže simptome zaraze, vjerojatno ne bi je poslali u školu.
 - Kolika je vjerojatnost da zarazan djelatnik dođe raditi u školu?
 - Kolika je vjerojatnost da učenik prenese zarazu drugom učeniku u razredu? Je li manja nego vjerojatnost prijenosa u kućanstvu, i koliko manja?
-- Kolika je vjerojatnost da inficirano dijete zarazi odraslog ukućanina?
+- Kolika je vjerojatnost da zaraženo dijete zarazi odraslog ukućanina?
 
 Ako ste pratili stanje našeg znanja o novom virusu vjerojatno već imate osjećaj da je na ova pitanja vrlo teško odgovoriti s ikakvom sigurnošću. No svejedno, tu smo gdje smo, i moramo doći do nekog zaključka s onim što imamo. Odbijanje donošenja odluka na temelju oskudnih i nepouzdanih informacija je isto tako odluka, i ona nosi rizike.
 
@@ -85,7 +85,7 @@ Ako se obje hipoteze pokažu točnima, onda se čini logično da bi i vjerojatno
 U tom slučaju se čini razumno otvarati škole prije većine drugih institucija, ako će virusu biti puno teže širiti se kroz njih.
 
 
-## Koliko se često djeca razboljevaju u Hrvatskoj?
+## Koliko se često djeca razbolijevaju u Hrvatskoj?
 
 Na koronavirus.hr imamo [podatke](https://www.koronavirus.hr/otvoreni-strojno-citljivi-podaci/526) o potvrđeno djeci zaraženim COVID-virusom u Hrvatskoj. Djeca koja su godište 2009. do 2018. (vrtić i niži razredi O.Š.) se rijetko kad pojavljuju na toj listi:
 
@@ -141,7 +141,7 @@ encoding:
     field: "*"
 ```
 
-U posljednja dva tjedna brojim samo četiri slučaja u cijeloj Hrvatskoj. Koliko je od njih već bilo u izolaciji jer nisu prvi zaraženi u obitelji? S druge strane, koliko djece nikad nismo testirali i nisu ušli u službenu statistiku? To bi bili ključne informacije da možemo procijeniti šansu da se netko od zaražene djece pojavi u razredu ili u vrtićkoj grupi. No svejedno, ne čini mi se da se djeca u Hrvatskoj često zarazuju koronavirusom ovih dana.
+U posljednja dva tjedna brojim samo četiri slučaja u cijeloj Hrvatskoj. Koliko je od njih već bilo u izolaciji jer nisu prvi zaraženi u obitelji? S druge strane, koliko djece nikad nismo testirali i nisu ušli u službenu statistiku? To bi bili ključne informacije da možemo procijeniti šansu da se netko od zaražene djece pojavi u razredu ili u vrtićkoj grupi. No svejedno, ne čini mi se da se djeca u Hrvatskoj često zaraze koronavirusom ovih dana.
 
 
 ### Znanstvena istraživanja objavljena u časopisima
@@ -303,7 +303,7 @@ Danska je prva u EU otvorila škole, još prije tri tjedna. Nisam našao da se s
 
 ### Norveška
 
-> Broj djece s potvrđenim slučajevima do sada je bio nizak. To bi moglo značiti da djeca ili dobivaju blaže simptome ili ih je manje zaraženo. Budući da su ljudi koji imaju simptome najzarazniji, a djeca imaju malo simptoma, vjerojatno su manje zarazna od odraslih. Kada su osobe sa COVID-19 praćene u Norveškoj, čini se da djeca u maloj mjeri zaraze druge.
+> Broj djece s potvrđenim slučajevima do sada je bio nizak. To bi moglo značiti da djeca ili dobivaju blaže simptome ili ih je manje zaraženo. Budući da su ljudi koji imaju simptome najzarazniji, a djeca imaju malo simptoma, vjerojatno su manje zarazna od odraslih. Kada su osobe s COVID-19 praćene u Norveškoj, čini se da djeca u maloj mjeri zaraze druge.
 
 > U prethodnim epidemijama koronavirusa (MERS i SARS), rijetko kad su zabilježene infekcije među djecom.
 
@@ -330,7 +330,7 @@ Navode i svoje istraživanje, po kojem maloljetnici nisu zarazili niti jedan kon
 
 > Djeca ne igraju značajnu ulogu u prenošenju novog koronavirusa. Djeca rijetko dobiju novi koronavirus. Također imaju manju vjerojatnost da će prenijeti virus.
 
-<figcaption>
+<figcaption class="right-align">
   Swiss Federal Office of Public Health <a href="https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/haeufig-gestellte-fragen.html#188370762">
   Frequently Asked Questions (FAQs) about the new coronavirus
   </a>
@@ -347,4 +347,4 @@ Ovaj pregled stručnih informacija je nepotpun i nesustavan, tako da ga nemojte 
 - Trenutno iskustvo s otvorenim školama u Europi i Aziji ne sugerira da su škole izvor zaraze.
 - Postepeno i pažljivo otvaranje nižih razreda osnovne škole i vrtića koje se trenutno provodi u Europi čini se razumna mjera pomoći ekonomiji, obrazovanju i dobrobiti djece.
 
-Ti zaključci su samo moji, nisu zakljčci stručnjaka. Ne doživljavam ih naročito kontroverzno s obzirom na ono što sam pročitao, ali možda će se vama činiti krivim ili presmionim. To je OK. Volio bih čuti u čemu mislite da sam krivo zaključio, ili koje sam važne dokaze previdio koje mijenjaju te zaključke.
+Ti zaključci su samo moji, nisu zaključci stručnjaka. Ne doživljavam ih naročito kontroverzno s obzirom na ono što sam pročitao, ali možda će se vama činiti krivim ili presmionim. To je OK. Volio bih čuti u čemu mislite da sam krivo zaključio, ili koje sam važne dokaze previdio koje mijenjaju te zaključke.
