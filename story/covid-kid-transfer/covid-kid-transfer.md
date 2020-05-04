@@ -175,7 +175,9 @@ Prvo sam provjerio Europski centar za prevenciju i kontrolu bolesti (ECDC). Oni 
 
 > još je neizvjesno u kojoj mjeri djeca igraju ulogu u prenošenju virusa drugima
 
-<p class="right-align">ECDC, <a href="https://www.ecdc.europa.eu/en/covid-19/questions-answers">Pitanja i odgovori o COVID-19</a></p>
+<figcaption class="right-align">
+  ECDC - <a href="https://www.ecdc.europa.eu/en/covid-19/questions-answers">Pitanja i odgovori o COVID-19</a>
+</figcaption>
 
 No, u svom devetom izdanju brze procjene rizika od COVID-a iznose kratku analizu istraživanja. Između ostalog, navode rezultate po kojima je učestalost zaraze ukućana 4,7% (kod odraslih 17,1%), i kako je dijete četiri puta manje vjerojatno da će se zaraziti od starijih osoba. Zaključuju:
 
