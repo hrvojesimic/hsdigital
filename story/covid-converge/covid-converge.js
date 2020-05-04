@@ -114,8 +114,8 @@ function prepareData() {
       const cases = allCases.find( o => o.country === country && o.sub === "" && o.date == dateString );
       const recoveries = allRecoveries.find( o => o.country === country && o.sub === "" && o.date == dateString );
       if (deaths && cases && recoveries) {
-        const low = deaths.fc / (+deaths.fc + cases.cc);
-        const hi = deaths.fc / (+deaths.fc + recoveries.rc);
+        const low = deaths.fc / cases.cc;
+        const hi = deaths.fc / (deaths.fc + recoveries.rc);
         data.all[country].push({
           country: country,
           date: dateString,
@@ -245,7 +245,7 @@ function createCharts() {
   for (let country of AllCountries) {
     const singleDiv = document.createElement("div");
     const dataset = data.all[country].filter(o => o.recoveries > 49);
-    if (dataset.length > 6) {
+    if (dataset.length > 9) {
       const vegaSpec = specsFor(country, dataset);
       vegaEmbed(singleDiv, vegaSpec)
         .catch(console.warn);
