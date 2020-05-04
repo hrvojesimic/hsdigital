@@ -1,0 +1,156 @@
+{
+  "AUT": {
+    "closed": true,
+    "reopening": "2020-05-18",
+    "src": "https://www.voanews.com/covid-19-pandemic/austria-will-reopen-schools-split-classes-next-month"
+  },
+  "BLR": {
+    "closed": false,
+    "reopening": "2020-04-20",
+    "src": "https://www.bbc.com/news/world-europe-52421723"
+  },
+  "ROU": {
+    "closed": true,
+    "reopening": "2020-09-01",
+    "src": "https://bbj.hu/region/romanian-schools-unis-will-not-reopen-this-school-year-president-says_182013"
+  },
+  "DNK": {
+    "closed": true,
+    "reopening": "2020-04-13",
+    "nursery": "2020-04-13",
+    "src": "https://montrealgazette.com/news/local-news/how-other-countries-sent-their-children-back-to-school-amid-covid-19/"
+  },
+  "ISL": {
+    "closed": false
+  },
+  "SWE": {
+    "closed": false
+  },
+  "UKR": {
+    "closed": true
+  },
+  "BIH": {
+    "closed": true
+  },
+  "SRB": {
+    "closed": true
+  },
+  "IRL": {
+    "closed": true
+  },
+  "BGR": {
+    "closed": true,
+    "reopening": "2020-09-01",
+    "src": "https://www.bnr.bg/en/post/101267642/bulgaria-s-schools-to-reopen-only-for-end-of-school-year-exams"
+  },
+  "GRC": {
+    "closed": true,
+    "reopening": "2020-06-01",
+    "src": "https://greekcitytimes.com/2020/04/29/how-will-greece-gradually-reopen-after-the-pandemic/"
+  },
+  "TUR": {
+    "closed": true,
+    "reopening": "2020-06-01",
+    "src": "https://www.hurriyetdailynews.com/school-may-be-reopened-on-june-1-minister-154321"
+  },  
+  "PRT": {
+    "closed": true,
+    "reopening": "2020-06-01",
+    "src": "https://www.rte.ie/news/coronavirus/2020/0430/1135935-portugal/"
+  },
+  "NOR": {
+    "closed": true,
+    "reopening": "2020-04-27",
+    "nursery": "2020-04-20",
+    "src": "https://www.thelocal.no/20200427/norway-opens-first-schools-after-six-week-coronavirus-closure"
+  },
+  "FRA": {
+    "closed": true,
+    "reopening": "2020-05-11",
+    "nursery": "2020-05-11",
+    "src": "https://www.thelocal.fr/20200413/macron-extends-lockdown-as-frances-coronavirus-death-toll-nears-15000"
+  },
+  "NLD": {
+    "closed": true,
+    "reopening": "2020-05-11",
+    "nursery": "2020-05-11",
+    "src": "https://www.politico.eu/article/coronavirus-dutch-to-reopen-schools-but-bars-restaurants-to-remain-closed/"
+  },
+  "SVN": {
+    "closed": true,
+    "reopening": "2020-05-18",
+    "nursery": "2020-05-18",
+    "src": "https://www.usnews.com/news/world/articles/2020-04-29/slovenia-eases-restrictions-as-coronavirus-curbed"
+  },
+  "POL": {
+    "closed": true,
+    "reopening": "2020-05-24",
+    "nursery": "2020-05-24",
+    "src": "https://nationalpost.com/pmn/health-pmn/poland-to-keep-schools-closed-until-may-24-because-of-coronavirus"
+  },
+  "CHE": {
+    "closed": true,
+    "reopening": "2020-05-11",
+    "nursery": "2020-05-11",
+    "src": "https://lenews.ch/2020/04/29/coronavirus-swiss-schools-and-other-establishments-set-to-reopen/"
+  },
+  "HRV": {
+    "closed": true,
+    "reopening": "2020-05-11",
+    "nursery": "2020-05-11"
+  },
+  "DEU": {
+    "closed": true,
+    "reopening": "2020-05-04",
+    "nursery": null,
+    "src": "https://www.dw.com/en/coronavirus-german-easing-of-lockdown-to-start-with-schools-on-may-4/a-53127607"
+  },
+  "ESP": {
+    "closed": true,
+    "reopening": null,
+    "nursery": null,
+    "src": "https://www.ft.com/content/fdf893d5-40a0-4645-87fb-471b0f5e7ad0"
+  },
+  "SVK": {
+    "closed": true,
+    "reopening": null,
+    "nursery": null,
+    "src": "https://www.ft.com/content/fdf893d5-40a0-4645-87fb-471b0f5e7ad0"
+  },
+  "CZE": {
+    "closed": true,
+    "reopening": "2020-05-11",
+    "nursery": null,
+    "src": "https://www.radio.cz/en/section/curraffrs/overview-of-latest-coronavirus-measures-in-czech-republic"
+  },
+  "BEL": {
+    "closed": true,
+    "reopening": "2020-05-14",
+    "nursery": null,
+    "src": "https://yle.fi/uutiset/osasto/news/govt_finnish_schools_to_reopen_from_14_may/11329714"
+  },
+  "FIN": {
+    "closed": true,
+    "reopening": "2020-05-14",
+    "nursery": null,
+    "src": "https://yle.fi/uutiset/osasto/news/govt_finnish_schools_to_reopen_from_14_may/11329714"
+  },
+  "ITA": {
+    "closed": true,
+    "reopening": "2020-09-01",
+    "nursery": null,
+    "src": "https://www.ft.com/content/fdf893d5-40a0-4645-87fb-471b0f5e7ad0"
+  },
+  "GBR": {
+    "closed": true,
+    "reopening": "2020-06-01",
+    "nursery": null,
+    "src": "https://www.bbc.com/news/education-52469939"
+  },
+  "HUN": {
+    "closed": true,
+    "reopening": "2020-06-01",
+    "nursery": null,
+    "src": "https://www.reuters.com/article/health-coronavirus-hungary-restrictions/update-1-hungarian-schools-to-remain-closed-until-end-of-may-government-idUSL8N2CI4GB"
+  }
+}

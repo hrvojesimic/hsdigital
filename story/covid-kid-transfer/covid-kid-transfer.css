@@ -1,0 +1,24 @@
+.graphviz svg {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.graphviz text {
+  font-family: Kavivanar;
+}
+
+.countryDate {
+  text-anchor: middle;
+  dominant-baseline: middle;
+  font-size: 1.5rem;
+}
+
+figure#ReopeningFig {
+  margin: 2px;
+}
+
+figcaption.right-align {
+  margin-left: 25%;
+}

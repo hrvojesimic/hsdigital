@@ -1,0 +1,9 @@
+title: COVID-19 kid transfer
+author: Hrvoje Šimić
+#published: 2020-03-31
+description: Cases per day in the last few weeks show the current trend of COVID-19 growth.
+#image: https://hrvoje.simic.digital/story/covid-daily/screenshot2.png
+features:
+  - d3
+  - topojson
+  - moment
