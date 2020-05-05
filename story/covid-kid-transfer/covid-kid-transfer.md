@@ -179,7 +179,7 @@ Prvo sam provjerio Europski centar za prevenciju i kontrolu bolesti (ECDC). Oni 
   ECDC - <a href="https://www.ecdc.europa.eu/en/covid-19/questions-answers">Pitanja i odgovori o COVID-19</a>
 </figcaption>
 
-No, u svom devetom izdanju brze procjene rizika od COVID-a iznose kratku analizu istraživanja. Između ostalog, navode rezultate po kojima je učestalost zaraze ukućana 4,7% (kod odraslih 17,1%), i kako je dijete četiri puta manje vjerojatno da će se zaraziti od starijih osoba. Zaključuju:
+No, u svom devetom izdanju brze procjene rizika od COVID-a iznose kratku analizu istraživanja. Između ostalog, navode rezultate po kojima je učestalost zaraze ukućana kod djece 4,7% (kod odraslih 17,1%), i kako je dijete četiri puta manje vjerojatno da će se zaraziti od starijih osoba. Zaključuju:
 
 > Čini se kako se rijetko događa da dijete zarazi odraslu osobu.
 > Podaci (...) ukazuju kako nije vjerojatno da su djeca primarni izvor slučajeva zaraze.
@@ -344,9 +344,9 @@ Ovaj pregled stručnih informacija je nepotpun i nesustavan, tako da ga nemojte 
 
 - Velika je vjerojatnost da djeca ponekad prenose virus.
 - Velika je vjerojatnost da djeca nisu glavni prenositelji.
-- Dokazi trenutno prevažu na stranu da se djeca značajno teže mogu zaraziti.
+- Dokazi trenutno prevažu na stranu da je značajno manje vjerojatno za dijete da se zarazi.
 - Dokazi trenutno prevažu na stranu da su djeca znatno manje zarazna.
 - Trenutno iskustvo s otvorenim školama u Europi i Aziji ne sugerira da su škole izvor zaraze.
 - Postepeno i pažljivo otvaranje nižih razreda osnovne škole i vrtića koje se trenutno provodi u Europi čini se razumna mjera pomoći ekonomiji, obrazovanju i dobrobiti djece.
 
-Ti zaključci su samo moji, nisu zaključci stručnjaka. Ne doživljavam ih naročito kontroverzno s obzirom na ono što sam pročitao, ali možda će se vama činiti krivim ili presmionim. To je OK. Volio bih čuti u čemu mislite da sam krivo zaključio, ili koje sam važne dokaze previdio koje mijenjaju te zaključke.
+Ti zaključci su samo moji, nisu zaključci stručnjaka. Ne doživljavam ih naročito kontroverznima s obzirom na ono što sam pročitao, ali možda će se vama činiti krivim ili presmionim. To je OK. Volio bih čuti u čemu mislite da sam krivo zaključio, ili koje sam važne dokaze previdio koje mijenjaju te zaključke.
