@@ -1,5 +1,5 @@
 const Today = moment().startOf('day');
-const StartDate = moment(Today).subtract(40, 'days');
+const StartDate = moment(Today).subtract(90, 'days');
 let lastDate = StartDate.format("YYYY-MM-DD");
 
 const GeoRegions = ({
