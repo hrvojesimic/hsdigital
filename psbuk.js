@@ -1,6 +1,57 @@
+const data = {};
+const dataCallbacks = {};
+
 let elid = 0;
 let specs = {};
 let story = null;
+
+const vegaEmbeds = [];
+
+function onAvailable(dataset, callback) {
+  const a = dataCallbacks[dataset]? dataCallbacks[dataset] : [];
+  a.push(callback);
+  dataCallbacks[dataset] = a;
+}
+
+function prepare() {
+  if (!preparation) 
+    console.warn("No preparation object!");
+  for (let key in preparation) {
+    const p = preparation[key];
+    if (typeof p === 'string')
+      loadFromUri(p).then(o => store(key, o));
+    else {
+      if (p.uri && p.augment) {
+        loadFromUri(p.uri).then(o => store(key, o.map(p.augment)));
+      }
+    }
+  }
+}
+
+function store(key, o) {
+  data[key] = o;
+  for (let dataCallback of (dataCallbacks[key] || [])) {
+    console.log("Calling back for " + key);
+    dataCallback(o);
+  }
+  if (Object.keys(data).length === Object.keys(preparation).length) {
+    console.log("data object completed.");
+    if (typeof dataCompleted === "function")
+      dataCompleted();
+  }
+  const keysCompleted = Object.keys(data);
+  for (let key in preparation) {
+    if (data[key]) continue;
+    const prep = preparation[key];
+    if (prep.waitFor && prep.construction) {
+      const stillWaitingFor = prep.waitFor.filter( x => !keysCompleted.includes(x) );
+      if (stillWaitingFor.length === 0)
+        store(key, prep.construction());
+      else
+        console.log(key + " still waiting for " + stillWaitingFor);
+    }
+  }
+}
 
 const mainEl = document.getElementsByTagName('main').item(0);
 
@@ -38,6 +89,12 @@ function activateVly() {
       container.setAttribute(attr.name, attr.value);
     }
     vegaEmbed(chartEl, vegaSpec)
+      .then(ve => {
+        vegaEmbeds.push(ve);
+        const dataSource = vegaSpec.data.name;
+        if (dataSource)
+          onAvailable(dataSource, d => ve.view.insert(dataSource, d).runAsync() );
+      })
       .catch(console.warn);
     el.replaceWith(container);
   }
@@ -150,9 +207,21 @@ function loadContent(id) {
       onFeature('vizjs', embedVizjs);
       onFeature('vega', activateVly);
       onFeature('backgrid', activateBackgrids);
-      if (typeof executeLocalScript === 'function' )
-        executeLocalScript();
+      prepare();
     } );
+}
+
+function loadFromUri(uri) {
+  if (uri.endsWith("json") || uri.includes("/json/"))
+    return fetch(uri).then(r => r.json());
+  if (d3) {
+    if (uri.endsWith("csv") || uri.includes("/csv/"))
+      return d3.csv(uri);
+  }
+  else {
+    console.warn("d3 NOT INCLUDED!");
+    return [];
+  }
 }
 
 loadContent(mainEl.getAttribute('data-story-id'));

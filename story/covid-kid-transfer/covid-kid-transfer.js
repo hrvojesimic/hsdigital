@@ -15,7 +15,7 @@ const lambertAzimuthalEqualArea =
     .precision(0.1);
 const path = d3.geoPath(lambertAzimuthalEqualArea);
 
-var dataUris = {
+var preparation = {
   world: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
   countryCentroids: "/story/euro-neighbours/country-centroids.json",
   reopens: "/story/covid-kid-transfer/covid-reopen-schools.json",
@@ -23,20 +23,8 @@ var dataUris = {
   aliases: "/story/euro-neighbours/country-codes-alpha3.json",
   hues: "/story/euro-neighbours/country-hues.json",
 };
-var data = {};
 
-function executeLocalScript() {
-  for (let key in dataUris)
-    loadFromUri(dataUris[key]).then(o => store(key, o));
-}
-
-function store(key, o) {
-  data[key] = o;
-  if (Object.keys(data).length === Object.keys(dataUris).length)
-    constructPageDetails();
-}
-
-function constructPageDetails() {
+function dataCompleted() {
   document.querySelectorAll("ul").forEach(o => o.classList.add("browser-default"));
   createMap();
   addMapSources();
@@ -128,11 +116,4 @@ function countryNodes() {
     }
   }
   return result.join("\n");
-}
-
-function loadFromUri(uri) {
-  if (uri.endsWith(".json"))
-    return d3.json(uri);
-  else if (uri.endsWith(".csv"))
-    return d3.csv(uri);
 }

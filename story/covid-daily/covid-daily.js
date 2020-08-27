@@ -87,24 +87,20 @@ const AllCountries = Object.keys(DisplayName);
 
 const latestCases = {}, latestDeaths = {};
 
-const dataUris = {
+const preparation = {
   owidNC: "https://covid.ourworldindata.org/data/ecdc/new_cases.csv",
   owidND: "https://covid.ourworldindata.org/data/ecdc/new_deaths.csv"
 };
-const data = {};
 
 function executeLocalScript() {
   for (let key in dataUris)
     loadFromUri(dataUris[key]).then(o => store(key, o));
 }
 
-function store(key, o) {
-  data[key] = o;
-  if (Object.keys(data).length === Object.keys(dataUris).length) {
-    prepareData();
-    createCharts(CASES);
-    createCharts(DEATHS);
-  }
+function dataCompleted() {
+  prepareData();
+  createCharts(CASES);
+  createCharts(DEATHS);
 }
 
 function prepareData() {
@@ -238,13 +234,4 @@ function sumLast(dataset, c) {
     return 0;
   }
   return cdata.map(o => o.value).reduce((a,b) => a + b, 0);
-}
-
-function loadFromUri(uri) {
-  if (uri.endsWith(".json"))
-    return d3.json(uri);
-  else if (uri.endsWith(".csv"))
-    return d3.csv(uri);
-  else if (uri.endsWith("/csv"))
-    return d3.csv(uri, {mode: "no-cors"});
 }

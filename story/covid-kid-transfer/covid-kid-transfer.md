@@ -87,7 +87,7 @@ U tom slučaju se čini razumno otvarati škole prije većine drugih institucija
 
 ## Koliko se često djeca razbolijevaju u Hrvatskoj?
 
-Na koronavirus.hr imamo [podatke](https://www.koronavirus.hr/otvoreni-strojno-citljivi-podaci/526) o potvrđeno djeci zaraženim COVID-virusom u Hrvatskoj. Djeca koja su godište 2009. do 2018. (vrtić i niži razredi O.Š.) se rijetko kad pojavljuju na toj listi:
+Na koronavirus.hr imamo [podatke](https://www.koronavirus.hr/otvoreni-strojno-citljivi-podaci/526) o djeci potvrđeno zaraženoj novim koronavirusom u Hrvatskoj. Djeca koja su godište 2009. do 2018. (vrtić i niži razredi O.Š.) se rijetko kad pojavljuju na toj listi:
 
 ```vly.exceptMob
 width: 550

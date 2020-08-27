@@ -41,19 +41,14 @@ const CountrySets = ({
 });
 const CountryLabels = {"United States": "USA", "United Kingdom": "UK"};
 
-const dataUris = {
+const preparation = {
   owidCases: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
   owidDeaths: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
   populationSource: "/story/covid-anim-race/country-population.csv",
   countryCodes: "/story/euro-neighbours/country-codes-alpha3.json",
-  oxcgrt: `https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/${START_DATE}/${END_DATE}`
+  oxcgrt: `https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/${START_DATE}/${END_DATE}#json`
 };
-const data = {}, svg = {}, chartArea = {};
-
-function executeLocalScript() {
-  for (let key in dataUris)
-    loadFromUri(dataUris[key]).then(o => store(key, o));
-}
+const svg = {}, chartArea = {};
 
 function prepareRangeInput() {
   dateOffsetInputEl = document.getElementById('DateOffsetInput');
@@ -62,22 +57,7 @@ function prepareRangeInput() {
   dateOffsetInputEl.value = daysPassed - 1;
 }
 
-function loadFromUri(uri) {
-  if (uri.endsWith(".json"))
-    return d3.json(uri);
-  else if (uri.endsWith(".csv"))
-    return d3.csv(uri);
-  else
-    return d3.json(uri);
-}
-
-function store(key, o) {
-  data[key] = o;
-  if (Object.keys(data).length === Object.keys(dataUris).length)
-    initializePage();
-}
-
-function initializePage() {
+function dataCompleted() {
   prepareRangeInput();
   interpolate(data.owidCases);
   interpolate(data.owidDeaths);

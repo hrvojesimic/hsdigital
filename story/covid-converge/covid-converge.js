@@ -172,7 +172,7 @@ function expand(e, cumulativeKey, additiveKey) {
 function specsFor(country, dataset) {
   const ctxt = DisplayName[country];
   return {
-    "width": 350,
+    "width": 250,
     "height": 150,
     "data": { 
       values: dataset 

@@ -42,7 +42,7 @@ Controls are on the bottom of the page. Slider changes display date. You can als
 
 <div id="DateOffsetDiv">
   <form>
-    <span class="exceptMob">Jan 8</span>
+    <span class="exceptMob">Jan 16</span>
     <span class="slider">
       <input type="range" id="DateOffsetInput" name="dateOffset" value="0" min="0" max="85">
       <span class="onlyMob sublabel">slider for dates</span>
