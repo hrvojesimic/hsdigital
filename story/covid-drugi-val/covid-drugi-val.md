@@ -116,7 +116,7 @@ Sredina ljeta je očito bilo razdoblje kad je puno mladih ljudi došlo u kontakt
 
 ## Relativna zaraženost po dobi
 
-No apsolutni brojevi ne prenose cijelu sliku, zato što nisu sve dobne skupine jednako brojne. Pogledajmo kako izgleda starosna razdioba stanovništva prema [procjeni](https://www.dzs.hr/Hrv_Eng/publication/2019/07-01-03_01_2019.htm) Državnog zavoda za statistiku za 2018. godinu. Budući da su sve godine iznad 85. morao sam imputirati distribuciju, na grafu označeno svijetlosivo.
+No apsolutni brojevi ne prenose cijelu sliku, zato što nisu sve dobne skupine jednako brojne. Pogledajmo kako izgleda starosna razdioba stanovništva prema [procjeni](https://www.dzs.hr/Hrv_Eng/publication/2019/07-01-03_01_2019.htm) Državnog zavoda za statistiku za 2018. godinu. Budući da su sve godine iznad 85. procjenjene skupa morao sam imputirati distribuciju, što je na grafu označeno svijetlosivo.
 
 ```vly
 width: 300
@@ -190,7 +190,7 @@ encoding:
       title: od 1000
 ```
 
-Sad vidimo kako su u prvom valu osobe starije od 80 bile disproporcionalno zastupljene. Uzrok tome je vjerojatno proboj virusa u neke staračke domove. U drugom valu stariji građani su izgleda bili bolje zaštićeni, pa se ne ističu.
+Sad vidimo kako su u prvom valu osobe starije od 80 bile disproporcionalno zastupljene. Uzrok tome je vjerojatno proboj virusa u neke staračke domove. U drugom valu stariji građani su izgleda bili bolje zaštićeni, pa se na grafu ne ističu.
 
 ## Regionalna analiza
 
@@ -266,7 +266,7 @@ encoding:
 
 Razlike su drastične: u Dalmaciji je COVID-19 tri puta češći nego u Zapadnoj Hrvatskoj, a županije oko Zagreba su duplo manje pogođene u odnosu na grad Zagreb.
 
-Apsolutni brojevi po dijelovima države u prvom i drugom valu izgledaju ovako:
+Pogledajmo apsolutne brojeve slučajeva po dijelovima države u prvom i drugom valu:
 
 ```vly.exceptMob
 width:  130
@@ -339,7 +339,7 @@ encoding:
     title: null
 ```
 
-Prvi val svugdje izgleda slično, no drugi val se znatno razlikuje po tom mladenačkom vrhu. U Dalmaciji je najizraženiji, a ni Zagreb ne zaostaje. Nešto je manje izražen u ostatku središnje Hrvatske, u Slavoniji se jedva nazire. Na sjevernom Jadranu, u tri najzapadnije županije, praktički ga nema.
+Prvi val svugdje izgleda slično, no drugi val se znatno razlikuje po tom mladenačkom vrhu. U Dalmaciji je najizraženiji, a ni Zagreb ne zaostaje. Manje je izražen u ostatku središnje Hrvatske, u Slavoniji se jedva nazire. Na sjevernom Jadranu, u tri najzapadnije županije, praktički ga nema.
 
 Starosna razdioba stanovništva po županijama, daje procjene u dobnim skupinama po pet godišta (0-4, 5-9, itd.), s tim da je posljednja kategorija "85+". Ovaj put nisam radio imputiranje, nego sam dobnu skupinu 85-99 stavio u zadnji stupac grafa. Dobne kategorije koje su u prosjeku ispod 10 slučajeva po godištu sam linearno izblijedio da naglasim relativnu važnost.
 
