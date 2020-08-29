@@ -7,6 +7,27 @@ let story = null;
 
 const vegaEmbeds = [];
 
+const hrOptions = {
+  formatLocale: {
+    decimal: ',',
+    thousands: '.',
+    grouping: [3],
+    currency: ['', '\u00a0kn']
+  },
+  timeFormatLocale: {
+    dateTime: '%A, der %e. %B %Y, %X',
+    date: '%d.%m.%Y',
+    time: '%H:%M:%S',
+    periods: ['AM', 'PM'],
+    days: ['nedjelja', 'ponedjeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'],
+    shortDays: ['pon', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'],
+    months: [
+      'siječanj', 'veljača', 'ožujak', 'travanj', 'svibanj', 'lipanj', 'srpanj', 'kolovoz', 'rujan', 'listopad', 'studeni', 'prosinac'
+    ],
+    shortMonths: ['Sij', 'Velj', 'Ožu', 'Tra', 'Svi', 'Lip', 'Srp', 'Kol', 'Ruj', 'Lis', 'Stu', 'Pro']
+  }
+};
+
 function onAvailable(dataset, callback) {
   const a = dataCallbacks[dataset]? dataCallbacks[dataset] : [];
   a.push(callback);
@@ -88,7 +109,7 @@ function activateVly() {
     for (let attr of el.attributes) {
       container.setAttribute(attr.name, attr.value);
     }
-    vegaEmbed(chartEl, vegaSpec)
+    vegaEmbed(chartEl, vegaSpec, vegaOptions())
       .then(ve => {
         vegaEmbeds.push(ve);
         const dataSource = vegaSpec.data.name;
@@ -98,6 +119,11 @@ function activateVly() {
       .catch(console.warn);
     el.replaceWith(container);
   }
+}
+
+function vegaOptions() {
+  if (story.lang === 'hr') return hrOptions;
+  else return {};
 }
 
 function activateBackgrids() {

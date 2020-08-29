@@ -1,7 +1,8 @@
-title: Val zaraze
+title: Drugi val
+lang: hr
 author: Hrvoje Šimić
-#published: 2020-08
-description: opis
+published: 2020-08-29
+description: Hrvatsku je zapljusnuo drugi val pandemije. U njemu je najviše mladih ljudi koji se ovih dana vraćaju u svoje sredine, u srednju školu, na fakultet i radna mjesta.
 features:
   - d3
   - d3-array
