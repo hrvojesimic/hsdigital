@@ -1,0 +1,37 @@
+.schart {
+  text-align: center;
+}
+
+#Chart {
+  cursor: move;
+}
+
+.chartArea path {
+  stroke-width: 1.5;
+}
+
+.casesArea {
+  fill:   lightskyblue;
+  stroke: darkblue;
+}
+
+.deathsArea {
+  fill:   red;
+  stroke: firebrick;
+  fill-opacity: 0.4;
+}
+
+g.leftAxis {
+  color: darkblue;
+}
+
+g.rightAxis {
+  color: firebrick;
+}
+
+.offsetLabel > text {
+  fill: firebrick;
+  text-anchor: middle;
+  opacity: 1;
+  font-size: 2rem;
+}

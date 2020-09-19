@@ -216,6 +216,12 @@ function replaceWithSteps(steps) {
   }
 }
 
+function configureD3() {
+  const opts = vegaOptions();
+  if (opts.timeFormatLocale)
+    d3.timeFormatDefaultLocale(opts.timeFormatLocale);
+}
+
 function onFeature(feature, fn) {
   if (story.features.includes(feature))
    fn();
@@ -228,6 +234,7 @@ function loadContent(id) {
       story = o;
       replaceWithSteps(o.steps);
       document.title = o.title;
+      onFeature('d3', configureD3);
       onFeature('vega', embedVegaLites);
       onFeature('tabulators', embedTabulators);
       onFeature('vizjs', embedVizjs);
