@@ -53,20 +53,19 @@ function drawYAxis() {
 }
 
 function addSimpleCharts() {
-  const smallChartDims = {width: 350, height: 200, left: 40, right: 40, top: 10, bottom: 43};
   for (let el of document.querySelectorAll('.schart')) {
     simpleChart(
       el, 
       el.dataset.territory, 
-      smallChartDims,
       el.dataset
     );
   }
 }
 
-function simpleChart(node, territory, dims, 
-  {showc = true, show = 'cd', dmax, offset=0, radius=15} = {}
-) {
+function simpleChart(node, territory, {showc = true, show = 'cd', dmax, offset=0, radius=15}) {
+  const dims = {
+    width: 350, height: 200, left: 40, right: 40, top: 10, bottom: (offset > 0)? 43 : 20
+  };
   const tdata = calculateData(territory, +radius);
   const uniqueId = nextUniqueId();
 

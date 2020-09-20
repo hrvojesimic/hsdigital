@@ -1,9 +1,9 @@
 title: Preklop
 lang: hr
 author: Hrvoje Šimić
-#published: 2020-08-29
-#image: https://hrvoje.simic.digital/story/covid-preklop/screen.png
-description: ...
+#published: 2020-09-21
+image: https://hrvoje.simic.digital/story/covid-preklop/preklop-graf.png
+description: Krivulja smrti prati krivulju novih slučajeva zaraze COVID-19 virusom. No u drugom valu dogodilo se nešto neočekivano.
 features:
   - d3
   - moment
