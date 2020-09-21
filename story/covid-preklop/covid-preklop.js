@@ -1,14 +1,26 @@
-const Countries = "Croatia,Slovenia,Germany,Italy,Sweden,Spain,France,Israel,Romania,Australia,Greece,Hungary,Belgium,Denmark,Turkey,Serbia,Austria,Poland,Switzerland,United Kingdom,Japan,New Zealand,India,South Africa,United States,Brazil,Mexico,South Korea,Taiwan,Russia,Ireland,Iceland".split(",").sort();
+const Regions = {
+  "WestEurope": ["Ireland", "United Kingdom", "France", "Spain", "Portugal", "Germany", "Denmark", "Netherlands", "Belgium", "Italy", "Austria", "Switzerland", "Sweden", "Norway", "Finland", "Iceland", "Luxembourg"],
+  "EastEurope": ["Poland", "Ukraine", "Belarus", "Slovenia", "Bosnia and Herzegovina", "Serbia", "Hungary", "Albania", "Romania", "Bulgaria", "Greece", "Slovakia", "Czechia", "Macedonia", "Kosovo", "Montenegro", "Latvia", "Lithuania", "Estonia", "Cyprus", "Moldova"]
+};
 
 let svg, dx = 0, sy = 1, lastX = 0, lastY = 0, chartEl, deathsAreaEl, xScale, yAxisRedrawTimer;
 let uniqueIdCounter = 1;
 
 const START_DATE = new Date('2020-02-14');
-const END_DATE = new Date('2020-09-18');
+const END_DATE = new Date('2020-09-19');
 
 const preparation = {
-  owidDeaths: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
-  owidCases: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv"
+  world: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+  owidDeaths: {
+    //uri: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
+    uri: "/story/covid-preklop/total_deaths.csv",
+    augment: augmentRegions
+  },
+  owidCases: {
+    //uri: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
+    uri: "/story/covid-preklop/total_cases.csv",
+    augment: augmentRegions
+  }
 };
 
 function constructDataset() {
@@ -39,6 +51,7 @@ function calculateData(territory, avgw) {
 
 function dataCompleted() {
   addSimpleCharts();
+  createMap();
 }
 
 function drawYAxis() {
@@ -71,8 +84,7 @@ function simpleChart(node, territory, {showc = true, show = 'cd', dmax, offset=0
 
   const topSvg = d3.select(node)
     .append("svg")
-      .attr("width", dims.width + dims.left + dims.right)
-      .attr("height", dims.height + dims.top + dims.bottom);
+      .attr("viewBox", `0,0,${dims.width + dims.left + dims.right},${dims.height + dims.top + dims.bottom}`);
   
   topSvg.append("defs").html(`
     <pattern id="${uniqueId}" viewBox="0,0,${offset},100" width="10%" height="100%" stroke="black" stroke-opacity="30%" stroke-width="0.5">
@@ -161,4 +173,60 @@ function addDays(date, days) {
   var result = new Date(date);
   result.setTime(result.getTime() + 86400000*days);
   return result;
+}
+
+function augmentRegions(row) {
+  for (let region in Regions) {
+    let sum = 0;
+    for (let country of Regions[region]) {
+      sum += row[country]? +row[country] : 0;
+    }
+    row[region] = sum;
+  }
+  return row;
+}
+
+const circle = d3.geoCircle();
+let graticule = d3.geoGraticule10();
+
+const lambertAzimuthalEqualArea = 
+  d3.geoAzimuthalEqualArea()
+    .rotate([-17, -52.8])
+    .translate([400, 338])
+    .scale(1100)
+    .precision(0.1);
+const path = d3.geoPath(lambertAzimuthalEqualArea);
+
+function createMap() {
+  const land = topojson.feature(data.world, data.world.objects.land);
+  const countries = topojson.feature(data.world, data.world.objects.countries);
+  const map = `<svg viewBox="0 0 800 660" style="display: block; background: lightskyblue">
+    <path d="${path(graticule)}" stroke="white" fill="none"></path>
+    <path d="${path(land)}" fill="#bbb" stroke="#333"></path>
+    <g id="Countries">${countryPaths(countries)}</g>
+  </svg>`;
+  document.getElementById("EuroMap").innerHTML = map;
+}
+
+function countryPaths(countries) {
+  const result = [];
+  for (let region in Regions) {
+    for (let c of Regions[region]) {
+      if (c === 'Bosnia and Herzegovina') c = 'Bosnia and Herz.';
+      let geoc = countries.features.find(f => f.properties.name === c);
+      if (geoc) {
+        let color = (region === 'WestEurope')? 'blue' : 'yellow';
+        result.push(`
+          <g>
+            <title>${geoc.properties.name}</title>
+            <path d="${path(geoc)}" fill="${color}" stroke="black"></path>
+          </g>`
+        );
+      }
+      else {
+        console.log(c);
+      }
+    }
+  }
+  return result.join(" ");
 }

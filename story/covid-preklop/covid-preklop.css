@@ -1,5 +1,15 @@
+strong {
+  font-weight: 700;
+}
+
 .schart {
-  text-align: center;
+  margin: auto;
+  max-width: 450px;
+}
+
+#EuroMap {
+  margin: auto;
+  max-width: 450px;
 }
 
 #Chart {

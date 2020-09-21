@@ -1,22 +1,22 @@
 # Preklapanje valova
 
-*Hrvoje Šimić, 21.09.2020. — podaci [Our World in Data](https://ourworldindata.org/coronavirus-source-data)*
+*Hrvoje Šimić, 21.09.2020. — podaci preuzeti s [Our World in Data](https://ourworldindata.org/coronavirus-source-data)*
 
 <p class="low-key card-panel yellow lighten-4">
   <i class="small material-icons" style="vertical-align: bottom;">warning</i> Autor teksta nije epidemiolog ni statističar. Ispravci i konstruktivne kritike su dobrodošle.
 </p>
 
-Razdioba potvrđenih slučajeva po datumu dijagnoze u Hrvatskoj izgleda otprilike ovako:
+Razdioba potvrđenih slučajeva zaraze COVID-19 po datumu dijagnoze u Hrvatskoj izgleda otprilike ovako:
 
 <div class="schart" data-territory="Croatia" data-show="c" data-dmax="10" data-radius="0"></div>
 
-Mogu se primjetiti "valovi" zaraze, prvi od ožujka do svibnja, i zatim dva dodatna vrha, jedan u srpnju i drugi na prijelazu iz kolovaza u rujan.
+Mogu se primijetiti ["valovi" zaraze](/a/covid-drugi-val), prvi od ožujka do svibnja, i zatim dva dodatna vrha, jedan u srpnju i drugi na prijelazu iz kolovoza u rujan.
 
 Broj smrti je bitno manji i teže ih je vremenski grupirati zbog šuma koji prirodno iskače kad radimo s manjim skupom podataka:
 
 <div class="schart" data-territory="Croatia" data-show="d" data-dmax="10" data-radius="0"></div>
 
-Stoga pokušajmo "ispeglati" graf uzimajući vremenske prosjeke. Uzet ćemo vrlo širok pomični prozor, po 15 dana sa svake strane, jer nam ne treba razlučivost manja od mjeseca. Na taj način dobijemo puno glađu krivulju koja još uvijek prikazuje ove karakteristike vala. Posljednja dva tjedna na krivulji su prosjeci dostupnih dana u pomičnom prozoru
+Stoga pokušajmo "ispeglati" graf. Uzet ćemo jednostavni pomični prosjek s širokim prozorom, po 15 dana sa svake strane, jer nam ne treba razlučivost manja od mjeseca. Tako ćemo dobiti puno glađu krivulju koja još uvijek prikazuje ove karakteristike vala. (Posljednja dva tjedna na krivulji su prosjeci svih dana čiji su podaci dostupni u prozoru.)
 
 <div class="schart" data-territory="Croatia" data-show="c"></div>
 
@@ -24,7 +24,7 @@ Krivulja smrti je malo manje glatka ali ugrubo pokazuje slične trendove.
 
 <div class="schart" data-territory="Croatia" data-show="d" data-dmax="3.5"></div>
 
-Kad prikažemo ova dva vremenska slijeda na istom dijagramu možemo vidjeti da val smrti "kasni" za poznatim slučejevima, očito zato što većina takvih slučajeva bude dijagnosticirana danima ili čak tjednima prije fatalnog ishoda.
+Kad prikažemo ova dva vremenska slijeda na istom dijagramu možemo vidjeti da val smrti "kasni" za poznatim slučajevima, očito zato što većina takvih slučajeva bude dijagnosticirana danima ili čak tjednima prije fatalnog ishoda.
 
 <div class="schart" data-territory="Croatia" data-dmax="3.5"></div>
 
@@ -32,35 +32,37 @@ Da bi lakše usporedili vremenske trendove, pokušajmo preklopiti plavu i crvenu
 
 <div class="schart" data-territory="Croatia" data-dmax="10"></div>
 
-Drugi korak preklapanja je malo problematičniji. Pokušat ćemo crveni graf translatirati po x-osi tako da dobijemo što je moguće bolje podudaranje s plavim. Prema ovoj slici, najbolje preklapanje se dobije ako prikaz smrtnih slučajeva pomaknemo za otprilike 19 dana u prošlost.
+Drugi korak preklapanja je malo problematičniji. Pokušat ćemo crveni graf translatirati na lijevo po x-osi tako da dobijemo što je moguće bolje podudaranje s plavim. Prema ovoj slici, najbolje preklapanje se dobije ako prikaz smrtnih slučajeva pomaknemo za otprilike 19 dana u prošlost.
 
 <div class="schart" data-territory="Croatia" data-offset="19" data-dmax="10"></div>
 
-Vidimo kako je u drugom valu takvo kašnjenje od otprilike 19 dana, samo što je ovaj put broj smrti otprilike dvostuko manji u usporedbi s brojem slučajeva. No 
+Vidimo kako je u drugom valu smrti otprilike dvostruko manji u usporedbi s brojem slučajeva. No crvena krivulja po trendovima i dalje prati plavu.
+
+Kakva je situacija kod naših zapadnih susjeda?
 
 ## Na Zapadu nešto novo
 
-Italija je bila prvo veliko žarište novog koronavirusa u Europi. No u ljetnim mjesecima broj smrtnih slučajeva više nije pratio porast COVID-19 dijagnoza:
+**Italija** je bila prvo veliko žarište novog koronavirusa u Europi. No u ljetnim mjesecima broj smrtnih slučajeva više nije pratio porast COVID-19 dijagnoza:
 
 <div class="schart" data-territory="Italy" data-offset="4" data-dmax="660"></div>
 
-Španjolska je slijedila Italiju u stopu. Njen drugi val je po broju potvrđenih slučajeva još puno gori, ali u drugom valu više nema velikog porasta smrtnih ishoda:
+**Španjolska** je slijedila Italiju u stopu. Njen drugi val je po broju potvrđenih slučajeva još puno gori, ali svejedno u drugom valu nema velikog porasta smrtnih ishoda:
 
-<div class="schart" data-territory="Spain" data-offset="6" data-dmax="1230"></div>
+<div class="schart" data-territory="Spain" data-offset="6" data-dmax="1200"></div>
 
-Francuska je prijavila ukupno veći broj smrtnih slučajeva od Španjolske, ukupno gledajući, ali po smrtnosti izgleda da se drži nevjerojatno dobro:
+**Francuska** je prijavila ukupno veći broj smrtnih slučajeva od Španjolske, ukupno gledajući, ali po smrtnosti izgleda da se drži nevjerojatno dobro:
 
 <div class="schart" data-territory="France" data-offset="7" data-dmax="1750"></div>
 
-Belgija, koja je bila najgore pogođena zemlja u smislu broja umrlih po glavi stanovnika, također pokazuje vrlo povoljnu statistiku unatoč velikom broju infekcija:
+**Belgija**, koja je bila najgore pogođena zemlja u smislu broja umrlih po glavi stanovnika, također pokazuje vrlo povoljnu statistiku unatoč velikom broju infekcija:
 
 <div class="schart" data-territory="Belgium" data-offset="5" data-dmax="225"></div>
 
-Njemačka malo odudara jer smrti ne kasne 4-7 dana nego puna dva tjedna. No pravilnost ostaje ista: dobro preklopljen prvi val i onda — vrlo malo loših ishoda:
+**Njemačka** malo odudara jer smrti ne kasne 4-7 dana nego puna dva tjedna. No pravilnost ostaje ista: dobro preklopljen prvi val i onda — vrlo malo loših ishoda:
 
-<div class="schart" data-territory="Germany" data-offset="14" data-dmax="195"></div>
+<div class="schart" data-territory="Germany" data-offset="14" data-dmax="190"></div>
 
-Ujedinjeno Kraljevstvo ima malo čudniju krivulju, jer se čini kako je u polovici prvog vala učestalost smrtnog ishoda značajno pala, i nastavila je drastično padati:
+**Ujedinjeno Kraljevstvo** ima malo čudniju krivulju, jer se čini kako je u polovici prvog vala učestalost smrtnog ishoda značajno pala, i nastavila je drastično padati:
 
 <div class="schart" data-territory="United Kingdom" data-offset="4" data-dmax="810"></div>
 
@@ -69,15 +71,15 @@ Vidimo kako velike zemlje Zapadne Europe pokazuju iznenađujuće dobar fit vreme
 
 ## Kontraprimjeri
 
-No nemaju sve države jednaku epidemiološku sliku. Švedska je kroz cijelu ovu pandemiju bila izniman slučaj, pa tako i njen graf izgleda bitno drugačije od svih dosadašnjih primjera. Nakon sredine travnja krivulja novih smrti postaje potpuno nevezana uz nove slučajeve i opada na gotovo nulu:
+No nemaju sve države jednaku epidemiološku sliku. **Švedska** je kroz cijelu ovu pandemiju bila izniman slučaj, pa tako i njen graf izgleda bitno drugačije od svih dosadašnjih primjera. Nakon sredine travnja krivulja novih smrti postaje potpuno nevezana uz nove slučajeve i opada na gotovo nulu:
 
 <div class="schart" data-territory="Sweden" data-offset="6" data-dmax="160"></div>
 
-Sjedinjene Američke Države su još uvijek svjetski rekorderi po broju slučajeva i po broju smrti. Njene krivulje više liče švedskim nego drugim zapadneuropskim, samo što se broj novoprijavljenih smrti drži još dosta visoko i pokazuje malu korelaciju s brojem novih slučajeva:
+**Sjedinjene Američke Države** su još uvijek svjetski rekorderi po broju slučajeva i po broju smrti. Njene krivulje više liče švedskim nego drugim zapadnoeuropskim, samo što se broj novoprijavljenih smrti drži još dosta visoko i pokazuje malu korelaciju s brojem novih slučajeva:
 
 <div class="schart" data-territory="United States" data-offset="7" data-dmax="4500"></div>
 
-Australija je pogotovo neobična, jer je njen drugi val puno smrtonosniji od prvog:
+**Australija** je pogotovo neobična, jer je njen drugi val puno smrtonosniji od prvog:
 
 <div class="schart" data-territory="Australia" data-offset="14" data-dmax="16.3"></div>
 
@@ -90,32 +92,66 @@ Ono što je posebno kod Australije je činjenica da se nalazi na južnoj polutci
 
 ## Susjedstvo
 
-Iz dosadašnjih grafova možemo primjetiti kako razvoj situacije u Hrvatskoj nije povoljan kao u Zapadnoj Europi. No kako stoje naši prvi susjedi?
+Iz dosadašnjih grafova možemo primijetiti kako razvoj situacije u Hrvatskoj nije povoljan kao u Zapadnoj Europi. No kako stoje naši prvi susjedi?
 
-Sjeverozapadno od nas, Slovenija proživljava veliki rast novih slučajeva, dok su smrti još uvijek pod kontorolom:
+Sjeverozapadno od nas, **Slovenija** proživljava veliki rast novih slučajeva, dok su smrti još uvijek pod kontrolom:
 
 <div class="schart" data-territory="Slovenia" data-offset="14" data-dmax="5.3"></div>
 
-Mađarska ima drastičan rast novih slučajeva u zadnjih mjesec dana, i još je prerano predviđati hoće li i smrti početi rasti s većim kašnjenjem nego što je to bilo u prvom valu. I kod njih se situacija čini pod kontrolom:
+**Mađarska** ima drastičan rast novih slučajeva u zadnjih mjesec dana, i još je prerano predviđati hoće li i smrti početi rasti s većim kašnjenjem nego što je to bilo u prvom valu. I kod njih se smrtnost čini niska:
 
 <div class="schart" data-territory="Hungary" data-offset="6" data-dmax="90"></div>
 
-Slična situacija je u Austriji, smrtni slučajevi pokazuju tek primjetnu tendenciju rasta s porastom broja slučajeva:
+Slična situacija je u **Austriji**, smrtni slučajevi pokazuju tek primjetnu tendenciju rasta s porastom broja slučajeva:
 
 <div class="schart" data-territory="Austria" data-offset="12" data-dmax="20"></div>
 
-No, na istoku grafovi izgledaju sasvim drugačije. Bosna i Hercegovina, slično nama, ima otprilike duplo manju smrtnost nego u prvom valu:
+No, na istoku grafovi izgledaju sasvim drugačije. **Bosna i Hercegovina**, slično nama, ima otprilike duplo manju smrtnost nego u prvom valu:
 
 <div class="schart" data-territory="Bosnia and Herzegovina" data-offset="13" data-dmax="18.5"></div>
 
-Još gore izgleda Srbija, s drugim valom koji je ubitačniji od prvog:
+Još gore izgleda **Srbija**, s drugim valom koji je ubitačniji od prvog:
 
 <div class="schart" data-territory="Serbia" data-offset="1" data-dmax="9.8"></div>
 
-Rumunjska
+Dalje na istok, **Rumunjska**, vrlo slično kao i BiH:
 
 <div class="schart" data-territory="Romania" data-offset="7" data-dmax="87"></div>
 
+## Slika cijelog kontinenta
+
+Dosad smo primijetili dvije bitno različite epidemiološke situacije na Starom kontinentu. Razdvojimo ga u dvije geopolitičke polovice: zapadnu i istočnu, i zbrojimo slučajeve i smrti.
+
+<figure id="EuroMapFig">
+  <div id="EuroMap">Učitavam kartu...</div>
+  <figcaption>
+    Podjela Europe na Zapad (plavo) i Istok (žuto).
+  </figcaption>
+</figure>
+
+**Zapadna Europa** ima poprilično sličnu sliku u svim zemljama: dva jasna vrha broja slučajeva, drugi je već narastao veći nego što je prvi ikad bio, i graf smrti koji gotovo savršeno prati oblik grafa potvrđenih slučajeva COVID-19, samo s tjedan dana kašnjenja.
+
+Točnije, pratila je negdje do Praznika rada. Nakon toga, crvena krivulja nije više ni sjena plavoj.
+
+<div class="schart" data-territory="WestEurope" data-offset="7" data-dmax="3600"></div>
+
+**Istočna Europa** se ne može pohvaliti takvim dobrim vijestima. Ovdje je crvena krivulja puno bliža plavoj. Od svibnja postaje nešto manja, ali ne deset puta manja kao što je to na Zapadu.
+
+<div class="schart" data-territory="EastEurope" data-offset="3" data-dmax="289"></div>
+
+Ako ste skeptični prema pomičnom prosjeku, pogledajte kako izgledaju sirovi dnevni podaci. Zapad:
+
+<div class="schart" data-territory="WestEurope" data-radius="0" data-offset="7" data-dmax="5250"></div>
+
+...i Istok:
+
+<div class="schart" data-territory="EastEurope" data-radius="0" data-offset="3" data-dmax="429"></div>
+
+Slika je uvijek ista. Veliko smanjenje smrtnosti na Zapadu, malo smanjenje na Istoku. Slika Hrvatske je očito puno bliža Istoku nego Zapadu, i bojim se da ćemo u sljedećim tjednima dijeliti sudbinu naših istočnih susjeda.
+
+Zašto su te slike tako različite? Imam puno hipoteza, ali ne želim u ovom trenu javno špekulirati. Zadržao bih se zasad na prepoznavanju tog fenomena, i daljnjem istraživanju.
+
+<!--
 Grčka
 
 <div class="schart" data-territory="Greece" data-offset="6" data-dmax="13"></div>
@@ -123,7 +159,6 @@ Grčka
 Turska
 
 <div class="schart" data-territory="Turkey" data-offset="3" data-dmax="100"></div>
-
 
 Japan
 
@@ -140,3 +175,4 @@ Danska
 Švicarska
 
 <div class="schart" data-territory="Switzerland" data-offset="11" data-dmax="39"></div>
+-->
