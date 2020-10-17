@@ -1,0 +1,54 @@
+strong {
+  font-weight: 700;
+}
+
+.schart {
+  margin: auto;
+  max-width: 450px;
+}
+
+#EuroMap {
+  margin: auto;
+  max-width: 450px;
+}
+
+#Chart {
+  cursor: move;
+}
+
+.chartArea path {
+  stroke-width: 1.5;
+}
+
+.casesArea {
+  fill:   lightskyblue;
+  stroke: darkblue;
+}
+
+.deathsArea {
+  fill:   red;
+  stroke: firebrick;
+  fill-opacity: 0.4;
+}
+
+g.leftAxis {
+  color: darkblue;
+}
+
+g.rightAxis {
+  color: firebrick;
+}
+
+.offsetLabel > text {
+  fill: firebrick;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2rem;
+}
+
+.territoryLabel > text {
+  fill: black;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2.5rem;
+}

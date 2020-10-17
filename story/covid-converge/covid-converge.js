@@ -1,5 +1,5 @@
 const Today = moment().startOf('day');
-const StartDate = moment(Today).subtract(90, 'days');
+const StartDate = moment(Today).subtract(210, 'days');
 let lastDate = StartDate.format("YYYY-MM-DD");
 
 const GeoRegions = ({
@@ -19,7 +19,7 @@ const GeoRegions = ({
 
 const DisplayName = {
   "Malaysia": "Malaysia",
-//  "Indonesia": "Indonesia",
+  "Indonesia": "Indonesia",
   "Thailand": "Thailand",
   "Taiwan": "Taiwan",
   "Japan": "Japan",
@@ -43,9 +43,9 @@ const DisplayName = {
   "Macedonia": "N. Maced.",
   "Turkey": "Turkey",
   "Belgium": "Belgium",
-//  "Netherlands": "Netherlan.",
+  "Netherlands": "Netherlan.",
   "France": "France",
-//  "United Kingdom": "UK",
+  "United Kingdom": "UK",
   "Ireland": "Ireland",
   "Italy": "Italy",
   "Spain": "Spain",
@@ -58,7 +58,7 @@ const DisplayName = {
   "Latvia": "Latvia",
   "Estonia": "Estonia",
   "Russia": "Russia",
-//  "Ukraine": "Ukraine",
+  "Ukraine": "Ukraine",
   "Belarus": "Belarus",
   "Iran": "Iran",
   "Israel": "Israel",
@@ -73,31 +73,22 @@ const DisplayName = {
   "United States": "USA",
   "Canada": "Canada",
   "Mexico": "Mexico",
-//  "Brazil": "Brazil"
+  "Brazil": "Brazil"
 };
 
 const AllCountries = Object.keys(DisplayName);
 
 const latestCases = {}, latestDeaths = {};
 
-const dataUris = {
+const preparation = {
   recovered: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv",
   dead: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv",
   confirmed: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
 };
-const data = {};
 
-function executeLocalScript() {
-  for (let key in dataUris)
-    loadFromUri(dataUris[key]).then(o => store(key, o));
-}
-
-function store(key, o) {
-  data[key] = o;
-  if (Object.keys(data).length === Object.keys(dataUris).length) {
-    prepareData();
-    createCharts();
-  }
+function dataCompleted() {
+  prepareData();
+  createCharts();
 }
 
 function prepareData() {

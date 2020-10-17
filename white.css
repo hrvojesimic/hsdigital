@@ -45,6 +45,30 @@ h3 {
   font-size: 2rem;
 }
 
+div.title {
+  font-size:   5rem;
+  font-family: 'Crimson Pro', serif;
+}
+@media screen and (max-width: 550px) {
+  div.title {
+    font-size: 3.5rem;
+  }
+}
+
+.articleList .publishedDate {
+  color: darkgray;
+  font-size: 75%;
+}
+
+div.title.bg {
+  color: darkgray;
+}
+
+div.title.fg {
+  position: absolute;
+  top: 0;
+}
+
 p {
   font-size: 1.5rem;
 }

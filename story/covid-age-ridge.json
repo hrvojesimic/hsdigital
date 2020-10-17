@@ -1,0 +1,1 @@
+{"id":"covid-age-ridge","title":"Age ridge","description":"...","lang":"hr","image":null,"published":null,"features":["customJS","day","d3","customCSS"],"steps":[{"content":"<h1 id=\"covid-age-ridge\" class=\"title\">COVID age ridge</h1>\n<div id=\"Ridge\"></div>","form":"html"}],"headings":[]}

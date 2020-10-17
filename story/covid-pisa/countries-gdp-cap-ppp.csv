@@ -1,0 +1,196 @@
+Country Name,Country Code,GDP2018
+Afghanistan,AFG,1955
+Angola,AGO,6452
+Albania,ALB,13364
+United Arab Emirates,ARE,75075
+Argentina,ARG,20610
+Armenia,ARM,10343
+Antigua and Barbuda,ATG,26868
+Australia,AUS,51663
+Austria,AUT,55454
+Azerbaijan,AZE,18044
+Burundi,BDI,744
+Belgium,BEL,51407
+Benin,BEN,2424
+Burkina Faso,BFA,1984
+Bangladesh,BGD,4371
+Bulgaria,BGR,21960
+Bahrain,BHR,47303
+Bahamas,,31155
+Bosnia and Herzegovina,BIH,14623
+Belarus,BLR,19994
+Belize,BLZ,8648
+Bolivia,BOL,7873
+Brazil,BRA,16096
+Barbados,BRB,18554
+Brunei Darussalam,BRN,80920
+Bhutan,BTN,10167
+Botswana,BWA,18615
+Central African Republic,CAF,859
+Canada,CAN,48130
+Switzerland,CHE,68060
+Chile,CHL,25222
+China,CHN,18236
+Cote d'Ivoire,CIV,4207
+Cameroon,CMR,3785
+Congo Dem,,867
+Congo Rep,,5833
+Colombia,COL,15012
+Comoros,COM,2913
+Cabo Verde,CPV,7454
+Costa Rica,CRI,17671
+Curacao,CUW,27743
+Cyprus,CYP,38513
+Czech Republic,CZE,39743
+Germany,DEU,53074
+Dominica,DMA,11129
+Denmark,DNK,55671
+Dominican Republic,DOM,17748
+Algeria,DZA,15481
+Ecuador,ECU,11734
+Egypt,,11294
+Euro area,EMU,46207
+Spain,ESP,39715
+Estonia,EST,35973
+Ethiopia,ETH,2022
+European Union,EUU,43398
+Finland,FIN,48416
+Fiji,FJI,10879
+France,FRA,45342
+Micronesia,,3354
+Gabon,GAB,17875
+United Kingdom,GBR,45973
+Georgia,GEO,12004
+Ghana,GHA,4746
+Guinea,GIN,2504
+Gambia,,2464
+Guinea-Bissau,GNB,1799
+Equatorial Guinea,GNQ,22743
+Greece,GRC,29592
+Grenada,GRD,15557
+Guatemala,GTM,8462
+Guyana,GUY,8640
+High income,HIC,50630
+Hong Kong SAR,,61713
+Honduras,HND,5138
+Croatia,HRV,27579
+Haiti,HTI,1866
+Hungary,HUN,31102
+Indonesia,IDN,13079
+India,IND,7762
+Ireland,IRL,83203
+Iran,,20150
+Iraq,IRQ,17435
+Iceland,ISL,57303
+Israel,ISR,39919
+Italy,ITA,41830
+Jamaica,JAM,9326
+Jordan,JOR,9478
+Japan,JPN,42797
+Kazakhstan,KAZ,27879
+Kenya,KEN,3467
+Kyrgyz Republic,KGZ,3884
+Cambodia,KHM,4360
+Kiribati,KIR,2293
+South Korea,,37142
+Kuwait,KWT,72897
+Lao PDR,LAO,7439
+Lebanon,LBN,13081
+Liberia,LBR,1308
+Libya,LBY,20764
+Latin America & Caribbean,LCN,16590
+Sri Lanka,LKA,13473
+Lesotho,LSO,3219
+Lithuania,LTU,35461
+Luxembourg,LUX,113337
+Latvia,LVA,30304
+Macao SAR,,116370
+Morocco,MAR,8611
+Moldova,MDA,7271
+Madagascar,MDG,1891
+Maldives,MDV,15307
+Mexico,MEX,19844
+Marshall Islands,MHL,3989
+Middle income,MIC,12983
+North Macedonia,MKD,16358
+Mali,MLI,2316
+Malta,MLT,42581
+Myanmar,MMR,6674
+Montenegro,MNE,20689
+Mongolia,MNG,13799
+Mozambique,MOZ,1459
+Mauritania,MRT,4150
+Mauritius,MUS,23750
+Malawi,MWI,1310
+Malaysia,MYS,31782
+North America,NAC,61303
+Namibia,NAM,11101
+Niger,NER,1063
+Nigeria,NGA,5990
+Nicaragua,NIC,5533
+Netherlands,NLD,56328
+Norway,NOR,65510
+Nepal,NPL,3089
+Nauru,NRU,16504
+New Zealand,NZL,41005
+OECD members,OED,45623
+Oman,OMN,41859
+Pakistan,PAK,5567
+Panama,PAN,25553
+Peru,PER,14418
+Philippines,PHL,8951
+Palau,PLW,18510
+Papua New Guinea,PNG,4336
+Poland,POL,31336
+Pre-demographic dividend,PRE,3985
+Puerto Rico,PRI,39540
+Portugal,PRT,33415
+Paraguay,PRY,13599
+West Bank and Gaza,PSE,5157
+Qatar,QAT,126898
+Romania,ROU,28206
+Russian Federation,RUS,27588
+Rwanda,RWA,2251
+South Asia,SAS,7084
+Saudi Arabia,SAU,55335
+Sudan,SDN,4767
+Senegal,SEN,3782
+Singapore,SGP,101531
+Solomon Islands,SLB,2422
+Sierra Leone,SLE,1601
+El Salvador,SLV,8331
+Serbia,SRB,17434
+Sao Tome and Principe,STP,3418
+Suriname,SUR,15510
+Slovak Republic,SVK,33736
+Slovenia,SVN,38048
+Sweden,SWE,53208
+Eswatini,SWZ,10637
+Seychelles,SYC,30557
+Turks and Caicos Islands,TCA,25370
+Chad,TCD,1968
+Togo,TGO,1773
+Thailand,THA,19051
+Tajikistan,TJK,3449
+Turkmenistan,TKM,19304
+Timor-Leste,TLS,7658
+Tonga,TON,6419
+Trinidad and Tobago,TTO,32014
+Tunisia,TUN,12502
+Turkey,TUR,28068
+Tuvalu,TUV,4049
+Tanzania,TZA,3240
+Uganda,UGA,2038
+Ukraine,UKR,9249
+Uruguay,URY,23572
+United States,USA,62794
+Uzbekistan,UZB,8556
+Vietnam,VNM,7447
+Vanuatu,VUT,3221
+World,WLD,17948
+Samoa,WSM,6483
+Kosovo,XKX,11348
+Yemen,,2827
+South Africa,ZAF,13686
+Zambia,ZMB,4223
+Zimbabwe,ZWE,3029

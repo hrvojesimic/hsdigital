@@ -1,0 +1,123 @@
+strong {
+  font-weight: 700;
+}
+
+.schart {
+  margin: auto;
+  max-width: 450px;
+}
+
+#EuroMap {
+  margin: auto;
+  max-width: 450px;
+}
+
+#Chart {
+  cursor: move;
+}
+
+.gridLine {
+  stroke-width: 1px;
+  stroke: darkgray;
+}
+.vaxis {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-anchor: middle;
+}
+
+.chartArea path {
+  stroke-width: 1.5;
+}
+
+.casesArea {
+  fill:   lightskyblue;
+  stroke: darkblue;
+}
+
+.deathsArea {
+  fill:   red;
+  stroke: firebrick;
+  fill-opacity: 0.4;
+}
+
+.cfrArea {
+  fill: white;
+  fill-opacity: 40%;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.testingLine {
+  fill: lightgreen;
+  stroke: darkgreen;
+  stroke-width: 2px;
+}
+
+.positiveLine {
+  fill: none;
+  stroke: purple;
+  stroke-width: 3px;
+}
+
+g.leftAxis {
+  color: darkblue;
+}
+g.leftAxis.vaxis {
+    fill: darkblue;
+}
+
+g.testingAxis {
+  color: darkgreen;
+}
+g.testingAxis.vaxis {
+  fill: darkgreen;
+}
+
+.rightAxis {
+  color: firebrick;
+}
+.rightAxis.vaxis{
+  fill: firebrick;
+}
+
+.positiveAxis {
+  color: purple;
+}
+.positiveAxis.vaxis {
+  fill: purple;
+}
+
+.cfrAxis {
+  color: black;
+}
+.cfrAxis.vaxis {
+  fill: black;
+}
+
+.offsetLabel > text {
+  fill: firebrick;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2rem;
+}
+
+.territoryLabel > text {
+  fill: black;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+.alarm.a0 {
+  fill: #2ecc40;
+}
+.alarm.a1 {
+  fill: #ff851b;
+}
+.alarm.a2 {
+  fill: #ff4136;
+}
+.alarm.a-1 {
+  fill: #dddddd;
+}

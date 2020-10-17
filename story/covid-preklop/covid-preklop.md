@@ -36,7 +36,7 @@ Drugi korak preklapanja je malo problematičniji. Pokušat ćemo crveni graf tra
 
 <div class="schart" data-territory="Croatia" data-offset="19" data-dmax="10"></div>
 
-Vidimo kako je u drugom valu smrti otprilike dvostruko manji u usporedbi s brojem slučajeva. No crvena krivulja po trendovima i dalje prati plavu.
+Vidimo kako je u drugom valu smrti otprilike 2-3 puta manje u razmjeru s brojem slučajeva. No crvena krivulja po trendovima i dalje prati plavu.
 
 Kakva je situacija kod naših zapadnih susjeda?
 

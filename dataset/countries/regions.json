@@ -1,0 +1,13 @@
+{
+  "West Europe": ["GBR", "FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "NOR", "SWE", "FIN", "LUX", "ISL", "PRT", "CHE"],
+  "East Europe": ["HRV", "HUN", "POL", "CZE", "SVN", "SVK", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "LVA", "LTU", "EST", "GRC"],
+  "Baltic states": ["LVA", "LTU", "EST"],
+  "Scandinavia": ["DNK", "SWE", "FIN", "ISL", "NOR"],
+  "EU": ["FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "PRT", "HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "LVA", "LTU", "EST", "GRC", "CYP", "MAL"],
+  "West EU": ["FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "PRT", "MAL"],
+  "East EU": ["HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "LVA", "LTU", "EST", "GRC", "CYP"],
+  "Europe": ["GBR", "FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "NOR", "SWE", "FIN", "LUX", "ISL", "PRT", "HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "LVA", "LTU", "EST", "GRC", "CHE"],
+  "Balkans": ["HRV", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "GRC"],
+  "Mediterranean EU": ["FRA", "ESP", "ITA", "PRT", "HRV", "GRC", "CYP", "SVN", "MAL"],
+  "Non-Med EU": ["BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "ISL", "HUN", "POL", "CZE", "SVK", "ROU", "BGR", "LVA", "LTU", "EST"]
+}

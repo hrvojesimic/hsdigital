@@ -4,13 +4,13 @@ const Regions = {
 };
 
 let svg, dx = 0, sy = 1, lastX = 0, lastY = 0, chartEl, deathsAreaEl, xScale, yAxisRedrawTimer;
-let uniqueIdCounter = 1;
 
 const START_DATE = new Date('2020-02-14');
 const END_DATE = new Date('2020-09-19');
 
 const preparation = {
   world: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+  //usdata: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv",
   owidDeaths: {
     //uri: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
     uri: "/story/covid-preklop/total_deaths.csv",
@@ -27,7 +27,29 @@ function constructDataset() {
   return calculateData(country, w);
 }
 
-function calculateData(territory, avgw) {
+function calcUSseries(state, avgw) {
+  const a = data.usdata.filter(d => d.state === state);
+  const n = a.length;
+  for (let i = avgw + 1; i < n; i++) {
+    const back = i - 1 - avgw;
+    let fore = (i + avgw < n)? i + avgw : n-1;
+    while (a[fore] === "" && fore > 0) fore--;
+    const dt = fore - back;
+    const dCases  = +a[fore].cases - a[back].cases;
+    const dDeaths = +a[fore].deaths - a[back].deaths;
+    if (dCases > 0 || dDeaths > 0)
+      result.push({
+        dateStr: a[i].date,
+        doy: moment(a[i].date).dayOfYear(),
+        date: d3.timeParse("%Y-%m-%d")(a[i].date),
+        cases: dCases / dt,
+        deaths: dDeaths / dt
+      });
+  }
+  return result;
+}
+
+function calcWorldSeries(territory, avgw) {
   const result = [];
   const n = data.owidCases.length;
   for (let i = avgw + 1; i < n; i++) {
@@ -47,6 +69,13 @@ function calculateData(territory, avgw) {
       });
   }
   return result;
+}
+
+function calculateData(territory, avgw) {
+  //if (Regions.USA.includes(territory)) 
+  //  return calcUSseries(territory, avgw);
+  //else 
+    return calcWorldSeries(territory, avgw);
 }
 
 function dataCompleted() {
@@ -163,10 +192,6 @@ function simpleChart(node, territory, {showc = true, show = 'cd', dmax, offset=0
         .attr("transform", `translate(${dims.width/2} 10)`)
         .append("text").text(" ← " + offset);
   }
-}
-
-function nextUniqueId() {
-  return 'uid' + (uniqueIdCounter++);
 }
 
 function addDays(date, days) {

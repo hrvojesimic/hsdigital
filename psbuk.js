@@ -1,9 +1,11 @@
+"use strict";
 const data = {};
 const dataCallbacks = {};
 
 let elid = 0;
 let specs = {};
 let story = null;
+let uniqueIdCounter = 1;
 
 const vegaEmbeds = [];
 
@@ -51,6 +53,7 @@ function prepare() {
 
 function store(key, o) {
   data[key] = o;
+  console.log("✔ " + key)
   for (let dataCallback of (dataCallbacks[key] || [])) {
     console.log("Calling back for " + key);
     dataCallback(o);
@@ -68,8 +71,6 @@ function store(key, o) {
       const stillWaitingFor = prep.waitFor.filter( x => !keysCompleted.includes(x) );
       if (stillWaitingFor.length === 0)
         store(key, prep.construction());
-      else
-        console.log(key + " still waiting for " + stillWaitingFor);
     }
   }
 }
@@ -222,6 +223,10 @@ function configureD3() {
     d3.timeFormatDefaultLocale(opts.timeFormatLocale);
 }
 
+function configureDayJs() {
+  dayjs.extend(window.dayjs_plugin_weekOfYear);
+}
+
 function onFeature(feature, fn) {
   if (story.features.includes(feature))
    fn();
@@ -235,6 +240,7 @@ function loadContent(id) {
       replaceWithSteps(o.steps);
       document.title = o.title;
       onFeature('d3', configureD3);
+      onFeature('day', configureDayJs);
       onFeature('vega', embedVegaLites);
       onFeature('tabulators', embedTabulators);
       onFeature('vizjs', embedVizjs);
@@ -255,6 +261,33 @@ function loadFromUri(uri) {
     console.warn("d3 NOT INCLUDED!");
     return [];
   }
+}
+
+// Pearson's correlation coeficient r
+function rcoef(a, b) {
+  const n = a.length;
+  if (b.length != n) return 0; //TODO throw stuff
+  let suma = 0, sumb = 0, numerator = 0, den1 = 0, den2 = 0;
+  for (let i = 0; i < n; i++) {
+    suma += a[i];
+    sumb += b[i];
+  }
+  const ma = suma / n;
+  const mb = sumb / n;
+  for (let i = 0; i < n; i++) {
+    numerator += (a[i] - ma)*(b[i] - mb);
+    den1 += (a[i] - ma)*(a[i] - ma);
+    den2 += (b[i] - mb)*(b[i] - mb);
+  }
+  return numerator / Math.sqrt(den1 * den2);
+}
+
+function nextUniqueId() {
+  return 'uid' + (uniqueIdCounter++);
+}
+
+function range(a, b) {
+  return [...Array(b - a + 1)].map((_,i) => i + a);
 }
 
 loadContent(mainEl.getAttribute('data-story-id'));

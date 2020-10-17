@@ -1,0 +1,7 @@
+
+.chart path {
+  stroke-width: 1.5;
+  fill:   lightskyblue;
+  stroke: darkblue;
+  fill-opacity: 80%;
+}

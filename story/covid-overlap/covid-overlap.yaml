@@ -1,0 +1,9 @@
+title: Overlapping deaths
+lang: en
+author: Hrvoje Šimić
+#published: 2020-08-29
+#image: https://hrvoje.simic.digital/story/covid-preklop/screen.png
+description: ...
+features:
+  - d3
+  - moment
