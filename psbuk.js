@@ -49,6 +49,8 @@ function prepare() {
       }
     }
   }
+  if (typeof prepareLocal === "function")
+    prepareLocal();
 }
 
 function store(key, o) {
@@ -104,9 +106,15 @@ function embedVegaLites() {
 function activateVly() {
   for (let el of document.getElementsByClassName('vly')) {
     const vegaSpec = JSON.parse(el.textContent);
-    const container = document.createElement("p");
+    const container = document.createElement("figure");
     const chartEl = document.createElement("span");
     container.appendChild(chartEl);
+    if ("caption" in vegaSpec) {
+      const captionEl = document.createElement("figcaption");
+      captionEl.textContent = vegaSpec.caption;
+      container.appendChild(captionEl);
+      delete vegaSpec.caption;
+    }
     for (let attr of el.attributes) {
       container.setAttribute(attr.name, attr.value);
     }
@@ -288,6 +296,10 @@ function nextUniqueId() {
 
 function range(a, b) {
   return [...Array(b - a + 1)].map((_,i) => i + a);
+}
+
+function browserDefaults() {
+  document.querySelectorAll("main ul, main ol").forEach(o => o.classList.add("browser-default"));
 }
 
 loadContent(mainEl.getAttribute('data-story-id'));

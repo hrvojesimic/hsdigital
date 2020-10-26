@@ -45,6 +45,10 @@ h3 {
   font-size: 2rem;
 }
 
+strong {
+  font-weight: 700;
+}
+
 div.title {
   font-size:   5rem;
   font-family: 'Crimson Pro', serif;
