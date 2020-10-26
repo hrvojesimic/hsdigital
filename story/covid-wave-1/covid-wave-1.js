@@ -240,9 +240,9 @@ function drawCovidChart(node, territory, {show = 'cd', dmax, offset=0, window=31
 
   root.append("rect").attrs({
     class: "fogout",
-    x: xScale(new Date(END_DATE.getTime() - window * ONE_DAY)),
+    x: xScale(new Date(END_DATE.getTime() - window/2 * ONE_DAY)),
     y: 0,
-    width: xScale(new Date(window*ONE_DAY)) - xScale(new Date(0)),
+    width: xScale(new Date(window/2*ONE_DAY)) - xScale(new Date(0)),
     height: dims.heightC
   });
 }

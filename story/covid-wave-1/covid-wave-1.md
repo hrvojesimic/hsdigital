@@ -2,7 +2,7 @@
 
 *Hrvoje Šimić, 2020-10-26*
 
-If we plot COVID-19 daily reported cases and deaths from [Our World in Data](https://ourworldindata.org/coronavirus-source-data) across all EU countries, we get this:
+If we plot COVID-19 daily reported cases and deaths from [ECDC](https://github.com/owid/covid-19-data/blob/master/public/data/ecdc) across all EU countries, we get this:
 
 <figure style="max-width: 500px; margin: auto">
   <div class="covidChart" data-show="cd" data-territory="EU" data-offset="0" data-dmax="40" data-window="1"></div>
@@ -12,8 +12,8 @@ If we plot COVID-19 daily reported cases and deaths from [Our World in Data](htt
 Let's take a simple symmetric 31-day average to get rid of the noise:
 
 <figure style="max-width: 500px; margin: auto">
-  <div class="covidChart" data-show="cd" data-territory="EU" data-offset="0" data-dmax="21.5" data-window="31"></div>
-  <figcaption>Plot of daily reported cases and deaths in EU, averaged across 31 days. Last 31 days are progressively faded as they could change with future data.</figcaption>
+  <div class="covidChart" data-show="cd" data-territory="EU" data-offset="0" data-dmax="24" data-window="31"></div>
+  <figcaption>Plot of daily reported cases and deaths in EU, averaged across 31 days. Last 14 days are progressively faded as they are likely to change with future data.</figcaption>
 </figure>
 
 It's easy to see that both registered cases and deaths from COVID came in "waves", the first appearing in March and dying down by the end of June, and the second still rising.
@@ -186,6 +186,7 @@ encoding:
     field: r
     type: quantitative
     title: Pearson's r
+caption: Correlation between daily cases and offset deaths (in days) for various rolling average windows.
 ```
 ```vly.onlyMob
 width: 150
@@ -214,6 +215,7 @@ encoding:
     field: r
     type: quantitative
     title: Pearson's r
+caption: Correlation between daily cases and offset deaths (in days) for various rolling average windows.
 ```
 
 When there is no averaging you can notice small waves that are there because of the weekly variation of data. These disappear when we calculate simple 7-day rolling average.
@@ -494,7 +496,7 @@ encoding:
       domain: [0,1]
 ```
 
-What these cases suggest is that when there is no distinct "wave" of cases, there is no significant correlation between cases and deaths in the conditions we have explored. Averaging raises correlation coefficients, but they don't converge to specific value.
+What these cases suggest is that *when there is no distinct "wave" of cases, there is no significant correlation between cases and deaths* in the conditions we have explored. Averaging raises correlation coefficients, but they don't converge to specific value.
 
 ## The offset map
 
@@ -503,13 +505,16 @@ We can show differences in best-fit offsets between countries on the map of Euro
 <figure style="max-width: 500px; margin: auto">
   <div id="OffsetMap">Loading map...</div>
   <figcaption>
-    Map of Europe showing first-wave offsets.
+    Map of Europe showing first-wave death curve offsets (in circles). Darker red color corresponds to larger offset and darker circle corresponds to higher value of <i>r</i>. White countries without circles have no distinct wave.
   </figcaption>
 </figure>
 
 Differences are striking, but the map is not in chaos. There are noticeable geographical patterns:
 
-- Eastern Europe mostly lacks distinct first wave. They were late to the "Corona party", had low incidence all through Spring and Summer, but the number of cases was still relatively high.
+- Eastern Europe mostly lacks distinct first wave. They were late to the "Corona party", had low incidence all through spring and summer, but the number of cases was still relatively high in the summer months.
 - Central Europe countries mostly have well-defined first wave curves, with offset at around two weeks. Norway and Iceland follow suit, while Denmark doesn't, and Sweden is an obvious black sheep in the European flock thanks to its epidemiology policies.
+- Baltic countries have rather small number of cases and this is possible reason of disparate offsets and correlation coefficients. However, if we combine data from Estonia, Lithuania, and Latvia, we get a regular chart and an offset of 12 days, consistent with Central Europe.
 - Western Europe is quite consistent with one week offset. UK is outlier here, again choosing a different approach in the early days of the epidemic.
 - Italy has quite short offset, perhaps not surprising given the dramatic start of the first wave there.
+
+There could be multiple reasons behind these differences, from statistical practices to administrative procedures, from age distributions of patients to differences in treatment. Causes and repercussions of this effect are left to explore in future articles, coming soon.
