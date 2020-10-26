@@ -1,0 +1,10 @@
+title: First wave of COVID cases in Europe
+lang: en
+author: Hrvoje Šimić
+description: First half of 2020 saw a wave of COVID cases crash across Europe. But different countries had very different waves.
+image: https://hrvoje.simic.digital/story/covid-wave-1/europe-offsets.png
+features:
+  - d3
+  - d3-array
+  - d3-selection-multi
+  - topojson

@@ -1,0 +1,61 @@
+
+.offsetLabel {
+  font-size: 2rem;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.covidChart {
+  margin: auto;
+  max-width: 450px;
+}
+
+.gridLine {
+  stroke-width: 1px;
+  stroke: darkgray;
+}
+.vaxis {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-anchor: middle;
+}
+
+.chartArea path {
+  stroke-width: 1.5;
+}
+
+.casesArea {
+  fill:   lightskyblue;
+  stroke: darkblue;
+}
+
+.deathsArea {
+  fill:   red;
+  stroke: firebrick;
+  fill-opacity: 0.4;
+}
+
+g.leftAxis {
+  color: darkblue;
+}
+g.leftAxis.vaxis {
+  fill: darkblue;
+}
+.rightAxis {
+  color: firebrick;
+}
+.rightAxis.vaxis{
+  fill: firebrick;
+}
+
+rect.fogout {
+  fill: url(#fogout);
+}
+.noFog {
+  stop-color: white;
+  stop-opacity: 0;
+}
+.fullFog {
+  stop-color: white;
+  stop-opacity: 1;
+}
