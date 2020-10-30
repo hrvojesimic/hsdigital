@@ -1,0 +1,27 @@
+country,zone,before,after
+Italy,W,14,1
+Spain,W,12,1
+France,W,21,0.7
+Belgium,W,17,0.5
+Germany,W,4.5,0.6
+Czechia,E,3.5,1.5
+Slovakia,E,2.5,0.5
+Finland,W,6,0.5
+Denmark,W,6.5,0.4
+Netherlands,W,13,0.4
+Greece,E,6,1.7
+Sweden,W,16,0.5
+Slovenia,E,8,0.8
+Hungary,E,14,2
+Austria,W,4,0.7
+Romania,E,7,3
+Portugal,W,4.5,1.2
+Poland,E,6,2.5
+Bulgaria,E,6,4
+Croatia,E,4.5,2
+UK,O,18,0.7
+Norway,O,3,0.4
+Switzerland,O,5,0.5
+Baltic states,E,3.2,0.8
+Ireland,W,7,0.6
+Luxembourg,W,2.5,0.4

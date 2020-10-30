@@ -1,0 +1,167 @@
+div.fullChart, div#CfrChangeChart {
+  max-width: 550px;
+  margin: auto;
+}
+
+line.line0 {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.btmAxis .domain {
+  display: none
+}
+g.btmAxis g.tick line {
+  stroke: white;
+}
+
+g.change text {
+  dominant-baseline: middle;
+}
+
+g.change line {
+  stroke: darkslategray;
+  stroke-opacity: 100%;
+  stroke-width: 3px;
+}
+
+g.change circle {
+  fill-opacity: 60%;
+  stroke: #555;
+}
+g.change circle.before {
+  fill: #f3ecc2;
+}
+g.change circle.after {
+  fill: #14b1ab;
+}
+
+.gridLine {
+  stroke-width: 1px;
+  stroke: darkgray;
+}
+.vaxis {
+  font-size: 13px;
+  font-family: sans-serif;
+  text-anchor: middle;
+}
+
+.casesArea {
+  fill:   lightskyblue;
+}
+path.casesLine {
+  fill: none;
+  stroke: darkblue;
+  stroke-width: 2px;
+}
+
+path.dotted {
+  stroke-dasharray: 2 3;
+}
+
+
+g.leftAxis {
+  color: darkblue;
+}
+g.leftAxis.vaxis {
+    fill: darkblue;
+}
+
+g.testingAxis {
+  color: darkgreen;
+}
+g.testingAxis.vaxis {
+  fill: darkgreen;
+}
+
+.rightAxis {
+  color: firebrick;
+}
+.rightAxis.vaxis{
+  fill: firebrick;
+}
+
+.positiveAxis {
+  color: purple;
+}
+.positiveAxis.vaxis {
+  fill: purple;
+}
+
+.cfrAxis {
+  color: black;
+}
+.cfrAxis.vaxis {
+  fill: black;
+}
+g.cfrAxis g.tick > line {
+  stroke-opacity: 40%; 
+}
+
+.offsetLabel > text {
+  fill: firebrick;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2rem;
+}
+.territoryLabel > text {
+  fill: black;
+  text-anchor: start;
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+.deathsArea {
+  fill:   red;
+  fill-opacity: 0.5;
+}
+path.deathsLine {
+  fill: none;
+  stroke: firebrick;
+  stroke-width: 2px;
+}
+
+path.fadeBlue {
+  fill: url(#fadeBlue);
+}
+.fullBlue {
+  stop-color: lightskyblue;
+  stop-opacity: 1;
+}
+.fadedBlue {
+  stop-color: lightskyblue;
+  stop-opacity: 0;
+}
+
+path.fadeRed {
+  fill: url(#fadeRed);
+}
+.fullRed {
+  stop-color: red;
+  stop-opacity: 1;
+}
+.fadedRed {
+  stop-color: red;
+  stop-opacity: 0;
+}
+
+.testingLine {
+  fill: lightgreen;
+  stroke: darkgreen;
+  stroke-width: 2px;
+}
+.positiveLine {
+  fill: none;
+  stroke: purple;
+  stroke-width: 3px;
+}
+
+.cfrTicks > line {
+  stroke-width: 2px;
+  stroke: black;
+}
+
+.alarm.a0  { fill: #2ecc40; }
+.alarm.a1  { fill: #ff851b; }
+.alarm.a2  { fill: #ff4136; }
+.alarm.a-1 { fill: #dddddd; }
