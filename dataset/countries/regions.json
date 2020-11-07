@@ -9,5 +9,6 @@
   "Europe": ["GBR", "FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "NOR", "SWE", "FIN", "LUX", "ISL", "PRT", "HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "LVA", "LTU", "EST", "GRC", "CHE"],
   "Balkans": ["HRV", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "GRC"],
   "Mediterranean EU": ["FRA", "ESP", "ITA", "PRT", "HRV", "GRC", "CYP", "SVN", "MAL"],
-  "Non-Med EU": ["BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "ISL", "HUN", "POL", "CZE", "SVK", "ROU", "BGR", "LVA", "LTU", "EST"]
+  "Non-Med EU": ["BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "ISL", "HUN", "POL", "CZE", "SVK", "ROU", "BGR", "LVA", "LTU", "EST"],
+  "Iberia": ["ESP", "PRT"]
 }
