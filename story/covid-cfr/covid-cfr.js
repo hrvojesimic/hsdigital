@@ -1,32 +1,95 @@
 const START_DATE = new Date('2020-01-21');
-const END_DATE = new Date('2020-10-28'); //TODO remove?
+const END_DATE = new Date('2020-11-05'); //TODO remove?
 
 const preparation = {
   cfrs: "/story/covid-cfr/cfrs.csv",
   timeseries: {
     uri: "/story/covid-cfr/timeseries.csv",
     augment: augmentTimeseries
-  }
+  },
+  secondWaveCfrs: "/story/covid-cfr/swo.csv",
+  septCfr: "/story/covid-cfr/swod.csv"
 };
+
+function num(v) {
+  return v === ''? undefined : +v;
+}
 
 function augmentTimeseries(row) {
   return {
     date: new Date(row.date),
     territory: row.territory,
-    cases: +row.cases,
-    deaths: +row.deaths,
-    weekTestRate: +row.weekTestRate,
-    weekPosRate: +row.weekPosRate,
-    cases2w: +row.cases2w,
-    alarm: +row.alarm
+    cases: num(row.cases),
+    deaths: num(row.deaths),
+    weekTestRate: num(row.weekTestRate),
+    weekPosRate: num(row.weekPosRate),
+    cases2w: num(row.cases2w),
+    alarm: num(row.alarm)
   };
 }
+
 function dataCompleted() {
+  Array.from(document.getElementsByClassName("cfrHistograms")).forEach(el=>
+    drawCfrHistograms(el)
+  );
   drawCfrChangeChart();
   drawAllFullCharts();
 }
 
 function prepareLocal() {
+}
+
+function drawCfrHistograms(el) {
+  const clist = el.textContent.split(",").map(s => s.trim());
+  clist.sort();
+  el.textContent = "";
+  const step = 20;
+  const dims = {
+    width:  200, 
+    height: clist.length * step, 
+    left:   10, 
+    right:  10, 
+    top:    10, 
+    bottom: 20
+  };
+  const g = d3.group(data.secondWaveCfrs, d => d.territory);
+  // const cfrArrays = Array.from(g, d => d[1].map(o => +o.cfr));
+  var xScale = d3.scaleLinear().domain([0, 0.1]).range([dims.width,0]);
+  const histogram = d3.histogram()    
+    .domain([0, 0.2])
+    .thresholds(d3.range(20).map(i => i/200))
+    .value(d => d);
+  const svg = d3.select(el)
+    .append("svg").attrs({
+      class: "crfHist",
+      viewBox: `0,0,${dims.left + dims.width + dims.right},${dims.top + dims.height + dims.bottom}`
+    });
+  svg.append("g").attrs({
+    class: "btmAxis",
+    transform: `translate(${dims.left},${dims.top + dims.height})`
+  }).call(
+    d3.axisBottom(xScale)
+      .ticks(10).tickSize(-dims.height)
+      .tickFormat(d3.format(".0%"))
+  );
+
+  const chartZone = svg.append("g")
+    .attr("transform",(d,i) => `translate(${dims.left}, ${dims.top})`);
+  const area = d3.area()
+    .y0(d => -d.length).y1(0)
+    .x(d => xScale(d.x0))
+    .curve(d3.curveMonotoneX);
+  const violins = chartZone.selectAll("g.violin")
+    .data(clist.map(x => [x, g.get(x)]));
+  const enterViolin = violins.enter().append("g")
+    .attr("transform",(d,i) => `translate(0, ${(i+0.5) * step + 6})`);
+  enterViolin.append("text").text(d => d[0]);
+  enterViolin.append("path")
+        .style("stroke","darkslategray")
+        .style("stroke-opacity", 0.8)
+        .style("stroke-width", 1)
+        .style("fill", "url(#grad1)")
+        .attr("d", d => area(histogram(d[1].map(o => +o.cfr))));
 }
 
 function drawCfrChangeChart() {
@@ -67,7 +130,7 @@ function drawCfrChangeChart() {
     id: "grad1", x1: "0%", y1: "0%", x2: "100%", y2: "0%"
   });
   gradient.append("stop").attrs({
-    offset: "0%", style: "stop-color:#e8505b; stop-opacity: 1"
+    offset: "0%", style: "stop-color:#e8303b; stop-opacity: 1"
   });
   gradient.append("stop").attrs({
     offset: "100%", style: "stop-color:#f9d56e; stop-opacity: 1"
@@ -101,12 +164,14 @@ function drawCfrChangeChart() {
     i++;
     for (const row of dset) {
       const y = (i++) * rowHeight;
+      const sw = data.septCfr.find(d => d.territory === row.country);
+      if (!sw) { console.log("missing " + row.country); continue; }
       const rowG = chartG.append("g").attrs({
         class: "change"
       });
       rowG.append("title").text(row.country);
       rowG.append("text")
-        .attr("transform", `translate(${dims.width + 8}, ${y + 2})`)
+        .attr("transform", `translate(${dims.width + 5}, ${y + 2})`)
         .text(row.country);
 
       rowG.append("circle").attrs({
@@ -115,16 +180,32 @@ function drawCfrChangeChart() {
         cy: y,
         r:  10
       });
-      rowG.append("circle").attrs({
+      rowG.append("rect").attrs({
         class: "after",
-        cx: xScale(row.after),
-        cy: y,
-        r:  10
+        x: xScale(sw.q3),
+        y: y - 6,
+        width: xScale(sw.q1) - xScale(sw.q3),
+        height: 12
       });
+      // rowG.selectAll("line.q").data([sw.min, sw.median, sw.max])
+      //     .enter()
+      //       .append("line").attrs({class: "after q",
+      //         x1: d => xScale(d), y1: y - 6,
+      //         x2: d => xScale(d), y2: y + 6
+      //       });
+      // rowG.append("line").attrs({class: "after",
+      //   x1: xScale(sw.max), y1: y,
+      //   x2: xScale(sw.q3), y2: y
+      // });
+      // rowG.append("line").attrs({class: "after",
+      //   x1: xScale(sw.q1), y1: y,
+      //   x2: xScale(sw.min), y2: y
+      // });
       rowG.append("line").attrs({
+        class: "arrow",
         x1: xScale(row.before),
         y1: y,
-        x2: xScale(row.after),
+        x2: xScale(sw.median) - 2, //xScale(row.after),
         y2: y,
         'marker-end': 'url(#arrow)'
       });
@@ -155,7 +236,7 @@ function drawFullChart(node, territory, {show = 'cdftpa', dmax, offset=0, radius
     heightC: show.includes('c')? 200 : 0, 
     heightF: show.includes('f')? 160 : 0,
     heightT: show.includes('t')? 100 : 0,
-    gap:     show.includes('t')?  15 : 0,
+    gap:     show.includes('t') || show.includes('f')? 15 : 0,
     left:    40, 
     right:   60, 
     top:     5, 
@@ -453,5 +534,20 @@ function calculateCfr(timeseries, offset) {
         cfr: timeseries[i + offset].deaths / timeseries[i].cases,
         cases: timeseries[i].cases
       });
+  return result;
+}
+
+function cfrOffsets(territory) {
+  const CUTOFF = new Date("2020-09-01");
+  const a = data.timeseries.filter(d=> d.territory === territory && d.date >= CUTOFF);
+  const dc = a[14].cases - a[0].cases;
+  const result = [];
+  for (let offset = 0; offset <= 28; offset++) {
+    result.push({
+      territory: territory,
+      offset: offset,
+      cfr: (a[offset+14].deaths - a[offset].deaths) / dc
+    });
+  }
   return result;
 }

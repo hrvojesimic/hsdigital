@@ -14,6 +14,14 @@ g.btmAxis .domain {
 g.btmAxis g.tick line {
   stroke: white;
 }
+svg.crfHist g.btmAxis g.tick line {
+  stroke: gray;
+  stroke-opacity: 0.3;
+}
+
+svg.crfHist g.btmAxis g.tick text {
+  font-size: 0.6rem;
+}
 
 g.change text {
   dominant-baseline: middle;
@@ -24,15 +32,20 @@ g.change line {
   stroke-opacity: 100%;
   stroke-width: 3px;
 }
+g.change line.after {
+  stroke: 555;
+  stroke-opacity: 100%;
+  stroke-width: 1px;
+}
 
-g.change circle {
+g.change circle, g.change rect {
   fill-opacity: 60%;
   stroke: #555;
 }
-g.change circle.before {
+g.change .before {
   fill: #f3ecc2;
 }
-g.change circle.after {
+g.change .after {
   fill: #14b1ab;
 }
 

@@ -59,10 +59,6 @@ div.title {
   }
 }
 
-.articleList {
-  margin: 1rem;
-}
-
 .articleList .publishedDate {
   color: darkgray;
   font-size: 75%;
