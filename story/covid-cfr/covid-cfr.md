@@ -58,7 +58,7 @@ Comparing these two charts, we can notice that more testing is correlated with l
 
 ## Differences between East and West
 
-Let's focus on all member states from the western side of the continent, up to Finland, Germany, Austria, and Italy. Here are all three charts with aggregate data:
+Let's focus on all member states from the western side of the continent, up to Finland, Germany, Austria, and Italy. Here are all three charts put together:
 
 <figure>
 <div class="fullChart" 
@@ -241,7 +241,7 @@ European countries outside the EU follow the same east-west trend.
 
 The only ones with the hump under 1% are the western countries. Of those, United Kingdom has the most dispersed values.
 
-## Drop in CRF across Europe
+## Drop in CFR across Europe
 
 However we slice the data, one insight remains salient: CFRs in Europe have dropped over the summer. We can see that in this chart, each arrow depicting the change in a single European country from the April CFR (estimation based on the deaths offset with the highest correlation with the cases curve) to the median CFR values calculated for this September:
 
