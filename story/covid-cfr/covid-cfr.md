@@ -9,7 +9,7 @@
 [Continuing](https://hrvoje.simic.digital/a/covid-wave-1) the phenomenological approach to analysing COVID-19 cases in Europe, we'll try to calculate the proportion of fatal outcomes of the disease. Let's start with an up-to-date chart of the pandemic in the EU (data from [ECDC](https://github.com/owid/covid-19-data/blob/master/public/data/ecdc)):
 
 <figure>
-<div class="fullChart" 
+  <div class="fullChart" 
      data-territory="EU" 
      data-show="cd"
      data-offset="0" 
@@ -120,9 +120,9 @@ Even if we vary the offset to 14, 21, or 28 days, CFR is still relatively stable
      data-offset="14" 
      data-dmax="7.8"></div>
 
-CFR is quite constant (~5%) throughout the first wave in Germany, both in late March, when positivity was 8%, as well as in May, when the positivity was under 2%. During summer CFR reached values well under 1%, and is still around that limit. End of August and whole of September there was a growth in number of cases, but testing numbers stayed constant.
+CFR is quite constant (~5%) throughout the first wave in Germany, both in late March, when positivity was 8%, as well as in May, when the positivity was under 2%. During summer CFR reached values well under 1%, however at the end of August there is a wierd change of trend.
 
-If we overlap the growth in deaths from the second wave with the strong rise of reported cases in early fall we have a problem. These two growths are almost simultaneous, and therefore unlikely to be causally related. The September-October CFR in this case would come up to around 0.5%.
+If we overlap the growth in deaths from the second wave with the strong rise of reported cases in early fall we get a different picture. These two growths seem to be almost simultaneous (offset of just 2 days), but it produces a more stable CFR curve in the later period. The September-October CFR in this case would come up to around 0.5%.
 
 <div class="fullChart" 
      data-show="cdfa"
@@ -167,13 +167,13 @@ Sweden is an attractive case to study because it pursued distinctive policies fr
 
 <div class="fullChart" data-territory="Sweden" data-offset="4" data-dmax="33"></div>
 
-The CFR is declining, from 16% in April to 1% in August. This is in alignment with the rising daily tests. In September the CFR keeps falling further to under 0.5%, even though testing was relatively constant, and the proportion of positive tests grew from 1% to 10%.
+The CFR is declining, from 16% in April to 1% in August. This is in alignment with the rising daily tests. In September the CFR keeps falling further to under 0.5%, even though testing was relatively constant, and the proportion of positive tests grew.
 
 ## Calculating CFR values for different offsets
 
 We've seen a lot of charts in this article, with CFR flailing widely across the spectrum of possible values. But which ones are right?
 
-Since we suspect that CFRs and offsets have changed between the waves, and since we cannot calculate the offset by overlapping curves, let's try to calculate CFR for every offset between zero and 35 days. Here's the result for the 30 days of September in Germany:
+Since we suspect that CFRs and offsets have changed between the waves, and since we cannot reliably calculate the offset by overlapping curves, let's try to calculate CFR for every offset between zero and 35 days (no averaging necessary). Here's the result for the 30 days of September in Germany:
 
 ```vly
 width: 160
@@ -252,4 +252,4 @@ However we slice the data, one insight remains salient: CFRs in Europe have drop
 
 Top part shows countries of West EU, with widely different estimated case fatality rates in April represented with circles. Rectangles, which represent the interquartile range of calculated CFRs in September, are close to the 0% line. Non-EU countries in the West, such as UK, Switzerland and Norway, are following the western trends. However, CFRs in eastern EU countries are not falling as much.
 
-Reasons for this change in CFRs are not clear. It appears that higher levels of testing play an important role, but they don't seem to explain the effect entirely. Whatever the cause may be, it's a comforting idea that record-high numbers of cases this fall do not lead to as much death as they did in the first half of 2020. In Western Europe, at least.
+Reasons for this change in CFRs are not clear. It appears that higher levels of testing play an important role, but they don't seem to explain the effect entirely. Whatever the cause may be, it's a comforting idea that record-high numbers of cases this fall do not lead to proportionally as much death as they did in the first half of 2020. In Western Europe, at least.
