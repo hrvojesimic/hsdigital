@@ -62,6 +62,7 @@ function store(key, o) {
   }
   if (Object.keys(data).length === Object.keys(preparation).length) {
     console.log("data object completed.");
+    replaceAllCalculations();
     if (typeof dataCompleted === "function")
       dataCompleted();
   }
@@ -233,6 +234,14 @@ function configureD3() {
 
 function configureDayJs() {
   dayjs.extend(window.dayjs_plugin_weekOfYear);
+}
+
+function replaceAllCalculations() {
+  for (let el of document.getElementsByClassName('calculation')) {
+    const expr = el.dataset.expression.replaceAll("$#39;", "'");
+    console.log("Evaluating expression " + expr);
+    el.innerHTML = eval(expr);// Function('"use strict";return (' + expr + ')')();
+  }
 }
 
 function onFeature(feature, fn) {
