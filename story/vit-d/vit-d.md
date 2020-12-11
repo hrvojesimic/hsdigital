@@ -103,7 +103,7 @@ Ova studija ima svoje nedostatke. Najveći minus joj je što nije dvostruko slij
 
 Randomiziran, placebom kontroliran [pokus iz Indije](https://pmj.bmj.com/content/early/2020/11/12/postgradmedj-2020-139065.full) nad 40 pacijenata koji su imali asimptomatski ili blago simptomatski COVID-19. Terapija vitaminom D<sub>3</sub> je pomogla u oporavku.
 
-Jedna druga [studija iz Brazila](https://www.medrxiv.org/content/10.1101/2020.11.16.20232397v1), čiji su rezultati objavljeni kao _preprint_ (tj. nisu još prošli _peer-review_) nije našla nikakve prednosti terapije vitaminom D. Njena prednost je što je dvostruko slijepa i placebom kontrolirana, no prigovaraju joj neprimjerenu terapiju. Liječnici su tamo pacijentima s uznapredovalom bolesti (90% njih je već bilo na kisiku, ostatak na neinvanzivnoj ventilaciji) dali jednu veliku dozu vitamina D<sub>3</sub> (umjesto 25(OH)D<sub>3</sub>), kojemu treba neko vrijeme da postane metabolički aktivan. Moguće je kako je ova intervencija nastupila prekasno da postigne željeni učinak.
+Jedna druga [studija iz Brazila](https://www.medrxiv.org/content/10.1101/2020.11.16.20232397v1), čiji su rezultati objavljeni kao _preprint_ (tj. nisu još prošli _peer-review_) nije našla nikakve prednosti terapije vitaminom D. Njena prednost je što je dvostruko slijepa i placebom kontrolirana, no prigovaraju joj neprimjerenu terapiju. Liječnici su tamo pacijentima s uznapredovalom bolesti (90% ih je već bilo na kisiku) dali jednu veliku dozu vitamina D<sub>3</sub> (umjesto 25(OH)D<sub>3</sub>), kojemu treba neko vrijeme da postane metabolički aktivan. Moguće je kako je ova intervencija nastupila prekasno da postigne željeni učinak.
 
 
 ## Je li uzimanje vitamina D sigurno?
