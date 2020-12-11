@@ -18,7 +18,7 @@ Iako znamo da kako je premalo vitamina D loša stvar, stručnjaci nisu složni o
 
 Prema studiji iz 2016. _[Vitamin D status and prevalence of inadequacy in Croatian population](https://www.bib.irb.hr/908094)_, prosječna koncentracija 25(OH)D u krvi je bila 54,4 nmol/l. Usprkos suncu, prehrani i dodataka prehrani, _gotovo pola_ (46,1%) stanovnika Hrvatske je ispod nižeg praga od 50 nmol/l, što znači da im **nedostaje vitamina D**. Čak 83,8% stanovništva ima razinu seruma 25(OH)D manju od 75 nmol/l, što je klasificirano kao **manjak** (insuficijencija) vitamina D. Studija zaključuje kako je među Hrvatima visoka prevalencija hipovitaminoze D.
 
-```vly
+```vly.exceptMob
 width: 300
 height: 30
 data:
@@ -42,6 +42,34 @@ encoding:
     scale:
       domain: [nedostatak vitamina D, manjak vitamina D, dovoljna razina vitamina D]
       range: [red, orange, green]
+caption: Prevalencija različitih kategorija nedostatka vitamina D među stanovnicima Hrvatske.
+```
+```vly.onlyMob
+width: 50
+height: 200
+data:
+  values:
+    - caption: nedostatak vitamina D
+      proportion: 46.1
+    - caption: manjak vitamina D
+      proportion: 37.7
+    - caption: dovoljna razina vitamina D
+      proportion: 16.2
+mark: bar
+encoding:
+  y:
+    type: quantitative
+    field: proportion
+    title: null
+    scale:
+      domainMax: 100
+  color:
+    title: null
+    type: nominal
+    field: caption
+    scale:
+      domain: [dovoljna razina vitamina D, manjak vitamina D, nedostatak vitamina D]
+      range: [green, orange, red]
 caption: Prevalencija različitih kategorija nedostatka vitamina D među stanovnicima Hrvatske.
 ```
 
