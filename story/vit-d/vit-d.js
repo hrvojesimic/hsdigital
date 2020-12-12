@@ -3,7 +3,7 @@ const preparation = {};
 function prepareLocal() {
   data.graph = {
     nodes: [
-      {node: 0, color: "gray", name: "svi"},
+      {node: 0, color: "gray", name: "bolesni"},
       {node: 1, color: "orange", name: "+ Vitamin D"},
       {node: 2, color: "blue", name: ""},
       {node: 3, color: "red", name: "JIL"},
