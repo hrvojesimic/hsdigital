@@ -1,0 +1,63 @@
+# Mentalitet izviđača
+
+*Hrvoje Šimić, 2021-07-16*
+<figure>
+  <img src="/story/book-scout-mindset/book-scout-mindset.jfif"/>
+  <figcaption>
+    © Julia Galef, <i>selfie</i> dok čita svoju knjigu
+  </figcaption>
+</figure>
+
+<span class="dropcap">P</span>osljednjih desetak godina objavljeno je puno tomova o ljudskoj iracionalnosti i sklonosti samozavaravanju. Većina popularnoznanstvenih knjiga na tu temu ima pomalo posprdni ton prema našem intelektualnom poštenju i nesposobnosti da objektivno sagledamo činjenice i primjenimo zdravu logiku. Autori se zabavljaju nabrajajući sve načine na koje se pokazalo da smo mi ljudi, kao vrsta, budalasti i nekonzistentni.
+
+To stvara sumornu i bezizlaznu sliku o budućnosti ljudskog roda. Reklo bi se kako ljude, u biti, nije briga za istinu. Imamo neke svoje preferencije i ciljeve koji su sebični i ne nužno povezani sa stvarnim stanjem svijeta. Ako nam vjerovanje u neku tvrdnju X pomaže da postignu te svoje ciljeve, pitamo se "MOGU li ikako vjerovati u X?" No ako procijenimo da bi vjerovanje u X naštetilo našoj strani, tada mijenjamo kriterije i pitamo se: "Da li baš MORAM vjerovati u X?"
+
+A svijet je kompliciran. Puno stvari bi _moglo_ biti istina, ali u isto vrijeme malo toga _mora_ biti istina. Između te dvije krajnosti naše motivirano zaključivanje divlja i pustoši. Bojimo se cijepljenja? Nema problema: nije baš da _moramo_ vjerovati da se pošteno prijavljuju tko je sve imao loše posljedice cijepljenja, ali bi u isto vrijeme _mogli_ povjerovati da se virus više neće jako širiti.
+
+Zato bih vam preporučio knjigu _The Scout Mindset_, prvjenac [Julie Galef](https://juliagalef.com/), suosnivačice [Centra za primijenjenu racionalnost](https://www.rationality.org/) i voditeljice podcasta [_Rationally Speaking_](http://rationallyspeakingpodcast.org/).
+
+## Vojnici i izviđači
+
+Galef ima zgodnu metaforu za opisan način razmišljanja: ona ga zove "__vojničkim stavom__". U njemu se racionalno zaključivanje doživljava kao rat. Da je to uobičajen način gledanja očito je iz samih riječi koje koristimo. Uvjerenja su kao obrambeni položaji: kažemo da imamo "čvrst" stav, dobro utemeljen, da "branimo" svoja uvjerenja. Argumenti su oružja kojima napadamo protivničke položaje: kažemo da smo "pobili argument" ili primili "razoran udarac". Kad otkriješ da si bio u krivu, onda "dozvoljavaš" da je netko u pravu ili "priznaješ poraz", kao da puštaš stranca na svoj teritorij ili mu ga predaješ.
+
+No vojnički stav nije jedini mentalitet koji možemo usvojiti kad razmišljamo. Umjesto običnog pješaka, možemo razmišljati kao __izviđač__. Izviđanje je također važna funkcija u ratu, ali izviđači se ne bore — oni pokušavaju snimiti teren. Prikupljanje činjenica i formiranje mišljenja usporedite s izradom karte terena. Za izviđača nema smisla opirati se potrebnim izmjenama karte. Neće pomoći svojoj strani ako karta prikazuje čvrstim tlom ono koje je u stvarnosti močvara, niti ako je označeno da iza brda nema neprijatelja, iako je tamo cijela divizija. Jedina svrha karte je da što bolje održava stanje na terenu.
+
+Umjesto da se brine o tome kako obraniti svoje i napasti tuđe, izviđač se pita: "Što je stvarno?" Umjesto: "Što bi moji nadređeni voljeli vidjeti?" ili: "Što je lakše za nacrtati?", izviđač se mora pitati: "Kolika je istinski visina tog brda, širina te rijeke, brojnost te jedinice?" Ako novo mjerenje terena pokaže da je karta bila neprecizna ili nepotpuna, to nije neuspjeh. Naprotiv, to je prilika da ispraviš dio svoje karte, da postane točnija i ažurnija. Zato su izviđači stalno budni, stalno traže dokaze koji bi njihovu kartu mogli učiniti točnijom.
+
+## Kako postati izviđačem?
+
+No to što se sam sebi činiš objektivnim, ne znači da si izviđač. Ni to što si pametan i obrazovan ne čini te izviđačem. Jedino stvarnim prakticiranjem izviđačkih tehnika možeš zavrijediti tu titulu.
+
+Evo nekih od tehnika izviđača koje Galef opisuje u knjizi:
+
+- Kažem li ikad drugoj osobi: "Znaš, kasnije sam shvatio kako sam u ovome bio u krivu, a ti si bila u pravu"? Bez obzira što je ona u međuvremenu tu našu nesuglasicu zaboravila. Nije dovoljno pomisliti da sam pogriješio, trebam javno to priznati — bonus bodovi ako pri tome ne osjetim sram.
+
+- Kako prihvaćam kritiku? Doživljavam li to kao napad na sebe, ili kao pomoć da popravim svoje greške? Ako sam u stanju čuti protuargument bez da instinktivno zauzimam defenzivan stav, to je znak da razmišljam kao izviđač.
+
+- Kad sam zadnji put bio u zabludi? Nemoguće je da sam u svemu bio u pravu iz prve. Važno je stalno preispitivati promjene u našim stavovima, pogotovo trenutke kad smo "potiho" promjenili mišljenje kao da smo uvijek mislili tako. S druge strane, ako ne mijenjamo svoja mišljenja, to je također znak da nismo izviđač. Ako naša potraga za istinom liči na sprint po otvorenom polju u smjeru u kojem smo uvijek znali da je pravi, nešto radimo krivo.
+ 
+- Kako pazim da sam sebe ne zavaravam? Kod slijepe analize podataka (_blind data analysis_) istraživači namjerno ne rade s pravim podacima sve dok se svi ne usuglase da su uspjeli složiti dobru proceduru obrade. Tek onda "otkriju" prave podatke i vide što sugerira njihova analiza. Na taj način neće biti u iskušenju da "prilagode" svoju obradu kako bi dobili željeni ishod.
+
+- Poznajem li ljude koji imaju neke suprotne stavove od mojih, i to su u stanju dobro argumentirati? Ili su svi koji drugačije misle tupavi i nerazumni? Ako ne znaš za dobre argumente s druge strane, trebaš se potruditi i pronaći ih.
+
+## Misaoni pokusi
+
+Posebno korisni su misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi imali ovim pokusima dali šansu da profunkcioniraju.
+
+__Dvostruki standard__. Sudim li jednoj osobi, grupi, ili ideji po drugačijem standardu? Ako u istoj situaciji zamjenim ključne sudionike, kako bi onda razmišljao? Možda nam se grub faul u završnoj minuti utakmice čini prihvatljivim potezom kad je u korist našeg tima, ali bi se drugačije osjećali da su nama to napravili protivnici. Vizualno zamislite kako se isti prekršaj događa vašem timu i tek onda prosuđujete.
+
+__Pogled izvana__ (_outside view_). Da se ova situacija ne tiče mene osobno, kako bi razmišljao? Da me netko zamoli da mu dam savjet kao nepristrana stranka, što bih mu rekao? Pokušajte izaći iz svoje kože i pogledati situaciju sa strane, bez ulaženja u povijest i detalje koji bi se ljudima izvana činili nevažnima, a kojima ste opterećeni dok ste "unutra". Pod takvim uvjetima prisiljeni ste zaključivati na temelju objektivnijih kriterija: Kako se odvijala takva situacija ranije? Ono što je pogotovo važno: kad gledate na druge ljude "izvana", ne mislite da su tako posebni i iznimni, kao što to mislite za sami sebe.
+
+__Konformizam__. Da moja ekipa ne misli isto, bi li i ja promijenio mišljenje? Da moj omiljeni znanstveni influencer zagovara zatvaranje nuklearnih elektrana, bi li počeo drugačije gledati na taj prijedlog? Izviđač će se držati činjenica i argumenata, ignorirajući koliko je koji stav popularan.
+
+__Izbirljivi skeptik__. Postavljam li previsoke standarde određenim dokazima samo zato što mi ne odgovara u kojem smjeru pokazuju? Ne postoje jasno definirani kriteriji koliko čvrsti moraju biti dokazi da bi prihvatili određenu tvrdnju, pa tu nesigurnost možemo podsvjesno iskoristiti da postavimo ljestvicu nešto više za dokaze koji nam ne odgovaraju. Izviđač bi prvo postavio ljestvicu jednako za sve dokaze, i to prije nego što vidi kuda ukazuju koji dokazi.
+
+__Tromost__. Bi li zagovarao trenutni _status quo_ da smo slučajno u drugačijoj situaciji? Evo primjera: neki ljudi ne misle da produljivanje prosječnog ljudskog vijeka s (recimo) 80 na 160 godina dobra stvar. No to je djelomično zato što smo se navikli da ljudi umiru oko 80-te. No zamislite da ljudi inače žive u prosjeku 160 godina. Sad bi bilo teže opravdati tvrdnju da je svijet u kojem ljudi žive duplo kraće u stvari bolji, zar ne?
+
+## Neobično optimistična knjiga
+
+Julia Galef je malo drugačiji glas za ovakvu vrstu knjige: nepretenciozan, mladenački, raspoložen. Često govori iz perspektive tinejdžera, studenta ili cure koja živi u Silikonskoj dolini. Za razliku od većine onih koji promišljaju čovjekov racio, Galef donosi dašak optimizma, bez da odluta u smjeru naivnosti.
+
+I sama kaže kako je njena knjiga "neobično optimistična", ali optimistična s pokrićem. Biti realan ne znači biti nesretan. Brinemo se hoćemo li izgubiti želju da radimo na projektu ako smo svjesni da ima male šanse da uspije? Hoćemo li pasti u depresiju kad shvatimo da drugima i nismo toliko zgodni koliko smo mislili?  Galef kaže kako se ne moramo nužno odreći svojih snova samo zato što se moramo suočiti sa surovom stvarnosti. 
+
+

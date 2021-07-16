@@ -98,6 +98,7 @@ figure > img {
   width: 100%;
   object-fit: cover;
   height: 25em;
+  object-fit: contain;
   object-position: bottom;
 }
 
@@ -105,24 +106,6 @@ figcaption {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 1rem;
-}
-
-.progress {
-  list-style: none;
-  padding: 0;
-  display: flex;
-}
-
-@media screen and (max-width: 400px) {
-  .progress {
-    flex-direction: column;
-  }
-}
-
-.progress > * {
-  border: 1px solid lightgray;
-  padding: 0.5em 0.75em 0.5em 0.75em;
-  margin: 5px;
 }
 
 .full-width {

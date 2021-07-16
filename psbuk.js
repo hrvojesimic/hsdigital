@@ -37,15 +37,18 @@ function onAvailable(dataset, callback) {
 }
 
 function prepare() {
-  if (!preparation) 
+  if (typeof preparation === "undefined") {
     console.warn("No preparation object!");
-  for (let key in preparation) {
-    const p = preparation[key];
-    if (typeof p === 'string')
-      loadFromUri(p).then(o => store(key, o));
-    else {
-      if (p.uri && p.augment) {
-        loadFromUri(p.uri).then(o => store(key, o.map(p.augment)));
+  }
+  else {
+    for (let key in preparation) {
+      const p = preparation[key];
+      if (typeof p === 'string')
+        loadFromUri(p).then(o => store(key, o));
+      else {
+        if (p.uri && p.augment) {
+          loadFromUri(p.uri).then(o => store(key, o.map(p.augment)));
+        }
       }
     }
   }
@@ -268,8 +271,12 @@ function loadContent(id) {
 }
 
 function loadFromUri(uri) {
+  if (uri.endsWith(".txt"))
+    return fetch(uri).then(r => r.text());
   if (uri.endsWith("json") || uri.includes("/json/"))
     return fetch(uri).then(r => r.json());
+  if (uri.endsWith("bin"))
+    return fetch(uri).then(r => r.arrayBuffer());
   if (d3) {
     if (uri.endsWith("csv") || uri.includes("/csv/"))
       return d3.csv(uri);

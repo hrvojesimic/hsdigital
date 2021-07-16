@@ -27,9 +27,9 @@ module.exports = {
         "ignoreInitial": true
     },
     "server": {
-      "baseDir": [".", "a", "story"],
+      "baseDir": [".", "a", "story", "lib"],
       serveStaticOptions: {
-        extensions: ["html"]
+        extensions: ["html", "js"]
       }
     },
     "proxy": false,
