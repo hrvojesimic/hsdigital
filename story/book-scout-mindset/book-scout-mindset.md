@@ -8,13 +8,13 @@
   </figcaption>
 </figure>
 
-<span class="dropcap">P</span>osljednjih desetak godina objavljeno je puno tomova o ljudskoj iracionalnosti i sklonosti samozavaravanju. Većina popularnoznanstvenih knjiga na tu temu ima pomalo posprdni ton prema našem intelektualnom poštenju i nesposobnosti da objektivno sagledamo činjenice i primjenimo zdravu logiku. Autori se zabavljaju nabrajajući sve načine na koje se pokazalo da smo mi ljudi, kao vrsta, budalasti i nekonzistentni.
+<span class="dropcap">P</span>osljednjih desetak godina objavljeno je puno tomova o ljudskoj iracionalnosti i sklonosti samozavaravanju. Većina popularnoznanstvenih knjiga na tu temu ima pomalo posprdni ton prema našem intelektualnom poštenju i nesposobnosti da objektivno sagledamo činjenice i primijenimo zdravu logiku. Autori se zabavljaju nabrajajući sve načine na koje se pokazalo da smo mi ljudi, kao vrsta, budalasti i nekonzistentni.
 
 To stvara sumornu i bezizlaznu sliku o budućnosti ljudskog roda. Reklo bi se kako ljude, u biti, nije briga za istinu. Imamo neke svoje preferencije i ciljeve koji su sebični i ne nužno povezani sa stvarnim stanjem svijeta. Ako nam vjerovanje u neku tvrdnju X pomaže da postignu te svoje ciljeve, pitamo se "MOGU li ikako vjerovati u X?" No ako procijenimo da bi vjerovanje u X naštetilo našoj strani, tada mijenjamo kriterije i pitamo se: "Da li baš MORAM vjerovati u X?"
 
 A svijet je kompliciran. Puno stvari bi _moglo_ biti istina, ali u isto vrijeme malo toga _mora_ biti istina. Između te dvije krajnosti naše motivirano zaključivanje divlja i pustoši. Bojimo se cijepljenja? Nema problema: nije baš da _moramo_ vjerovati da se pošteno prijavljuju tko je sve imao loše posljedice cijepljenja, ali bi u isto vrijeme _mogli_ povjerovati da se virus više neće jako širiti.
 
-Zato bih vam preporučio knjigu _The Scout Mindset_, prvjenac [Julie Galef](https://juliagalef.com/), suosnivačice [Centra za primijenjenu racionalnost](https://www.rationality.org/) i voditeljice podcasta [_Rationally Speaking_](http://rationallyspeakingpodcast.org/).
+Zato bih vam preporučio knjigu _The Scout Mindset_, prvijenac [Julie Galef](https://juliagalef.com/), suosnivačice [Centra za primijenjenu racionalnost](https://www.rationality.org/) i voditeljice podcasta [_Rationally Speaking_](http://rationallyspeakingpodcast.org/).
 
 ## Vojnici i izviđači
 
@@ -30,13 +30,13 @@ No to što se sam sebi činiš objektivnim, ne znači da si izviđač. Ni to št
 
 Evo nekih od tehnika izviđača koje Galef opisuje u knjizi:
 
-- Kažem li ikad drugoj osobi: "Znaš, kasnije sam shvatio kako sam u ovome bio u krivu, a ti si bila u pravu"? Bez obzira što je ona u međuvremenu tu našu nesuglasicu zaboravila. Nije dovoljno pomisliti da sam pogriješio, trebam javno to priznati — bonus bodovi ako pri tome ne osjetim sram.
+- Kažem li ikad drugoj osobi: "Znaš, kasnije sam shvatio kako sam u ovome bio u krivu, a ti si bila u pravu"? Bez obzira na to što je ona u međuvremenu tu našu nesuglasicu zaboravila. Nije dovoljno pomisliti da sam pogriješio, trebam javno to priznati — bonus bodovi ako pri tome ne osjetim sram.
 
 - Kako prihvaćam kritiku? Doživljavam li to kao napad na sebe, ili kao pomoć da popravim svoje greške? Ako sam u stanju čuti protuargument bez da instinktivno zauzimam defenzivan stav, to je znak da razmišljam kao izviđač.
 
-- Kad sam zadnji put bio u zabludi? Nemoguće je da sam u svemu bio u pravu iz prve. Važno je stalno preispitivati promjene u našim stavovima, pogotovo trenutke kad smo "potiho" promjenili mišljenje kao da smo uvijek mislili tako. S druge strane, ako ne mijenjamo svoja mišljenja, to je također znak da nismo izviđač. Ako naša potraga za istinom liči na sprint po otvorenom polju u smjeru u kojem smo uvijek znali da je pravi, nešto radimo krivo.
+- Kad sam zadnji put bio u zabludi? Nemoguće je da sam u svemu bio u pravu iz prve. Važno je stalno preispitivati promjene u našim stavovima, pogotovo trenutke kad smo "potiho" promijenili mišljenje kao da smo uvijek mislili tako. S druge strane, ako ne mijenjamo svoja mišljenja, to je također znak da nismo izviđač. Ako naša potraga za istinom liči na sprint po otvorenom polju u smjeru u kojem smo uvijek znali da je pravi, nešto radimo krivo.
  
-- Kako pazim da sam sebe ne zavaravam? Kod slijepe analize podataka (_blind data analysis_) istraživači namjerno ne rade s pravim podacima sve dok se svi ne usuglase da su uspjeli složiti dobru proceduru obrade. Tek onda "otkriju" prave podatke i vide što sugerira njihova analiza. Na taj način neće biti u iskušenju da "prilagode" svoju obradu kako bi dobili željeni ishod.
+- Kako pazim da sam sebe ne zavaravam? Kod slijepe analize podataka (_blind data analysis_) istraživači namjerno ne rade s pravim podacima sve dok se svi ne usuglase da su uspjeli složiti dobru proceduru obrade. Tek onda "otkriju" prave podatke i vide što sugerira njihova analiza. Tako neće biti u iskušenju da "prilagode" svoju obradu kako bi dobili željeni ishod.
 
 - Poznajem li ljude koji imaju neke suprotne stavove od mojih, i to su u stanju dobro argumentirati? Ili su svi koji drugačije misle tupavi i nerazumni? Ako ne znaš za dobre argumente s druge strane, trebaš se potruditi i pronaći ih.
 
@@ -44,7 +44,7 @@ Evo nekih od tehnika izviđača koje Galef opisuje u knjizi:
 
 Među stotinama savjeta iz knjige meni su posebno korisni misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi imali ovim pokusima dali šansu da profunkcioniraju.
 
-__Dvostruki standard__. Sudim li jednoj osobi, grupi, ili ideji po drugačijem standardu? Ako u istoj situaciji zamjenim ključne sudionike, kako bi onda razmišljao? Možda nam se grub faul u završnoj minuti utakmice čini prihvatljivim potezom kad je u korist našeg tima, ali bi se drugačije osjećali da su nama to napravili protivnici. Vizualno zamislite kako se isti prekršaj događa vašem timu i tek onda prosuđujete.
+__Dvostruki standard__. Sudim li jednoj osobi, grupi, ili ideji po drugačijem standardu? Ako u istoj situaciji zamijenim ključne sudionike, kako bi onda razmišljao? Možda nam se grub faul u završnoj minuti utakmice čini prihvatljivim potezom kad je u korist našeg tima, ali bi se drugačije osjećali da su nama to napravili protivnici. Vizualno zamislite kako se isti prekršaj događa vašem timu i tek onda prosuđujete.
 
 __Pogled izvana__ (_outside view_). Da se ova situacija ne tiče mene osobno, kako bi razmišljao? Da me netko zamoli da mu dam savjet kao nepristrana stranka, što bih mu rekao? Pokušajte izaći iz svoje kože i pogledati situaciju sa strane, bez ulaženja u povijest i detalje koji bi se ljudima izvana činili nevažnima, a kojima ste opterećeni dok ste "unutra". Pod takvim uvjetima prisiljeni ste zaključivati na temelju objektivnijih kriterija: Kako se odvijala takva situacija ranije? Ono što je pogotovo važno: kad gledate na druge ljude "izvana", ne mislite da su tako posebni i iznimni, kao što to mislite za sami sebe.
 
