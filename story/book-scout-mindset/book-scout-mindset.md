@@ -1,6 +1,6 @@
 # Mentalitet izviđača
 
-*Hrvoje Šimić, 2021-07-16*
+*Hrvoje Šimić, 2021-07-18*
 <figure>
   <img src="/story/book-scout-mindset/book-scout-mindset.jfif"/>
   <figcaption>
@@ -42,7 +42,7 @@ Evo nekih od tehnika izviđača koje Galef opisuje u knjizi:
 
 ## Misaoni pokusi
 
-Posebno korisni su misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi imali ovim pokusima dali šansu da profunkcioniraju.
+Među stotinama savjeta iz knjige meni su posebno korisni misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi imali ovim pokusima dali šansu da profunkcioniraju.
 
 __Dvostruki standard__. Sudim li jednoj osobi, grupi, ili ideji po drugačijem standardu? Ako u istoj situaciji zamjenim ključne sudionike, kako bi onda razmišljao? Možda nam se grub faul u završnoj minuti utakmice čini prihvatljivim potezom kad je u korist našeg tima, ali bi se drugačije osjećali da su nama to napravili protivnici. Vizualno zamislite kako se isti prekršaj događa vašem timu i tek onda prosuđujete.
 
@@ -58,6 +58,8 @@ __Tromost__. Bi li zagovarao trenutni _status quo_ da smo slučajno u drugačijo
 
 Julia Galef je malo drugačiji glas za ovakvu vrstu knjige: nepretenciozan, mladenački, raspoložen. Često govori iz perspektive tinejdžera, studenta ili cure koja živi u Silikonskoj dolini. Za razliku od većine onih koji promišljaju čovjekov racio, Galef donosi dašak optimizma, bez da odluta u smjeru naivnosti.
 
-I sama kaže kako je njena knjiga "neobično optimistična", ali optimistična s pokrićem. Biti realan ne znači biti nesretan. Brinemo se hoćemo li izgubiti želju da radimo na projektu ako smo svjesni da ima male šanse da uspije? Hoćemo li pasti u depresiju kad shvatimo da drugima i nismo toliko zgodni koliko smo mislili?  Galef kaže kako se ne moramo nužno odreći svojih snova samo zato što se moramo suočiti sa surovom stvarnosti. 
+I sama kaže kako je njena knjiga "neobično optimistična", ali optimistična s pokrićem. Razumljivo je da se bojimo otvoriti oči, i skinuti rozo obojene naočale. Brinemo se da ćemo izgubiti motivaciju za rad na projektu ako postanemo svjesni kako su male šanse da uspije. Plašimo se kako ćemo pasti u depresiju kad shvatimo da drugima nismo toliko zgodni. Sve su to normalni strahovi, ali ujedno svi znamo da tako ne možemo živjeti.
 
+Nema smisla da budemo frustrirani što kao vrsta nismo dostigli neki idealan standard racionalnosti iz SF filmova. Umjesto toga, budimo ponosni na ono što jesmo postigli. Umjesto na svakodnevne primjere sebičnog izvrtanja istine koje primjećujemo oko sebe, fokusirajmo se na pozitivne primjere iz knjige, ljude koji su svoj život posvetili tome da istina ipak izađe na vidjelo. Ljude koji su rekli: nije me briga što ste svi vi upeli misliti kako vaša laž nije lažna, ja ću biti uporan i dosadan i dosljedan u iznošenju neugodnih činjenica i izvođenju logičkih zaključaka, i na kraju će istina pobijediti. 
 
+Svima nam treba jedna ovako prkosna knjiga. Ne grčevita u borbi protiv nadmoćne sile, nego opuštena i sigurna u sebe, svjesna da je igra namještena u njenu korist, i da je svaki otpor kratkotrajan. Ima prednost jer je razumna rasprava [asimetrično oružje](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/), oružje koje je moćnije u rukama onih koji su u pravu, te ujedno i oružje protiv kojeg se nitko otvoreno i svjesno ne buni. Ljudi ne protestiraju na ulicama tražeći skrivanje činjenice, zabranu logike, manje racionalnosti; štoviše, upinju se koji će sebi više prisvojiti epitete razumnog. Zato, ako mislite kako ste na strani istine i razuma, ako ste spremni suočiti se s činjenicama i pogledati stvarnosti u oči, skinite svoju odoru vojnika i uzmite "The Scout Mindset".
