@@ -2,7 +2,7 @@
 
 *Hrvoje Šimić, 2021-07-18*
 <figure>
-  <img src="/story/book-scout-mindset/book-scout-mindset.jfif"/>
+  <img src="/story/book-scout-mindset/book-scout-mindset.jpeg"/>
   <figcaption>
     © Julia Galef, <i>selfie</i> dok čita svoju knjigu
   </figcaption>
