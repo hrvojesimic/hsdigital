@@ -12,7 +12,7 @@
 
 To stvara sumornu i bezizlaznu sliku o budućnosti ljudskog roda. Reklo bi se kako ljude, u biti, nije briga za istinu. Imamo neke svoje preferencije i ciljeve koji su sebični i ne nužno povezani sa stvarnim stanjem svijeta. Ako nam vjerovanje u neku tvrdnju X pomaže da postignu te svoje ciljeve, pitamo se "MOGU li ikako vjerovati u X?" No ako procijenimo da bi vjerovanje u X naštetilo našoj strani, tada mijenjamo kriterije i pitamo se: "Da li baš MORAM vjerovati u X?"
 
-A svijet je kompliciran. Puno stvari bi _moglo_ biti istina, ali u isto vrijeme malo toga _mora_ biti istina. Između te dvije krajnosti naše motivirano zaključivanje divlja i pustoši. Bojimo se cijepljenja? Nema problema: nije baš da _moramo_ vjerovati da se pošteno prijavljuju tko je sve imao loše posljedice cijepljenja, ali bi u isto vrijeme _mogli_ povjerovati da se virus više neće jako širiti.
+A svijet je kompliciran. Puno stvari bi _moglo_ biti istina, ali u isto vrijeme malo toga _mora_ biti istina. Između te dvije krajnosti naše motivirano zaključivanje divlja i pustoši. Bojimo se cijepljenja? Nema problema: nije baš da _moramo_ vjerovati da se pošteno prijavljuje tko je sve imao loše posljedice cijepljenja, ali bi u isto vrijeme _mogli_ povjerovati da se virus više neće jako širiti.
 
 Zato bih vam preporučio knjigu _The Scout Mindset_, prvijenac [Julie Galef](https://juliagalef.com/), suosnivačice [Centra za primijenjenu racionalnost](https://www.rationality.org/) i voditeljice podcasta [_Rationally Speaking_](http://rationallyspeakingpodcast.org/).
 
@@ -42,7 +42,7 @@ Evo nekih od tehnika izviđača koje Galef opisuje u knjizi:
 
 ## Misaoni pokusi
 
-Među stotinama savjeta iz knjige meni su posebno korisni misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi imali ovim pokusima dali šansu da profunkcioniraju.
+Među stotinama savjeta iz knjige meni su posebno korisni misaoni pokusi, vježbe testiranja vlastitih misli u kojima pokušavamo otkriti vlastitu pristranost u konkretnim situacijama u kojima smo se našli. Poanta je da ovo budu pravi eksperimenti, iako se događaju samo u našoj glavi. Pomisliti na takvu hipotetsku situaciju ili prihvaćanje da je drugačiji ishod moguć nije ni blizu dovoljno — morate se istinski uživjeti u zamišljenu situaciju da bi ovim pokusima dali šansu da profunkcioniraju.
 
 __Dvostruki standard__. Sudim li jednoj osobi, grupi, ili ideji po drugačijem standardu? Ako u istoj situaciji zamijenim ključne sudionike, kako bi onda razmišljao? Možda nam se grub faul u završnoj minuti utakmice čini prihvatljivim potezom kad je u korist našeg tima, ali bi se drugačije osjećali da su nama to napravili protivnici. Vizualno zamislite kako se isti prekršaj događa vašem timu i tek onda prosuđujete.
 
