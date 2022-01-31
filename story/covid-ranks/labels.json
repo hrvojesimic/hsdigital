@@ -1,0 +1,10 @@
+{
+  "fullVacPct": "cijepljeno",
+  "doses": "primljeno doza",
+  "deaths": "preminulo",
+  "hdi": "HDI",
+  "gdppc": "BDP per capita",
+  "age65p": "dob 65+",
+  "lifeExp": "životni vijek",
+  "medAge": "medijan dob"
+}

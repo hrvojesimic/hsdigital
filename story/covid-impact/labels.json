@@ -1,0 +1,6 @@
+{
+  "ecdcDeaths": "ECDC recorded deaths per million per day",
+  "excess": "Excess deaths per million per day",
+  "ihme": "IHME prognosis per million per day",
+  "yll": "Years of life lost per million per day"
+}

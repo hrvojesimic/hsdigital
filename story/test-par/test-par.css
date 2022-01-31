@@ -1,0 +1,101 @@
+rect.popArea {
+  fill: none;
+  stroke: black
+}
+
+line.divider {
+  stroke: gray;
+  stroke-width: 2px;
+}
+
+circle.measure {
+  fill: none;
+  stroke-width: 4px;
+}
+
+circle.measure.proportion {
+  stroke: green;
+}
+
+circle.measure.background.specificity {
+  stroke: salmon;
+}
+circle.measure.background.sensitivity {
+  stroke: white;
+}
+circle.measure.background.precision {
+  stroke: salmon;
+}
+
+circle.measure.proportion.sensitivity {
+  stroke: deepskyblue;
+}
+circle.measure.proportion.precision {
+  stroke: deepskyblue;
+}
+circle.measure.proportion.prevalence {
+  stroke: darkviolet;
+}
+
+text.percentage {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-size: 1.5rem;
+}
+
+text.gouge.label {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-size: 0.75rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+rect.gouge.label.underlay {
+  fill: white;
+  fill-opacity: 0.75;
+  stroke: none;
+}
+
+path.net.truepos {
+  fill: deepskyblue;
+  fill-opacity: 0.5;
+  stroke: blue;
+  stroke-width: 0.5px;
+}
+path.net.falsepos {
+  fill: salmon;
+  fill-opacity: 0.5;
+  stroke: red;
+  stroke-width: 0.5px;
+}
+
+text.eg.ff {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+text.eg.ff.left {
+  text-anchor: start;
+}
+text.eg.ff.right {
+  text-anchor: end;
+}
+text.eg.ff.top {
+  dominant-baseline: hanging;
+}
+text.eg.ff.btm {
+  dominant-baseline: bottom;
+}
+
+text.eg.falseNeg, text.eg.falsePos {
+  fill: firebrick;
+}
+text.eg.truePos, text.eg.trueNeg {
+  fill: darkgreen;
+}
+text.eg.male {
+  fill: darkblue;
+}
+text.eg.female {
+  fill: #871F78;
+}

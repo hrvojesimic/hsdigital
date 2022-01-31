@@ -1,0 +1,13 @@
+svg text {
+  fill: black;
+}
+g.triangle text {
+  font-size: 10px;
+}
+g.axis text.label {
+  text-anchor: middle;
+}
+
+#TriangleQ5 g.triangle circle {
+  fill-opacity: 0.4;
+}
