@@ -88,8 +88,8 @@ const AllCountries = Object.keys(DisplayName);
 const latestCases = {}, latestDeaths = {};
 
 const preparation = {
-  owidNC: "https://covid.ourworldindata.org/data/ecdc/new_cases.csv",
-  owidND: "https://covid.ourworldindata.org/data/ecdc/new_deaths.csv"
+  owidNC: "/story/covid-daily/new_cases.csv",
+  owidND: "/story/covid-daily/new_deaths.csv"
 };
 
 function executeLocalScript() {

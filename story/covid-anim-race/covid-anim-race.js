@@ -1,6 +1,6 @@
-const START_DATE = "2020-01-16";
-const Yesterday = moment().subtract(1, 'day').startOf('day');
-const END_DATE = Yesterday.format("YYYY-MM-DD");
+const START_DATE = "2020-07-01";
+//const Yesterday = moment().subtract(1, 'day').startOf('day');
+const END_DATE = "2020-09-18";//Yesterday.format("YYYY-MM-DD");
 
 const LongDimension = 600;
 const AxisDim = 60;
@@ -42,8 +42,8 @@ const CountrySets = ({
 const CountryLabels = {"United States": "USA", "United Kingdom": "UK"};
 
 const preparation = {
-  owidCases: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
-  owidDeaths: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
+  owidCases: "/story/covid-anim-race/total_cases.csv",
+  owidDeaths: "/story/covid-anim-race/total_deaths.csv",
   populationSource: "/story/covid-anim-race/country-population.csv",
   countryCodes: "/story/euro-neighbours/country-codes-alpha3.json",
   oxcgrt: `https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/${START_DATE}/${END_DATE}#json`
@@ -52,7 +52,7 @@ const svg = {}, chartArea = {};
 
 function prepareRangeInput() {
   dateOffsetInputEl = document.getElementById('DateOffsetInput');
-  const daysPassed = Math.floor(moment().diff(moment(START_DATE), 'days'));
+  const daysPassed = Math.floor(moment(END_DATE).diff(moment(START_DATE), 'days'));
   dateOffsetInputEl.setAttribute("max", daysPassed - 1);
   dateOffsetInputEl.value = daysPassed - 1;
 }
@@ -276,6 +276,7 @@ function data4date(date, countries) {
   const d1 = date.format("YYYY-MM-DD");
   const d0 = weekBeforeDate.format("YYYY-MM-DD");
   const source = showDeaths? data.owidDeaths : data.owidCases;
+  const dataStart = source.find(o => o.date == START_DATE);
   const dataNow = source.find(o => o.date == d1);
   const dataBefore = source.find(o => o.date == d0);
   const result = [];
@@ -286,10 +287,11 @@ function data4date(date, countries) {
     else if (+dataNow[country] >= divisor) {
       const point1 = +dataNow[country] / divisor;
       const point0 = +dataBefore[country] / divisor;
+      const ref = +dataStart[country] / divisor;
       result.push({
         country: country,
-        now: point1,
-        before: point0 >= 1? point0 : 1,
+        now: point1 - ref,
+        before: point0 - ref >= 1? point0 - ref : 1,
         stringency: findStringency(country, d1)
       });
     }
