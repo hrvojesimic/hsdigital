@@ -1,0 +1,56 @@
+# Cities
+Moscow >>> Rome
+Stockholm >>> Vienna
+Berlin >>> Athens
+Dublin >>> Madrid
+Amsterdam >>> Rome
+Berlin >> Paris
+Stockholm >> Berlin
+London >> Paris
+Amsterdam >> Brussels
+London > Brussels
+Amsterdam > London
+Berlin > Amsterdam
+Paris > Vienna
+Stockholm > Moscow
+Dublin > Berlin
+Rome > Madrid
+# Countries
+India >>> Germany
+Germany >>> Sweden
+France >>> Iceland
+China >>> Italy
+USA >> Japan
+China >> India
+Brazil >> Turkey
+Pakistan >> Italy
+Japan >> Turkey
+France >> Spain
+Spain > Canada
+Italy > Australia
+Vietnam > France
+Mexico > Japan
+# People
+Elvis Presley >>> David Bowie
+Bono from U2 >>> Eminem
+Freddie Mercury >>> Eminem
+Freddie Mercury >> Michael Jackson
+John Lennon >> David Bowie
+Kanye West >> Lady Gaga
+Tina Turner > John Lennon
+Freddie Mercury > David Bowie
+Michael Jackson > Bono from U2
+Eminem > Kanye West
+Lady Gaga > Rihanna
+# Movies
+Rocky >>> Gladiator
+The Sound of Music >>> Titanic
+The Godfather >>> A Beautiful Mind
+The Silence of the Lambs >>> Gladiator
+The Sound of Music >>> Forrest Gump
+Rocky >> Forrest Gump
+The Godfather >> Rain Man
+Titanic >> A Beautiful Mind
+Forrest Gump > Braveheart
+Rain Man > The Silence of the Lambs
+Braveheart > Titanic

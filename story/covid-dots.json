@@ -1,0 +1,1 @@
+{"id":"covid-dots","title":"DOTS","description":null,"lang":"hr","image":null,"published":null,"features":["d3-array","d3-selection-multi","customJS","d3","customCSS"],"steps":[{"content":"<h1 id=\"covid-dots\" class=\"title\">Covid dots</h1>\n<p id=\"MapPlaceholder\">Loading map...</p>\n<div id=\"Showtime\">\n</div>","form":"html"}],"headings":[]}

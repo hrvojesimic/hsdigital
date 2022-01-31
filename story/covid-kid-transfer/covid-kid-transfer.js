@@ -25,7 +25,7 @@ var preparation = {
 };
 
 function dataCompleted() {
-  document.querySelectorAll("ul").forEach(o => o.classList.add("browser-default"));
+  browserDefaults();
   createMap();
   addMapSources();
 }

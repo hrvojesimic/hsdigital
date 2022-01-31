@@ -1,0 +1,61 @@
+.gg {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+  grid-auto-rows: minmax(20px, auto);
+  border: 1px solid steelblue;
+  padding: 3px;
+}
+.gg > * {
+  color: white;
+  text-align: center;
+  font-size: 85%;
+  margin: 1px;
+}
+.gg > .q {
+  color: black; 
+  font-size: 130%;
+  grid-row: 1;
+  grid-column: 1/11;
+}
+.gg > .label {
+  color: black; 
+  font-size: 115%;
+}
+.gg > .left.label {
+  grid-row: 2;
+  grid-column: 1/6;
+  text-align: left;
+}
+.gg > .right.label {
+  grid-row: 2;
+  grid-column: 3/11;
+  text-align: right;
+}
+.d1, .d2, .d3 {
+  grid-row: 3;
+  cursor: pointer;
+}
+.left.d3  { grid-column: 1/2; }
+.left.d2  { grid-column: 2/4; }
+.left.d1  { grid-column: 4/6; }
+.right.d1 { grid-column: 6/8; }
+.right.d2 { grid-column: 8/10; }
+.right.d3 { grid-column: 10/13; }
+.left {
+  border-top-left-radius: 30px 50%;
+  border-bottom-left-radius: 30px 50%;
+}
+.right {
+  border-top-right-radius: 30px 50%;
+  border-bottom-right-radius: 30px 50%;
+}
+.gg > .d1 {
+  background: red;
+}
+.gg > .d2 {
+  background: orange;
+}
+.gg > .d3 {
+  background: green;
+}

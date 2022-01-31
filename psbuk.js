@@ -45,10 +45,10 @@ function prepare() {
       const p = preparation[key];
       if (typeof p === 'string')
         loadFromUri(p).then(o => store(key, o));
-      else {
-        if (p.uri && p.augment) {
-          loadFromUri(p.uri).then(o => store(key, o.map(p.augment)));
-        }
+      else if (typeof p === 'function')
+        p().then(o => store(key, o));
+      else if (p.uri && p.augment) {
+        loadFromUri(p.uri).then(o => store(key, o.map(p.augment)));
       }
     }
   }
@@ -75,8 +75,9 @@ function store(key, o) {
     const prep = preparation[key];
     if (prep.waitFor && prep.construction) {
       const stillWaitingFor = prep.waitFor.filter( x => !keysCompleted.includes(x) );
-      if (stillWaitingFor.length === 0)
+      if (stillWaitingFor.length === 0) {
         store(key, prep.construction());
+      }
     }
   }
 }
@@ -186,14 +187,9 @@ function backgrid(spec) {
   const Dataset = Backbone.Collection.extend({
     model: Model,
     url: spec.url
-//    state: {pageSize: 10},
-//    mode: "client"
   });
   spec.collection = new Dataset();
   const grid = new Backgrid.Grid(spec);
-//  const paginator = new Backgrid.Extension.Paginator({
-//    collection: spec.collection
-//  });
   const filter = new Backgrid.Extension.ClientSideFilter({
     collection: spec.collection,
     fields: [spec.filterBy]
@@ -205,7 +201,6 @@ function backgrid(spec) {
   supertable.setAttribute("class", "tablewrapper");
   supertable.appendChild(grid.render().el);
   el.appendChild(supertable);
-//  el.appendChild(paginator.render().el);
   spec.collection.fetch({reset: true});
   return el;
 }
@@ -304,6 +299,36 @@ function rcoef(a, b) {
     den2 += (b[i] - mb)*(b[i] - mb);
   }
   return numerator / Math.sqrt(den1 * den2);
+}
+
+function weightedMean(a, w) {
+  let wsum = 0, sumw = 0;
+  for (let i = 0; i < a.length; i++) {
+    wsum += a[i]*w[i];
+    sumw += w[i];
+  }
+  if (isNaN(wsum) || isNaN(sumw))
+    throw ">>" + a + "|||" + w + "<<";
+  return wsum / sumw;
+}
+
+function weightedCov(x, y, w) {
+  let n = x.length;
+  if (n != y.length || n != w.length)
+    throw "arrays must be of same length";
+  const mx = weightedMean(x, w);
+  const my = weightedMean(y, w);
+  let wsum = 0, sumw = 0;
+  for (let i = 0; i < n; i++) {
+    wsum += w[i]*(x[i] - mx)*(y[i] - my);
+    sumw += w[i];
+  }
+  return wsum / sumw;
+}
+
+// weighted Pearson's correlation coeficient r
+function wrcoef(x, y, w) {
+  return weightedCov(x, y, w) / Math.sqrt(weightedCov(x, x, w) * weightedCov(y, y, w));
 }
 
 function nextUniqueId() {

@@ -1,0 +1,180 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+      #f {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+      }
+      #f > * {
+        text-align: center;
+        margin: 1px;
+        color: white;
+        flex-basis: 10%;
+        border-radius: 2px;
+        padding: 3px;
+      }
+      #L {
+        text-align: right;
+      }
+      #R {
+        text-align: left;
+      }
+      #L, #R {
+        color: gray;
+        flex-basis: 30%;
+      }
+      #s-3, #s3 {
+        background: green;
+        flex-basis: 10%;
+      }
+      #s-2, #s2 {
+        background: orange;
+        flex-basis: 20%;
+      }
+      #s-1, #s1 {
+        background: red;
+        flex-basis: 20%;
+      }
+      #s-1 {
+        text-align: right;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+      }
+      #s1 {
+        text-align: left;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+      }
+
+      .gg {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 2px;
+        grid-auto-rows: minmax(20px, auto);
+        border: 1px solid steelblue;
+        padding: 3px;
+      }
+      .gg > * {
+        color: white;
+        text-align: center;
+        font-size: 85%;
+        margin: 1px;
+      }
+      .gg > .q {
+        color: black; 
+        font-size: 130%;
+        grid-row: 1;
+        grid-column: 1/11;
+      }
+      .gg > .label {
+        color: black; 
+        font-size: 115%;
+      }
+      .gg > .left.label {
+        grid-row: 2;
+        grid-column: 1/6;
+        text-align: left;
+      }
+      .gg > .right.label {
+        grid-row: 2;
+        grid-column: 3/11;
+        text-align: right;
+      }
+      .d1, .d2, .d3 {
+        grid-row: 3;
+        cursor: pointer;
+      }
+      .left.d3  { grid-column: 1/2; }
+      .left.d2  { grid-column: 2/4; }
+      .left.d1  { grid-column: 4/6; }
+      .right.d1 { grid-column: 6/8; }
+      .right.d2 { grid-column: 8/10; }
+      .right.d3 { grid-column: 10/13; }
+      .left {
+        border-top-left-radius: 30px 50%;
+        border-bottom-left-radius: 30px 50%;
+      }
+      .right {
+        border-top-right-radius: 30px 50%;
+        border-bottom-right-radius: 30px 50%;
+      }
+      .gg > .d1 {
+        background: red;
+      }
+      .gg > .d2 {
+        background: orange;
+      }
+      .gg > .d3 {
+        background: green;
+      }
+
+      .midQ {
+        text-align: center;
+      }
+
+      .pspace {
+        width: 100%;
+        border: 2px solid blue;
+      }
+      .pspace .actual {
+        margin-left: 79%;
+      }
+      .pspace .expected {
+        display: block;
+        background: green;
+        width: 20%;
+        min-width: 20%;
+        margin-left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="pspace">
+      <div class="actual">x</div>
+      <div class="expected"></div>
+    </div>
+
+  <section>
+    <div class="gg">
+      <span class="q">Tko je stariji?</span>
+      <span class="left label">Freddie Mercury</span>
+      <span class="right label">Michael Jackson</span>
+      <span class="left d3">90+</span>
+      <span class="left d2">70-90%</span>
+      <span class="left d1">50-70%</span>
+      <span class="right d1">50-70%</span>
+      <span class="right d2">70-90%</span>
+      <span class="right d3">90+</span>
+    </div>
+  </section>
+
+  <section>
+    <p id="f">
+      <span id="L">Freddie Mercury</span>
+      <span id="s-3">90+</span>
+      <span id="s-2">70-90%</span>
+      <span id="s-1">50-70%</span>
+      <span id="s1">50-70%</span>
+      <span id="s2">70-90%</span>
+      <span id="s3">90+</span>
+      <span id="R">Michael Jackson</span>
+    </p>
+  </section>
+<svg width="100%" height="60px" viewBox="-5 0 105 20">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="10" y1="0" x2="10" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="20" y1="0" x2="20" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="30" y1="0" x2="30" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="40" y1="0" x2="40" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="50" y1="0" x2="50" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="60" y1="0" x2="60" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="70" y1="0" x2="70" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="80" y1="0" x2="80" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="90" y1="0" x2="90" y2="10" stroke="gray" stroke-width="0.5"></line><line x1="100" y1="0" x2="100" y2="10" stroke="gray" stroke-width="0.5"></line>
+    <rect x="50" y="2" width="20" height="6" fill="lightgreen"></rect>
+    <circle cx="100" cy="5" r="2" stroke="black" stroke-width="0.5" fill="red"></circle>
+  <text x="0" y="15" text-anchor="middle" font-size="4">0%</text>
+  <text x="50" y="15" text-anchor="middle" font-size="4">50%</text>
+  <text x="70" y="15" text-anchor="middle" font-size="4">70%</text>
+  <text x="100" y="15" text-anchor="middle" font-size="4">100%</text>
+</svg>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     
+  </body>
+</html>

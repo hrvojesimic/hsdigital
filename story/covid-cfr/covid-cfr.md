@@ -199,11 +199,11 @@ caption: Calculated average CFRs for Germany, September 2020, for different offs
 
 We can see that for offsets between 0 and 20 days calculated CFR is under 1%. When we increase offset to over 20 days, getting to almost 3% when extended to full five weeks.
 
-Another way to look at the same data is to draw it as a histogram with a smooth curve, to see frequency of different CFR values:
+Another way to look at the same data is to draw it as a density plot, to see frequency of different CFR values:
 
 <figure>
   <div class="cfrHistograms" style="max-width: 360px; margin: auto;">Germany</div>
-  <figcaption>Histogram of different calculated CFR values for offsets 0 to 35 days, for cases reported in Germany in September 2020.</figcaption>
+  <figcaption>Density plots of different calculated CFR values for offsets 0 to 35 days, for cases reported in Germany in September 2020.</figcaption>
 </figure>
 
 Again, the chart shows that most values are under 1%, and all values are under 3%.
@@ -214,10 +214,10 @@ So let us now compare the countries from the western part of EU:
   <div class="cfrHistograms" style="max-width: 360px; margin: auto;">
     Belgium, Denmark, Finland, France, Germany, Italy, Ireland, Sweden, Spain, Luxembourg, Portugal, Netherlands
   </div>
-  <figcaption>Histograms of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
+  <figcaption>Density plots of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
 </figure>
 
-We can see that all histograms have humps under 2% CFR. Calculated CFRs for Denmark and Finland are completely located under 1%. On the other extreme, Belgium and Italy show a wide range of CFR values for offsets between 0 and 35 days.
+We can see that all density plots have humps under 2% CFR. Calculated CFRs for Denmark and Finland are completely located under 1%. On the other extreme, Belgium and Italy show a wide range of CFR values for offsets between 0 and 35 days.
 
 Eastern part of the union is much messier:
 
@@ -225,7 +225,7 @@ Eastern part of the union is much messier:
   <div class="cfrHistograms" style="max-width: 360px; margin: auto;">
     Greece, Romania, Poland, Czech Republic, Slovakia, Slovenia, Croatia, Hungary, Bulgaria, Estonia, Lithuania, Latvia
   </div>
-  <figcaption>Histograms of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
+  <figcaption>Density plots of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
 </figure>
 
 Estonia, Slovakia, Slovenia have western profiles, but countries like Poland have very wide range of calculated values, even ones over 10%.
@@ -236,7 +236,7 @@ European countries outside the EU follow the same east-west trend.
   <div class="cfrHistograms" style="max-width: 360px; margin: auto;">
     Belarus, United Kingdom, Norway, Switzerland, Ukraine, Serbia, Albania, Bosnia and Herzegovina, Iceland, Montenegro, Macedonia
   </div>
-  <figcaption>Histograms of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
+  <figcaption>Density plots of different calculated CFR values for offsets 0 to 35 days, for cases reported in September 2020.</figcaption>
 </figure>
 
 The only ones with the hump under 1% are the western countries. Of those, United Kingdom has the most dispersed values.
