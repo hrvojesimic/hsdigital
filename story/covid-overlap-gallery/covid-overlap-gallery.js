@@ -5,7 +5,6 @@ const Regions = {
 };
 
 let svg, dx = 0, sy = 1, lastX = 0, lastY = 0, chartEl, deathsAreaEl, xScale, yAxisRedrawTimer;
-let uniqueIdCounter = 1;
 
 const START_DATE = new Date('2020-01-01');
 const END_DATE = addDays(new Date(), -1);
@@ -14,13 +13,13 @@ const preparation = {
   world: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
   usdata: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv",
   owidDeaths: {
-    uri: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
-    //uri: "/story/covid-preklop/total_deaths.csv",
+    //uri: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
+    uri: "/story/covid-preklop/total_deaths.csv",
     augment: augmentRegions
   },
   owidCases: {
-    uri: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
-    //uri: "/story/covid-preklop/total_cases.csv",
+    //uri: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
+    uri: "/story/covid-preklop/total_cases.csv",
     augment: augmentRegions
   }
 };
@@ -198,13 +197,7 @@ function simpleChart(node, territory, {showc = true, show = 'cd', dmax, offset=0
         .y0(yDeaths(0))
         .y1(d => yDeaths(+d.deaths))
       );
-
-
   }
-}
-
-function nextUniqueId() {
-  return 'uid' + (uniqueIdCounter++);
 }
 
 function addDays(date, days) {

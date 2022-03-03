@@ -1,3 +1,7 @@
+.graphviz text {
+  font-family: Kavivanar;
+}
+
 svg text {
   fill: black;
 }
@@ -11,17 +15,17 @@ g.triangle text {
 
 use.stencil { fill: lightgray; }
 
-.icon > .virus      { fill: green }
-.icon > .world      { fill: blue  }
-.icon > .tree       { fill: green }
-.icon > .flashlight { fill: gray  }
-.icon > .family     { fill: blue  }
-.icon > .ape        { fill: gray  }
-.icon > .pillbox    { fill: red   }
-.icon > .undercover { fill: gray  }
-.icon > .thermometer{ fill: red   }
-.icon > .fem-sci    { fill: green }
-.icon > .t-rex      { fill: gray  }
+.virus      { fill: green }
+.world      { fill: blue  }
+.tree       { fill: green }
+.flashlight { fill: gray  }
+.family     { fill: blue  }
+.ape        { fill: gray  }
+.pillbox    { fill: red   }
+.undercover { fill: gray  }
+.thermometer{ fill: red   }
+.fem-sci    { fill: green }
+.t-rex      { fill: gray  }
 
 .icon:hover {
   cursor: pointer;

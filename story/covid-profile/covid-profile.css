@@ -26,20 +26,20 @@ strong {
   text-anchor: middle;
 }
 
-.chartArea path {
-  stroke-width: 1.5;
+path.casesLine {
+  fill: none;
+  stroke: darkblue;
+  stroke-width: 2px;
+}
+
+path.dotted {
+  stroke-dasharray: 2 3;
 }
 
 .casesArea {
   fill:   lightskyblue;
-  stroke: darkblue;
 }
 
-.deathsArea {
-  fill:   red;
-  stroke: firebrick;
-  fill-opacity: 0.4;
-}
 
 .cfrArea {
   fill: white;
@@ -94,6 +94,9 @@ g.testingAxis.vaxis {
 .cfrAxis.vaxis {
   fill: black;
 }
+g.cfrAxis g.tick > line {
+  stroke-opacity: 40%;
+}
 
 .offsetLabel > text {
   fill: firebrick;
@@ -120,4 +123,44 @@ g.testingAxis.vaxis {
 }
 .alarm.a-1 {
   fill: #dddddd;
+}
+
+.offsetLabel {
+  font-size: 2rem;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+
+path.foggy {
+  fill: url(#fogout);
+}
+.noFog {
+  stop-color: lightskyblue;
+  stop-opacity: 1;
+}
+.fullFog {
+  stop-color: lightskyblue;
+  stop-opacity: 0;
+}
+
+
+.deathsArea {
+  fill:   red;
+  fill-opacity: 0.5;
+}
+.deathsLine {
+  fill: none;
+  stroke: firebrick;
+}
+path.fadeRed {
+  fill: url(#fadeRed);
+}
+.fullRed {
+  stop-color: red;
+  stop-opacity: 1;
+}
+.fadedRed {
+  stop-color: red;
+  stop-opacity: 0;
 }

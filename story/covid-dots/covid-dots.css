@@ -1,0 +1,19 @@
+g.county text {
+  font-size: 8px;
+  dominant-baseline: central;
+  text-anchor: middle;
+}
+
+g.county circle {
+  --fill: none;
+  stroke: white;
+  stroke-width: 1px;
+  opacity: 100%;
+  transition-property: r;
+  -transition-duration: 0.2s;
+}
+
+g.indicator circle {
+  fill: red;
+  opacity: 50%;
+}

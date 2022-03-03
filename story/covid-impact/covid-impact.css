@@ -10,3 +10,11 @@ g.country > text.label {
   font-family: 'Open Sans';
   font-weight: 700;
 }
+
+g.country.highval > text.label {
+  fill: white;
+}
+
+g.country > image { display: none }
+g.country > circle { fill: skyblue }
+g.country.exsoc > circle { fill: salmon }

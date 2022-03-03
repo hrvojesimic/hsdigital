@@ -1,0 +1,8 @@
+.mark {
+  stroke: black;
+  stroke-width: 3px;
+  fill: white;
+}
+.mark.junior {
+  stroke-width: 4px;
+}

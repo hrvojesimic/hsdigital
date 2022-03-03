@@ -1,7 +1,10 @@
+const WEEK_H = 20;
+const WEEK_TOP = 30;
+
 const preparation = {
   cases: {
-    //uri: "https://cors-anywhere.herokuapp.com/https://www.koronavirus.hr/json/?action=po_osobama",
-    uri: "/story/covid-age-ridge/download.json",
+    uri: "https://cors-anywhere.herokuapp.com/https://www.koronavirus.hr/json/?action=po_osobama",
+    //uri: "/story/covid-age-ridge/download.json",
     augment: augmentCase
   }
 };
@@ -54,11 +57,13 @@ function completeCharts() {
     .call(d3.axisBottom(xScale));
   const yScale = d3.scaleLinear()
     .domain([0, d3.max(Object.values(dataMap))])
-    .range([ 40, 0 ]);
+    .range([ WEEK_TOP, 0 ]);
 
-  const START_WEEK = 9;
+  const START_WEEK = 25;
   const END_WEEK = Math.floor(d3.max(Object.keys(dataMap).map(d=>+d))/100) - 1;
+  let dy = 0;
   for (let week = START_WEEK; week <= END_WEEK; week++) {
+    dy += (week - START_WEEK)/2;
     const series = [];
     for (let age = 0; age < 100; age++) {
       series.push({
@@ -67,9 +72,12 @@ function completeCharts() {
         value: dataMap[week * 100 + age] || 0
       });
     }
-    chartG.append("path")
+    const weekG = chartG.append("g")
+      .attr("class", "week")
+      .attr("transform", `translate(0,${(week-START_WEEK)*WEEK_H})`);
+
+    weekG.append("path")
       .datum(series)
-      .attr("transform", `translate(0,${(week-START_WEEK)*11})`)
       .attr("d", d3.area()
         .defined(d => !isNaN(d.value))
         .x(d => xScale(d.age))
@@ -77,5 +85,13 @@ function completeCharts() {
         .y1(d => yScale(d.value))
         .curve(d3.curveBasis)
       );
+    const avgAge = series.reduce((a,b) => a += b.age*b.value, 0) / 
+                   series.reduce((a,b) => a += b.value, 0);
+    weekG.append("line")
+          .style("stroke", "red")
+          .attr("x1", xScale(avgAge))
+          .attr("x2", xScale(avgAge))
+          .attr("y1", WEEK_TOP - WEEK_H)
+          .attr("y2", WEEK_TOP);
   }
 }

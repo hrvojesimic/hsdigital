@@ -2,6 +2,7 @@ const DATE_ZERO = new Date("2020-01-01");
 const SQRT2 = Math.sqrt(2);
 
 var preparation = {
+  world: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
   alias:      "/dataset/countries/alias.json",
   population: "/dataset/countries/pop2020.json",
   regions:    "/dataset/countries/regions.json",
@@ -24,9 +25,13 @@ var preparation = {
       );
     }
   },
-  excess: "/story/covid-impact/excess-deaths.json",
-  ihme:   "/story/covid-impact/ihme-deaths.json",
-  yllRaw: "/story/covid-impact/oxford-yll-2020.json", // whole year, per 100k pop
+  economist:  "/story/covid-impact/economist-2022-02.csv",
+  econEst:    extractObjectFrom("economist", "ccode", "est"),
+  econExc:    extractObjectFrom("economist", "ccode", "exc"),
+  econCovid:  extractObjectFrom("economist", "ccode", "covid"),
+  excess:     "/story/covid-impact/excess-deaths.json",
+  ihme:       "/story/covid-impact/ihme-deaths.json",
+  yllRaw:     "/story/covid-impact/oxford-yll-2020.json", // whole year, per 100k pop
   yll: {
     waitFor: ["yllRaw"],
     construction() {
@@ -36,13 +41,31 @@ var preparation = {
       return result;
     }
   },
+  efEnglish:  "/dataset/ef-english-prof-2021.json"
 };
 
+function extractObjectFrom(base, key, value) {
+  return {
+    waitFor: [base],
+    construction() {
+      return Object.fromEntries(
+        data[base].map(row => [row[key], row[value]])
+      );
+    }
+  };
+}
+
 function dataCompleted() {
+  drawEuroBubbles(
+    "EuroBub", 
+    data.ecdcDeaths,
+    {flags: false, label:true}
+  );
   for (const div of document.querySelectorAll(".BubbleDensity")) {
-    drawBubbleDensity(div, data[div.dataset.source], Object.assign({}, div.dataset));
+    drawBubbleDensity2(div, Object.assign({}, div.dataset));
+    // drawBubbleDensity(div, data[div.dataset.source], Object.assign({}, div.dataset));
   }
-  drawDiamond("Ihme", "ihme", "excess");
+  //drawDiamond("Ihme", "ihme", "excess");
 }
 
 function drawDiamond(elId, keyX, keyY) {
@@ -97,38 +120,80 @@ function drawDiamond(elId, keyX, keyY) {
         .append("title").text(d => d + " " + xData[d] + " " + yData[d]);
 }
 
-function drawEuroBubbles(elId, dd) {
+function drawEuropeContour(containerId, width, height) {
+  const lambertAzimuthalEqualArea = 
+    d3.geoAzimuthalEqualArea()
+      .rotate([-13, -50])
+      .translate([width / 2, height / 2])
+      .scale(1100)
+      .precision(0.1);
+  const path = d3.geoPath(lambertAzimuthalEqualArea);
+  const land = topojson.feature(data.world, data.world.objects.land);
+  const map = `<path d="${path(land)}" fill="white" stroke="gray"></path>`;
+  document.getElementById(containerId).innerHTML = map;
+}
+
+function drawEuroBubbles(elId, dataObject, opts) {
   const width = 900;
+  const europe = data.eurobubbles.map(o => o.code);
+  const dd = Object.fromEntries(
+    Object.entries(dataObject).filter(entry => europe.includes(entry[0]))
+  );
+  const vals = Object.values(dd);
+  const midpoint = (d3.max(vals) + d3.min(vals))/2;
   const colorScale = d3.scaleSequential()
-    .domain([d3.max(Object.values(dd)), 0])
-    .interpolator(d3.interpolateRdYlGn);
+    .domain([d3.min(vals), d3.max(vals)])
+    .interpolator(d3.interpolateReds);
   const mapSvg = d3.select("#" + elId)
-    .append("svg")
+    .append("svg").attr("style", "background-color:skyblue")
       .attr("width", width)
-      .attr("height", width*.7);
+      .attr("height", width*0.7);
+  mapSvg.append("g").attr("id", "EuropeContour");
+  drawEuropeContour("EuropeContour", width, width*0.7);
   const circleG = mapSvg.append("g");
   circleG.attr("id", "Countries");
   const countryG = circleG
     .selectAll("g.country")
     .data(data.eurobubbles)
     .join("g")
-      .attr("class", "country")
+      .attr("class", o => "country " + (dd[o.code] > midpoint? "highval" : "lowval"))
       .attr("id", o => o.code);
   countryG.append("circle")
     .attr("cx", o => o.cx)
     .attr("cy", o => o.cy)
     .attr("r",  o => o.r)
     .attr("fill", o => colorScale(dd[o.code]))
-    .append("title").text( c => c.code );
-  countryG.append("text")
-    .attr("class", "label")
-    .attr("x", o => o.cx)
-    .attr("y", o => o.cy)
-    .text(o => (o.r > 20? o.code + "=" : "") + Math.round(dd[o.code]));
+    .attr("stroke", "gray");
+    //.append("title").text( c => c.code );
+  if (opts.flags) {
+    countryG.append("image")
+      .attr("href", d => `/flags/${d.code}.png`)
+      .attr("x", d => d.cx - d.r)
+      .attr("y", d => d.cy - d.r)
+      .attr("width", d => 2*d.r)
+      .attr("height", d => 2*d.r)
+      .append("title").text(d => data.countryName[d.code]);
+  }
+  if (opts.label) {
+    countryG.append("text")
+      .attr("class", "label")
+      .attr("x", o => o.cx)
+      .attr("y", o => o.cy)
+      .attr("fill", "white")
+      .text(o => o.r > 20? data.countryName[o.code] : o.code);
+  }
 }
 
-function drawBubbleDensity(el, vmap, optin = {}) {
+function drawBubbleDensity(el, dataObject, optin = {}) {
   const opt = Object.assign({width: 900, height: 400, rmax: 200}, optin);
+  const vmap = {...dataObject};
+  if (opt.region) {
+    const onlyCountries = data.regions[opt.region];
+    for (const cc in vmap)
+      if (!onlyCountries.includes(cc))
+        delete vmap[cc];
+  } 
+
   const svg = d3.select("#" + el.id)
     .append("svg")
       .attr("width", opt.width)
@@ -136,17 +201,18 @@ function drawBubbleDensity(el, vmap, optin = {}) {
 
   const MAXPOP = d3.max(Object.values(data.population));
   const rScale = d3.scaleSqrt().domain([0, MAXPOP]).range([0, opt.rmax]);
-
   const values = Object.entries(vmap);
+
   const mini   = d3.minIndex(values, e => e[1]);
   const maxi   = d3.maxIndex(values, e => e[1]);
+  const maxr   = d3.max(values.map(o => o[0]), o => +rScale(+data.population[o]));
   const margin = {
     top: 15,
     bottom: 55,
-    left:  rScale(data.population[values[mini][0]]),
-    right: rScale(data.population[values[maxi][0]])
+    left:  maxr,
+    right: maxr
   };
-  const xScale = d3.scalePow(
+  const xScale = d3.scaleLinear(
     [values[mini][1], values[maxi][1]], 
     [0, opt.width - margin.left - margin.right]
   );
@@ -158,7 +224,6 @@ function drawBubbleDensity(el, vmap, optin = {}) {
     pop: data.population[cc]
   }));
   nodes.sort((a, b) => b.pop - a.pop);
-  console.log(nodes);
   
   const g = svg.append("g").attr("transform", `translate(${margin.left} ${margin.top})`);
 
@@ -168,7 +233,6 @@ function drawBubbleDensity(el, vmap, optin = {}) {
        .attr("x", opt.width/2)
        .attr("y", 25)
        .text(opt.xaxis);
-
   g.append("line").attr("stroke", "gray")
    .attr("x1", xScale(0)).attr("y1", 0)
    .attr("x2", xScale(0)).attr("y2", opt.height - margin.bottom);
@@ -177,29 +241,29 @@ function drawBubbleDensity(el, vmap, optin = {}) {
     .selectAll("g.country")
     .data(nodes)
     .join("g")
-      .attr("class", "country")
-      .attr("transform", d=> `translate(${xScale(d.value)} ${opt.height / 2})`);
+      .attr("class", d => "country" + (data.regions["ex-socialist"].includes(d.zone)? " exsoc" : ""))
+      .attr("transform", d => `translate(${xScale(d.value)} ${opt.height / 2})`);
+  gJoin.append("title").text(d => 
+    data.countryName[d.zone] + ": " + Math.round(d.value) + " " + opt.unit
+  );
   gJoin.append("circle")
       .attr("cx", 0)
       .attr("cy", 0)
       .attr("r", d => rScale(d.pop))
       .attr("fill", d => "white")// regColor(d.zone))
       .attr("stroke", d => "gray")
-      .attr("opacity", 0.75)
-      .append("title").text(d => d.zone);
+      .attr("opacity", 0.75);
+      //.append("title").text(d => d.zone);
 
   gJoin.append("image")
       .attr("href", d => `/flags/${d.zone}.png`)
       .attr("x", d => -rScale(d.pop))
       .attr("y", d => -rScale(d.pop))
       .attr("width", d => 2*rScale(d.pop))
-      .attr("height", d => 2*rScale(d.pop))
-      .append("title").text(d => 
-        data.countryName[d.zone] + ": " + Math.round(d.value) + " " + opt.unit
-      );
-  // gJoin.append("text")
-  //     .attr("class", "label")
-  //     .text(d => rScale(d.pop) > 10? d.zone : ""); 
+      .attr("height", d => 2*rScale(d.pop));
+  gJoin.append("text")
+      .attr("class", "label")
+      .text(d => rScale(d.pop) > 20? data.countryName[d.zone] : rScale(d.pop) > 7? d.zone : ""); 
 
   const sim = d3.forceSimulation(nodes)
     .force("x", d3.forceX(d => xScale(d.value)).strength(1))
@@ -224,4 +288,29 @@ function regColor(cc) {
 
 function daysTo(dateStr) {
   return (new Date(dateStr) - DATE_ZERO)/(24*60*60*1000);
+}
+
+function drawBubbleDensity2(el, optin) {
+  drawCountryBubbles(
+    el, 
+    prepareNodes(optin.source, {keyY: false, region: optin.region}), 
+    optin
+  );
+}
+
+function prepareNodes(keyX, {keyY, region}) {
+  let xs = Object.entries(data[keyX]);
+  if (region) {
+    xs = xs.filter(o => data.regions[region].includes(o[0]));
+  }
+  const nodes = xs.map(([ccode, valx]) => ({
+    ccode,
+    pop:   +data.population[ccode],
+    label: data.countryName[ccode],
+    tags:  [],
+    valx:  +valx,
+    valy:  keyY? +data[keyY][ccode] : 0
+  }));
+  nodes.sort((a, b) => b.pop - a.pop);
+  return nodes;
 }

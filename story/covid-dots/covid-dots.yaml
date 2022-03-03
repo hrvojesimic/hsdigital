@@ -1,0 +1,10 @@
+title: DOTS
+author: Hrvoje Šimić
+lang: hr
+#published: 2020-11-07
+#image: https://hrvoje.simic.digital/story/covid-cfr/cover.png
+#description: No matter what the epidemiological situation, all countries in Europe (and especially the ones in the west) show a decline in CFR.
+features:
+  - d3
+  - d3-array
+  - d3-selection-multi

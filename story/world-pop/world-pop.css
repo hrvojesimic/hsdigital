@@ -1,0 +1,19 @@
+
+circle {
+  stroke: black;
+  stroke-width: 1px;
+  fill: white;
+  fill-opacity: 1;
+}
+
+circle.ag0 {
+}
+circle.ag1 {
+  fill: #ddd;
+}
+circle.ag2 {
+  fill: #aaa
+}
+circle.ag3 {
+  fill: #777; 
+}

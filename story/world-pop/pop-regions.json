@@ -1,0 +1,42 @@
+{
+  "OCE": {
+    "r": "Oceania",
+    "color": "violet",
+    "centroid": [146,-25]
+  },
+  "NAM": {
+    "r": "Northern America",
+    "color": "red",
+    "centroid": [-95,42]
+  },
+  "E": {
+    "r": "Europe + Russia",
+    "color": "darkblue",
+    "centroid": [11,55]
+  },
+  "SSA": {
+    "r": "Sub-Saharan Africa",
+    "color": "green",
+    "centroid": [24,-10]
+  },
+  "NAWA": {
+    "r": "N. Africa + W. Asia",
+    "color": "beige",
+    "centroid": [33,28]
+  },
+  "CSA": {
+    "r": "C+S Asia",
+    "color": "pink",
+    "centroid": [70,23]
+  },
+  "ESEA": {
+    "r": "E+SE Asia",
+    "color": "yellow",
+    "centroid": [113,30]
+  },
+  "LAC": {
+    "r": "Latin America + Caribbean",
+    "color": "orange",
+    "centroid": [-57,-12]
+  }
+}

@@ -1,0 +1,12 @@
+title: WORLD pop
+author: Hrvoje Šimić
+lang: en
+#published: 2020-11-07
+#image: https://hrvoje.simic.digital/story/covid-cfr/cover.png
+description: ...
+features:
+  - d3
+  - d3-array
+  - d3-selection-multi
+  - d3-geo-projection
+  - topojson

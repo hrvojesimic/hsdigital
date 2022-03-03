@@ -1,4 +1,130 @@
 
+```vly.exceptMob
+width: 600
+height: 100
+data:
+  url: "/story/cronames/croatian-given-names-by-gender.csv"
+  format: {type: csv}
+transform:
+  - calculate: "substring(datum.gn,2,3)"
+    as: last_letter
+mark: text
+encoding:
+  y:
+    title: rod
+    type: nominal
+    field: gender
+  x:
+    title: broj imena
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+  text:
+    type: ordinal
+    field: last_letter
+  size:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  opacity:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  color:
+    type: nominal
+    field: gender
+    legend: null
+    scale:
+      domain: [M, F]
+      range: [darkblue, darkred]
+```
+
+```vly.exceptMob
+width: 600
+height: 100
+data:
+  url: "/story/cronames/croatian-given-names-by-gender.csv"
+  format: {type: csv}
+transform:
+  - calculate: "substring(datum.gn,2,3)"
+    as: last_letter
+mark: text
+encoding:
+  y:
+    title: rod
+    type: nominal
+    field: gender
+  x:
+    title: broj imena
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+  text:
+    type: ordinal
+    field: last_letter
+  size:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  opacity:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  color:
+    type: nominal
+    field: gender
+    legend: null
+    scale:
+      domain: [M, F]
+      range: [darkblue, darkred]
+```
+
+```vly.exceptMob
+width: 600
+height: 100
+data:
+  url: "/story/cronames/croatian-given-names-by-gender.csv"
+  format: {type: csv}
+transform:
+  - calculate: "substring(datum.gn, 1,2)"
+    as: last_letter
+mark: text
+encoding:
+  y:
+    title: rod
+    type: nominal
+    field: gender
+  x:
+    title: broj imena
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+  text:
+    type: ordinal
+    field: last_letter
+  size:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  opacity:
+    type: quantitative
+    aggregate: count
+    scale: {type: log}
+    legend: null
+  color:
+    type: nominal
+    field: gender
+    legend: null
+    scale:
+      domain: [M, F]
+      range: [darkblue, darkred]
+```
+
 # Rod iz imena
 
 Rod je korisna informacija o čovjeku.

@@ -1,0 +1,11 @@
+title: Codiq demo
+author: Hrvoje Šimić
+lang: en
+#published: 2020-11-07
+image: https://hrvoje.simic.digital/story/covid-cfr/cover.png
+description: 
+features:
+  - blockly
+  - d3
+  - d3-array
+  - d3-selection-multi

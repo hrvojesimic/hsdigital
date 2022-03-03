@@ -8,10 +8,10 @@ const SECOND_X = false;
 const preparation = {
   regions:    "/story/covid-euro-overlap/regions.json",
   world:      "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
-  owidDeaths: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
-              //"/story/covid-preklop/total_deaths.csv",
-  owidCases:  "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
-              //"/story/covid-preklop/total_cases.csv",
+  owidDeaths: //"https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
+              "/story/covid-preklop/total_deaths.csv",
+  owidCases:  //"https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
+              "/story/covid-preklop/total_cases.csv",
   testing:    "/story/covid-euro-overlap/weekly_testing_data_EUEEAUK_2020-09-23.csv",
   combined: {
     waitFor: ["regions", "owidDeaths", "owidCases", "testing"],

@@ -7,15 +7,14 @@ const margin = {top: 10, right: 50, bottom: 20, left: 50},
 let svg, dx = 0, sy = 1, lastX = 0, lastY = 0, chartEl, deathsAreaEl, xScale, yAxisRedrawTimer;
 let btnPressed = false;
 let country = 'Croatia', w = 7;
-let uniqueIdCounter = 1;
 
 const preparation = {
   owidDeaths: {
-    uri: "https://covid.ourworldindata.org/data/ecdc/total_deaths.csv",
+    uri: "/story/covid-anim-race/total_deaths.csv",
     augment: augmentRegions
   },
   owidCases: {
-    uri: "https://covid.ourworldindata.org/data/ecdc/total_cases.csv",
+    uri: "/story/covid-anim-race/total_cases.csv",
     augment: augmentRegions
   },
   dataset: {
@@ -276,10 +275,6 @@ function simpleChart(node, territory, dims,
         .attr("transform", `translate(${dims.width/2} 10)`)
         .append("text").text(" ← " + offset);
   }
-}
-
-function nextUniqueId() {
-  return 'uid' + (uniqueIdCounter++);
 }
 
 function augmentRegions(row) {

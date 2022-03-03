@@ -20,7 +20,7 @@ var preparation = {
       row.trues  = +row.trues;
       row.falses = +row.falses;
       row.totals = +row.totals;
-      row.score  = +row.score;
+      row.score  = (+row.score+100)/2;
       row.truePct= row.trues / row.totals * 100;
       row.hit    = row.trues / (row.trues + row.falses) * 100;
       row.split  = (row.totals + row.trues - row.falses) / row.totals * 50;
@@ -105,21 +105,21 @@ function drawTriangle(elId, dataset) {
 
 function drawDensityCharts(scoreKey) {
   const div = document.getElementById("Density");
-  for (let n = 1; n <= 11; n++) {
+  for (let n = 3; n <= 3; n++) {
     const qc = "Q" + n;
     drawBubbleDensity(div, qc, Object.assign({scoreKey}, div.dataset));
   }
 }
 
 function drawBubbleDensity(el, qCode, optin = {}) {
-  const opt = Object.assign({width: 600, height: 250, rmax: 140}, optin);
+  const opt = Object.assign({width: 800, height: 300, rmax: 140}, optin);
   const vmap = Object.fromEntries(
     data.answers
       .filter(d => d.qcode === qCode)
       .map(d => [d.ccode, d[opt.scoreKey]])
   );
   const section = d3.select("#" + el.id).append("section");
-  section.append("h2").text(data.questions.find(d => d.code == qCode).text);
+  section.append("h2").text(data.description[qCode]);
   const svg = section.append("svg")
       .attr("width", opt.width)
       .attr("height", opt.height);
@@ -139,17 +139,22 @@ function drawBubbleDensity(el, qCode, optin = {}) {
     right: rScale(data.population[values[maxi][0]])
   };
   const xScale = d3.scaleLinear(
-    [-50,100],
+    [0,100],
     [0, opt.width - margin.left - margin.right]
   );
   const colorScale = d3.scaleOrdinal().domain([false, true]).range(["blue", "red"]);
 
-  const nodes = Object.entries(vmap).map(([cc, value]) => ({
-    zone: cc, 
-    value,
-    pop: data.population[cc]
+  let nodes = Object.entries(vmap).map(([cc, value]) => ({
+    zone: cc, value, pop: data.population[cc]
   }));
   nodes.sort((a, b) => b.pop - a.pop);
+  let dy = 0;
+  nodes = nodes.map((o, i) => {
+    o.x = xScale(o.value);
+    o.y = opt.height/2;// + dy;
+    dy = -(dy + opt.rmax);
+    return o;
+  });
 
   const g = svg.append("g").attr("transform", `translate(${margin.left} ${margin.top})`);
   g.append("use")
@@ -165,9 +170,9 @@ function drawBubbleDensity(el, qCode, optin = {}) {
        .attr("y", 25)
        .text(opt.xaxis);
 
-  g.append("line").attr("stroke", "gray")
-   .attr("x1", xScale(0)).attr("y1", 0)
-   .attr("x2", xScale(0)).attr("y2", opt.height - margin.bottom);
+  // g.append("line").attr("stroke", "gray")
+  //  .attr("x1", xScale(0)).attr("y1", 0)
+  //  .attr("x2", xScale(0)).attr("y2", opt.height - margin.bottom);
 
   const gJoin = g
     .selectAll("g.country")
@@ -195,13 +200,18 @@ function drawBubbleDensity(el, qCode, optin = {}) {
       );
 
   const sim = d3.forceSimulation(nodes)
-    .force("x", d3.forceX(d => xScale(d.value)).strength(1))
-    .force("y", d3.forceY(opt.height * 0.4).strength(0.1))
+    .force("x", d3.forceX(d => xScale(d.value)).strength(5))
+    .force("y", d3.forceY(opt.height * 0.4).strength(0.75))
     .force("collision", d3.forceCollide().radius(d => rScale(d.pop)))
-    .on("tick", tick);
+    .on("tick", tick)
+    .on("end", simEnds);
   
   function tick() {
     gJoin.attr("transform", d => `translate(${d.x} ${d.y})`);
+  }
+  function simEnds() {
+    //gJoin.attr("transform", d => `translate(${xScale(d.value)} ${d.y})`);
+    //console.log(nodes.map(o => o.x + "," + xScale(o.value)).join("\n"));
   }
 }
 
@@ -258,10 +268,17 @@ function drawCorrelation(elId, dataset, keyX, keyY) {
     .attr("cx", 0).attr("cy", 0).attr("r", R)
     .attr("opacity", 0)
     .append("title").text(d => data.description[d.qcode]);
+  axg.selectAll("circle.datadot")
+    .data([...dataset])
+    .enter()
+      .append("circle").attr("class", d => qIcon[d.qcode] + " datadot")
+        .attr("cx", d => xScale(d[keyX]))
+        .attr("cy", d => yScale(d[keyY]))
+        .attr("r", 2);
   
-  const sim = d3.forceSimulation(dataset)
+  d3.forceSimulation(dataset)
     .force("x", d3.forceX(d => xScale(d[keyX])).strength(1))
-    .force("y", d3.forceY(d => yScale(d[keyY])).strength(1))
+    .force("y", d3.forceY(d => yScale(d[keyY])).strength(0.001))
     .force("collision", d3.forceCollide().radius(R))
     .on("tick", tick);
   
@@ -323,25 +340,4 @@ function calcCorrelations(key1, key2) {
       sd:  d3.deviation(a1)
     };
   });
-}
-
-function collater(base, key, addons) {
-  return {
-    waitFor: [...addons, base],
-    construction: () => collate(base, key, addons)
-  };
-}
-
-function collate(base, keyProp, addons) {
-  const result = [];
-  for (const row of data[base]) {
-    const neo = {};
-    Object.assign(neo, row);
-    const rowKey = row[keyProp];
-    for (const addon of addons) {
-      neo[addon] = data[addon][rowKey];
-    }
-    result.push(neo);
-  }
-  return result;
 }

@@ -1,0 +1,35 @@
+svg text {
+  fill: black;
+}
+
+g.country > text.label {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: black;
+  font-size: 12px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+g.country.highval > text.label {
+  fill: white;
+}
+
+g.country > image { display: none }
+g.country > circle { fill: lightgray }
+
+div.split g.country.splitR > circle { fill: salmon }
+div.split g.country.splitU > circle { fill: skyblue }
+div.split g.country.splitN > circle { fill: lightgray }
+
+div.votes g.country.votedN > circle { fill: salmon }
+div.votes g.country.votedY > circle { fill: limegreen }
+div.votes g.country.votedA > circle { fill: lightgray }
+div.votes g.country.votedD > circle { fill: white; stroke: gray }
+
+#Const_FitW g.country.RUS > circle { fill: salmon }
+#Const_FitW g.country.HRV > circle { fill: skyblue }
+#Const_FitW g.country.UKR > circle { fill: yellow }
+
+#GDP_FitW g.country > text.label { display: none }
+#GDP_FitW g.country > image { display: initial }

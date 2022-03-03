@@ -1,6 +1,8 @@
 const BASE_URI = "/api/proofs";
 let proofID = 0;
 
+const preparation = {};
+
 function createProof() {
   document.querySelectorAll("#Rules [data-rule]").forEach( e => e.onclick = applyRule );
   M.Dropdown.init(document.querySelectorAll('.dropdown-trigger'), {});
@@ -99,6 +101,6 @@ function handleApplyRuleResponse(response, intro) {
   });
 }
 
-function executeLocalScript() {
+function dataCompleted() {
   createProof();
 }

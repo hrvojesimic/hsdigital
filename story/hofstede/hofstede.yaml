@@ -1,0 +1,10 @@
+title: Hofstede cultural dimensions
+lang: en
+author: Hrvoje Šimić
+#published: 2021-12-31
+description: .
+features:
+  - d3
+  - d3-array
+  - d3-selection-multi
+  - topojson

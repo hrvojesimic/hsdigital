@@ -1,7 +1,13 @@
 
-.chart path {
+.week:nth-child(even) path {
   stroke-width: 1.5;
-  fill:   lightskyblue;
+  fill:   dodgerblue;
+  stroke: darkblue;
+  fill-opacity: 80%;
+}
+.week:nth-child(odd) path {
+  stroke-width: 1.5;
+  fill:   skyblue;
   stroke: darkblue;
   fill-opacity: 80%;
 }
