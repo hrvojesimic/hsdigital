@@ -58,7 +58,7 @@ function prepare() {
 
 function store(key, o) {
   data[key] = o;
-  console.log("✔ " + key)
+  console.log("✔ " + key);
   for (let dataCallback of (dataCallbacks[key] || [])) {
     console.log("Calling back for " + key);
     dataCallback(o);

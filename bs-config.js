@@ -27,9 +27,9 @@ module.exports = {
         "ignoreInitial": true
     },
     "server": {
-      "baseDir": [".", "a", "story", "lib"],
+      "baseDir": [".", "a", "story", "dataset", "lib", "flags", "icons"],
       serveStaticOptions: {
-        extensions: ["html", "js"]
+        extensions: ["html", "js", "svg", "png"]
       }
     },
     "proxy": false,
@@ -46,7 +46,7 @@ module.exports = {
             "toggles": true
         }
     },
-    "logLevel": "debug",
+    "logLevel": "info",
     "logPrefix": "Browsersync",
     "logConnections": false,
     "logFileChanges": true,
