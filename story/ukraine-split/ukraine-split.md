@@ -16,7 +16,7 @@ Na slici sam označio Rusiju, Ukrajinu i Hrvatsku bojama za orijentaciju. Ukraji
 
 No nisu sve zemlje jednako značajne, pa ni oznake ne bi trebale biti jednake veličine. No koju metriku važnosti zemlje odabrati?
 
-U međunarodnim odnosima, moć pojedine zemlje se najlakše može procijeniti pomoću nekih generalnih ekonomskih indikatora, poput nominalnog bruto društvenog proizvoda (BDP-a). Ako pokušamo rasporediti države po toj dimenziji tako da formiraju graf gustoće, dobit ćemo sliku 1. Pazite: BDP je razmjeran površini kruga, a ne promjeru.
+U međunarodnim odnosima, moć pojedine zemlje se najlakše može procijeniti pomoću nekih generalnih ekonomskih indikatora, poput nominalnog bruto društvenog proizvoda (BDP-a). Ako pokušamo rasporediti države po toj dimenziji tako da formiraju graf gustoće, dobit ćemo sliku 2. Pazite: BDP je razmjeran površini kruga, a ne promjeru.
 
 <figure>
   <div id="GDP_FitW" class="BubbleDensity" data-rmax="85" data-keyX="fitw">
@@ -43,7 +43,7 @@ Ispada da je najveća moć koncentrirana na polovima ovog spektra: države s aut
   </figcaption>
 </figure>
 
-Kako se koja zemlja opredijelila ponekad je teško iščitati iz nastupa političara, ali srećom dobili smo puno konkretnije mjerilo. Drugog ožujka 2022. Opća skupština Ujedinjenih naroda je glasala za [rezoluciju](https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_ES-11/1) kojom se oštro osuđuje Rusija. To je bila odlična prilika da se zemlje odrede javno i jasno gdje stoje. Na žalost Rusije, od 192 zemlje samo ih su još četiri glasale protiv rezolucije, dok je "za" bilo 141 zemalja (uz 35 suzdržanih i 12 odsutnih). Na karti vidite pregledno kako su države glasale:
+Kako se koja zemlja opredijelila ponekad je teško iščitati iz nastupa političara, ali srećom dobili smo puno konkretnije mjerilo. Drugog ožujka 2022. Opća skupština Ujedinjenih naroda je glasala za [rezoluciju](https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_ES-11/1) kojom se oštro osuđuje Rusija. To je bila odlična prilika da se zemlje odrede javno i jasno gdje stoje. Na žalost Rusije, od 192 zemlje samo ih su još četiri glasale protiv rezolucije, dok je "za" bilo 141 zemalja (uz 35 suzdržanih i 12 odsutnih). Na karti vidite kako je koja država glasala:
 
 <figure>
   <img class="responsive-img" src="/story/ukraine-split/UN_vote_map.svg" title="karta s glasovima" />
