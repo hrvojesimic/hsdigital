@@ -339,6 +339,31 @@ function range(a, b) {
   return [...Array(b - a + 1)].map((_,i) => i + a);
 }
 
+/** 
+ * Collates data from multiple sources, linked by key property.
+ * For every element of base array adds corresponding values from addons objects (key-value maps).
+ */
+function collater(base, key, addons) {
+  return {
+    waitFor: [...addons, base],
+    construction: () => collate(base, key, addons)
+  };
+}
+
+function collate(base, keyProp, addons) {
+  const result = [];
+  for (const row of data[base]) {
+    const neo = {};
+    Object.assign(neo, row);
+    const rowKey = row[keyProp];
+    for (const addon of addons) {
+      neo[addon] = data[addon][rowKey];
+    }
+    result.push(neo);
+  }
+  return result;
+}
+
 function browserDefaults() {
   document.querySelectorAll("main ul, main ol").forEach(o => o.classList.add("browser-default"));
 }

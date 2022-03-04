@@ -4,8 +4,8 @@ const interactive = {};
 
 const preparation = {
   regions: "/dataset/countries/regions.json",
-  demmatx: "/dataset/countries/democracy-matrix-2020.json",
-  clabels: "/dataset/countries/label.hr.json",
+  demmatx: "/dataset/politics/democracy-matrix-2020.json",
+  clabels: "/dataset/countries/hr/short.json",
   nyeve:   "/story/covid-ranks/eu-nyeve.csv",
   fridays: "/story/covid-ranks/fridays.csv",
   ecdc:    "/story/covid-ranks/ecdc-weeks.csv",

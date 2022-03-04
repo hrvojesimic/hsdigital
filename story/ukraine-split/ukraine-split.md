@@ -1,8 +1,8 @@
 # Svijet podijeljen oko Ukrajine
 
-*Hrvoje Šimić, 2022-03-03*
+*Hrvoje Šimić, 2022-03-04* **DRAFT**
 
-_Freedom in the World_ je godišnje istraživanje i izvještaj nevladine organizacije _Freedom House_, bazirane u SAD-u. Mjeri razinu ljudskih sloboda i političkih prava svake zemlje. Svaku državu na svijetu možemo predstaviti kružićem na tom spektru:
+[_Freedom in the World_](https://freedomhouse.org/report/freedom-world) je godišnje istraživanje i izvještaj nevladine organizacije [_Freedom House_](https://freedomhouse.org/), bazirane u SAD-u. Mjeri razinu ljudskih sloboda i političkih prava svake zemlje. Svaku državu na svijetu možemo predstaviti kružićem na tom spektru:
 
 <figure>
   <div id="Const_FitW" class="BubbleDensity" data-r="13" data-height="300" data-keyX="fitw">
@@ -35,7 +35,7 @@ Ispada da je najveća moć koncentrirana na polovima ovog spektra: države s aut
   <div id="GDP_FitW_split" class="BubbleDensity split" data-rmax="85" data-keyX="fitw">
   </div>
   <figcaption>
-    <strong>Slika 3.</strong> Podjela na one koji su inicijalno za rat u Ukrajni krivili Rusiju (plavo),
+    <strong>Slika 3.</strong> Podjela na one koji su inicijalno za rat u Ukrajini krivili Rusiju (plavo),
     one koji krive Zapad (crveno), te neutralne ili neizjašnjene u sukobu (sivo).
     Prema <a href="https://www.statista.com/chart/26946/stance-on-ukraine-invasion/">analizi Statiste</a> od 28. veljače 2022., uz neke manje preinake.
     X-os je broj bodova na izvještaju <i>Freedom in the World</i> 2021.
@@ -43,13 +43,13 @@ Ispada da je najveća moć koncentrirana na polovima ovog spektra: države s aut
   </figcaption>
 </figure>
 
-Kako se koja zemlja opredjelila ponekad je teško isčitati iz nastupa političara, ali srećom dobili smo puno konkretnije mjerilo. Drugog ožujka 2022. Opća skupština Ujedinjenih naroda je glasala za rezoluciju kojom se oštro osuđuje Rusija. To je bila odlična prilika da se zemlje odrede javno i jasno gdje stoje. Na žalost Rusije, od 192 zemlje samo ih su još četiri glasale protiv rezolucije, dok je "za" bilo 141 zemalja (uz 35 suzdržanih i 12 odsutnih). Na karti vidite pregledno kako su države glasale:
+Kako se koja zemlja opredijelila ponekad je teško iščitati iz nastupa političara, ali srećom dobili smo puno konkretnije mjerilo. Drugog ožujka 2022. Opća skupština Ujedinjenih naroda je glasala za [rezoluciju](https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_ES-11/1) kojom se oštro osuđuje Rusija. To je bila odlična prilika da se zemlje odrede javno i jasno gdje stoje. Na žalost Rusije, od 192 zemlje samo ih su još četiri glasale protiv rezolucije, dok je "za" bilo 141 zemalja (uz 35 suzdržanih i 12 odsutnih). Na karti vidite pregledno kako su države glasale:
 
 <figure>
   <img class="responsive-img" src="/story/ukraine-split/UN_vote_map.svg" title="karta s glasovima" />
   <figcaption>
     <strong>Slika 4.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajinu na karti svijeta.
-    Zemlje koje su glasale "za" su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    Zemlje koje su glasale "za" su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
   </figcaption>
 </figure>
 
@@ -59,8 +59,8 @@ Kako se koja zemlja opredjelila ponekad je teško isčitati iz nastupa političa
   <div id="GDP_FitW_votes" class="BubbleDensity votes" data-rmax="85" data-keyX="fitw">
   </div>
   <figcaption>
-    <strong>Slika 5.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajnu.
-    Zemlje koje su glasale "za" su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    <strong>Slika 5.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajinu.
+    Zemlje koje su glasale "za" su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
     X-os je broj bodova na izvještaju <i>Freedom in the World</i> 2021.
     Površina kruga je razmjerna nominalnom BDP-u zemlje.
   </figcaption>
@@ -70,33 +70,33 @@ Na desnoj strani nije samo NATO, nije samo Zapadna Europa i Sjeverna Amerika. U 
 
 ## Drugi pokazatelji demokratičnosti zemlje
 
-Kako ne biste pomislili da je Freedom House naročito pristran prema Amerikancima, evo prikaza alternativne analize Sveučilišta u Würzburgu, koja se zove **Democracy Matrix**:
+Kako ne biste pomislili da je Freedom House naročito pristran prema Amerikancima, evo prikaza alternativne analize Sveučilišta u Würzburgu, koja se zove [**Democracy Matrix**](https://www.democracymatrix.com/):
 
 <figure>
   <div id="GDP_Matrix" class="BubbleDensity votes" data-rmax="85" data-keyX="matrix">
   </div>
   <figcaption>
-    <strong>Slika 6.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajnu.
-    Zemlje koje su glasale "za" su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    <strong>Slika 6.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajinu.
+    Zemlje koje su glasale "za" su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
     X-os je broj bodova na izvještaju <i>Democracy matrix</i> 2020. godine.
     Površina kruga je razmjerna nominalnom BDP-u pojedine zemlje.
   </figcaption>
 </figure>
 
-Također, **Democracy Index** koji slaže istraživački odjel časopisa The Economist:
+Također, [**Democracy Index**](https://www.eiu.com/n/campaigns/democracy-index-2021/) koji slaže istraživački odjel časopisa [The Economist](https://www.economist.com/):
 
 <figure>
   <div id="GDP_Economist" class="BubbleDensity votes" data-rmax="85" data-keyX="eiu">
   </div>
   <figcaption>
-    <strong>Slika 7.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajnu.
-    Zemlje koje su glasale "za" su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    <strong>Slika 7.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajinu.
+    Zemlje koje su glasale "za" su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
     X-os je <i>Democracy Index</i> The Economist Intelligence Unita 2021.
     Površina kruga je razmjerna nominalnom BDP-u pojedine zemlje.
   </figcaption>
 </figure>
 
-Boljih globalnih indikatora demokratskih instituacija nisam našao. Vrijednosti među tim pokazateljima se donekle razlikuju, ali slika je uvijek ista: desna strana se zeleni, lijeva strana je siva, s miksom zelene i crvene boje.
+Boljih globalnih indikatora demokratskih institucija nisam našao. Vrijednosti među tim pokazateljima se donekle razlikuju, ali slika je uvijek ista: desna strana se zeleni, lijeva strana je siva, s miksom zelene i crvene boje.
 
 ## Podjela prema stanovništvu
 
@@ -107,7 +107,7 @@ Gledajući u semafor glasanja Opće skupštine UN-a, na kojem je svaka zemlja-č
   </div>
   <figcaption>
     <strong>Slika 8.</strong> Države po bodovima Freedom in the World 2021.
-    Zemlje koje su glasale "za" UN rezoluciju iz teksta su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    Zemlje koje su glasale "za" UN rezoluciju iz teksta su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
   </figcaption>
 </figure>
 
@@ -117,8 +117,8 @@ No što ako, umjesto BDP-a, krugove nacrtamo da budu površinom razmjerni broju 
   <div id="pop_FitW_votes" class="BubbleDensity votes" data-rmax="85" data-keyX="fitw" data-keyr="pop">
   </div>
   <figcaption>
-    <strong>Slika 9.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajnu.
-    Zemlje koje su glasale "za" su obojane zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
+    <strong>Slika 9.</strong> Glasovi za UN rezoluciju kojom se osuđuje invazija Rusije na Ukrajinu.
+    Zemlje koje su glasale "za" su obojene zeleno, "protiv" crveno, suzdržani sivo, nisu glasali bijelo.
     X-os je broj bodova na izvještaju <i>Freedom in the World</i> 2021.
     Površina kruga je razmjerna <b>broju stanovnika</b> pojedine zemlje.
   </figcaption>
@@ -151,9 +151,9 @@ encoding:
 config:
   view:
     stroke: transparent
-caption: **Slika 10** Udio stanovništva u članicama UN-a, po glasovima za rezoluciju koja osuđuje invaziju Rusije na Ukrajinu.
+caption: Slika 10. Udio stanovništva u članicama UN-a, po glasovima za rezoluciju koja osuđuje invaziju Rusije na Ukrajinu.
 ```
 
-I po broju i po ekonomskoj moći članica koje su glasale "za", rezolucija Ujedinjenih naroda je velika pobjeda liberalne politike. Pa opet, većina stanovništva Zemlje se nalazi u državama koje nisu htjele osuditi Rusiju zbog invazije na Ukrajinu.
+I po broju i po ekonomskoj moći članica koje su glasale "za", rezolucija Ujedinjenih naroda je velika pobjeda liberalne politike. Pa opet, većina stanovništva Zemlje se nalazi u državama koje nisu htjele osuditi Rusiju zbog invazije na Ukrajinu. To možda i nije toliko važno danas, koliko će biti u budućim godinama. "Sive" i "bijele" zemlje će sigurno postati bogatije, brojnije, vjerojatno i utjecajnije, no nije sigurno hoće li postati i liberalnije. Hoće li im za unutrašnju i vanjsku politiku uzor biti EU ili današnja Rusija?
 
 <!--["#74c365","#ab4e52","#89cff0","#fada5e"]-->
