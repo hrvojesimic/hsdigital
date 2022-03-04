@@ -6,6 +6,10 @@ figure {
   margin: 1em 2px;
 }
 
+g.country {
+  cursor: pointer;
+}
+
 g.country > text.label {
   dominant-baseline: middle;
   text-anchor: middle;

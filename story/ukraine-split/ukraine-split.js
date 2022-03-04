@@ -3,6 +3,7 @@ var preparation = {
   population: "/dataset/countries/pop2020.json",
   regions:    "/dataset/countries/regions.json",
   countryName:"/dataset/countries/hr/short.json",
+  longCName:  "/dataset/countries/hr/long.json",
   gdp:        "/dataset/countries/gdp-nom-2021-un.json",
   eiu:        "/dataset/politics/eiu-democracy-index-2021.json",
   matrix:     "/dataset/politics/democracy-matrix-2020.json",
@@ -28,7 +29,7 @@ function dataCompleted() {
   for (const div of document.querySelectorAll(".BubbleDensity")) {
     drawBubbleDensityChart(
       div, 
-      Object.assign({unit: "", height: 400, width: 800, forceX: 2, forceY: 0.1}, div.dataset)
+      Object.assign({height: 400, width: 800, forceX: 1.6, forceY: 0.1}, div.dataset)
     );
   }
 }
@@ -39,6 +40,7 @@ function drawBubbleDensityChart(el, optin) {
     ccode,
     pop:   optin.r? 1 : optin.keyr === 'pop'? +data.population[ccode] : +data.gdp[ccode],
     label: data.countryName[ccode],
+    title: data.longCName[ccode],
     tags:  ["voted" + data.vote[ccode], "split" + data.split[ccode]],
     valx:  +x[ccode],
     valy:  0
