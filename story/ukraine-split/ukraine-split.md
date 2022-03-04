@@ -2,7 +2,7 @@
 
 *Hrvoje Šimić, 2022-03-04*
 
-[_Freedom in the World_](https://freedomhouse.org/report/freedom-world) je godišnje istraživanje i izvještaj nevladine organizacije [_Freedom House_](https://freedomhouse.org/), bazirane u SAD-u. Mjeri razinu ljudskih sloboda i političkih prava svake zemlje. Ako svaku državu predstavimo kružićem, dobijemo poprilično ravnomjeran raspored po cijeloj duljini tog spektra, od Sirije na lijevom rubu pa sve do nordijskih zemalja desno:
+<span class="dropcap">F</span>[_reedom in the World_](https://freedomhouse.org/report/freedom-world) je godišnje istraživanje i izvještaj nevladine organizacije [_Freedom House_](https://freedomhouse.org/), bazirane u SAD-u. Mjeri razinu ljudskih sloboda i političkih prava svake zemlje. Ako svaku državu predstavimo kružićem, dobijemo poprilično ravnomjeran raspored po cijeloj duljini tog spektra, od Sirije na lijevom rubu pa sve do nordijskih zemalja desno:
 
 <figure>
   <div id="Const_FitW" class="BubbleDensity" data-r="13" data-height="300" data-keyX="fitw">
@@ -83,7 +83,7 @@ Kako ne biste pomislili da je Freedom House naročito pristran prema Amerikancim
   </figcaption>
 </figure>
 
-Također, [**Democracy Index**](https://www.eiu.com/n/campaigns/democracy-index-2021/) koji slaže istraživački odjel časopisa [The Economist](https://www.economist.com/):
+Također, [**Democracy Index**](https://www.eiu.com/n/campaigns/democracy-index-2021/) koji slaže istraživački odjel časopisa [_The Economist_](https://www.economist.com/):
 
 <figure>
   <div id="GDP_Economist" class="BubbleDensity votes" data-rmax="85" data-keyX="eiu" data-decimals="1">
