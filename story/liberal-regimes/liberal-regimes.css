@@ -1,0 +1,50 @@
+.graphviz svg {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.graphviz text { font-family: Kavivanar; }
+
+#WorldMap .Land {
+  fill: #ccc;
+  stroke: #333;
+}
+g.countryOnMap path.WE { fill: blue }
+g.countryOnMap path.EE { fill: violet }
+g.countryOnMap path.EEU { fill: violet }
+g.countryOnMap path.AS { fill: lightcoral }
+g.countryOnMap path.DEA { fill: lightseagreen }
+g.countryOnMap path.XLIB { fill: white; stroke: black }
+g.countryOnMap path.HRV { fill: #9400D3; stroke: black }
+
+.offsetLabel {
+  text-anchor: middle;
+  dominant-baseline: middle;
+  opacity: 1;
+  font-size: 1.5rem;
+}
+g.country > text.label {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: black;
+  font-size: 10px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
+
+g.country > image { display: none }
+g.country > circle {
+  fill: lightgray;
+  opacity: 0.5;
+  stroke: gray;
+}
+g.country.WE > circle { fill: skyblue }
+g.country.EE > circle { fill: violet }
+g.country.EEU > circle { fill: violet }
+g.country.AS > circle { fill: lightcoral }
+g.country.DEA > circle { fill: lightseagreen }
+g.country.XLIB > circle { fill: white; stroke: black }
+g.country.HRV > circle { fill: #9400D3; stroke: black }
+
+/* g.country > text.label { display: none } */

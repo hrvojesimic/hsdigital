@@ -29,7 +29,7 @@ function dataCompleted() {
   for (const div of document.querySelectorAll(".BubbleDensity")) {
     drawBubbleDensityChart(
       div, 
-      Object.assign({height: 400, width: 800, forceX: 1.6, forceY: 0.1}, div.dataset)
+      Object.assign({height: 400, width: 800, forcex: 1.6, forcey: 0.1}, div.dataset)
     );
   }
 }

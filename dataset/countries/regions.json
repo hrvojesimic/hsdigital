@@ -4,6 +4,7 @@
   "ex-socialist": ["HRV", "HUN", "POL", "CZE", "SVN", "SVK", "ROU", "BGR", "ALB", "SRB", "BIH", "MNE", "LVA", "LTU", "EST", "UKR", "BLR", "MKD", "MDA", "XXK", "RUS"],
   "Baltic states": ["LVA", "LTU", "EST"],
   "Nordics": ["DNK", "SWE", "FIN", "ISL", "NOR"],
+  "Anglosphere": ["AUS", "NZL", "USA", "CAN", "GBR"],
   "EU": ["FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "PRT", "HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "LVA", "LTU", "EST", "GRC", "CYP", "MLT"],
   "West EU": ["FRA", "ESP", "ITA", "BEL", "NLD", "DNK", "IRL", "DEU", "AUT", "SWE", "FIN", "LUX", "PRT", "MLT"],
   "East EU": ["HRV", "HUN", "POL", "CZE", "SVK", "SVN", "ROU", "BGR", "LVA", "LTU", "EST", "GRC", "CYP"],

@@ -1,0 +1,15 @@
+g.chart .dataarea { fill: crimson;}
+g.chart .dataline { stroke: black; fill: none;}
+g.chart g.event text {
+  fill: white;
+  alignment-baseline: middle;
+}
+g.event line {
+  stroke: white;
+  stroke-width: 2px;
+}
+line.ruler {
+  stroke: darkorange;
+  stroke-width: 2px;
+  stroke-dasharray: 8 4;
+}

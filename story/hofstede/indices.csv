@@ -1,0 +1,102 @@
+ccode,ctr,country,pdi,idv,mas,uai,ltowvs,ivr
+ALB,ALB,Albania,,,,,61,15
+DZA,ALG,Algeria,,,,,26,32
+AND,AND,Andorra,,,,,,65
+ARG,ARG,Argentina,49,46,56,86,20,62
+ARM,ARM,Armenia,,,,,61,
+AUS,AUL,Australia,38,90,61,51,21,71
+AUT,AUT,Austria,11,55,79,70,60,63
+AZE,AZE,Azerbaijan,,,,,61,22
+BGD,BAN,Bangladesh,80,20,55,60,47,20
+BLR,BLR,Belarus,,,,,81,15
+BEL,BEL,Belgium,65,75,54,94,82,57
+BIH,BOS,Bosnia-Herzegovina,,,,,70,44
+BRA,BRA,Brazil,69,38,49,76,44,59
+BGR,BUL,Bulgaria,70,30,40,85,69,16
+BFA,BUF,Burkina Faso,,,,,27,18
+CAN,CAN,Canada,39,80,52,48,36,68
+CHL,CHL,Chile,63,23,28,86,31,68
+CHN,CHI,China,80,20,66,30,87,24
+COL,COL,Colombia,67,13,64,80,13,83
+CRI,COS,Costa Rica,35,15,21,86,,
+HRV,CRO,Croatia,73,33,40,80,58,33
+CYP,CYP,Cyprus,,,,,,70
+CZE,CZE,Czechia,57,58,57,74,70,29
+DNK,DEN,Denmark,18,74,16,23,35,70
+DOM,DOM,Dominican Rep,,,,,13,54
+ECU,ECA,Ecuador,78,8,63,67,,
+EGY,EGY,Egypt,,,,,7,4
+ETH,ETH,Ethiopia,,,,,,46
+SLV,SAL,El Salvador,66,19,40,94,20,89
+EST,EST,Estonia,40,60,30,60,82,16
+FIN,FIN,Finland,33,63,26,59,38,57
+FRA,FRA,France,68,71,43,86,63,48
+GEO,GEO,Georgia,,,,,38,32
+DEU,GER,Germany,35,67,66,65,83,40
+GHA,GHA,Ghana,,,,,4,72
+GBR,GBR,United Kingdom,35,89,66,35,51,69
+GRC,GRE,Greece,60,35,57,112,45,50
+GTM,GUA,Guatemala,95,6,37,101,,
+HKG,HOK,Hong Kong,68,25,57,29,61,17
+HUN,HUN,Hungary,46,80,88,82,58,31
+ISL,ICE,Iceland,,,,,28,67
+IND,IND,India,77,48,56,40,51,26
+IDN,IDO,Indonesia,78,14,46,48,62,38
+IRN,IRA,Iran,58,41,43,59,14,40
+IRQ,IRQ,Iraq,,,,,25,17
+IRL,IRE,Ireland,28,70,68,35,24,65
+ISR,ISR,Israel,13,54,47,81,38,
+ITA,ITA,Italy,50,76,70,75,61,30
+JAM,JAM,Jamaica,45,39,68,13,,
+JPN,JPN,Japan,54,46,95,92,88,42
+JOR,JOR,Jordan,,,,,16,43
+KOR,KOR,Korea South,60,18,39,85,100,29
+KGZ,KYR,Kyrgyz Rep,,,,,66,39
+LVA,LAT,Latvia,44,70,9,63,69,13
+LTU,LIT,Lithuania,42,60,19,65,82,16
+LUX,LUX,Luxembourg,40,60,50,70,64,56
+MKD,MAC,Macedonia,,,,,62,35
+MYS,MAL,Malaysia,104,26,50,36,41,57
+MLI,MLI,Mali,,,,,20,43
+MLT,MLT,Malta,56,59,47,96,47,66
+MEX,MEX,Mexico,81,30,69,82,24,97
+MDA,MOL,Moldova,,,,,71,19
+MNE,MNG,Montenegro,,,,,75,20
+MAR,MOR,Morocco,70,46,53,68,14,25
+NLD,NET,Netherlands,38,80,14,53,67,68
+NZL,NZL,New Zealand,22,79,58,49,33,75
+NGA,NIG,Nigeria,,,,,13,84
+NOR,NOR,Norway,31,69,8,50,35,55
+PAK,PAK,Pakistan,55,14,50,70,50,0
+PAN,PAN,Panama,95,11,44,86,,
+PER,PER,Peru,64,16,42,87,25,46
+PHL,PHI,Philippines,94,32,64,44,27,42
+POL,POL,Poland,68,60,64,93,38,29
+PRT,POR,Portugal,63,27,31,104,28,33
+PRI,PUE,Puerto Rico,,,,,0,90
+ROU,ROM,Romania,90,30,42,90,52,20
+RUS,RUS,Russia,93,39,36,95,81,20
+RWA,RWA,Rwanda,,,,,18,37
+SAU,SAU,Saudi Arabia,,,,,36,52
+SRB,SER,Serbia,86,25,43,92,52,28
+SGP,SIN,Singapore,74,20,48,8,72,46
+SVK,SLK,Slovakia,104,52,110,51,77,28
+SVN,SLV,Slovenia,71,27,19,88,49,48
+ZAF,SAF,South Africa,,,,,34,63
+ESP,SPA,Spain,57,51,42,86,48,44
+SUR,SUR,Suriname,85,47,37,92,,
+SWE,SWE,Sweden,31,71,5,29,53,78
+CHE,SWI,Switzerland,34,68,70,58,74,66
+TWN,TAI,Taiwan,58,17,45,69,93,49
+TZA,TAN,Tanzania,,,,,34,38
+THA,THA,Thailand,64,20,34,64,32,45
+TTO,TRI,Trinidad and Tobago,47,16,58,55,13,80
+TUR,TUR,Turkey,66,37,45,85,46,49
+USA,USA,U.S.A.,40,91,62,46,26,68
+UGA,UGA,Uganda,,,,,24,52
+UKR,UKR,Ukraine,,,,,86,14
+URY,URU,Uruguay,61,36,38,100,26,53
+VEN,VEN,Venezuela,81,12,73,76,16,100
+VNM,VIE,Vietnam,70,20,40,30,57,35
+ZMB,ZAM,Zambia,,,,,30,42
+ZWE,ZIM,Zimbabwe,,,,,15,28

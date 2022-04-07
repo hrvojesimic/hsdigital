@@ -342,6 +342,8 @@ function range(a, b) {
 /** 
  * Collates data from multiple sources, linked by key property.
  * For every element of base array adds corresponding values from addons objects (key-value maps).
+ * @return {object} object for data preparation that waits for addons and base,
+ * and contains a construction function
  */
 function collater(base, key, addons) {
   return {
@@ -364,8 +366,25 @@ function collate(base, keyProp, addons) {
   return result;
 }
 
+/**
+ * Construction of dataset from single property of another dataset.
+ * @param {string} base  property for base data object
+ * @param {string} key   property for the key of result object
+ * @param {string} value property for the value of result object
+ * @return {object} object for data preparation that waits for given base,
+ * and contains a construction function
+ */
+function extractObjectFrom(base, key, value) {
+  return {
+    waitFor: [base],
+    construction() {
+      return Object.fromEntries(
+        data[base].map(row => [row[key], row[value]])
+      );
+    }
+  };
+}
+
 function browserDefaults() {
   document.querySelectorAll("main ul, main ol").forEach(o => o.classList.add("browser-default"));
 }
-
-loadContent(mainEl.getAttribute('data-story-id'));
