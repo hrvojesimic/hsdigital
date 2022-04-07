@@ -76,12 +76,12 @@ encoding:
         - v2x_polyarchy
         - v2x_jucon
       labelExpr: "datum.label == 'v2x_polyarchy'? 'pošteni izbori' : datum.label == 'v2x_jucon'? 'sudovi ograničavaju izvršnu vlast' : datum.label == 'v2x_freexp_altinf'? 'sloboda izražavanja i informiranja' : datum.label == 'v2xlg_legcon'? 'zakonodavac ograničava izvršnu vlast' : datum.label"
-caption: "Slika 1: Promjena vrijednosti određenih političkih indeksa u Rusiji u razdoblju 1990—2021, prema istraživanju Varijacije u demokraciji (V-Dem). Viša vrijednost indeksa znači bolju situaciju."
+caption: "Slika 2: Promjena vrijednosti određenih političkih indeksa u Rusiji u razdoblju 1990—2021, prema istraživanju Varijacije u demokraciji (V-Dem). Viša vrijednost indeksa znači bolju situaciju."
 ```
 
 Bez gledanja u x-os, bi li mogli reći kad je Rusija postala demokracija, a kad Putin počinje preuzimati vlast? Mislim kako bi mogli. Jasno se vidi: što je dulje Putin na vlasti, to je demokracija u Rusiji u gorem stanju. Ne samo za ove odabrane indekse — svi glavni V-Dem parametri se tijekom Putinove vladavine pogoršavaju. 
 
-I to pogoršavanje nije bilo nevidljivo za građane Rusije. Za razliku od sovjetskog doba, u 21. stoljeću su neovisni mediji puno dostupniji, naročito putem Interneta. Rusima su znali da Putinove kritičare guta mrak, da se donose zakoni koji učvršćuju i produžuju njegovu vlast, da televizija servira samo ono što Kremlj želi da građani čuju. Lako su mogli saznati kako se njihova zemlja nalazi pri dnu ljestvica država svijeta po političkim slobodama:
+I to pogoršavanje nije bilo nevidljivo za građane Rusije. Za razliku od sovjetskog doba, u 21. stoljeću su neovisni mediji puno dostupniji, naročito putem Interneta. Rusima su znali da Putinove kritičare guta mrak, da se donose zakoni koji učvršćuju i produžuju njegovu vlast, da televizija servira samo ono što Kremlj želi da građani čuju. Lako su mogli saznati kako se njihova zemlja nalazi pri dnu ljestvica država svijeta po političkim slobodama. U 2021., Rusija je među svim zemljama svijeta bila:
   
   - [101\.](https://worldjusticeproject.org/rule-of-law-index/global) po indeksu vladavine prava World Justice Projecta,
   - [126\.](https://freedomhouse.org/countries/freedom-world/scores?sort=desc&order=Total%20Score%20and%20Status) po indeksu ljudskih sloboda Freedom Housea,
@@ -94,15 +94,19 @@ Ne kažem kako su trebali dignuti još jednu revoluciju. Ne kažem niti da treba
 
 Jer ako masovno odobravate takvu politiku dvadeset godina, onda se nemate pravo čuditi kad vidite da vam fali objektivnih informacija u medijima, da nemate institucije koje bi zauzdale samovlast predsjednika, da nemate alternativu za koje možete glasati na izborima.
 
-<p class="center-align">
+<figure class="center-align">
   <img class="responsive-img" src="/story/putin/pikachu.png" title="iznenađeni Pikaču" />
-</p>
+  <figcaption><strong>Slika 3.</strong> Kratka povijest Ruske Federacije u 21. stoljeću.</figcaption>
+</figure>
 
 ### Ruska ekonomija
 
 Rusi su vidjeli kako institucije liberalne demokracije propadaju, a u isto to vrijeme su vidjeli kako ruska ekonomija napreduje. Kao što možemo vidjeti na ovom grafu iz _Our World in Data_, ruski BDP po glavi stanovnika je znatno narastao pod Putinovim vodstvom, obrćući loš trend iz devedesetih godina 20. stoljeća. Unatoč nametnutim sankcijama, Rusija raste brže od prosjeka Istočne Europe, i smanjuje razliku u odnosu na Zapadnu Europu.
 
+<figure>
 <iframe src="https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?time=1990..2018&country=Western+Europe~Eastern+Europe~RUS" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+<figcaption><strong>Slika 4.</strong> Prikaz promjene BDP-a po glavi stanovnika kroz godine u Zapadnoj Europi, Istočnoj Europi i Ruskoj Federaciji.</figcaption>
+</figure>
 
 Kao što piše politolog iz UCLA Daniel Treisman u svojoj [analizi popularnosti Jeljcina i Putina](https://www.jstor.org/stable/23024939) iz 2010., upravo taj ekonomski rast i djelomični povratak Rusije na položaj koji je uživala kao jezgra Sovjetskog Saveza najbolje objašnjava podršku Putinu:
 
