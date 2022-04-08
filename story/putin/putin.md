@@ -25,7 +25,7 @@ Iz grafa mogu iščitati sljedeće:
 - Podrška mu pada kad je ugrožen standard i komfor građana, npr. produljenja starosne dobi za mirovinu, ili za vrijeme COVID lockdowna.
 - Proganjanja, trovanja i ubijanja kritičara njegove vlasti, novinara i oporbenih političara, kao ni donošenje zakona kako bi ga se učvrstilo na vlasti i oslabile institucije liberalne demokracije, čini se, nemaju nekog utjecaja na Putinovu popularnost među narodom.
 
-Ovo sve formira poprilično ružnu sliku o stavovima ruske javnosti. Predsjednik im je bio najprivlačniji kad bi pokrenuo agresiju na drugu zemlju, a najmanje su ga podržavali kad su se sami morali nečega odreći. Gledali su kako uništava višestranačje i objektivno novinarstvo, gledali su kako kritičari vlasti završavaju otrovani ili s rupom u glavi, i to nije utjecalo na ispitivanja podrške Putinu.
+Ovo sve formira poprilično ružnu sliku o stavovima ruske javnosti. Predsjednik im je bio najprivlačniji kad bi pokrenuo agresiju na drugu zemlju, a najmanje su ga podržavali kad su se sami morali nečega odreći. Gledali su kako uništava višestranačje i objektivno novinarstvo, gledali su kako kritičari vlasti završavaju otrovani ili s rupom u glavi, i to nije utjecalo na podršku Putinu.
 
 Toleriranje propadanja liberalne demokracije je važno, jer nas dovodi do još jednog argumenta zašto ruski narod nije kriv. Rusi, kažu, ne mogu ništa poduzeti po državničkim pitanjima jer nemaju potpune informacije, nemaju politički izbor, nemaju institucije koje koče i uravnotežuju izvršnu vlast ([_checks and balances_](https://www.britannica.com/topic/checks-and-balances)). Bespomoćni su, žrtve su jednako kao i Ukrajinci.
 
