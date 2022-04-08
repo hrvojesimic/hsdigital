@@ -34,7 +34,7 @@ No, nije u Rusiji uvijek bilo jednako loše.
 
 ### Kako napreduje demokracija pod Putinom?
 
-Najdetaljniju analizu demokratske situacije u Rusiji (a i u svim drugim državama svijeta) daje projekt [_Varijacije demokracije_](https://www.v-dem.net/) (V-Dem) Sveučilišta u Gothenburgu u Švedskoj. Među njihovim mjerama odabrao sam četiri koja su se činila važna za obuzdavanje Putinove moći:
+Najdetaljniju analizu demokratske situacije u Rusiji (a i u svim drugim državama svijeta) daje projekt [_Varijacije demokracije_](https://www.v-dem.net/) (V-Dem) Sveučilišta u Göteborgu u Švedskoj. Među njihovim mjerama odabrao sam četiri koja su se činila važna za obuzdavanje Putinove moći:
 
 1. kolika je sloboda izražavanja i pristup alternativnim izvorima informacija (indeks _v2x\_freexp\_altinf_)
 2. koliko su pošteni izbori (_v2x\_polyarchy_)
@@ -46,7 +46,7 @@ Evo kako su se mijenjali ti indeksi kroz godine moderne Ruske Federacije:
 ```vly
 width: 400
 height: 300
-autosize: { resize: true }
+autosize: { type: fit, resize: true }
 data: { name: vdemPoints }
 mark: line
 encoding:
@@ -90,12 +90,12 @@ I to pogoršavanje nije bilo nevidljivo za građane Rusije. Za razliku od sovjet
 
 Znali su, i svejedno su podržavali vlast.
 
-Ne kažem kako su trebali dignuti još jednu revoluciju. Ne kažem niti da trebaju protestirati na ulicama, riskirati da ih policija prebije i baci u zatvor. Možda masovni štrajkove i bojkoti nisu bili praktični. Možda će netko reći i da nije bilo puno boljih kandidata za predsjednika. No čak i da stavimo sve to sad sa strane, još ostaje jedna vrlo, vrlo niska ljestvica koji su Rusi trebali preskočiti — kad ih neovisni anketar pita: "Odobravate li aktivnosti Vladimira Putina kao predsjednika Rusije?" da samo odšute. Da ne kažu: "Odobravam!"
+Ne kažem kako su trebali dignuti još jednu revoluciju. Ne kažem niti da trebaju protestirati na ulicama, riskirati da ih policija prebije i baci u zatvor. Možda masovni štrajkovi i bojkoti nisu bili praktični. Možda će netko reći i da nije bilo puno boljih kandidata za predsjednika. No čak i da stavimo sve to sad sa strane, još ostaje jedna vrlo, vrlo niska ljestvica koji su Rusi trebali preskočiti — kad ih neovisni anketar pita: "Odobravate li aktivnosti Vladimira Putina kao predsjednika Rusije?" da samo odšute. Da ne kažu: "Odobravam!"
 
 Jer ako masovno odobravate takvu politiku dvadeset godina, onda se nemate pravo čuditi kad vidite da vam fali objektivnih informacija u medijima, da nemate institucije koje bi zauzdale samovlast predsjednika, da nemate alternativu za koje možete glasati na izborima.
 
 <figure class="center-align">
-  <img class="responsive-img" src="/story/putin/pikachu.png" title="iznenađeni Pikaču" />
+  <img style="width: 400px" class="responsive-img" src="/story/putin/pikachu.png" title="iznenađeni Pikaču" />
   <figcaption><strong>Slika 3.</strong> Kratka povijest Ruske Federacije u 21. stoljeću.</figcaption>
 </figure>
 
@@ -134,9 +134,9 @@ Prema onom što sam ja uspio pronaći, stručnjaci ne sumnjaju da se izražene p
 
 Možda nije problem u agencijama iz istraživanje javnog mnijenja. Možda je problem samocenzura građana Rusije. Ispitanici su ti koji ne govore istinu — u tajnosti su protiv vlasti, ali se to ne usude priznati ispitivačima. U stručnoj literaturi se ovaj fenomen naziva krivotvorenjem preferencija ([_preference falsification_](https://en.wikipedia.org/wiki/Preference_falsification)). 
 
-Jedan od načina na koji znanstvenici pokušavaju zaobići ovaj problem su popisni pokusi (_list experiments_), u kojem osjetljivu izjavu uklopite u dulji popis drugih i onda ispitanicima samo kažete da upišu samo _broj_ izjava s kojima se slažu. Tako se ispitanici osjećaju sigurno da nisu otkrili svoje osobne preferencije, no na velikom broju ispitanika se mogu primijetiti odstupanja od ispitanika koji su dobili popis bez osjetljive izjave.
+Jedan od načina na koji znanstvenici pokušavaju zaobići ovaj problem su popisni pokusi (_list experiments_), u kojem osjetljivu izjavu uklopite u dulji popis drugih i onda ispitanicima samo kažete da upišu samo _broj_ izjava s kojima se slažu. Tako se ispitanici osjećaju sigurno da nisu otkrili svoje osobne preferencije, no na velikom broju ispitanika se mogu primijetiti odstupanja u odnosu na ispitanike koji su dobili popis bez osjetljive izjave.
 
-Istraživači Chapkovski i Schaub su nedavno ovu tehniku koristili da saznaju koliko Rusa podržava djelovanje ruske vojske u Ukrajini. Otkrili su kako će dvije trećine Rusa osobno podržati rat, ako ih izravno pitate. No preko popisa ovaj udio pada na 53%, što je još uvijek većina, ali ne tako premoćna. Međutim, upozoravaju kako se isti zaključak ne može primijeniti na Putina:
+Istraživači Chapkovski i Schaub su nedavno ovu tehniku koristili da saznaju koliko Rusa podržava djelovanje ruske vojske u Ukrajini. Otkrili su kako će dvije trećine Rusa osobno podržati rat, ako ih izravno pitate. No, preko popisa ovaj udio pada na 53% — još uvijek većina, ali ne tako premoćna. Međutim, upozoravaju kako se isti zaključak ne može primijeniti na Putina:
 
 > biti protiv rata nije isto što i biti protiv Putina, čija bi visoka razina potpore mogla biti stvarna, kao što je pokazao drugi eksperiment s popisom.
 
