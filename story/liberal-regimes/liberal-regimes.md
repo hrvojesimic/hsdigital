@@ -1,10 +1,10 @@
 # Gdje su liberalne demokracije?
 
-*Hrvoje Šimić, 07.04.2022.*
+*Hrvoje Šimić, 09.04.2022.*
 
 <span class="dropcap">U</span> [prethodnom članku](/a/ukraine-split) sam pisao o tome kako se na Ukrajinskim ravnicama ne bore samo jedan narod protiv drugog, nego i ideologije: imperijalizam, nacionalizam, realizam, liberalizam. Vidjeli smo kako liberalne demokracije svijeta vode ekonomsku i diplomatsku ofenzivu protiv Rusije. No koje zemlje zovemo liberalnim demokracijama, i zašto?
 
-Na ovo pitanje je teško dati konačan odgovor, jer ljudi za svakakve stvari koriste nazive "liberalno" i "demokracija". No mislim da je korisno da pokušamo. Ovdje ću se povesti primjerom _Our World in Data_, koji preuzimaju istraživanje projekta _Varijacije demokracije (V-Dem)_ znanstvenika Sveučilišta u Gothenburgu u Švedskoj. Prema njima...
+Na ovo pitanje je teško dati konačan odgovor, jer ljudi koriste nazive "liberalno" i "demokracija" za sve i svašta. No mislim da je korisno da pokušamo. Ovdje ću se povesti primjerom _Our World in Data_, koji preuzimaju istraživanje projekta _Varijacije demokracije (V-Dem)_ znanstvenika Sveučilišta u Gothenburgu u Švedskoj. Prema njima...
 
 > ...**liberalne demokracije** su politički sustavi koji održavaju smislene, slobodne, poštene i višestranačke izbore, njihovi građani imaju dodatna osobna prava i jednaki su pred zakonom, a zakonodavstvo i sudovi ograničavaju izvršnu vlast.
 
@@ -97,13 +97,12 @@ Jedna od najvažnijih karakteristika liberalnih režima je vladavina prava i pri
 Sloboda govora je još jedan temelj liberalizma, a jedna ključna njena komponenta je sloboda medija. 
 Nevladina organizacija [Reporteri bez granica](https://rsf.org/) redovito izdaje [_World Press Freedom Index_](https://rsf.org/en/ranking), po kojem su mediji slobodniji u državama s manjom vrijednosti indeksa. Kao što možemo vidjeti na razdiobi bodova iz 2021., podijela između sivih i obojanih postoji, ali nije ni blizu tako jasna. Neke afričke zemlje poput Gane šišaju članicu EU Bugarsku.
 
-
 <div class="BubbleDensity" data-rmax="70" data-keyX="press" forcex="1">
 </div>
 
 ### Zaštita ljudskih prava
 
-Sljedeća kategorija koja je vezana uz liberalne demokracije su ljudska prava. Ovdje nisam našao . Najbolje što imam je studija _Respect for Human Rights has Improved Over Time: Modeling the Changing Standard of Accountability_ iz 2014.
+Sljedeća kategorija koja je vezana uz liberalne demokracije su ljudska prava. Ovdje nisam našao respektabilnu međunarodnu organizaciju koja rangira svee zemlje svijeta. Najbolje što imam je studija _Respect for Human Rights has Improved Over Time: Modeling the Changing Standard of Accountability_ iz 2014.
 
 <div id="popGDPpc" class="BubbleDensity" data-rmax="70" data-keyX="hrp"
   data-keyr="population">
@@ -141,7 +140,7 @@ Podaci izvješća iz 2019. pokazuju naše obojane zemlje kao grozd naj
 
 ### Indeks sreće
 
-Kad već gledamo
+Kad već gledamo, bacimo pogled i na jednu rang-listu koja se često pojavljuje u medijima. 
 
 <div id="happy" class="BubbleDensity" data-rmax="70" data-keyX="happy"
   data-keyr="population">
@@ -153,7 +152,7 @@ Kad već gledamo
   data-keyr="population">
 </div>
 
-Ovdje je puno veća gužva. Naše liberalne demokracije se drže slobodnije strane skupine, ali su nagurane i ispresjecane. Lijeva strana grafa je pusta, na njoj je tek par preostalih "klasičnih" socijalističkih režima svijeta: Sjeverne Koreje, Venezuele i Kube. 
+Ovdje je puno veća gužva. Naše liberalne demokracije se drže slobodnije strane skupine, ali su tamo ispresjecane drugačijim režimima. Lijeva strana grafa je ostala pusta, na njoj tek par "klasičnih" socijalističkih režima svijeta: Sjeverne Koreje, Venezuele i Kube. 
 
 ### Liberalna demokracija stagnira
 
@@ -191,7 +190,7 @@ caption: Udio stanovništva svijeta u zemljama pod određenom vrstom režima pre
 
 Klasifikacija pokazuje određene trendove kroz 20. i početak 21. stoljeća. Zatvorene autokracije su prevladavale u prvoj polovici 20. stoljeća, kad ih naglo počinju zamjenjivati oblici vlasti temeljeni na izborima. Liberalne demokracije su imale nagli rast sve do 1970. i sad su u stagnaciji. Umjesto njih, na račun zatvorenih autokracija šire se izborna autokracija i izborna demokracija.
 
-
+Korelacija 
 
 <!--
 ### Power distance
