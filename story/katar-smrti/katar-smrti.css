@@ -1,3 +1,11 @@
+figure {
+    margin: 1em 2px;
+}
+
+aside {
+    margin: 1em 2em;
+}
+
 table {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;

@@ -1,6 +1,6 @@
 # Katar i smrt
 
-*Hrvoje Šimić, 03.12.2022.*
+*Hrvoje Šimić, 07.12.2022.*
 
 <figure>
   <img class="responsive-img" src="/story/katar-smrti/herne.jpg" />
@@ -20,7 +20,9 @@ U mojoj glavi se stvorila slika siromašnog mladog radnika iz Azije ili Afrike, 
 
 Nameće se pitanje: je li bilo vrijedno toga? Zašto su svi ti ljudi umrli? Da bi mi par tjedana mogli gledati nogomet?
 
-Kopkalo me koliko je taj broj stvaran, koliko je ta priča stvarna. Od tog kopkanja upao sam u rupu brojeva, priča, emocija i manipulacija. Dok sam se pokušavao od tamo ispetljati, zapisivao sam ono što mi se čini najkorisnije i izvukao neke zaključke koji nadilaze pitanje s kojim sam počeo.
+Kopkalo me koliko je taj broj stvaran, koliko je ta priča stvarna. Od tog kopkanja upao sam u rupu brojeva, priča, emocija i manipulacija. Dok sam se pokušavao od tamo ispetljati, zapisivao sam ono što mi se čini najkorisnije i izvukao neke zaključke. Ispostavilo se kako toga ima dosta.
+
+Ako vam se ne da čitati dosta dugu analizu punu brojeva i grafova, uvijek možete preskočiti na [kraj članka](#koliko-je-stvarno-radnika-poginulo-zbog-sp-a).
 
 ## Odakle dolazi taj broj?
 
@@ -28,7 +30,7 @@ Nije tajna otkud taj famozni podatak. Objavljen je u britanskim dnevnim novinama
 
 Neki naši medijski članci kao izvor tog podatka nisu naveli The Guardian, nego su ga pripisali "*neovisnim agencijama*" ([Index](https://www.index.hr/sport/clanak/ovo-su-svi-stadioni-na-svjetskom-prvenstvu-evo-na-kojima-igra-hrvatska/2413071.aspx)), "*raznim medijima*" ([24 sata](https://www.24sata.hr/sport/ovo-je-deset-razloga-zbog-kojih-je-svjetsko-prvenstvo-u-kataru-najkontroverznije-u-povijesti-874636)), "*brojnim izvorima*" ([Jutarnji](https://sportske.jutarnji.hr/sn/nogomet/sp2022/predsjednik-fifa-e-otvoreno-prozvao-licemjere-danas-se-osjecam-kao-kataranin-kao-gay-kao-hendikepirana-osoba-15277472)). Valjda sam im te fraze zvučale važnije nego reći da je izvor jedan jedini novinski članak od prije skoro dvije godine. 
 
-Tražio sam neovisan izvor ili ijedno drugo istraživanje koje bi potvrdilo Guardianovu procjenu, nisam mogao naći ništa posebno korisno. No zato sam našao mnogih provjere koje je kritiziraju. Njemački informacijski servis [Deutsche Welle](https://www.dw.com/en/fact-check-how-many-people-have-died-for-the-qatar-world-cup/a-63763713), BBC-jev podcast [More or Less](https://www.bbc.co.uk/programmes/p0dlg3hq) i UN-ova [Međunarnodna organizacija rada (ILO)](https://www.ilo.org/wcmsp5/groups/public/---arabstates/---ro-beirut/---ilo-qatar/documents/publication/wcms_828395.pdf) osvrću se izravno na podatak o "6500 smrti" i upozoravaju da ta brojka ne znači ono što se u našim novinama tvrdi da znači.
+Tražio sam neovisan izvor ili ijedno drugo istraživanje koje bi potvrdilo Guardianovu procjenu, nisam mogao naći ništa posebno korisno. No zato sam našao mnogih provjere koje je kritiziraju. Njemački informacijski servis [Deutsche Welle](https://www.dw.com/en/fact-check-how-many-people-have-died-for-the-qatar-world-cup/a-63763713), BBC-jev podcast [More or Less](https://www.bbc.co.uk/programmes/p0dlg3hq) i UN-ova [Međunarodna organizacija rada (ILO)](https://www.ilo.org/wcmsp5/groups/public/---arabstates/---ro-beirut/---ilo-qatar/documents/publication/wcms_828395.pdf) osvrću se izravno na podatak o "6500 smrti" i upozoravaju da ta brojka ne znači ono što se u našim novinama tvrdi da znači.
 
 
 ## Koliko je stranaca stvarno umrlo u Katru?
@@ -71,7 +73,7 @@ Bez obzira pričamo li o 6,5 ili o 15 tisuća smrti, trebamo se prvo zapitati: j
 
 Ako to prihvatimo, sljedeći korak je da provjerimo jesu li ove smrti po nečemu alarmantne. Ima li ih više nego što možemo očekivati i inače? Niti jedan članak u našim novinama nije to napravio.
 
-6500 nam je uveden bez konteksta, namjenjen da impresionira čitatelja samom svojom pojavom. To je vrlo sumnjivo. Zamislite da vas probudi vijest s radija: "Jučer umrlo sto Hrvata!" Zar ne bi pomislili kako se dogodila neka velika tragedija? Ako je taj podatak vrijedan udarne vijesti, onda je valjda umrlo 100 *dodatnih* ljudi, na broj koji u prosjeku umre u Hrvatskoj (oko 130-140). Ne očekujete da je vijest kako je taj dan bilo neobično malo smrti.
+6500 nam je uveden bez konteksta, namijenjen da impresionira čitatelja samom svojom pojavom. To je vrlo sumnjivo. Zamislite da vas probudi vijest s radija: "Jučer umrlo sto Hrvata!" Zar ne bi pomislili kako se dogodila neka velika tragedija? Ako je taj podatak vrijedan udarne vijesti, onda je valjda umrlo 100 *dodatnih* ljudi, na broj koji u prosjeku umre u Hrvatskoj (oko 130-140). Ne očekujete da je vijest kako je taj dan bilo neobično malo smrti.
 
 ## Koliko je stranaca u Katru?
 
@@ -186,7 +188,7 @@ encoding:
 caption: "Razdioba stranaca u Katru po dobi i spolu. Izvor: Popis stanovništva, prosinac 2020. Nisu objavljeni podaci o djeci."
 ```
 
-Prema očekivanjima, najveća kategorija su muškarci u dobi najveće fizičke snage. No tu je i skoro 22 tisuće stranaca starih 65 i više godina, što povećava rizik smrti. Ako primjenimo [američke aktuarske tablice](https://www.ssa.gov/oact/STATS/table4c6.html) na razdiobu stranaca u Katru, možemo izračunati i očekivani broj smrti godišnje, *kad* bi umirali po stopama građana SAD-a.
+Prema očekivanjima, najveća kategorija su muškarci u dobi najveće fizičke snage. No tu je i skoro 22 tisuće stranaca starih 65 i više godina, što povećava rizik smrti. Ako primijenimo [američke aktuarske tablice](https://www.ssa.gov/oact/STATS/table4c6.html) na razdiobu stranaca u Katru, možemo izračunati i očekivani broj smrti godišnje, *kad* bi umirali po stopama građana SAD-a.
 
 <figure>
   <table id="TabOcekivanihSmrti" class="responsive-table centered striped">
@@ -194,10 +196,10 @@ Prema očekivanjima, najveća kategorija su muškarci u dobi najveće fizičke s
       <tr>
         <th>dob</th>
         <th>spol</th>
-        <th>populacija stranaca</th>
+        <th>populacija</th>
         <th>prosječna dob</th>
-        <th>vjerojatnost umiranja</th>
-        <th>očekivano smrti godišnje</th>
+        <th>vjerojatnost smrti</th>
+        <th>smrti/god</th>
       </tr>
     </thead>
     <tbody>
@@ -216,7 +218,7 @@ Drugi veliki faktor je ponašanje ljudi kad im se zdravlje pogorša. Očekujem d
 
 ## Što ti ljudi tamo rade?
 
-Gotovo svi mediji kopiraju Guardian u tvrdnji da su umrli ljudi bili "radnici". No izvještaji koje je Guardian koristio kao izvor to uopće ne spominje. Ranije navedeni popis stanovništva kaže kako 253 796 stranaca (15+) u Katru ne radi. Konkretno, dijele se na:
+Gotovo svi mediji kopiraju Guardian u tvrdnji da su umrli ljudi bili "radnici". No izvještaji koje je Guardian koristio kao izvor to uopće ne spominje. Ranije navedeni popis stanovništva kaže kako 253 796 stranaca (15+) u Katru ne radi, konkretno:
 
 - 141 081 domaćica
 - 91 138 studenta/učenika
@@ -236,22 +238,20 @@ Umjesto da koriste izvornu riječ "umrli", neke naše novine pišu kako je svih 
 
 To "kako" piše u službenim smrtovnicama, ali novinari i nevladine udruge im ne vjeruju potpuno. U previše slučajeva su pod uzrok smrti piše samo "prirodna smrt" i "koronarni zastoj". Čini se kako nad siromašnim strancima obično ne rade autopsije, niti troše puno novaca da bi utvrdili zašto je mladom radniku u snu otkazalo srce.
 
-Jedne procjene broj smrti na poslu u Katru dolaze od ranijespomenutog [izvještaja](https://www.ilo.org/wcmsp5/groups/public/---arabstates/---ro-beirut/---ilo-qatar/documents/publication/wcms_828395.pdf) [Međunarnodne organizacije rada](https://hr.wikipedia.org/wiki/Me%C4%91unarodna_organizacija_rada). Prema njemu, u 2020. se dogodilo 50 smrtonosnih ozlijeda na radu, što je oko 2,5% ukupnog broja smrti stranaca u Katru te godine. To su sve ozlijede, ne samo one pri gradnji stadiona ili drugih projekata pripreme za SP.
+Jedne procjene broj smrti na poslu u Katru dolaze od ranije spomenutog [izvještaja](https://www.ilo.org/wcmsp5/groups/public/---arabstates/---ro-beirut/---ilo-qatar/documents/publication/wcms_828395.pdf) [Međunarodne organizacije rada](https://hr.wikipedia.org/wiki/Me%C4%91unarodna_organizacija_rada). Prema njemu, u 2020. se dogodilo 50 smrtonosnih ozljeda na radu, što je oko 2,5% ukupnog broja smrti stranaca u Katru te godine. To su sve ozljede, u svim sektorima, ne samo one pri gradnji stadiona ili drugih projekata pripreme za SP.
 
-<!--29.11.2022. katarski Vrhovni odbor za pripremu SP-a je iznio drugačiji podatak: "Nacionalna statistika za razdoblje 2014.-2020. evidentira 414 smrtnih slučajeva povezanih s radom u cijelom Kataru, što pokriva sve sektore i nacionalnosti." Ne govori se da su to sve ozljede, niti isključivo o građevinskom sektoru, niti samo o strancima, ali za očekivati je da baš stranci u građevini čine dobar dio te statistike.-->
+29.11.2022. katarski Vrhovni odbor za pripremu SP-a je iznio drugačiji podatak: "<em>Nacionalna statistika za razdoblje 2014.—2020. evidentira 414 smrtnih slučajeva povezanih s radom u cijelom Kataru, što pokriva sve sektore i nacionalnosti.</em>" Opet, ova statistika ne pokriva samo smrti u građevinskom sektoru, štoviše ne ograničava se ni samo na strance.
 
 No ima smisla pitati se: jesu li smrti od ozljeda na radnom mjestu, ili na putu prema radnom mjestu, jedine smrti koje treba brojati? Ako je mladića poslije radnog vremena pregazio autobus, je li na nesreću utjecalo to što su i on i vozač autobusa bili iscrpljeni na kraju dugog radnog dana? Ako jedan migrant ubije drugog, jesu li tome kumovali loši uvjeti smještaja? Možda je trećeg na suicid naveo nepravedan potez poslodavca? Čistač ulica je preminuo od upale pluća: je li tome pridonijela prašina s gradilišta? Koliko je slučajeva u kojima su zdravi građevinski radnici radeći u Katru teško narušili svoje zdravlje i otišli doma da umru? Da ne govorimo uopće o ljudima koji su još živi, ali im je sudbina zapečaćena.
 
-To je izvor najvećih odstupanja kod različitih mjerenja mortaliteta: što sve pribrojati radu kao uzroku? Čini se nemoguće definirati jasan kriterij s kojom će svi dobronamjerni i razumni ljudi biti zadovoljni. Svejedno, moramo nekakav kriterij uspostaviti, jer je ova tema prevažna da bi digli ruke od nje.
-
-A taj kriterij mora biti konzistentan za sve zemlje i događaje, jer inače uspoređujemo kruške i jabuke. Ne možemo na pripremama za Olimpijadu u Londonu brojati samo fatalne nestreće na gradilištima projekta, u Katru brojati smrti svih uzroka svih stranaca kroz deset godina u cijeloj zemlji, i onda oboje zvati jednostavno "smrtima" i uspoređivati te brojeve. Stoga bi netko morao smisliti dobre medicinske kriterije za smrt povezanu uz posao, i izmjeriti tim univerzalnim standardom različite zemlje svijeta.
+To je izvor najvećih odstupanja kod različitih mjerenja mortaliteta: što sve pribrojati radu kao uzroku? I kako usporediti različite sredine? Kriterij mora biti konzistentan za sve zemlje i događaje, jer inače uspoređujemo kruške i jabuke. Ne možemo na pripremama za Olimpijadu u Londonu brojati samo fatalne nesreće na gradilištima projekta, u Katru brojati smrti svih uzroka svih stranaca kroz deset godina u cijeloj zemlji, i onda oboje zvati jednostavno "smrtima" i uspoređivati te brojeve. Stoga bi netko morao smisliti dobre medicinske kriterije za smrt povezanu uz posao, i izmjeriti tim univerzalnim standardom različite zemlje svijeta.
 
 
 ## Kako izgledaju usporedbe između zemalja?
 
-Srećom, imamo tako nešto. Svjetska zdravstvena organizacija i Međunarnodna organizacija rada su 2021. objavili [zajednički izvještaj](https://www.who.int/publications/i/item/9789240034945) s procjenama opterećenja bolesti i ozlijeda koji su povezani s radom. Napravili su procjene smrti za svaku zemlju pojedinačno.
+Srećom, imamo tako nešto. Svjetska zdravstvena organizacija i Međunarodna organizacija rada su 2021. objavili [zajednički izvještaj](https://www.who.int/publications/i/item/9789240034945) s procjenama opterećenja bolesti i ozljeda koji su povezani s radom. Napravili su procjene smrti za svaku zemlju pojedinačno.
 
-Tamo računaju stope mortaliteta ne po radniku, nego po stanovniku (15+). Gledaju smrti od ozlijeda na radu, ali i od svih drugih radom uzrokovanih bolesti: bolesti pluća, srca, moždani udar, karcinomi dišnih puteva i slično. Kao faktore rizika ističu i dugo radno vrijeme, udisanje prašine i plinova, azbesta, itd.
+Tamo računaju stope mortaliteta ne po radniku, nego po stanovniku (15+). Gledaju smrti od ozljeda na radu, ali i od svih drugih radom uzrokovanih bolesti: bolesti pluća, srca, moždani udar, karcinomi dišnih puteva i slično. Kao faktore rizika ističu i dugo radno vrijeme, udisanje prašine i plinova, azbesta, itd.
 
 Iz izvještaja sam izvadio neke brojeve za najkasniju godinu koju imaju (2016.), i za zemlje koje sam mislio da su zanimljive:
 
@@ -283,7 +283,7 @@ caption: "Stopa smrti povezanih s radom na sto tisuća stanovnika (samo 15-godi�
 
 Iznenađujuća činjenica je da dvije svjetske organizacije koje su najrelevantnije za takvu analizu, Katru daju visoke ocjene. Ispada da kod njih ljudi *najmanje* umiru od rada. Statistike za druge godine i zemlje pokazuju iste trendove: na Arapskom poluotoku od rada se puno *manje* umire nego u zemljama iz kojih dolaze migranti. Štoviše, umire se manje nego na Zapadu.
 
-## Ubija li sunce?
+## Ubija li katarsko sunce?
 
 Kao glavni razlog protiv ove gradnje u Katru se obično navode vrućine koje tamo vladaju. Članci koje sam ja čitao često spočitavaju bahatost Arapa koji u paklenoj pustinji žele imati ono što nije prirodno.
 
@@ -305,7 +305,7 @@ No, vruće je na cijelom Arapskom poluotoku, ne samo u Katru. Druga dva velika g
 
 <figure>
   <img class="responsive-img" src="/story/katar-smrti/klima/Average%20Hourly%20Temperature%20in%20Dubai.svg" />
-  <figcaption>Prosječne temperature u Dubaiu (Ujedinjeni Arapski Emirati).</figcaption>
+  <figcaption>Prosječne temperature u Dubaiju (Ujedinjeni Arapski Emirati).</figcaption>
 </figure>
 
 <figure>
@@ -339,11 +339,11 @@ Sve u svemu, Katar ima ekstremno vrela ljeta, ali po tome nije izoliran slučaj.
 
 ## Je li to sve zbog SP-a?
 
-Daljnja tipična pretpostavka koji mnogi mediji rade je da ti nesretni radnici ne grade tek bilo što, nego su svi angažirani na pripremama za Svjetsko prvenstvo 2022. [Slobodna Dalmacija](https://slobodnadalmacija.hr/vijesti/svijet/katarski-san-je-izgraden-na-nocnoj-mori-gastarbajtera-crncili-su-12-sati-dnevno-za-bijednu-nadnicu-tisuce-ih-je-na-gradilistima-ostavilo-kosti-the-guardian-je-sve-raskrinkao-1242183) kaže kako ih je "*6500 doslovce ostavilo kosti gradeći stadione*". Novinarima su stadioni naročito važni, iako ispada kako čine tek 3-5% troška pripreme za SP (između [6.5 i 10 milijardi dolara](https://www.forbes.com/sites/mattcraig/2022/11/19/the-money-behind-the-most-expensive-world-cup-in-history-qatar-2022-by-the-numbers/)). Kad spomenete stadione, onda čitatelji to lakše povežu s Prvenstvom.
+Daljnja tipična pretpostavka koji mnogi mediji rade je da ti nesretni radnici nisu gradili bilo što, nego su svi bili angažirani na pripremama za Svjetsko prvenstvo 2022. [Slobodna Dalmacija](https://slobodnadalmacija.hr/vijesti/svijet/katarski-san-je-izgraden-na-nocnoj-mori-gastarbajtera-crncili-su-12-sati-dnevno-za-bijednu-nadnicu-tisuce-ih-je-na-gradilistima-ostavilo-kosti-the-guardian-je-sve-raskrinkao-1242183) kaže kako ih je "*6500 doslovce ostavilo kosti gradeći stadione*". Novinarima su stadioni naročito važni, iako ispada kako čine tek 3-5% troška pripreme za SP (između [6.5 i 10 milijardi dolara](https://www.forbes.com/sites/mattcraig/2022/11/19/the-money-behind-the-most-expensive-world-cup-in-history-qatar-2022-by-the-numbers/)). Kad spomenete stadione, onda čitatelji to lakše povežu s Prvenstvom.
 
 Da FIFA nije dodijelila SP njima, nego recimo SAD-u, neki od onih koji su život okončali u Katru bi danas bili živi. Međutim, da Katar nije dobio SP, bi li potrošio novac na neke druge građevinske projekte? Siguran sam da se država ne bi odjednom prestala razvijati. Dobar dio investicija koji se broje pod trošak SP-a, poput metroa, bio je dogovoren i prije. Tih dvjestotinjak milijardi dolara Katarce je toliko žuljalo da bi vjerojatno pronašli druge projekte na koje bi ih mogli potrošiti.
 
-A da i Katar uopće nema novaca, ti isti radnici bi radili na nekim drugim projektima, sa sličnim rizicima. Ako nečeg na Arapskom poluotoku ne nedostaje, to su gradilišta. Samo šaka najskupljih projekata koji se trenutno grade u Dubaiu vrijedi preko 200 milijardi dolara. Saudijska Arabija upravo radi [*The Line*](https://en.wikipedia.org/wiki/The_Line,_Saudi_Arabia), megaprojekt linearnog grada u pustinji čija je vrijednost pet puta veća.
+A da i Katar uopće nema novaca, ti isti radnici bi radili na nekim drugim projektima, sa sličnim rizicima. Ako nečeg na Arapskom poluotoku ne nedostaje, to su gradilišta. Samo šaka najskupljih projekata koji se trenutno grade u Dubaiju vrijedi preko 200 milijardi dolara. Saudijska Arabija upravo radi [*The Line*](https://en.wikipedia.org/wiki/The_Line,_Saudi_Arabia), megaprojekt linearnog grada u pustinji čija je vrijednost pet puta veća.
 
 A koliki je tamo mortalitet? Zadnjih godina Dubai među strancima ima oko [1500-2000 smrti godišnje](https://uaestat.fcsc.gov.ae/vis?lc=en&fs[0]=FCSC%20-%20Statistical%20Hierarchy%2C0%7CDeaths%23VTS_DEA%23&pg=0&fc=FCSC%20-%20Statistical%20Hierarchy&df[ds]=FCSC-RDS&df[id]=DF_DEATHS&df[ag]=FCSA&df[vs]=2.8.0&pd=2007%2C2019&dq=..AE-DU.A._T.NON-EMIRATI....&ly[rw]=TIME_PERIOD). Kad to podijelimo s [brojem stranaca](https://www.dsc.gov.ae/Report/DSC_SYB_2021_01_03.pdf), dobijemo stopu od 0,73 smrti na tisuću stranaca 2019. godine, kad je taj omjer u Katru bio 0,69.
 
@@ -352,39 +352,54 @@ Sve u svemu, da SP nije dodijeljen Katru, ne vidim da bi se išta bitno dogodilo
 
 ## Koliko je stvarno radnika poginulo zbog SP-a?
 
-Čak i nakon sveg ovog istraživanja, moram reći da ne znam. Najvažnije informacije nedostaju. Čak i kad bi imali potpuna medicinska izvješća o svakom smrtnom slučaju, točan broj jako ovisi o tome što ćete smatrati da treba pripisati poslu. Na kraju ostaje i pitanje kako taj broj usporediti s hipotetskom situacijom kad FIFA nije dodijelila SP Katru nego nekoj drugoj državi.
+Čak i nakon sveg ovog istraživanja, moram reći da ne znam. Najvažnije informacije nedostaju. Čak i kad bi imali potpuna medicinska izvješća o svakom smrtnom slučaju, točan broj jako ovisi o tome što ćete smatrati da treba pripisati poslu. Na kraju ostaje i pitanje kako taj broj usporediti s hipotetskom situacijom u kojoj FIFA nije dodijelila SP Katru nego nekoj drugoj državi.
 
-No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza razjasnila je puno više detalja o ovom problemu nego što sam uspio naći u uglednim svjetskim novinama, iako je svaka od njih pisala o pripremama za SP kao humanitarnoj krizi. Nijedan istraživački smjer u kojem sam ostvario neki napredak na kraju nije podupro tezu da se u Katru događa nešto iznimno sa smrtima stranih radnika.
+No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza razjasnila je puno više detalja o ovom problemu nego što sam uspio naći u uglednim svjetskim novinama, iako je svaka od njih pisala o pripremama za SP kao humanitarnoj krizi. Nijedan smjer istraživanja nije podupro tezu da se u Katru događa nešto iznimno sa stranim radnicima. Da rekapituliram:
 
-To ne znači da tvrdim kako je situacija u Katru super. Još uvijek je moguće da se nešto iznimno loše dogodilo, da se još uvijek događa, samo što to iz nekog razloga nije vidljivo na metrikama koje sam iznio u ovom članku. Moja ambicija ni nije bila da otkrijem pravu istinu na terenu, da utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u novinama drže vodu.
+- Broj 6500 je samo tvrdnja iz jednog članka, koja ne uzima podatke o svim zemljama podrijetla, niti govori samo o radnicima na SP-u, niti uopće uzima u obzir od čega su ti ljudi umrli.
+- Općenita stopa mortaliteta u Katru je najniža na svijetu, a mortalitet među strancima je još niži.
+- Kad bi primijenili SAD-ov mortalitet na demografski profil stranaca u Katru, umiralo bi puno više ljudi.
+- Tek manji dio migranata radi u građevini na projektima za SP.
+- Analiza Svjetske zdravstvene organizacije i Međunarodne organizacije rada kaže da je Katar među državama s najmanje smrti od rada u svijetu.
+- Klima u Katru jest ekstremna, ali je i tipična za Arapski poluotok i nije tako različita od uvjeta rada u nekim drugim tropskim i suptropskim velikim gradilištima.
+- Da SP nije održan u Katru, vjerojatno bi se i dalje gradilo u sličnim uvjetima.
 
-A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćivali su tamo gdje nije trebalo, neispravno pretpostavljali, oslanjali su se na neadekvatne heuristike, a ni logika im nije uvijek štimala. Da ste im dali da izbroje kokoši u kokošinjcu, ne bi ih znali izbrojati.
+To ne znači kako je situacija u Katru super. Još uvijek je moguće da se nešto iznimno loše dogodilo, možda se još uvijek događa, samo što to iz nekog razloga nije vidljivo na metrikama koje sam iznio u ovom članku. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u novinama drže vodu.
 
-Ne kažem da je ovaj problem lagan, niti me iznenađuje što postoje novinari koji nisu u stanju niti prepisati broj iz drugog članka bez da pogriješe. Iznenađuje me što su se te klimave tvrdnje o žrtvama potpuno nekritički raširile među najuglednijim medijima, kroz društvene mreže, među utjecajne komentatore i organizacije civilnog društva.
+A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćivali su tamo gdje nije trebalo, neispravno su pretpostavljali, oslanjali su se na neadekvatne heuristike, plasirali zavaravajuće podatke, a ni logika im nije uvijek štimala. Na ovaj način ne bi uspjeli izbrojati ni kokoši u kokošinjcu. I zato tim brojevima nije za vjerovati.
 
+Ne kažem da je zadatak bio lagan, niti me iznenađuje što postoje traljavi novinari. Brine me samo što su se te klimave tvrdnje o žrtvama potpuno nekritički raširile među najuglednijim medijima, kroz društvene mreže, među utjecajne komentatore i organizacije civilnog društva.
 
-## Zar Katar stvarno nije kriv?
+Njihova namjera je, vjerujem, bila dobra. Htjeli su skrenuti pažnju na percipirani problem, utjecati na to da se loše stvari poprave i da se nepravde isprave. U usporedbi s tim, moj pristup izgleda pomalo hladan, iz distance. Govorio sam o tisućama smrti kao da su samo brojevi. Umjesto da sam čitao novinske članke o mladićima koji su se svojim obiteljima vratili u lijesu, ja sam svoje vrijeme trošio kopajući po statističkim izvještajima. Umjesto da sam srcu uzeo dojmove aktivista za ljudska prava, ja sam tražio opće metrike i globalne rang liste.
+
+To ne znači da me nije briga za ljude, samo da ne želim da mi pojedinačni slučajevi ili partikularni interesi zaklone pogled na cijelu sliku. Pogled s visine je važan jer pokriva veći broj ljudi i jer je veće trendove teže sakriti ili nehotice previdjeti.
+
+Ne želim ni da ispadne kako branim Katar i organizaciju SP-a, jer je istina upravo suprotna. Pišem ovo iz istog razloga iz kojeg ne volim autoritarne režime i korumpirane organizacije. Točne činjenice, transparentnost, jasna argumentacija: to su najbolja oružja koje imamo protiv njih. Dobre namjere nisu dovoljne ako prije toga nemamo dobru sliku što se u Katru događa.
+
 
 <!--
-Na kraju mog istraživanja našao sam se u manjini. Svi koje čitam i gledam su uvjereni kako je ponašanje Katra prema uvoznoj radnoj snazi kriminalno, puno gore nego što je u većini azijskih zemalja. Kako su žrtve pripreme SP-a i veće od onih 6500 s kojim smo krenuli.
+## Zašto smo 
 
-Na drugoj strani su ostali samo simpatizeri Katra (obično po političkoj ili religijskoj liniji) i navijači koji ne žele da im doživljaj gledanja nogometa pokvare takvi detalji.
--->
+Mislim kako je prvo nastala priča o katastrofalnim uvjetima rada u Katru, i onda su se sve informacije prilagođavale toj priči. Ako je trebalo nategnuti, proširiti, pojednostavniti, ili ignorirati pojedine činjenice, to je bilo prihvatljivo — dokle god se uklapalo u priču. Umjesto da nam činjenice formiraju stavove, dogodilo se suprotno.
 
-Možda ovakav pristup izgleda pomalo hladan, iz distance. Govorio sam o tisućama smrti kao da su samo brojevi. Umjesto da sam čitao novinske članke o mladićima koji su se svojim obiteljima vratili u lijesu, ja sam svoje vrijeme trošio kopajući po statističkim izvještajima. Umjesto da sam srcu uzeo dojmove aktivista za ljudska prava, ja sam tražio opće metrike i globalne rang liste.
+Pomogla je i želja da 
 
-To ne znači da me nije briga za ljude, samo da ne želim da mi pojedinačni slučajevi ili partikularni interesi zaklone pogled na cijelu sliku. Pogled s visine je važan jer pokriva veći broj ljudi i 
+Mislim kako nismo navikli da veliki broj sirotinje radi za malu bogatu populaciju, barem kad je to eksplicitno za zabavu zapadnjaka. Loše uvjete rada je lakše ignorirati dok je to nešto daleko, negdje drugdje. Svjetsko prvenstvo nas je uplelo u kolo, i onda se više nismo osjećali da možemo 
 
-Možda se čini kako branim Katar i organizaciju SP-a. U stvari, ne volim autoritarne režime, pa tako niti Katar. Ne volim ni FIFA-u, niti uopće pratim ovo Svjetsko prvenstvo. Pišem ovo samo zato što ne podnosim zamagljivanja istine i iskrivljavanja činjenica da se bolje uklope u priče. Jer činjenice, transparentnost i jasna argumentacija su najbolje oružje koje imamo protiv manipulatora i korupcije.
-
-<!--
-Mislim kako nismo navikli da veliki broj sirotinje radi za malu bogatu populaciju, barem kad sirotinja radi eksplicitno za zabavu zapadnjaka. To je možda razlog zašto će priča o kostima ispod travnjaka roditi takvim plodom 
+Ne želimo da ljudi u našoj sredini budu presiromašni. Ne smeta nas da budu siromašni u svojoj vlastitoj zemlji, to je problem njihove države. Ali bogata zemlja poput Katra nije 
 
 Ako su već prisiljeni tražiti sreću u inozemstvu, zašto ne dođu raditi u Europu? Padaju mi na pamet tri moguća razloga: 
 
 - Europljani ih ne žele toliko koliko ih žele Arapi.
 - Europljani im ne nude tako dobre uvjete kao Arapi.
 - Imigranti nemaju mentalne kapacitete da shvate kako srljaju u ropstvo, mučenje i smrt u Katru. Čak i nakon deset godina iskustva još plaćaju ogromne svote agencijama da im osiguraju taj posao.
+
+Također mislim da smatramo neprirodnim izgradnju takvih . Navikli smo na ugodnije klime
+
+Na kraju mog istraživanja našao sam se u manjini. Svi koje čitam i gledam su uvjereni kako je ponašanje Katra prema uvoznoj radnoj snazi kriminalno, puno gore nego što je u većini azijskih zemalja. Kako su žrtve pripreme SP-a i veće od onih 6500 s kojim smo krenuli.
+
+Na drugoj strani su ostali samo simpatizeri Katra (obično po političkoj ili religijskoj liniji) i navijači koji ne žele da im doživljaj gledanja nogometa pokvare takvi detalji.
+
 
 Vjerojatno je kombinacija prva dva razloga.
 
