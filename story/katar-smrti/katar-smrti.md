@@ -32,14 +32,13 @@ Neki naši medijski članci kao izvor tog podatka nisu naveli The Guardian, nego
 
 Tražio sam neovisan izvor ili ijedno drugo istraživanje koje bi potvrdilo Guardianovu procjenu, nisam mogao naći ništa posebno korisno. No zato sam našao mnogih provjere koje je kritiziraju. Njemački informacijski servis [Deutsche Welle](https://www.dw.com/en/fact-check-how-many-people-have-died-for-the-qatar-world-cup/a-63763713), BBC-jev podcast [More or Less](https://www.bbc.co.uk/programmes/p0dlg3hq) i UN-ova [Međunarodna organizacija rada (ILO)](https://www.ilo.org/wcmsp5/groups/public/---arabstates/---ro-beirut/---ilo-qatar/documents/publication/wcms_828395.pdf) osvrću se izravno na podatak o "6500 smrti" i upozoravaju da ta brojka ne znači ono što se u našim novinama tvrdi da znači.
 
-
 ## Koliko je stranaca stvarno umrlo u Katru?
 
 Niti jedan od naših članaka nije jasno specificirao je 6500 slučajeva samo podskup svih umrlih koji su bili građani Indije, Pakistana, Nepala, Bangladeša i Šri Lanke. Novinari su nekako poopćili to na cjelokupnu populaciju stranaca u Katru. No prema [neslužbenim podacima](https://priyadsouza.com/population-of-qatar-by-nationality-in-2017/) građani navedenih zemalja čine tek oko 62% stranaca tamo.
 
 Guardian nije objasnio zašto je objavio samo podatke tih pet zemalja. Nema praktičnog razloga zašto bi se ograničavali: u samo par klikova možete pronaći [službenu statistiku](https://www.psa.gov.qa/en/statistics1/pages/topicslisting.aspx?parent=Population&child=BirthsDeaths) o svim umrlim strancima. Evo, pripremio sam graf koji pokazuje broj smrti stranaca u Katru u razdoblju 2003.-2020.:
 
-```vly
+```vly.exceptMob
 width: 350
 height: 200
 autosize: { resize: true }
@@ -64,8 +63,33 @@ encoding:
     legend: null
 caption: "Ukupan broj smrti stranaca u Katru kroz godine. Narančastom bojom je označeno razdoblje priprema za SP."
 ```
+```vly.onlyMob
+width: 250
+height: 300
+autosize: { resize: true }
+data:
+  name: deaths
+transform:
+  - calculate: datum.year > 2010
+    as: preparations
+mark: bar
+encoding:
+  y:
+    field: year
+    type:  ordinal
+    title: godina
+  x:
+    field: fdeaths
+    type:  quantitative
+    title: ukupno smrti stranaca
+  color:
+    field: preparations
+    type: nominal
+    legend: null
+caption: "Ukupan broj smrti stranaca u Katru kroz godine. Narančastom bojom je označeno razdoblje priprema za SP."
+```
 
-Znači, po službenim podacima samog Katara, od dobitka domaćinstva SP-a pa do kraja 2020. tamo je umrlo ukupno 15 804 stranca. Znatno veći broj od Guardianova.
+Znači, po službenim podacima samog Katra, od dobitka domaćinstva SP-a pa do kraja 2020. tamo je umrlo ukupno 15 804 stranca. Znatno veći broj od Guardianova.
 
 ## Je li to velik broj?
 
@@ -80,12 +104,13 @@ Ako to prihvatimo, sljedeći korak je da provjerimo jesu li ove smrti po nečemu
 Da bi stavili broj smrti u kontekst, moramo prvo znati o kolikoj populaciji pričamo — što je veća populacija to možemo očekivati i više smrti. Iz [službene državne statistike o radnoj snazi](https://www.psa.gov.qa/en/statistics1/pages/topicslisting.aspx?parent=Social&child=LaborForce), pregledom pojedinačnih godišnjih izvještaja uspio sam izvući ove podatke o ukupnom broju stranaca (zbroj ekonomski aktivnog i neaktivnog stanovništva nekatarske nacionalnosti koji su stariji od 14 godina):
 
 ```vly
-width: 350
+width: 250
 height: 200
 autosize: { resize: true }
 data:
   name: deaths
 transform:
+  - filter: datum.year >= 2007
   - calculate: datum.year > 2010
     as: preparations
   - calculate: "toNumber(datum.fea15) + toNumber(datum.fin15)"
@@ -110,12 +135,13 @@ caption: "Ukupan broj stranaca (15+) u Katru kroz godine. Nema statistike prije 
 Godine 2020. u Kataru je po tome bilo 2 274 745 stranaca starijih od 14 godina. To je velika populacija. Te godine je umrlo 2080 stranaca, što je nešto ispod jedne smrti na tisuću stanovnika. Taj broj je bio u padu kroz zadnjih desetak godina, da bi 2020. iz nekog razloga opet skočio.
 
 ```vly
-width: 350
+width: 250
 height: 200
 autosize: { resize: true }
 data:
   name: deaths
 transform:
+  - filter: datum.year > 2007
   - calculate: datum.year > 2010
     as: preparations
   - calculate: if(datum.fea15, datum.fdeaths / (toNumber(datum.fea15) + toNumber(datum.fin15)) * 1000, null)
@@ -127,6 +153,8 @@ layer:
         field: year
         type:  temporal
         title: godina
+        scale:
+          domain: ["2007", "2020"]        
       y:
         field: fdrate
         type:  quantitative
@@ -158,9 +186,38 @@ Dakle, nije neobično puno nego neobično *malo* smrti. Toliko malo da mora biti
 
 Ti stranci u Katru su svi mladi ljudi, zar ne? Pa, ne baš. [Popis stanovništva 2020.](https://www.psa.gov.qa/en/statistics1/StatisticsSite/Census/Census2020/results/pages/result.aspx?rpttitle=p2_c15) otkriva nam koliko stranaca koje dobi i spola je živjelo u Katru:
 
-```vly
+```vly.exceptMob
 width: 350
 height: 120
+autosize: { resize: true }
+data:
+  name: nqat
+transform:
+  - calculate: if(datum.sex == 'F', 'ženski', 'muški')
+    as: sexlabel
+mark: bar
+encoding:
+  y:
+    field: age
+    type:  ordinal
+    title: dob
+  x:
+    field: pop
+    type:  quantitative
+    title: broj stranaca
+  color:
+    field: sexlabel
+    type:  nominal
+    title: spol
+    scale: 
+      range:
+        - "#6EC5E9"
+        - "#FFC56C"
+caption: "Razdioba stranaca u Katru po dobi i spolu. Izvor: Popis stanovništva, prosinac 2020. Nisu objavljeni podaci o djeci."
+```
+```vly.onlyMob
+width: 200
+height: 100
 autosize: { resize: true }
 data:
   name: nqat
@@ -354,17 +411,17 @@ Sve u svemu, da SP nije dodijeljen Katru, ne vidim da bi se išta bitno dogodilo
 
 Čak i nakon sveg ovog istraživanja, moram reći da ne znam. Najvažnije informacije nedostaju. Čak i kad bi imali potpuna medicinska izvješća o svakom smrtnom slučaju, točan broj jako ovisi o tome što ćete smatrati da treba pripisati poslu. Na kraju ostaje i pitanje kako taj broj usporediti s hipotetskom situacijom u kojoj FIFA nije dodijelila SP Katru nego nekoj drugoj državi.
 
-No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza razjasnila je puno više detalja o ovom problemu nego što sam uspio naći u uglednim svjetskim novinama, iako je svaka od njih pisala o pripremama za SP kao humanitarnoj krizi. Nijedan smjer istraživanja nije podupro tezu da se u Katru događa nešto iznimno sa stranim radnicima. Da rekapituliram:
+No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza razjasnila je puno više detalja o ovom problemu nego što sam uspio naći u uglednim svjetskim novinama, iako je svaka od njih pisala o pripremama za SP kao humanitarnoj krizi. Ispalo je da nijedan smjer istraživanja nije podržao tezu da se u Katru događa nešto iznimno sa stranim radnicima. Da rekapituliram:
 
 - Broj 6500 je samo tvrdnja iz jednog članka, koja ne uzima podatke o svim zemljama podrijetla, niti govori samo o radnicima na SP-u, niti uopće uzima u obzir od čega su ti ljudi umrli.
 - Općenita stopa mortaliteta u Katru je najniža na svijetu, a mortalitet među strancima je još niži.
 - Kad bi primijenili SAD-ov mortalitet na demografski profil stranaca u Katru, umiralo bi puno više ljudi.
-- Tek manji dio migranata radi u građevini na projektima za SP.
+- Tek manji dio stranaca radio je u građevini, a još manji na gradilištima SP-a.
 - Analiza Svjetske zdravstvene organizacije i Međunarodne organizacije rada kaže da je Katar među državama s najmanje smrti od rada u svijetu.
 - Klima u Katru jest ekstremna, ali je i tipična za Arapski poluotok i nije tako različita od uvjeta rada u nekim drugim tropskim i suptropskim velikim gradilištima.
 - Da SP nije održan u Katru, vjerojatno bi se i dalje gradilo u sličnim uvjetima.
 
-To ne znači kako je situacija u Katru super. Još uvijek je moguće da se nešto iznimno loše dogodilo, možda se još uvijek događa, samo što to iz nekog razloga nije vidljivo na metrikama koje sam iznio u ovom članku. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u novinama drže vodu.
+To ne znači kako je situacija u Katru super. Još uvijek je moguće da je lošija nego što se iz ovog članka čini, jer to iz nekog razloga nije vidljivo na spomenutim metrikama. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u novinama drže vodu.
 
 A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćivali su tamo gdje nije trebalo, neispravno su pretpostavljali, oslanjali su se na neadekvatne heuristike, plasirali zavaravajuće podatke, a ni logika im nije uvijek štimala. Na ovaj način ne bi uspjeli izbrojati ni kokoši u kokošinjcu. I zato tim brojevima nije za vjerovati.
 
