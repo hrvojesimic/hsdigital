@@ -1,9 +1,8 @@
-title: Liberalni režimi
+title: Katar i smrt
 lang: hr
 author: Hrvoje Šimić
 #published: 2021-12-31
 description: .
 features:
   - d3
-  - topojson
   - psdraw

@@ -1,0 +1,16 @@
+cat,area,region,hrlabel,dpt00,dpt10,dpt16
+w,,world,svijet,39.9,34.9,34.3
+r,,South-East Asia,jugoistočna Azija,48.3,44.6,45.0
+r,,Europe,Europa,36.2,32.5,30.4
+c,s,Bangladesh,Bangladeš,43.7,42.9,43.7
+c,r,China,Kina,49.4,39.8,39.7
+c,r,Croatia,Hrvatska,27.3,34.9,33.7
+c,r,Germany,Njemačka,33.2,34.0,34.1
+c,s,India,Indija,50.1,43.4,43.7
+c,s,Nepal,Nepal,65.0,55.2,52.7
+c,s,Pakistan,Pakistan,39.3,33.3,31.3
+c,d,Qatar,Katar,9.1,8.5,9.9
+c,d,Saudi Arabia,Saudijska Arabija,20.5,16.6,16.0
+c,s,Sri Lanka,Šri Lanka,28.6,27.0,29.4
+c,d,United Arab Emirates,Ujedinjeni Arapski Emirati,13.2,9.3,10.5
+c,r,United States of America,Sjedinjene Američke Države,31.1,26.3,25.7

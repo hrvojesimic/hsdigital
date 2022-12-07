@@ -1,0 +1,13 @@
+table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#TabOcekivanihSmrti > thead > tr:first-child { 
+    border-bottom: 1px solid #ccc;
+}
+
+#TabOcekivanihSmrti > tbody > tr:last-child { 
+    font-weight: 700;
+    border-top: 1px solid #ccc;
+}
