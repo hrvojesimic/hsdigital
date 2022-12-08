@@ -411,7 +411,7 @@ Sve u svemu, da SP nije dodijeljen Katru, ne vidim da bi se išta bitno dogodilo
 
 Čak i nakon sveg ovog istraživanja, moram reći da ne znam. Najvažnije informacije nedostaju. Čak i kad bi imali potpuna medicinska izvješća o svakom smrtnom slučaju, točan broj jako ovisi o tome što ćete smatrati da treba pripisati poslu. Na kraju ostaje i pitanje kako taj broj usporediti s hipotetskom situacijom u kojoj FIFA nije dodijelila SP Katru nego nekoj drugoj državi.
 
-No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza razjasnila je puno više detalja o ovom problemu nego što sam uspio naći u uglednim svjetskim novinama, iako je svaka od njih pisala o pripremama za SP kao humanitarnoj krizi. Ispalo je da nijedan smjer istraživanja nije podržao tezu da se u Katru događa nešto iznimno sa stranim radnicima. Da rekapituliram:
+No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godina. Moja amaterska analiza otkrila je puno detalja, od kojih nijedan ne podržava tezu da se u Katru događa nešto iznimno sa stranim radnicima. Da rekapituliram:
 
 - Broj 6500 je samo tvrdnja iz jednog članka, koja ne uzima podatke o svim zemljama podrijetla, niti govori samo o radnicima na SP-u, niti uopće uzima u obzir od čega su ti ljudi umrli.
 - Općenita stopa mortaliteta u Katru je najniža na svijetu, a mortalitet među strancima je još niži.
@@ -421,18 +421,17 @@ No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godin
 - Klima u Katru jest ekstremna, ali je i tipična za Arapski poluotok i nije tako različita od uvjeta rada u nekim drugim tropskim i suptropskim velikim gradilištima.
 - Da SP nije održan u Katru, vjerojatno bi se i dalje gradilo u sličnim uvjetima.
 
-To ne znači kako je situacija u Katru super. Još uvijek je moguće da je lošija nego što se iz ovog članka čini, jer to iz nekog razloga nije vidljivo na spomenutim metrikama. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u novinama drže vodu.
+To ne znači kako je situacija u Katru super. Još uvijek je moguće da je lošija nego što se iz ovog članka čini, samo to iz nekog razloga nije vidljivo na spomenutim metrikama. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u našim (a i nekim uglednim svjetskim) novinama drže vodu.
 
 A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćivali su tamo gdje nije trebalo, neispravno su pretpostavljali, oslanjali su se na neadekvatne heuristike, plasirali zavaravajuće podatke, a ni logika im nije uvijek štimala. Na ovaj način ne bi uspjeli izbrojati ni kokoši u kokošinjcu. I zato tim brojevima nije za vjerovati.
 
-Ne kažem da je zadatak bio lagan, niti me iznenađuje što postoje traljavi novinari. Brine me samo što su se te klimave tvrdnje o žrtvama potpuno nekritički raširile među najuglednijim medijima, kroz društvene mreže, među utjecajne komentatore i organizacije civilnog društva.
+Ne kažem da je zadatak bio lagan, niti me iznenađuje što postoje površni novinari. Brine me samo što su se te klimave tvrdnje o žrtvama potpuno nekritički raširile po cijelom Zapadu.
 
 Njihova namjera je, vjerujem, bila dobra. Htjeli su skrenuti pažnju na percipirani problem, utjecati na to da se loše stvari poprave i da se nepravde isprave. U usporedbi s tim, moj pristup izgleda pomalo hladan, iz distance. Govorio sam o tisućama smrti kao da su samo brojevi. Umjesto da sam čitao novinske članke o mladićima koji su se svojim obiteljima vratili u lijesu, ja sam svoje vrijeme trošio kopajući po statističkim izvještajima. Umjesto da sam srcu uzeo dojmove aktivista za ljudska prava, ja sam tražio opće metrike i globalne rang liste.
 
-To ne znači da me nije briga za ljude, samo da ne želim da mi pojedinačni slučajevi ili partikularni interesi zaklone pogled na cijelu sliku. Pogled s visine je važan jer pokriva veći broj ljudi i jer je veće trendove teže sakriti ili nehotice previdjeti.
+To ne znači da me nije briga za ljude, samo da ne želim da mi pojedinačni slučajevi ili partikularni interesi zaklone pogled na cijelu sliku. Pogled s visine je važan jer pokriva više ljudi i zato što je veće trendove teže sakriti ili nehotice previdjeti.
 
-Ne želim ni da ispadne kako branim Katar i organizaciju SP-a, jer je istina upravo suprotna. Pišem ovo iz istog razloga iz kojeg ne volim autoritarne režime i korumpirane organizacije. Točne činjenice, transparentnost, jasna argumentacija: to su najbolja oružja koje imamo protiv njih. Dobre namjere nisu dovoljne ako prije toga nemamo dobru sliku što se u Katru događa.
-
+Ne želim ni da ispadne kako branim Katar i organizaciju SP-a, jer je istina upravo suprotna. Pišem ovo baš zato što ne volim autoritarne režime i korumpirane organizacije. Točne činjenice, transparentnost, jasna argumentacija: to su najbolja oružja koje imamo protiv njih. Dobre namjere nisu dovoljne ako prije toga nemamo realnu sliku što se u Katru događa. Zabrinjava me što one o kojima ovisimo da nam prezentiraju realnu sliku, izgleda, nije briga.
 
 <!--
 ## Zašto smo 
