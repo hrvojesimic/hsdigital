@@ -1,6 +1,6 @@
 # Katar i smrt
 
-*Hrvoje Šimić, 07.12.2022.*
+*Hrvoje Šimić, 08.12.2022.*
 
 <figure>
   <img class="responsive-img" src="/story/katar-smrti/herne.jpg" />
