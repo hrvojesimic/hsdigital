@@ -167,3 +167,28 @@ footer {
     display: inherit !important;
   }
 }
+
+#HomeLink {
+    position: absolute;
+    top: 0;
+}
+@media screen and (min-width: 800px) {
+    #HomeLink {
+        left: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    #HomeLink {
+        right: 0;
+    }
+}
+#HomeLink > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#HomeLink > a > img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
