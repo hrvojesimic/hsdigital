@@ -16,7 +16,7 @@ Taj broj vidim svugdje: na televiziji, podcastima, u novinama, društvenim mrež
   <figcaption>Neki od naslova o katarskim smrtima u najčitanijim hrvatskim dnevnim novinama i portalima.</figcaption>
 </figure>
 
-U mojoj glavi se stvorila slika siromašnog mladog radnika iz Azije ili Afrike, kojeg je ljuta nevolja natjerala "trbuhom za kruhom" u bogati Katar. Tamo ga zarobljavaju i nemilice iskorištavaju okrutni Arapi, tjeraju da na nesnosnoj žegi golim rukama stvara velebne stadione i hotela, dok na kraju jadnik doslovno ne skonča od napora.
+U mojoj glavi se stvorila slika siromašnog mladog radnika iz Azije ili Afrike, kojeg je ljuta nevolja natjerala "trbuhom za kruhom" u bogati Katar. Tamo ga zarobljavaju i nemilice iskorištavaju okrutni Arapi, tjeraju da na nesnosnoj žegi golim rukama stvara velebne stadione i hotele, dok na kraju jadnik doslovno ne skonča od napora.
 
 Nameće se pitanje: je li bilo vrijedno toga? Zašto su svi ti ljudi umrli? Da bi mi par tjedana mogli gledati nogomet?
 
@@ -34,7 +34,7 @@ Tražio sam neovisan izvor ili ijedno drugo istraživanje koje bi potvrdilo Guar
 
 ## Koliko je stranaca stvarno umrlo u Katru?
 
-Niti jedan od naših članaka nije jasno specificirao je 6500 slučajeva samo podskup svih umrlih koji su bili građani Indije, Pakistana, Nepala, Bangladeša i Šri Lanke. Novinari su nekako poopćili to na cjelokupnu populaciju stranaca u Katru. No prema [neslužbenim podacima](https://priyadsouza.com/population-of-qatar-by-nationality-in-2017/) građani navedenih zemalja čine tek oko 62% stranaca tamo.
+Niti jedan od naših članaka nije jasno specificirao da je 6500 slučajeva samo podskup svih umrlih koji su bili građani Indije, Pakistana, Nepala, Bangladeša i Šri Lanke. Novinari su nekako poopćili to na cjelokupnu populaciju stranaca u Katru. No prema [neslužbenim podacima](https://priyadsouza.com/population-of-qatar-by-nationality-in-2017/) građani navedenih zemalja čine tek oko 62% stranaca tamo.
 
 Guardian nije objasnio zašto je objavio samo podatke tih pet zemalja. Nema praktičnog razloga zašto bi se ograničavali: u samo par klikova možete pronaći [službenu statistiku](https://www.psa.gov.qa/en/statistics1/pages/topicslisting.aspx?parent=Population&child=BirthsDeaths) o svim umrlim strancima. Evo, pripremio sam graf koji pokazuje broj smrti stranaca u Katru u razdoblju 2003.-2020.:
 
@@ -423,7 +423,7 @@ No mislim kako sad imam puno bolju sliku što se događalo u Katru zadnjih godin
 
 To ne znači kako je situacija u Katru super. Još uvijek je moguće da je lošija nego što se iz ovog članka čini, samo to iz nekog razloga nije vidljivo na spomenutim metrikama. Moja ambicija nije ni bila da otkrijem pravu istinu i utvrdim točan broj žrtava. Cilj mi je bio samo da ispitam koliko brojevi u našim (a i nekim uglednim svjetskim) novinama drže vodu.
 
-A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćivali su tamo gdje nije trebalo, neispravno su pretpostavljali, oslanjali su se na neadekvatne heuristike, plasirali zavaravajuće podatke, a ni logika im nije uvijek štimala. Na ovaj način ne bi uspjeli izbrojati ni kokoši u kokošinjcu. I zato tim brojevima nije za vjerovati.
+A ne drže. Argumentacija im je šuplja i sav kredibilitet je davno iscurio. Najosnovnije stvari su radili krivo: poopćavali su tamo gdje nije trebalo, neispravno su pretpostavljali, oslanjali su se na neadekvatne heuristike, plasirali zavaravajuće podatke, a ni logika im nije uvijek štimala. Na ovaj način ne bi uspjeli izbrojati ni kokoši u kokošinjcu. I zato tim brojevima nije za vjerovati.
 
 Ne kažem da je zadatak bio lagan, niti me iznenađuje što postoje površni novinari. Brine me samo što su se te klimave tvrdnje o žrtvama potpuno nekritički raširile po cijelom Zapadu.
 
