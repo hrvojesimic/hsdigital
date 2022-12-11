@@ -431,7 +431,7 @@ Njihova namjera je, vjerujem, bila dobra. Htjeli su skrenuti pažnju na percipir
 
 To ne znači da me nije briga za ljude, samo da ne želim da mi pojedinačni slučajevi ili partikularni interesi zaklone pogled na cijelu sliku. Pogled s visine je važan jer pokriva više ljudi i zato što je veće trendove teže sakriti ili nehotice previdjeti.
 
-Ne želim ni da ispadne kako branim Katar i organizaciju SP-a, jer je istina upravo suprotna. Pišem ovo baš zato što ne volim autoritarne režime i korumpirane organizacije. Točne činjenice, transparentnost, jasna argumentacija: to su najbolja oružja koje imamo protiv njih. Dobre namjere nisu dovoljne ako prije toga nemamo realnu sliku što se u Katru događa. Zabrinjava me što oni o kojima ovisimo da nam prezentiraju realnu sliku, barum u ovom slučaju, ne mare previše.
+Ne želim ni da ispadne kako branim Katar i organizaciju SP-a, jer je istina upravo suprotna. Pišem ovo baš zato što ne volim autoritarne režime i korumpirane organizacije. Točne činjenice, transparentnost, jasna argumentacija: to su najbolja oružja koje imamo protiv njih. Dobre namjere nisu dovoljne ako prije toga nemamo realnu sliku što se u Katru događa. Zabrinjava me što oni o kojima ovisimo da nam prezentiraju realnu sliku, barem u ovom slučaju, ne mare za to previše.
 
 <!--
 ## Zašto smo 
