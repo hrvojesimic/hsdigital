@@ -1,0 +1,1029 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kviz iz geografije - 7. razred</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #5f6c7b;
+      --paper: #f7f3ea;
+      --surface: #fffaf0;
+      --line: #d8cfbf;
+      --teal: #0f766e;
+      --teal-dark: #0b5f59;
+      --rust: #b45309;
+      --green: #2f855a;
+      --rose: #b42318;
+      --shadow: 0 18px 45px rgba(54, 43, 30, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    button,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .app {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.75rem, 4vw, 2.6rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .total-pill {
+      flex: 0 0 auto;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255, 250, 240, 0.78);
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .quiz-panel,
+    .side-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .quiz-panel {
+      padding: 22px;
+    }
+
+    .side-panel {
+      padding: 18px;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    select {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0 12px;
+      background: #ffffff;
+      color: var(--ink);
+    }
+
+    .toggle {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0 12px;
+      background: #ffffff;
+      color: var(--ink);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .toggle input {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--teal);
+    }
+
+    .button {
+      min-height: 42px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 0 14px;
+      background: var(--teal);
+      color: #ffffff;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+    }
+
+    .button:hover {
+      background: var(--teal-dark);
+      transform: translateY(-1px);
+    }
+
+    .button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+      transform: none;
+    }
+
+    .button.secondary {
+      background: #ffffff;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+
+    .button.secondary:hover {
+      background: #f2eadc;
+    }
+
+    .button.good {
+      background: var(--green);
+    }
+
+    .button.good:hover {
+      background: #276749;
+    }
+
+    .button.repeat {
+      background: var(--rust);
+    }
+
+    .button.repeat:hover {
+      background: #92400e;
+    }
+
+    .meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 6px 0 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      border-radius: 999px;
+      padding: 0 10px;
+      background: #e6f3f0;
+      color: var(--teal-dark);
+      font-size: 0.9rem;
+    }
+
+    .progress-wrap {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #eadfce;
+      margin-bottom: 22px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: var(--teal);
+      transition: width 0.2s ease;
+    }
+
+    .question-number {
+      color: var(--rust);
+      font-size: 0.95rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .question {
+      margin: 8px 0 18px;
+      font-size: clamp(1.25rem, 3vw, 1.85rem);
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .answer-input {
+      width: 100%;
+      min-height: 126px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #ffffff;
+      color: var(--ink);
+    }
+
+    .answer-box {
+      display: none;
+      margin-top: 14px;
+      border-left: 4px solid var(--teal);
+      padding: 14px 16px;
+      background: #eef8f5;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .answer-box.visible {
+      display: block;
+    }
+
+    .answer-box strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--teal-dark);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .side-panel h2 {
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #ffffff;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .stat strong {
+      display: block;
+      margin-top: 2px;
+      font-size: 1.4rem;
+    }
+
+    .review-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 34px;
+      padding-top: 2px;
+    }
+
+    .chip {
+      border: 1px solid #e6b17a;
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: #fff7ed;
+      color: #92400e;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .empty-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .summary {
+      display: none;
+      margin-top: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #ffffff;
+    }
+
+    .summary.visible {
+      display: block;
+    }
+
+    @media (max-width: 850px) {
+      .app {
+        width: min(100% - 24px, 680px);
+        padding: 22px 0;
+      }
+
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .quiz-panel,
+      .side-panel {
+        padding: 16px;
+      }
+
+      .button,
+      select,
+      .toggle {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .meta-row {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .stats {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>Kviz iz geografije</h1>
+        <p class="subtitle">Sjeverna i Istočna Europa, 7. razred</p>
+      </div>
+      <div class="total-pill" id="totalQuestions">64 pitanja</div>
+    </header>
+
+    <div class="layout">
+      <section class="quiz-panel" aria-label="Kviz">
+        <div class="controls">
+          <select id="sectionFilter" aria-label="Odabir cjeline">
+            <option value="all">Sve cjeline</option>
+            <option value="Istočna Europa">Istočna Europa</option>
+            <option value="Sjeverna Europa">Sjeverna Europa</option>
+          </select>
+
+          <label class="toggle">
+            <input type="checkbox" id="shuffleToggle" checked>
+            Nasumično
+          </label>
+
+          <button class="button secondary" id="restartButton" type="button">Ponovno</button>
+        </div>
+
+        <div class="meta-row">
+          <span class="section-badge" id="sectionName">Istočna Europa</span>
+          <span id="progressText">1 / 64</span>
+        </div>
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="question-number" id="questionNumber">Pitanje 1</div>
+        <h2 class="question" id="questionText"></h2>
+
+        <textarea class="answer-input" id="answerInput" placeholder="Upiši svoj odgovor pa prikaži rješenje."></textarea>
+
+        <div class="answer-box" id="answerBox">
+          <strong>Odgovor</strong>
+          <div id="answerText"></div>
+        </div>
+
+        <div class="actions">
+          <button class="button" id="showAnswer" type="button">Prikaži odgovor</button>
+          <button class="button good" id="knownButton" type="button" disabled>Znam</button>
+          <button class="button repeat" id="repeatButton" type="button" disabled>Ponovi</button>
+          <button class="button secondary" id="previousButton" type="button">Natrag</button>
+          <button class="button secondary" id="nextButton" type="button">Dalje</button>
+        </div>
+
+        <div class="summary" id="summaryBox"></div>
+      </section>
+
+      <aside class="side-panel" aria-label="Napredak">
+        <h2>Napredak</h2>
+        <div class="stats">
+          <div class="stat">
+            <span>Znam</span>
+            <strong id="knownCount">0</strong>
+          </div>
+          <div class="stat">
+            <span>Ponoviti</span>
+            <strong id="repeatCount">0</strong>
+          </div>
+        </div>
+
+        <h2>Za ponoviti</h2>
+        <div class="review-list" id="reviewList">
+          <p class="empty-note">Još nema označenih pitanja.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script type="application/json" id="quiz-data">
+[
+  {
+    "id": 1,
+    "section": "Istočna Europa",
+    "question": "Objasni geografski položaj Istočne Europe. Između kojih se reljefnih cjelina nalazi?",
+    "answer": "Istočna Europa prostire se od Karpata na zapadu do Urala na istoku, od Arktičkog oceana na sjeveru do Crnog mora i Kaspijskog jezera na jugu."
+  },
+  {
+    "id": 2,
+    "section": "Istočna Europa",
+    "question": "Navedi najstarije dijelove kopna Istočne Europe.",
+    "answer": "Najstariji dijelovi kopna Istočne Europe su Baltički štit, Ukrajinski štit i Ruska platforma."
+  },
+  {
+    "id": 3,
+    "section": "Istočna Europa",
+    "question": "Gdje se prostire Baltički štit?",
+    "answer": "Baltički štit prostire se u sjeverozapadnom dijelu Rusije, na poluotoku Koli i u pokrajini Kareliji, uz granicu s Finskom."
+  },
+  {
+    "id": 4,
+    "section": "Istočna Europa",
+    "question": "Objasni gustoću naseljenosti u Istočnoeuropskoj nizini.",
+    "answer": "Sjeverni dio Istočnoeuropske nizine rijetko je naseljen jer je bio pod snažnim utjecajem ledenog doba. Ondje ima mnogo morena, ledenjačkih jezera i močvara. Središnji i južni dio nizine gušće su naseljeni jer su prekriveni praporom ili lesom, sitnim plodnim materijalom koji je donio vjetar. Na njemu je nastala crnica, vrlo plodno tlo pogodno za poljodjelstvo."
+  },
+  {
+    "id": 5,
+    "section": "Istočna Europa",
+    "question": "Koji se grad nalazi ispod morske razine?",
+    "answer": "Grad Baku nalazi se ispod morske razine."
+  },
+  {
+    "id": 6,
+    "section": "Istočna Europa",
+    "question": "Navedi mlade planine Istočne Europe.",
+    "answer": "Mlade planine Istočne Europe su Karpati, Kavkaz i Krimska gora, odnosno Jajla."
+  },
+  {
+    "id": 7,
+    "section": "Istočna Europa",
+    "question": "Koja klima prevladava u Istočnoj Europi?",
+    "answer": "U Istočnoj Europi prevladava snježno-šumska klima."
+  },
+  {
+    "id": 8,
+    "section": "Istočna Europa",
+    "question": "Koji tip klime prevladava oko Kaspijskog jezera?",
+    "answer": "Oko Kaspijskog jezera prevladava suha klima, a u dijelovima toga prostora javlja se hladna pustinjska klima."
+  },
+  {
+    "id": 9,
+    "section": "Istočna Europa",
+    "question": "Gdje se nalazi izvor, a gdje ušće Volge? Objasni njezin značaj.",
+    "answer": "Volga izvire na Valdajskom visočju, a ulijeva se u Kaspijsko jezero. Ima veliko gospodarsko značenje jer je važan plovni put, opskrbljuje stanovništvo vodom, koristi se za navodnjavanje i za proizvodnju električne energije u hidroelektranama."
+  },
+  {
+    "id": 10,
+    "section": "Istočna Europa",
+    "question": "Objasni značaj rijeke Dnjepar. Gdje su izvor i ušće te rijeke?",
+    "answer": "Dnjepar izvire na Valdajskom visočju, a ulijeva se u Crno more. To je jedna od najvažnijih rijeka Ukrajine, važna za riječni promet, opskrbu vodom, navodnjavanje i gospodarstvo."
+  },
+  {
+    "id": 11,
+    "section": "Istočna Europa",
+    "question": "Objasni gospodarski značaj Kaspijskog jezera.",
+    "answer": "Kaspijsko jezero gospodarski je važno zbog velikih nalazišta nafte i prirodnog plina."
+  },
+  {
+    "id": 12,
+    "section": "Istočna Europa",
+    "question": "Koje države imaju izlaz na Kaspijsko jezero?",
+    "answer": "Izlaz na Kaspijsko jezero imaju Rusija, Kazahstan, Turkmenistan, Azerbajdžan i Iran."
+  },
+  {
+    "id": 13,
+    "section": "Istočna Europa",
+    "question": "Što je enklava, a što eksklava?",
+    "answer": "Enklava je područje koje je sa svih strana okruženo teritorijem druge države. Eksklava je dio neke države koji je prostorno odvojen od njezina glavnog teritorija. Primjer eksklave je Kalinjingradska oblast, dio Rusije odvojen od ostatka Rusije."
+  },
+  {
+    "id": 14,
+    "section": "Istočna Europa",
+    "question": "Navedi nekoliko obilježja Istočnog bloka.",
+    "answer": "U državama Istočnog bloka nije bilo razvijeno privatno vlasništvo jer je većina gospodarstva bila u vlasništvu države. Vlast je obično imala jedna stranka, država je određivala cijene i gospodarski razvoj, a sloboda medija i mišljenja bila je ograničena."
+  },
+  {
+    "id": 15,
+    "section": "Istočna Europa",
+    "question": "Navedi nekoliko obilježja Zapadnog bloka.",
+    "answer": "U državama Zapadnog bloka razvijeno je privatno vlasništvo, ljudi mogu osnivati poduzeća, tržište utječe na cijene proizvoda, a postoje veće političke slobode i sloboda medija."
+  },
+  {
+    "id": 16,
+    "section": "Istočna Europa",
+    "question": "Što je ZND? Gdje je i kada dogovoreno njegovo stvaranje?",
+    "answer": "ZND je Zajednica Neovisnih Država, zajednica dijela bivših sovjetskih republika osnovana nakon raspada SSSR-a. Njezino stvaranje dogovoreno je 8. prosinca 1991. godine u Minsku. Cilj ZND-a bio je suradnja bivših sovjetskih država u rješavanju gospodarskih i društvenih pitanja."
+  },
+  {
+    "id": 17,
+    "section": "Istočna Europa",
+    "question": "Koja je najgušće naseljena država Istočne Europe?",
+    "answer": "Najgušće naseljena država Istočne Europe je Moldavija."
+  },
+  {
+    "id": 18,
+    "section": "Istočna Europa",
+    "question": "Koja je najrjeđe naseljena država Istočne Europe?",
+    "answer": "Najrjeđe naseljena država Istočne Europe je Rusija."
+  },
+  {
+    "id": 19,
+    "section": "Istočna Europa",
+    "question": "Što prevladava u reljefu Bjelorusije?",
+    "answer": "U reljefu Bjelorusije prevladavaju nizine i močvarna područja."
+  },
+  {
+    "id": 20,
+    "section": "Istočna Europa",
+    "question": "Tko su Slaveni u Istočnoj Europi?",
+    "answer": "Istočni Slaveni su Rusi, Ukrajinci i Bjelorusi."
+  },
+  {
+    "id": 21,
+    "section": "Istočna Europa",
+    "question": "Koji je romanski narod u Istočnoj Europi?",
+    "answer": "Romanski narod u Istočnoj Europi su Moldavci."
+  },
+  {
+    "id": 22,
+    "section": "Istočna Europa",
+    "question": "Koja su obilježja grkokatolika?",
+    "answer": "Grkokatolici u bogoslužju primjenjuju istočni, odnosno pravoslavni obred i često staroslavenski jezik, ali priznaju papu kao poglavara Katoličke Crkve."
+  },
+  {
+    "id": 23,
+    "section": "Istočna Europa",
+    "question": "Koji su razlozi srednje razvijenosti država Istočne Europe?",
+    "answer": "Države Istočne Europe dugo su bile pod komunističkim sustavom. Nakon pada komunizma morale su prijeći na tržišno gospodarstvo, obnoviti privatno vlasništvo, modernizirati proizvodnju i prilagoditi se novim gospodarskim uvjetima. Taj je proces bio spor, skup i težak."
+  },
+  {
+    "id": 24,
+    "section": "Istočna Europa",
+    "question": "Koju državu nazivamo žitnicom Europe?",
+    "answer": "Ukrajinu nazivamo žitnicom Europe."
+  },
+  {
+    "id": 25,
+    "section": "Istočna Europa",
+    "question": "S kojom je državom Bjelorusija gospodarski i politički usko povezana?",
+    "answer": "Bjelorusija je gospodarski i politički usko povezana s Rusijom."
+  },
+  {
+    "id": 26,
+    "section": "Istočna Europa",
+    "question": "Objasni značenje Donjeckog bazena za Ukrajinu.",
+    "answer": "Donjecki bazen, odnosno Donbas, važan je zbog velikih nalazišta ugljena, željezne rude, mangana i uranija. Zbog tih se bogatstava ondje razvila teška industrija, osobito rudarstvo, metalurgija i strojarska industrija. Donbas se nalazi na prostoru Ukrajinskog štita, prastarog dijela kopna."
+  },
+  {
+    "id": 27,
+    "section": "Istočna Europa",
+    "question": "Gdje se razvija kupališni turizam u Ukrajini?",
+    "answer": "Kupališni turizam u Ukrajini razvija se na obali Crnog mora."
+  },
+  {
+    "id": 28,
+    "section": "Istočna Europa",
+    "question": "Gdje se nalazi Murmansk i na kojem je moru?",
+    "answer": "Murmansk se nalazi u Rusiji, na poluotoku Koli, uz Barentsovo more."
+  },
+  {
+    "id": 29,
+    "section": "Istočna Europa",
+    "question": "Gdje se nalazi Odesa i na kojem je moru?",
+    "answer": "Odesa se nalazi u Ukrajini, na obali Crnog mora."
+  },
+  {
+    "id": 30,
+    "section": "Istočna Europa",
+    "question": "Gdje se nalazi Sankt Peterburg i na kojem je moru?",
+    "answer": "Sankt Peterburg nalazi se u Rusiji, na Finskom zaljevu Baltičkog mora."
+  },
+  {
+    "id": 31,
+    "section": "Sjeverna Europa",
+    "question": "Koje se države pružaju na Skandinavskom poluotoku?",
+    "answer": "Na Skandinavskom poluotoku pružaju se Norveška, Švedska i sjeverozapadni dio Finske."
+  },
+  {
+    "id": 32,
+    "section": "Sjeverna Europa",
+    "question": "Koja je razlika između nordijskih i baltičkih država?",
+    "answer": "Nordijske države su Danska, Norveška, Švedska, Finska i Island. One su povezane sjevernoeuropskim položajem, sličnim društvenim razvojem i nordijskom kulturnom tradicijom. Baltičke države su Estonija, Latvija i Litva. One se nalaze uz istočnu obalu Baltičkog mora i do 1990-ih su bile u sastavu SSSR-a."
+  },
+  {
+    "id": 33,
+    "section": "Sjeverna Europa",
+    "question": "Kako se zove zaljev na sjeveru Baltičkog mora koji se zimi zaleđuje?",
+    "answer": "To je Botnički zaljev."
+  },
+  {
+    "id": 34,
+    "section": "Sjeverna Europa",
+    "question": "Objasni geografski položaj Sjeverne Europe prije i poslije Velikih geografskih otkrića.",
+    "answer": "Prije Velikih geografskih otkrića Sjeverna Europa imala je nepovoljan položaj jer je bila rubni dio kontinenta i udaljena od Sredozemnog mora, tada najvažnijeg prometnog prostora. Oštra klima i manje plodnog tla potaknuli su stanovništvo da se okrene moru. Danas Sjeverna Europa ima povoljniji položaj jer je dobro povezana s ostatkom Europe i ima izlaz na Atlantski ocean."
+  },
+  {
+    "id": 35,
+    "section": "Sjeverna Europa",
+    "question": "Kojim su morskim prolazima i umjetnim kanalom povezani Sjeverno i Baltičko more?",
+    "answer": "Sjeverno i Baltičko more povezani su morskim prolazima Skagerrak i Kattegat, a važnu vezu čini i Kielski kanal. Uz njih su važni i danski morski prolazi, primjerice Øresund, Veliki Belt i Mali Belt."
+  },
+  {
+    "id": 36,
+    "section": "Sjeverna Europa",
+    "question": "Koji su prastari dijelovi Sjeverne Europe?",
+    "answer": "Prastari dijelovi Sjeverne Europe su Baltički štit i Ruska platforma."
+  },
+  {
+    "id": 37,
+    "section": "Sjeverna Europa",
+    "question": "Koji su stari dijelovi Sjeverne Europe?",
+    "answer": "Stari dio reljefa Sjeverne Europe je Skandinavsko gorje."
+  },
+  {
+    "id": 38,
+    "section": "Sjeverna Europa",
+    "question": "Objasni kako je nastao Island. Pomicanjem kojih litosfernih ploča?",
+    "answer": "Island je nastao vulkanskim djelovanjem na Srednjoatlantskom hrptu. Ondje se razmiču Sjevernoamerička i Euroazijska litosferna ploča, pa magma izbija na površinu i stvara vulkanski otok."
+  },
+  {
+    "id": 39,
+    "section": "Sjeverna Europa",
+    "question": "Što su fjeldovi?",
+    "answer": "Fjeldovi su valovite visoravni i zaravni nastale djelovanjem leda, najčešće iznad 200 metara nadmorske visine."
+  },
+  {
+    "id": 40,
+    "section": "Sjeverna Europa",
+    "question": "Što su fjordovi i kako su nastali?",
+    "answer": "Fjordovi su uski, duboki i dugi morski zaljevi strmih obala. Nastali su tako da su ledenjaci produbili riječne doline, a nakon otapanja leda more je potopilo te doline."
+  },
+  {
+    "id": 41,
+    "section": "Sjeverna Europa",
+    "question": "Što su morene?",
+    "answer": "Morene su nakupine stijena, šljunka, pijeska i gline koje ledenjak nosi i ostavlja nakon otapanja."
+  },
+  {
+    "id": 42,
+    "section": "Sjeverna Europa",
+    "question": "Objasni utjecaj Golfske struje na klimu Sjeverne Europe. Odakle potječe i je li topla ili hladna?",
+    "answer": "Golfska struja je topla morska struja koja potječe iz područja Meksičkog zaljeva. Ona donosi topliju morsku vodu prema zapadnoj i sjevernoj Europi, ublažava klimu, povećava količinu vlage i oborina te pridonosi tome da se dijelovi norveške obale zimi ne zaleđuju."
+  },
+  {
+    "id": 43,
+    "section": "Sjeverna Europa",
+    "question": "Koja dva tipa klime nalazimo u Sjevernoj Europi i koja je vegetacija za njih karakteristična?",
+    "answer": "U većem dijelu Sjeverne Europe javlja se snježno-šumska klima, za koju su karakteristične vazdazelene crnogorične šume, odnosno tajga. Na krajnjem sjeveru Europe, na Islandu i u najvišim dijelovima Skandinavskog gorja javlja se klima tundre, za koju je karakteristična tundra."
+  },
+  {
+    "id": 44,
+    "section": "Sjeverna Europa",
+    "question": "Što je permafrost ili mrzlota?",
+    "answer": "Permafrost ili mrzlota je trajno zamrznuto tlo. Ljeti se otapa samo površinski sloj, zbog čega nastaju močvarna područja."
+  },
+  {
+    "id": 45,
+    "section": "Sjeverna Europa",
+    "question": "Kakvi su uvjeti za poljodjelstvo, a kakvi za stočarstvo u Sjevernoj Europi?",
+    "answer": "Uvjeti za poljodjelstvo uglavnom su nepovoljni zbog hladne klime, kratkog vegetacijskog razdoblja i slabije plodnog tla. Poljodjelstvo je razvijenije u južnijim i nižim krajevima. Stočarstvo je važnije od poljodjelstva, osobito uzgoj goveda, ovaca, a na sjeveru i sobova."
+  },
+  {
+    "id": 46,
+    "section": "Sjeverna Europa",
+    "question": "U kojoj je državi Sjeverne Europe poljodjelstvo najrazvijenije?",
+    "answer": "Poljodjelstvo je najrazvijenije u Danskoj."
+  },
+  {
+    "id": 47,
+    "section": "Sjeverna Europa",
+    "question": "Čime su bogati Sjeverno i Norveško more?",
+    "answer": "Sjeverno i Norveško more bogati su naftom, prirodnim plinom i ribom, posebno bakalarom i haringom."
+  },
+  {
+    "id": 48,
+    "section": "Sjeverna Europa",
+    "question": "Koje su dvije države Sjeverne Europe najviše prekrivene šumama?",
+    "answer": "Švedska i Finska najviše su prekrivene šumama."
+  },
+  {
+    "id": 49,
+    "section": "Sjeverna Europa",
+    "question": "Koja je ruda najzastupljenija u Švedskoj?",
+    "answer": "U Švedskoj je najzastupljenija željezna ruda."
+  },
+  {
+    "id": 50,
+    "section": "Sjeverna Europa",
+    "question": "Koji su najvažniji izvori energije u Norveškoj, Danskoj i Islandu?",
+    "answer": "Norveška najviše električne energije dobiva iz hidroelektrana, Danska iz energije vjetra, a Island iz geotermalne energije."
+  },
+  {
+    "id": 51,
+    "section": "Sjeverna Europa",
+    "question": "Koje su dvije vrste industrije najrazvijenije u Švedskoj?",
+    "answer": "U Švedskoj su osobito razvijene automobilska i drvna industrija."
+  },
+  {
+    "id": 52,
+    "section": "Sjeverna Europa",
+    "question": "Navedi dvije poznate tvornice automobila u Švedskoj.",
+    "answer": "Dva poznata švedska proizvođača automobila su Volvo i Saab."
+  },
+  {
+    "id": 53,
+    "section": "Sjeverna Europa",
+    "question": "U sastavu koje su države bile baltičke države do 1990. godine i kada su ušle u Europsku uniju?",
+    "answer": "Baltičke države bile su u sastavu SSSR-a. U Europsku uniju ušle su 2004. godine."
+  },
+  {
+    "id": 54,
+    "section": "Sjeverna Europa",
+    "question": "Zašto se Baltičko more zimi zaleđuje?",
+    "answer": "Baltičko more zimi se zaleđuje jer je gotovo zatvoreno, plitko i slabije slano, a do njega ne dopire izravan utjecaj tople Golfske struje."
+  },
+  {
+    "id": 55,
+    "section": "Sjeverna Europa",
+    "question": "Navedi glavne gradove država Sjeverne Europe.",
+    "answer": "Glavni grad Danske je Kopenhagen, Norveške Oslo, Švedske Stockholm, Finske Helsinki, Islanda Reykjavík, Estonije Tallinn, Latvije Riga, a Litve Vilnius."
+  },
+  {
+    "id": 56,
+    "section": "Sjeverna Europa",
+    "question": "U kojoj se državi nalaze Bergen i Narvik?",
+    "answer": "Bergen i Narvik nalaze se u Norveškoj. Bergen je na zapadnoj obali Norveške, uz Sjeverno more i Atlantski ocean, a Narvik je na sjeveru Norveške, uz Ofotfjord, povezan s Norveškim morem."
+  },
+  {
+    "id": 57,
+    "section": "Sjeverna Europa",
+    "question": "Kako se zove najmnogoljudnija i površinom najveća država Sjeverne Europe?",
+    "answer": "Najmnogoljudnija i površinom najveća država Sjeverne Europe je Švedska."
+  },
+  {
+    "id": 58,
+    "section": "Sjeverna Europa",
+    "question": "Na kojim se morima nalaze Stockholm, Malmö i Göteborg?",
+    "answer": "Stockholm se nalazi na obali Baltičkog mora, Malmö uz Øresund, morski prolaz između Baltičkog mora i Kattegata, a Göteborg na Kattegatu, koji je povezan sa Sjevernim morem."
+  },
+  {
+    "id": 59,
+    "section": "Sjeverna Europa",
+    "question": "Koju državu nazivamo zemljom tisuću jezera?",
+    "answer": "Finsku nazivamo zemljom tisuću jezera."
+  },
+  {
+    "id": 60,
+    "section": "Sjeverna Europa",
+    "question": "Koju državu nazivamo zemljom vatre i leda?",
+    "answer": "Island nazivamo zemljom vatre i leda."
+  },
+  {
+    "id": 61,
+    "section": "Sjeverna Europa",
+    "question": "Koji se grad nalazi na ušću rijeke Daugave u Baltičko more?",
+    "answer": "Riga, glavni grad Latvije, nalazi se na ušću rijeke Daugave u Baltičko more."
+  },
+  {
+    "id": 62,
+    "section": "Sjeverna Europa",
+    "question": "Koja je najgušće naseljena i najmnogoljudnija baltička država?",
+    "answer": "Najgušće naseljena i najmnogoljudnija baltička država je Litva."
+  },
+  {
+    "id": 63,
+    "section": "Sjeverna Europa",
+    "question": "Koje prekomorske teritorije ima Danska?",
+    "answer": "Danska ima Grenland i Farske otoke."
+  },
+  {
+    "id": 64,
+    "section": "Sjeverna Europa",
+    "question": "Objasni pojam \"tigar\" u gospodarstvu. Koja je država baltički tigar?",
+    "answer": "\"Tigar\" u gospodarstvu označava državu s vrlo brzim gospodarskim rastom i razvojem. Baltičkim tigrom često se naziva Estonija."
+  }
+]
+  </script>
+
+  <script>
+    const allQuestions = JSON.parse(document.getElementById("quiz-data").textContent);
+
+    const state = {
+      pool: [],
+      index: 0,
+      revealed: false,
+      known: new Set(),
+      repeat: new Set(),
+      drafts: new Map()
+    };
+
+    const els = {
+      totalQuestions: document.getElementById("totalQuestions"),
+      sectionFilter: document.getElementById("sectionFilter"),
+      shuffleToggle: document.getElementById("shuffleToggle"),
+      restartButton: document.getElementById("restartButton"),
+      sectionName: document.getElementById("sectionName"),
+      progressText: document.getElementById("progressText"),
+      progressBar: document.getElementById("progressBar"),
+      questionNumber: document.getElementById("questionNumber"),
+      questionText: document.getElementById("questionText"),
+      answerInput: document.getElementById("answerInput"),
+      answerBox: document.getElementById("answerBox"),
+      answerText: document.getElementById("answerText"),
+      showAnswer: document.getElementById("showAnswer"),
+      knownButton: document.getElementById("knownButton"),
+      repeatButton: document.getElementById("repeatButton"),
+      previousButton: document.getElementById("previousButton"),
+      nextButton: document.getElementById("nextButton"),
+      knownCount: document.getElementById("knownCount"),
+      repeatCount: document.getElementById("repeatCount"),
+      reviewList: document.getElementById("reviewList"),
+      summaryBox: document.getElementById("summaryBox")
+    };
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let i = copy.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function buildPool() {
+      const selected = els.sectionFilter.value;
+      const filtered = selected === "all"
+        ? allQuestions
+        : allQuestions.filter((item) => item.section === selected);
+
+      state.pool = els.shuffleToggle.checked ? shuffle(filtered) : [...filtered];
+      state.index = 0;
+      state.revealed = false;
+      state.known.clear();
+      state.repeat.clear();
+      state.drafts.clear();
+      render();
+    }
+
+    function currentQuestion() {
+      return state.pool[state.index];
+    }
+
+    function saveDraft() {
+      const item = currentQuestion();
+      if (!item) return;
+      state.drafts.set(item.id, els.answerInput.value);
+    }
+
+    function renderStats() {
+      els.knownCount.textContent = state.known.size;
+      els.repeatCount.textContent = state.repeat.size;
+
+      const repeatIds = [...state.repeat].sort((a, b) => a - b);
+      if (repeatIds.length === 0) {
+        els.reviewList.innerHTML = '<p class="empty-note">Još nema označenih pitanja.</p>';
+        return;
+      }
+
+      els.reviewList.innerHTML = repeatIds
+        .map((id) => `<span class="chip">#${id}</span>`)
+        .join("");
+    }
+
+    function renderSummary() {
+      if (state.index < state.pool.length) {
+        els.summaryBox.classList.remove("visible");
+        els.summaryBox.textContent = "";
+        return;
+      }
+
+      els.summaryBox.classList.add("visible");
+      els.summaryBox.innerHTML = `
+        <strong>Kraj kruga.</strong>
+        <div>Znao/la si ${state.known.size} od ${state.pool.length} pitanja. Za ponoviti: ${state.repeat.size}.</div>
+      `;
+    }
+
+    function render() {
+      renderStats();
+      renderSummary();
+
+      const item = currentQuestion();
+      const total = state.pool.length;
+      els.totalQuestions.textContent = `${allQuestions.length} pitanja`;
+
+      if (!item) {
+        els.sectionName.textContent = els.sectionFilter.value === "all" ? "Sve cjeline" : els.sectionFilter.value;
+        els.progressText.textContent = `${total} / ${total}`;
+        els.progressBar.style.width = "100%";
+        els.questionNumber.textContent = "Gotovo";
+        els.questionText.textContent = "Završen je ovaj krug pitanja.";
+        els.answerInput.value = "";
+        els.answerInput.disabled = true;
+        els.answerBox.classList.remove("visible");
+        els.showAnswer.disabled = true;
+        els.knownButton.disabled = true;
+        els.repeatButton.disabled = true;
+        els.previousButton.disabled = total === 0;
+        els.nextButton.disabled = true;
+        return;
+      }
+
+      els.answerInput.disabled = false;
+      els.sectionName.textContent = item.section;
+      els.progressText.textContent = `${state.index + 1} / ${total}`;
+      els.progressBar.style.width = `${((state.index + 1) / total) * 100}%`;
+      els.questionNumber.textContent = `Pitanje ${item.id}`;
+      els.questionText.textContent = item.question;
+      els.answerInput.value = state.drafts.get(item.id) || "";
+      els.answerText.textContent = item.answer;
+      els.answerBox.classList.toggle("visible", state.revealed);
+      els.showAnswer.disabled = state.revealed;
+      els.knownButton.disabled = !state.revealed;
+      els.repeatButton.disabled = !state.revealed;
+      els.previousButton.disabled = state.index === 0;
+      els.nextButton.disabled = false;
+    }
+
+    function goTo(delta) {
+      saveDraft();
+      state.index = Math.max(0, Math.min(state.pool.length, state.index + delta));
+      state.revealed = false;
+      render();
+    }
+
+    els.answerInput.addEventListener("input", saveDraft);
+
+    els.showAnswer.addEventListener("click", () => {
+      state.revealed = true;
+      render();
+    });
+
+    els.knownButton.addEventListener("click", () => {
+      const item = currentQuestion();
+      if (!item) return;
+      state.known.add(item.id);
+      state.repeat.delete(item.id);
+      goTo(1);
+    });
+
+    els.repeatButton.addEventListener("click", () => {
+      const item = currentQuestion();
+      if (!item) return;
+      state.repeat.add(item.id);
+      state.known.delete(item.id);
+      goTo(1);
+    });
+
+    els.previousButton.addEventListener("click", () => goTo(-1));
+    els.nextButton.addEventListener("click", () => goTo(1));
+    els.restartButton.addEventListener("click", buildPool);
+    els.sectionFilter.addEventListener("change", buildPool);
+    els.shuffleToggle.addEventListener("change", buildPool);
+
+    buildPool();
+  </script>
+</body>
+</html>
