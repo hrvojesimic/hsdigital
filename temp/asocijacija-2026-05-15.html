@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asocijacija</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f4ef;
+        --panel: #fffdf8;
+        --panel-strong: #f0e7d8;
+        --ink: #24211d;
+        --muted: #6d665b;
+        --line: #d8cbbb;
+        --accent: #126e67;
+        --accent-dark: #0b4d48;
+        --answer: #7a1f38;
+        --answer-bg: #fbe8ee;
+        --shadow: 0 18px 50px rgba(42, 34, 24, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.45;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .app-shell {
+        width: min(1480px, 100%);
+        margin: 0 auto;
+        padding: 24px clamp(12px, 3vw, 36px) 36px;
+      }
+
+      .board-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .quiz-table {
+        width: 100%;
+        min-width: 940px;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      .quiz-table td + td {
+        border-left: 1px solid var(--line);
+      }
+
+      .quiz-table tr + tr td {
+        border-top: 1px solid var(--line);
+      }
+
+      .quiz-table td {
+        height: 150px;
+        padding: 0;
+        vertical-align: stretch;
+      }
+
+      .cell-button,
+      .solution-button {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background: transparent;
+        color: var(--ink);
+        cursor: pointer;
+      }
+
+      .cell-button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 14px;
+        text-align: left;
+      }
+
+      .cell-button[aria-pressed="true"] {
+        background: var(--answer-bg);
+        color: var(--answer);
+        font-size: clamp(1.25rem, 2.2vw, 2rem);
+        font-weight: 900;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .cell-text {
+        overflow-wrap: anywhere;
+      }
+
+      .cell-button.has-media {
+        display: grid;
+        grid-template-columns: 112px 1fr;
+        gap: 12px;
+      }
+
+      .cell-image {
+        width: 112px;
+        height: 112px;
+        object-fit: cover;
+        object-position: 50% 48%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        transform: scale(1.38);
+        transform-origin: 50% 48%;
+      }
+
+      .cell-image-frame {
+        width: 112px;
+        height: 112px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+      }
+
+      .cell-image-frame .cell-image {
+        border: 0;
+        border-radius: 0;
+      }
+
+      .solution-row td {
+        height: 74px;
+      }
+
+      .solution-button {
+        padding: 12px 14px;
+        background: #eef4f3;
+        color: var(--accent-dark);
+        font-weight: 800;
+        text-align: center;
+      }
+
+      .solution-button[aria-pressed="true"] {
+        background: var(--accent);
+        color: white;
+        font-size: clamp(1.25rem, 2vw, 1.85rem);
+      }
+
+      .final-row td {
+        height: 84px;
+      }
+
+      .final-button {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background: #f3eee6;
+        color: var(--accent-dark);
+        cursor: pointer;
+        font-size: clamp(1.1rem, 2vw, 1.65rem);
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .final-button[aria-pressed="true"] {
+        background: var(--accent-dark);
+        color: white;
+      }
+
+      .cell-button:hover,
+      .solution-button:hover,
+      .final-button:hover {
+        box-shadow: inset 0 0 0 2px var(--accent);
+      }
+
+      @media (max-width: 760px) {
+        .quiz-table {
+          min-width: 760px;
+        }
+
+        .quiz-table td {
+          height: 170px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="board-wrap" aria-label="Ploča asocijacije">
+        <table class="quiz-table">
+          <tbody id="boardBody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script>
+      const QUIZ = {
+        finalAnswer: "Meksiko",
+        columns: [
+          {
+            id: "A",
+            solution: "Orao",
+            cells: [
+              {
+                question:
+                  "U kojem se gradu nalazi Museum of the American Revolution, nekoliko koraka od Independence Halla, povijesne zgrade u kojoj je potpisana Deklaraciju neovisnosti?",
+                answer: "Philadelphia",
+              },
+              {
+                question:
+                  "Koji je nogometni klub osnovan 1900. kao sportsko društvo, dvaput bio prvak svoje države, posljednji put 2000., osvojio sedam nacionalnih kupova i domaći stadion dijeli s velikim gradskim rivalom?",
+                answer: "Lacio",
+              },
+              {
+                question:
+                  "Koja europska država ima telefonski pozivni broj +355, a rijeka Shkumbin u njezinoj se kulturnoj i jezičnoj geografiji često navodi kao granica dvaju glavnih dijalekata?",
+                answer: "Albanija",
+              },
+              {
+                imageSrc:
+                  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQzafWe78j10e0uWjN4H6fSz7LfswSKtAHB39hvrF9Zbf4ZO7jPZ35Qr7tv6t7t6VkP4oFPk7wUOKFq_kHg-gX32tTw_IRsip8Su0e5J2-3QxevZhu0FQy2rXytnCeI8GBu2Lj9Ukq1AygUVcuvXj0UFJ9o9f1ogF_jqsbfh4sqs1xTfs2eXK4YQDXS8A/s16000/giorgio-armani-1970s-3.jpg",
+                question:
+                  "Prepoznajte osobu na fotografiji.",
+                answer: "Giorgio Armani",
+              },
+            ],
+          },
+          {
+            id: "B",
+            solution: "Čokolada",
+            cells: [
+              {
+                question:
+                  "Koje je njemačko prezime nosio senjski polihistor, književnik, povjesničar, jezikoslovac i nakladnik Pavao, koji je uz njega rabio i kroatizirani oblik istog značenja?",
+                answer: "Ritter",
+              },
+              {
+                question:
+                  "Igra nazvana po japanskom caru u kojem se koriste set palica dugih od 17 do 20 centimetara.",
+                answer: "Mikado",
+              },
+              {
+                question:
+                  '(a) nadimak "ciganskog policajca" iz Noćne more Željka Malnara; (b) umjetničko ime pjevačice rođene 1981. u Zvorniku, poznate po hitovima "Aspirin" i "Crno i zlatno"?',
+                answer: "Braco i Seka",
+              },
+              {
+                question:
+                  "Osobno ime višestruke državne prvakinje i rekorderke u sprinterskim disciplinama, dugogodišnje televizijske komentatorice i članice žirija Plesa sa zvijezdama od 2006. do 2013.?",
+                answer: "Milka",
+              },
+            ],
+          },
+          {
+            id: "C",
+            solution: "Droga",
+            cells: [
+              {
+                question:
+                  'Kako je 2012. izbornik Slavko Goluža najavljivao „novu Hrvatsku” na EP-u u Srbiji? Treba nam samo prva riječ',
+                answer: "Laka",
+              },
+              {
+                question:
+                  "Prezime znanstvenika koji je s njemačke strane radio na atomskom programu. Amerikanci su na njegovo predavanje poslali čovjeka s uputama da ga ubije ako zaključi da otišao daleko u svom istraživanju.",
+                answer: "Heisenberg",
+              },
+              {
+                question:
+                  'Koja pjesma sadrži stihove "Yes, I\'ve been black, but when I come back, you\'ll know, know, know"',
+                answer: "Rehab",
+              },
+              {
+                question:
+                  "Slovenski obalni grad blizu Pirana, ima oko 2.900 stanovnika, poznat je po hotelskom, marinskom i lječilišnom turizmu?",
+                answer: "Portorož",
+              },
+            ],
+          },
+          {
+            id: "D",
+            solution: "Zaljev",
+            cells: [
+              {
+                question:
+                  "Koji pridjev označuje vrstu tigra koji mogu prelaziti 200 kilograma, povezanu s Indijom, Bangladešom, Nepalom, Butanom i područjem Sundarbansa?",
+                answer: "Bengalski",
+              },
+              {
+                question:
+                  "Metalni element koji je sastavni dio modre galice.",
+                answer: "Bakar",
+              },
+              {
+                question:
+                  "Prezime glumice koja je 2003. glumila s Matthewom McConaugheyjem u romantičnoj komediji Kako izgubiti frajera u 10 dana?",
+                answer: "Hudson",
+              },
+              {
+                question:
+                  "Grčko ime za carstvo koje je oblikovala ahemenidska dinastija?",
+                answer: "Perzija",
+              },
+            ],
+          },
+        ],
+      };
+
+      const state = {
+        cellAnswers: new Set(),
+        columnSolutions: new Set(),
+        finalAnswer: false,
+      };
+
+      const boardBody = document.querySelector("#boardBody");
+
+      function renderBoard() {
+        const rows = [];
+        const rowCount = Math.max(...QUIZ.columns.map((column) => column.cells.length));
+
+        for (let rowIndex = 0; rowIndex < rowCount; rowIndex += 1) {
+          const row = document.createElement("tr");
+
+          for (const column of QUIZ.columns) {
+            const td = document.createElement("td");
+            const cell = column.cells[rowIndex];
+
+            if (cell) {
+              td.append(createCellButton(column.id, rowIndex, cell));
+            }
+
+            row.append(td);
+          }
+
+          rows.push(row);
+        }
+
+        rows.push(createSolutionRow());
+        rows.push(createFinalRow());
+        boardBody.replaceChildren(...rows);
+      }
+
+      function createCellButton(columnId, rowIndex, cell) {
+        const cellId = `${columnId}${rowIndex + 1}`;
+        const isRevealed = state.cellAnswers.has(cellId);
+        const button = document.createElement("button");
+        button.className = "cell-button";
+        button.type = "button";
+        button.setAttribute("aria-pressed", String(isRevealed));
+        button.setAttribute(
+          "aria-label",
+          isRevealed ? `${cellId} odgovor` : `${cellId} pitanje`,
+        );
+
+        if (cell.imageSrc && !isRevealed) {
+          button.classList.add("has-media");
+          const frame = document.createElement("span");
+          frame.className = "cell-image-frame";
+          const image = document.createElement("img");
+          image.className = "cell-image";
+          image.src = cell.imageSrc;
+          image.alt = "Fotografija osobe koju treba prepoznati";
+          frame.append(image);
+          button.append(frame);
+        }
+
+        const text = document.createElement("span");
+        text.className = "cell-text";
+        text.textContent = isRevealed ? cell.answer : cell.question;
+
+        button.append(text);
+        button.addEventListener("click", () => {
+          toggleSetValue(state.cellAnswers, cellId);
+          renderBoard();
+        });
+
+        return button;
+      }
+
+      function createSolutionRow() {
+        const row = document.createElement("tr");
+        row.className = "solution-row";
+
+        for (const column of QUIZ.columns) {
+          const td = document.createElement("td");
+          const isRevealed = state.columnSolutions.has(column.id);
+          const button = document.createElement("button");
+
+          button.className = "solution-button";
+          button.type = "button";
+          button.setAttribute("aria-pressed", String(isRevealed));
+          button.textContent = isRevealed ? column.solution : `Rješenje ${column.id}`;
+          button.addEventListener("click", () => {
+            toggleSetValue(state.columnSolutions, column.id);
+            renderBoard();
+          });
+
+          td.append(button);
+          row.append(td);
+        }
+
+        return row;
+      }
+
+      function createFinalRow() {
+        const row = document.createElement("tr");
+        row.className = "final-row";
+
+        const td = document.createElement("td");
+        td.colSpan = QUIZ.columns.length;
+
+        const button = document.createElement("button");
+        button.className = "final-button";
+        button.type = "button";
+        button.setAttribute("aria-pressed", String(state.finalAnswer));
+        button.textContent = state.finalAnswer ? QUIZ.finalAnswer : "Konačno rješenje";
+        button.addEventListener("click", () => {
+          state.finalAnswer = !state.finalAnswer;
+          renderBoard();
+        });
+
+        td.append(button);
+        row.append(td);
+
+        return row;
+      }
+
+      function toggleSetValue(set, value) {
+        if (set.has(value)) {
+          set.delete(value);
+        } else {
+          set.add(value);
+        }
+      }
+
+      renderBoard();
+    </script>
+  </body>
+</html>
