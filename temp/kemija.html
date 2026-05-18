@@ -1,0 +1,1898 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kemija - samostalno vježbanje</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #5f6875;
+      --paper: #f4f1ea;
+      --surface: #fffdf7;
+      --line: #d8d1c4;
+      --blue: #155e75;
+      --blue-dark: #10485a;
+      --green: #2f7d52;
+      --amber: #a15c07;
+      --rose: #a43b35;
+      --shadow: 0 18px 46px rgba(43, 38, 30, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(120deg, rgba(21, 94, 117, 0.08), transparent 42%),
+        var(--paper);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    button, select, input { font: inherit; }
+
+    .app {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 30px 0;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 4vw, 2.7rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+
+    .pill {
+      flex: 0 0 auto;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255, 253, 247, 0.82);
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 310px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .practice, .side {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .practice { padding: 22px; }
+    .side { padding: 18px; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    select, .toggle, .answer-input {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    select {
+      min-height: 42px;
+      padding: 0 12px;
+    }
+
+    .toggle {
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 12px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .toggle input {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--blue);
+    }
+
+    .button {
+      min-height: 42px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 0 14px;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    .button:hover { background: var(--blue-dark); transform: translateY(-1px); }
+    .button:disabled { cursor: not-allowed; opacity: 0.55; transform: none; }
+    .button.secondary { background: #fff; color: var(--ink); border-color: var(--line); }
+    .button.secondary:hover { background: #f0ebe1; }
+    .button.good { background: var(--green); }
+    .button.repeat { background: var(--amber); }
+
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 6px 0 14px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      border-radius: 999px;
+      padding: 0 10px;
+      background: #e7f4f7;
+      color: var(--blue-dark);
+      font-size: 0.92rem;
+    }
+
+    .progress-wrap {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7dfd3;
+      margin-bottom: 22px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: var(--blue);
+      transition: width 0.2s ease;
+    }
+
+    .task-label {
+      color: var(--amber);
+      font-size: 0.95rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .task {
+      margin: 8px 0 18px;
+      font-size: clamp(1.45rem, 4vw, 2.25rem);
+      line-height: 1.2;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .answer-input {
+      width: 100%;
+      min-height: 48px;
+      padding: 0 12px;
+      font-size: 1.1rem;
+    }
+
+    .answer-box {
+      display: none;
+      margin-top: 14px;
+      border-left: 4px solid var(--blue);
+      padding: 14px 16px;
+      background: #eef8fa;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .answer-box.visible { display: block; }
+    .answer-box strong { display: block; margin-bottom: 4px; color: var(--blue-dark); }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .hint {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .side h2 {
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fff;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .stat strong {
+      display: block;
+      margin-top: 2px;
+      font-size: 1.4rem;
+    }
+
+    .mini-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 0 18px;
+      font-size: 0.94rem;
+    }
+
+    .mini-table th, .mini-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 7px 4px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .review-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 34px;
+      padding-top: 2px;
+    }
+
+    .chip {
+      border: 1px solid #d99b62;
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: #fff7ed;
+      color: #83420a;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .empty-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .summary {
+      display: none;
+      margin-top: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fff;
+    }
+
+    .summary.visible { display: block; }
+
+    @media (max-width: 880px) {
+      .app { width: min(100% - 24px, 700px); padding: 22px 0; }
+      header { align-items: flex-start; flex-direction: column; }
+      .layout { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 540px) {
+      .practice, .side { padding: 16px; }
+      .button, select, .toggle { width: 100%; justify-content: center; }
+      .meta-row { align-items: flex-start; flex-direction: column; }
+      .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <h1>Kemija</h1>
+        <p class="subtitle">Samostalno vježbanje: simboli, valencije, formule i imena spojeva.</p>
+      </div>
+      <div class="pill" id="totalTasks">186 zadataka</div>
+    </header>
+
+    <div class="layout">
+      <section class="practice" aria-label="Kemijska vježbaonica">
+        <div class="controls">
+          <select id="categoryFilter" aria-label="Odabir cjeline"></select>
+          <select id="modeFilter" aria-label="Odabir vrste zadatka"></select>
+          <label class="toggle">
+            <input type="checkbox" id="shuffleToggle" checked>
+            Nasumično
+          </label>
+          <button class="button secondary" id="restartButton" type="button">Ponovno</button>
+        </div>
+
+        <div class="meta-row">
+          <span class="badge" id="categoryName"></span>
+          <span id="progressText"></span>
+        </div>
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="task-label" id="taskNumber"></div>
+        <h2 class="task" id="taskText"></h2>
+        <input class="answer-input" id="answerInput" autocomplete="off" placeholder="Upiši odgovor pa prikaži rješenje.">
+
+        <div class="answer-box" id="answerBox">
+          <strong>Rješenje</strong>
+          <div id="answerText"></div>
+        </div>
+
+        <div class="actions">
+          <button class="button" id="showAnswer" type="button">Prikaži rješenje</button>
+          <button class="button good" id="knownButton" type="button" disabled>Znam</button>
+          <button class="button repeat" id="repeatButton" type="button" disabled>Ponovi</button>
+          <button class="button secondary" id="previousButton" type="button">Natrag</button>
+          <button class="button secondary" id="nextButton" type="button">Dalje</button>
+        </div>
+
+        <p class="hint" id="hintText"></p>
+        <div class="summary" id="summaryBox"></div>
+      </section>
+
+      <aside class="side" aria-label="Napredak i podsjetnik">
+        <h2>Napredak</h2>
+        <div class="stats">
+          <div class="stat"><span>Znam</span><strong id="knownCount">0</strong></div>
+          <div class="stat"><span>Ponoviti</span><strong id="repeatCount">0</strong></div>
+        </div>
+
+        <h2>Brzi podsjetnik</h2>
+        <table class="mini-table">
+          <thead><tr><th>Skupina</th><th>Valencija</th></tr></thead>
+          <tbody>
+            <tr><td>H, Na, K, Ag</td><td>I</td></tr>
+            <tr><td>O, Mg, Ca, Zn</td><td>II</td></tr>
+            <tr><td>Al</td><td>III</td></tr>
+            <tr><td>Cl, Br, I, F u jednostavnim spojevima</td><td>I</td></tr>
+            <tr><td>S u sulfidima</td><td>II</td></tr>
+            <tr><td>N u nitridima</td><td>III</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Za ponoviti</h2>
+        <div class="review-list" id="reviewList">
+          <p class="empty-note">Još nema označenih zadataka.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <script type="application/json" id="quiz-data">
+[
+  {
+    "id": 1,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "H",
+    "answer": "vodik"
+  },
+  {
+    "id": 2,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "O",
+    "answer": "kisik"
+  },
+  {
+    "id": 3,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Na",
+    "answer": "natrij"
+  },
+  {
+    "id": 4,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "K",
+    "answer": "kalij"
+  },
+  {
+    "id": 5,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Mg",
+    "answer": "magnezij"
+  },
+  {
+    "id": 6,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Ca",
+    "answer": "kalcij"
+  },
+  {
+    "id": 7,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Al",
+    "answer": "aluminij"
+  },
+  {
+    "id": 8,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Fe",
+    "answer": "željezo"
+  },
+  {
+    "id": 9,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Cu",
+    "answer": "bakar"
+  },
+  {
+    "id": 10,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Zn",
+    "answer": "cink"
+  },
+  {
+    "id": 11,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Ag",
+    "answer": "srebro"
+  },
+  {
+    "id": 12,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Hg",
+    "answer": "živa"
+  },
+  {
+    "id": 13,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Pb",
+    "answer": "olovo"
+  },
+  {
+    "id": 14,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Sn",
+    "answer": "kositar"
+  },
+  {
+    "id": 15,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Cl",
+    "answer": "klor"
+  },
+  {
+    "id": 16,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "Br",
+    "answer": "brom"
+  },
+  {
+    "id": 17,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "I",
+    "answer": "jod"
+  },
+  {
+    "id": 18,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "S",
+    "answer": "sumpor"
+  },
+  {
+    "id": 19,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "N",
+    "answer": "dušik"
+  },
+  {
+    "id": 20,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši naziv",
+    "prompt": "C",
+    "answer": "ugljik"
+  },
+  {
+    "id": 21,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "vodik",
+    "answer": "H"
+  },
+  {
+    "id": 22,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "kisik",
+    "answer": "O"
+  },
+  {
+    "id": 23,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "natrij",
+    "answer": "Na"
+  },
+  {
+    "id": 24,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "kalij",
+    "answer": "K"
+  },
+  {
+    "id": 25,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "magnezij",
+    "answer": "Mg"
+  },
+  {
+    "id": 26,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "kalcij",
+    "answer": "Ca"
+  },
+  {
+    "id": 27,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "aluminij",
+    "answer": "Al"
+  },
+  {
+    "id": 28,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "željezo",
+    "answer": "Fe"
+  },
+  {
+    "id": 29,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "bakar",
+    "answer": "Cu"
+  },
+  {
+    "id": 30,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "cink",
+    "answer": "Zn"
+  },
+  {
+    "id": 31,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "srebro",
+    "answer": "Ag"
+  },
+  {
+    "id": 32,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "živa",
+    "answer": "Hg"
+  },
+  {
+    "id": 33,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "olovo",
+    "answer": "Pb"
+  },
+  {
+    "id": 34,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "kositar",
+    "answer": "Sn"
+  },
+  {
+    "id": 35,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "klor",
+    "answer": "Cl"
+  },
+  {
+    "id": 36,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "brom",
+    "answer": "Br"
+  },
+  {
+    "id": 37,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "jod",
+    "answer": "I"
+  },
+  {
+    "id": 38,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "sumpor",
+    "answer": "S"
+  },
+  {
+    "id": 39,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "dušik",
+    "answer": "N"
+  },
+  {
+    "id": 40,
+    "category": "Simboli i nazivi",
+    "mode": "Upiši simbol",
+    "prompt": "ugljik",
+    "answer": "C"
+  },
+  {
+    "id": 41,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "H",
+    "answer": "I"
+  },
+  {
+    "id": 42,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "O",
+    "answer": "II"
+  },
+  {
+    "id": 43,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Na",
+    "answer": "I"
+  },
+  {
+    "id": 44,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "K",
+    "answer": "I"
+  },
+  {
+    "id": 45,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Mg",
+    "answer": "II"
+  },
+  {
+    "id": 46,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Ca",
+    "answer": "II"
+  },
+  {
+    "id": 47,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Al",
+    "answer": "III"
+  },
+  {
+    "id": 48,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Zn",
+    "answer": "II"
+  },
+  {
+    "id": 49,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Ag",
+    "answer": "I"
+  },
+  {
+    "id": 50,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Fe",
+    "answer": "II, III"
+  },
+  {
+    "id": 51,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Cu",
+    "answer": "I, II"
+  },
+  {
+    "id": 52,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Pb",
+    "answer": "II, IV"
+  },
+  {
+    "id": 53,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Sn",
+    "answer": "II, IV"
+  },
+  {
+    "id": 54,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "S",
+    "answer": "II, IV, VI"
+  },
+  {
+    "id": 55,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "N",
+    "answer": "I, II, III, IV, V"
+  },
+  {
+    "id": 56,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "C",
+    "answer": "II, IV"
+  },
+  {
+    "id": 57,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "Cl",
+    "answer": "I, III, V, VII"
+  },
+  {
+    "id": 58,
+    "category": "Valencije",
+    "mode": "Dopuni valenciju",
+    "prompt": "P",
+    "answer": "III, V"
+  },
+  {
+    "id": 59,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "natrijev klorid",
+    "answer": "NaCl"
+  },
+  {
+    "id": 60,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalijev bromid",
+    "answer": "KBr"
+  },
+  {
+    "id": 61,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "magnezijev oksid",
+    "answer": "MgO"
+  },
+  {
+    "id": 62,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalcijev oksid",
+    "answer": "CaO"
+  },
+  {
+    "id": 63,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "aluminijev oksid",
+    "answer": "Al₂O₃"
+  },
+  {
+    "id": 64,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "natrijev jodid",
+    "answer": "NaI"
+  },
+  {
+    "id": 65,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalcijev klorid",
+    "answer": "CaCl₂"
+  },
+  {
+    "id": 66,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "magnezijev bromid",
+    "answer": "MgBr₂"
+  },
+  {
+    "id": 67,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "aluminijev klorid",
+    "answer": "AlCl₃"
+  },
+  {
+    "id": 68,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "cinkov oksid",
+    "answer": "ZnO"
+  },
+  {
+    "id": 69,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalijev sulfid",
+    "answer": "K₂S"
+  },
+  {
+    "id": 70,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "natrijev oksid",
+    "answer": "Na₂O"
+  },
+  {
+    "id": 71,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "magnezijev nitrid",
+    "answer": "Mg₃N₂"
+  },
+  {
+    "id": 72,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "aluminijev sulfid",
+    "answer": "Al₂S₃"
+  },
+  {
+    "id": 73,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalcijev nitrid",
+    "answer": "Ca₃N₂"
+  },
+  {
+    "id": 74,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "aluminijev fluorid",
+    "answer": "AlF₃"
+  },
+  {
+    "id": 75,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "cinkov klorid",
+    "answer": "ZnCl₂"
+  },
+  {
+    "id": 76,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "srebrov jodid",
+    "answer": "AgI"
+  },
+  {
+    "id": 77,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kalcijev bromid",
+    "answer": "CaBr₂"
+  },
+  {
+    "id": 78,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "magnezijev sulfid",
+    "answer": "MgS"
+  },
+  {
+    "id": 79,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "željezov(II) oksid",
+    "answer": "FeO"
+  },
+  {
+    "id": 80,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "željezov(III) oksid",
+    "answer": "Fe₂O₃"
+  },
+  {
+    "id": 81,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "željezov(II) sulfid",
+    "answer": "FeS"
+  },
+  {
+    "id": 82,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "željezov(III) klorid",
+    "answer": "FeCl₃"
+  },
+  {
+    "id": 83,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "bakrov(I) klorid",
+    "answer": "CuCl"
+  },
+  {
+    "id": 84,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "bakrov(II) klorid",
+    "answer": "CuCl₂"
+  },
+  {
+    "id": 85,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "bakrov(I) oksid",
+    "answer": "Cu₂O"
+  },
+  {
+    "id": 86,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "bakrov(II) oksid",
+    "answer": "CuO"
+  },
+  {
+    "id": 87,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "olovov(II) oksid",
+    "answer": "PbO"
+  },
+  {
+    "id": 88,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "olovov(IV) oksid",
+    "answer": "PbO₂"
+  },
+  {
+    "id": 89,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kositrov(II) klorid",
+    "answer": "SnCl₂"
+  },
+  {
+    "id": 90,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "kositrov(IV) klorid",
+    "answer": "SnCl₄"
+  },
+  {
+    "id": 91,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "živin(I) klorid",
+    "answer": "HgCl"
+  },
+  {
+    "id": 92,
+    "category": "Formule iz imena",
+    "mode": "Upiši formulu",
+    "prompt": "živin(II) klorid",
+    "answer": "HgCl₂"
+  },
+  {
+    "id": 93,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "NaCl",
+    "answer": "natrijev klorid"
+  },
+  {
+    "id": 94,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "KBr",
+    "answer": "kalijev bromid"
+  },
+  {
+    "id": 95,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "MgO",
+    "answer": "magnezijev oksid"
+  },
+  {
+    "id": 96,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CaO",
+    "answer": "kalcijev oksid"
+  },
+  {
+    "id": 97,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Al₂O₃",
+    "answer": "aluminijev oksid"
+  },
+  {
+    "id": 98,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "NaI",
+    "answer": "natrijev jodid"
+  },
+  {
+    "id": 99,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CaCl₂",
+    "answer": "kalcijev klorid"
+  },
+  {
+    "id": 100,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "MgBr₂",
+    "answer": "magnezijev bromid"
+  },
+  {
+    "id": 101,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "AlCl₃",
+    "answer": "aluminijev klorid"
+  },
+  {
+    "id": 102,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "ZnO",
+    "answer": "cinkov oksid"
+  },
+  {
+    "id": 103,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "K₂S",
+    "answer": "kalijev sulfid"
+  },
+  {
+    "id": 104,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Na₂O",
+    "answer": "natrijev oksid"
+  },
+  {
+    "id": 105,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Mg₃N₂",
+    "answer": "magnezijev nitrid"
+  },
+  {
+    "id": 106,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Al₂S₃",
+    "answer": "aluminijev sulfid"
+  },
+  {
+    "id": 107,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Ca₃N₂",
+    "answer": "kalcijev nitrid"
+  },
+  {
+    "id": 108,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "AlF₃",
+    "answer": "aluminijev fluorid"
+  },
+  {
+    "id": 109,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "ZnCl₂",
+    "answer": "cinkov klorid"
+  },
+  {
+    "id": 110,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "AgI",
+    "answer": "srebrov jodid"
+  },
+  {
+    "id": 111,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CaBr₂",
+    "answer": "kalcijev bromid"
+  },
+  {
+    "id": 112,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "MgS",
+    "answer": "magnezijev sulfid"
+  },
+  {
+    "id": 113,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "FeO",
+    "answer": "željezov(II) oksid"
+  },
+  {
+    "id": 114,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Fe₂O₃",
+    "answer": "željezov(III) oksid"
+  },
+  {
+    "id": 115,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "FeS",
+    "answer": "željezov(II) sulfid"
+  },
+  {
+    "id": 116,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "FeCl₃",
+    "answer": "željezov(III) klorid"
+  },
+  {
+    "id": 117,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CuCl",
+    "answer": "bakrov(I) klorid"
+  },
+  {
+    "id": 118,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CuCl₂",
+    "answer": "bakrov(II) klorid"
+  },
+  {
+    "id": 119,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "Cu₂O",
+    "answer": "bakrov(I) oksid"
+  },
+  {
+    "id": 120,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "CuO",
+    "answer": "bakrov(II) oksid"
+  },
+  {
+    "id": 121,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "PbO",
+    "answer": "olovov(II) oksid"
+  },
+  {
+    "id": 122,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "PbO₂",
+    "answer": "olovov(IV) oksid"
+  },
+  {
+    "id": 123,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "SnCl₂",
+    "answer": "kositrov(II) klorid"
+  },
+  {
+    "id": 124,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "SnCl₄",
+    "answer": "kositrov(IV) klorid"
+  },
+  {
+    "id": 125,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "HgCl",
+    "answer": "živin(I) klorid"
+  },
+  {
+    "id": 126,
+    "category": "Imena iz formula",
+    "mode": "Imenuj formulu",
+    "prompt": "HgCl₂",
+    "answer": "živin(II) klorid"
+  },
+  {
+    "id": 127,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "CO",
+    "answer": "ugljikov monoksid"
+  },
+  {
+    "id": 128,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "CO₂",
+    "answer": "ugljikov dioksid"
+  },
+  {
+    "id": 129,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "SO₂",
+    "answer": "sumporov dioksid"
+  },
+  {
+    "id": 130,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "SO₃",
+    "answer": "sumporov trioksid"
+  },
+  {
+    "id": 131,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "N₂O",
+    "answer": "didušikov oksid"
+  },
+  {
+    "id": 132,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "N₂O₃",
+    "answer": "didušikov trioksid"
+  },
+  {
+    "id": 133,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "N₂O₅",
+    "answer": "didušikov pentoksid"
+  },
+  {
+    "id": 134,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "NO",
+    "answer": "dušikov monoksid"
+  },
+  {
+    "id": 135,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "NO₂",
+    "answer": "dušikov dioksid"
+  },
+  {
+    "id": 136,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "P₂O₅",
+    "answer": "difosforov pentoksid"
+  },
+  {
+    "id": 137,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "Cl₂O",
+    "answer": "diklorov oksid"
+  },
+  {
+    "id": 138,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "Cl₂O₇",
+    "answer": "diklorov heptoksid"
+  },
+  {
+    "id": 139,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "CS₂",
+    "answer": "ugljikov disulfid"
+  },
+  {
+    "id": 140,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "PCl₃",
+    "answer": "fosforov triklorid"
+  },
+  {
+    "id": 141,
+    "category": "Spojevi nemetala",
+    "mode": "Imenuj formulu",
+    "prompt": "PCl₅",
+    "answer": "fosforov pentaklorid"
+  },
+  {
+    "id": 142,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "ugljikov monoksid",
+    "answer": "CO"
+  },
+  {
+    "id": 143,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "ugljikov dioksid",
+    "answer": "CO₂"
+  },
+  {
+    "id": 144,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "sumporov dioksid",
+    "answer": "SO₂"
+  },
+  {
+    "id": 145,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "sumporov trioksid",
+    "answer": "SO₃"
+  },
+  {
+    "id": 146,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "didušikov oksid",
+    "answer": "N₂O"
+  },
+  {
+    "id": 147,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "didušikov trioksid",
+    "answer": "N₂O₃"
+  },
+  {
+    "id": 148,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "didušikov pentoksid",
+    "answer": "N₂O₅"
+  },
+  {
+    "id": 149,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "dušikov monoksid",
+    "answer": "NO"
+  },
+  {
+    "id": 150,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "dušikov dioksid",
+    "answer": "NO₂"
+  },
+  {
+    "id": 151,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "difosforov pentoksid",
+    "answer": "P₂O₅"
+  },
+  {
+    "id": 152,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "diklorov oksid",
+    "answer": "Cl₂O"
+  },
+  {
+    "id": 153,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "diklorov heptoksid",
+    "answer": "Cl₂O₇"
+  },
+  {
+    "id": 154,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "ugljikov disulfid",
+    "answer": "CS₂"
+  },
+  {
+    "id": 155,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "fosforov triklorid",
+    "answer": "PCl₃"
+  },
+  {
+    "id": 156,
+    "category": "Spojevi nemetala",
+    "mode": "Upiši formulu",
+    "prompt": "fosforov pentaklorid",
+    "answer": "PCl₅"
+  },
+  {
+    "id": 157,
+    "category": "Mješoviti test",
+    "mode": "Upiši simbol",
+    "prompt": "Napiši simbol za željezo.",
+    "answer": "Fe"
+  },
+  {
+    "id": 158,
+    "category": "Mješoviti test",
+    "mode": "Upiši simbol",
+    "prompt": "Napiši simbol za olovo.",
+    "answer": "Pb"
+  },
+  {
+    "id": 159,
+    "category": "Mješoviti test",
+    "mode": "Upiši naziv",
+    "prompt": "Napiši naziv elementa Cl.",
+    "answer": "klor"
+  },
+  {
+    "id": 160,
+    "category": "Mješoviti test",
+    "mode": "Upiši naziv",
+    "prompt": "Napiši naziv elementa Hg.",
+    "answer": "živa"
+  },
+  {
+    "id": 161,
+    "category": "Mješoviti test",
+    "mode": "Upiši simbol",
+    "prompt": "Napiši simbol za kositar.",
+    "answer": "Sn"
+  },
+  {
+    "id": 162,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "magnezijev klorid",
+    "answer": "MgCl₂"
+  },
+  {
+    "id": 163,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "aluminijev oksid",
+    "answer": "Al₂O₃"
+  },
+  {
+    "id": 164,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "natrijev sulfid",
+    "answer": "Na₂S"
+  },
+  {
+    "id": 165,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "željezov(III) oksid",
+    "answer": "Fe₂O₃"
+  },
+  {
+    "id": 166,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "bakrov(II) bromid",
+    "answer": "CuBr₂"
+  },
+  {
+    "id": 167,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "kalcijev nitrid",
+    "answer": "Ca₃N₂"
+  },
+  {
+    "id": 168,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "olovov(IV) klorid",
+    "answer": "PbCl₄"
+  },
+  {
+    "id": 169,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "kalijev jodid",
+    "answer": "KI"
+  },
+  {
+    "id": 170,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "cinkov sulfid",
+    "answer": "ZnS"
+  },
+  {
+    "id": 171,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "srebrov oksid",
+    "answer": "Ag₂O"
+  },
+  {
+    "id": 172,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "MgCl₂",
+    "answer": "magnezijev klorid"
+  },
+  {
+    "id": 173,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "Al₂O₃",
+    "answer": "aluminijev oksid"
+  },
+  {
+    "id": 174,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "Na₂S",
+    "answer": "natrijev sulfid"
+  },
+  {
+    "id": 175,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "Fe₂O₃",
+    "answer": "željezov(III) oksid"
+  },
+  {
+    "id": 176,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "CuBr₂",
+    "answer": "bakrov(II) bromid"
+  },
+  {
+    "id": 177,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "Ca₃N₂",
+    "answer": "kalcijev nitrid"
+  },
+  {
+    "id": 178,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "PbCl₄",
+    "answer": "olovov(IV) klorid"
+  },
+  {
+    "id": 179,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "KI",
+    "answer": "kalijev jodid"
+  },
+  {
+    "id": 180,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "ZnS",
+    "answer": "cinkov sulfid"
+  },
+  {
+    "id": 181,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "Ag₂O",
+    "answer": "srebrov oksid"
+  },
+  {
+    "id": 182,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "CO₂",
+    "answer": "ugljikov dioksid"
+  },
+  {
+    "id": 183,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "SO₃",
+    "answer": "sumporov trioksid"
+  },
+  {
+    "id": 184,
+    "category": "Mješoviti test",
+    "mode": "Imenuj formulu",
+    "prompt": "N₂O₅",
+    "answer": "didušikov pentoksid"
+  },
+  {
+    "id": 185,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "ugljikov monoksid",
+    "answer": "CO"
+  },
+  {
+    "id": 186,
+    "category": "Mješoviti test",
+    "mode": "Upiši formulu",
+    "prompt": "sumporov dioksid",
+    "answer": "SO₂"
+  }
+]
+  </script>
+
+  <script>
+    const allTasks = JSON.parse(document.getElementById("quiz-data").textContent);
+    const categories = ["Sve cjeline", ...new Set(allTasks.map((task) => task.category))];
+    const modes = ["Sve vrste", ...new Set(allTasks.map((task) => task.mode))];
+
+    const state = {
+      pool: [],
+      index: 0,
+      revealed: false,
+      known: new Set(),
+      repeat: new Set(),
+      drafts: new Map()
+    };
+
+    const els = {
+      totalTasks: document.getElementById("totalTasks"),
+      categoryFilter: document.getElementById("categoryFilter"),
+      modeFilter: document.getElementById("modeFilter"),
+      shuffleToggle: document.getElementById("shuffleToggle"),
+      restartButton: document.getElementById("restartButton"),
+      categoryName: document.getElementById("categoryName"),
+      progressText: document.getElementById("progressText"),
+      progressBar: document.getElementById("progressBar"),
+      taskNumber: document.getElementById("taskNumber"),
+      taskText: document.getElementById("taskText"),
+      answerInput: document.getElementById("answerInput"),
+      answerBox: document.getElementById("answerBox"),
+      answerText: document.getElementById("answerText"),
+      showAnswer: document.getElementById("showAnswer"),
+      knownButton: document.getElementById("knownButton"),
+      repeatButton: document.getElementById("repeatButton"),
+      previousButton: document.getElementById("previousButton"),
+      nextButton: document.getElementById("nextButton"),
+      knownCount: document.getElementById("knownCount"),
+      repeatCount: document.getElementById("repeatCount"),
+      reviewList: document.getElementById("reviewList"),
+      hintText: document.getElementById("hintText"),
+      summaryBox: document.getElementById("summaryBox")
+    };
+
+    function fillSelect(select, values) {
+      select.innerHTML = values
+        .map((value) => '<option value="' + value + '">' + value + '</option>')
+        .join("");
+    }
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let i = copy.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function buildPool() {
+      const selectedCategory = els.categoryFilter.value;
+      const selectedMode = els.modeFilter.value;
+      const filtered = allTasks.filter((task) => {
+        const categoryOk = selectedCategory === "Sve cjeline" || task.category === selectedCategory;
+        const modeOk = selectedMode === "Sve vrste" || task.mode === selectedMode;
+        return categoryOk && modeOk;
+      });
+
+      state.pool = els.shuffleToggle.checked ? shuffle(filtered) : [...filtered];
+      state.index = 0;
+      state.revealed = false;
+      state.known.clear();
+      state.repeat.clear();
+      state.drafts.clear();
+      render();
+    }
+
+    function currentTask() {
+      return state.pool[state.index];
+    }
+
+    function saveDraft() {
+      const task = currentTask();
+      if (!task) return;
+      state.drafts.set(task.id, els.answerInput.value);
+    }
+
+    function renderStats() {
+      els.knownCount.textContent = state.known.size;
+      els.repeatCount.textContent = state.repeat.size;
+      const repeatIds = [...state.repeat].sort((a, b) => a - b);
+      if (repeatIds.length === 0) {
+        els.reviewList.innerHTML = '<p class="empty-note">Još nema označenih zadataka.</p>';
+        return;
+      }
+      els.reviewList.innerHTML = repeatIds.map((id) => '<span class="chip">#' + id + '</span>').join("");
+    }
+
+    function renderSummary() {
+      if (state.index < state.pool.length) {
+        els.summaryBox.classList.remove("visible");
+        els.summaryBox.textContent = "";
+        return;
+      }
+      els.summaryBox.classList.add("visible");
+      els.summaryBox.innerHTML = '<strong>Kraj kruga.</strong><div>Znao/la si ' + state.known.size + ' od ' + state.pool.length + ' zadataka. Za ponoviti: ' + state.repeat.size + '.</div>';
+    }
+
+    function render() {
+      renderStats();
+      renderSummary();
+      const task = currentTask();
+      const total = state.pool.length;
+      els.totalTasks.textContent = allTasks.length + " zadataka";
+
+      if (!task) {
+        els.categoryName.textContent = els.categoryFilter.value;
+        els.progressText.textContent = total + " / " + total;
+        els.progressBar.style.width = "100%";
+        els.taskNumber.textContent = total === 0 ? "Nema zadataka" : "Gotovo";
+        els.taskText.textContent = total === 0 ? "Za ovaj odabir nema zadataka." : "Završen je ovaj krug.";
+        els.answerInput.value = "";
+        els.answerInput.disabled = true;
+        els.answerBox.classList.remove("visible");
+        els.showAnswer.disabled = true;
+        els.knownButton.disabled = true;
+        els.repeatButton.disabled = true;
+        els.previousButton.disabled = total === 0;
+        els.nextButton.disabled = true;
+        els.hintText.textContent = "";
+        return;
+      }
+
+      els.answerInput.disabled = false;
+      els.categoryName.textContent = task.category + " · " + task.mode;
+      els.progressText.textContent = (state.index + 1) + " / " + total;
+      els.progressBar.style.width = (((state.index + 1) / total) * 100) + "%";
+      els.taskNumber.textContent = "Zadatak #" + task.id;
+      els.taskText.textContent = task.prompt;
+      els.answerInput.value = state.drafts.get(task.id) || "";
+      els.answerText.textContent = task.answer;
+      els.answerBox.classList.toggle("visible", state.revealed);
+      els.showAnswer.disabled = state.revealed;
+      els.knownButton.disabled = !state.revealed;
+      els.repeatButton.disabled = !state.revealed;
+      els.previousButton.disabled = state.index === 0;
+      els.nextButton.disabled = false;
+      els.hintText.textContent = task.mode === "Upiši formulu"
+        ? "Pazi na indekse: ₂, ₃ i ₄ možeš usporediti s rješenjem nakon upisa."
+        : "Sam/a procijeni odgovor nakon prikaza rješenja.";
+    }
+
+    function goTo(delta) {
+      saveDraft();
+      state.index = Math.max(0, Math.min(state.pool.length, state.index + delta));
+      state.revealed = false;
+      render();
+    }
+
+    fillSelect(els.categoryFilter, categories);
+    fillSelect(els.modeFilter, modes);
+    els.answerInput.addEventListener("input", saveDraft);
+    els.answerInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        state.revealed ? goTo(1) : (state.revealed = true, render());
+      }
+    });
+    els.showAnswer.addEventListener("click", () => { state.revealed = true; render(); });
+    els.knownButton.addEventListener("click", () => {
+      const task = currentTask();
+      if (!task) return;
+      state.known.add(task.id);
+      state.repeat.delete(task.id);
+      goTo(1);
+    });
+    els.repeatButton.addEventListener("click", () => {
+      const task = currentTask();
+      if (!task) return;
+      state.repeat.add(task.id);
+      state.known.delete(task.id);
+      goTo(1);
+    });
+    els.previousButton.addEventListener("click", () => goTo(-1));
+    els.nextButton.addEventListener("click", () => goTo(1));
+    els.restartButton.addEventListener("click", buildPool);
+    els.categoryFilter.addEventListener("change", buildPool);
+    els.modeFilter.addEventListener("change", buildPool);
+    els.shuffleToggle.addEventListener("change", buildPool);
+
+    buildPool();
+  </script>
+</body>
+</html>
